@@ -33,6 +33,8 @@
 #include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
+#include <libxfce4util/libxfce4util.h>
+
 
 /* Define this class in GObject system */
 static void _xfdashboard_desktop_app_info_gappinfo_iface_init(GAppInfoIface *iface);
@@ -655,180 +657,6 @@ static void _xfdashboard_desktop_app_info_set_file(XfdashboardDesktopAppInfo *se
 		}
 }
 
-/* Launch application with URIs in given context */
-static void _xfdashboard_desktop_app_info_expand_macros_add_file(const gchar *inURI, GString *ioExpanded)
-{
-	GFile		*file;
-	gchar		*path;
-	gchar		*quotedPath;
-
-	g_return_if_fail(inURI && *inURI);
-	g_return_if_fail(ioExpanded);
-
-	file=g_file_new_for_uri(inURI);
-	path=g_file_get_path(file);
-	quotedPath=g_shell_quote(path);
-
-	g_string_append(ioExpanded, quotedPath);
-	g_string_append_c(ioExpanded, ' ');
-
-	g_free(quotedPath);
-	g_free(path);
-	g_object_unref(file);
-}
-
-static void _xfdashboard_desktop_app_info_expand_macros_add_uri(const gchar *inURI, GString *ioExpanded)
-{
-	gchar		*quotedURI;
-
-	g_return_if_fail(inURI && *inURI);
-	g_return_if_fail(ioExpanded);
-
-	quotedURI=g_shell_quote(inURI);
-
-	g_string_append(ioExpanded, quotedURI);
-	g_string_append_c(ioExpanded, ' ');
-
-	g_free(quotedURI);
-}
-
-static gboolean _xfdashboard_desktop_app_info_expand_macros(XfdashboardDesktopAppInfo *self,
-															const gchar *inCommand,
-															GList *inURIs,
-															GString *ioExpanded)
-{
-	XfdashboardDesktopAppInfoPrivate	*priv;
-	gboolean							filesOrUriAdded;
-
-	g_return_val_if_fail(XFDASHBOARD_IS_DESKTOP_APP_INFO(self), FALSE);
-	g_return_val_if_fail(inCommand && *inCommand, FALSE);
-	g_return_val_if_fail(ioExpanded, FALSE);
-
-	priv=self->priv;
-
-	/* Iterate through command-line char by char and expand known macros */
-	filesOrUriAdded=FALSE;
-
-	while(*inCommand)
-	{
-		/* Check if character is '%' indicating that a macro could follow ... */
-		if(*inCommand=='%')
-		{
-			/* Move to next character to determin which macro to expand
-			 * but check also that we have not reached end of inCommand-line.
-			 */
-			inCommand++;
-			if(!*inCommand) break;
-
-			/* Expand macro */
-			switch(*inCommand)
-			{
-				case 'f':
-					if(inURIs) _xfdashboard_desktop_app_info_expand_macros_add_file(inURIs->data, ioExpanded);
-					filesOrUriAdded=TRUE;
-					break;
-
-				case 'F':
-					g_list_foreach(inURIs, (GFunc)_xfdashboard_desktop_app_info_expand_macros_add_file, ioExpanded);
-					filesOrUriAdded=TRUE;
-					break;
-
-				case 'u':
-					if(inURIs) _xfdashboard_desktop_app_info_expand_macros_add_uri(inURIs->data, ioExpanded);
-					filesOrUriAdded=TRUE;
-					break;
-
-				case 'U':
-					g_list_foreach(inURIs, (GFunc)_xfdashboard_desktop_app_info_expand_macros_add_uri, ioExpanded);
-					filesOrUriAdded=TRUE;
-					break;
-
-				case '%':
-					g_string_append_c(ioExpanded, '%');
-					break;
-
-				case 'i':
-				{
-					const gchar			*iconName;
-					gchar				*quotedIconName;
-
-					iconName=garcon_menu_item_get_icon_name(priv->item);
-					if(iconName)
-					{
-						quotedIconName=g_shell_quote(iconName);
-
-						g_string_append(ioExpanded, "--icon ");
-						g_string_append(ioExpanded, quotedIconName);
-
-						g_free(quotedIconName);
-					}
-					break;
-				}
-
-				case 'c':
-				{
-					const gchar			*name;
-					gchar				*quotedName;
-
-					name=garcon_menu_item_get_name(priv->item);
-					if(name)
-					{
-						quotedName=g_shell_quote(name);
-						g_string_append(ioExpanded, quotedName);
-						g_free(quotedName);
-					}
-					break;
-				}
-
-				case 'k':
-				{
-					GFile				*desktopFile;
-					gchar				*filename;
-					gchar				*quotedFilename;
-
-					desktopFile=garcon_menu_item_get_file(priv->item);
-					if(desktopFile)
-					{
-						filename=g_file_get_path(desktopFile);
-						if(filename)
-						{
-							quotedFilename=g_shell_quote(filename);
-							g_string_append(ioExpanded, quotedFilename);
-							g_free(quotedFilename);
-
-							g_free(filename);
-						}
-
-						g_object_unref(desktopFile);
-					}
-
-					break;
-				}
-
-				default:
-					break;
-			}
-		}
-			/* ... otherwise just add the character */
-			else g_string_append_c(ioExpanded, *inCommand);
-
-		/* Continue with next character in inCommand-line */
-		inCommand++;
-	}
-
-	/* If URIs was provided but not used (exec key does not contain %f, %F, %u, %U)
-	 * append first URI to expanded inCommand-line.
-	 */
-	if(inURIs && !filesOrUriAdded)
-	{
-		g_string_append_c(ioExpanded, ' ');
-		 _xfdashboard_desktop_app_info_expand_macros_add_file(inURIs->data, ioExpanded);
-	}
-
-	/* If we get here we could expand macros in command-line successfully */
-	return(TRUE);
-}
-
 /* Child process for launching application was spawned but application
  * was not executed yet so we can set up environment etc. now.
  * 
@@ -873,11 +701,15 @@ static gboolean _xfdashboard_desktop_app_info_launch_appinfo_internal(Xfdashboar
 																		GError **outError)
 {
 	XfdashboardDesktopAppInfoPrivate			*priv;
-	GString										*expanded;
+	GString									*string;
+	gchar										*expanded;
+	gchar										*uri;
+	gchar										*filename;
 	gchar										*display;
 	gchar										*startupNotificationID;
 	gchar										*desktopFile;
 	const gchar									*workingDirectory;
+	const gchar									*name;
 	gboolean									success;
 	GPid										launchedPID;
 	gint										argc;
@@ -900,9 +732,15 @@ static gboolean _xfdashboard_desktop_app_info_launch_appinfo_internal(Xfdashboar
 	error=NULL;
 
 	/* Get command-line with expanded macros */
-	expanded=g_string_new(NULL);
-	if(!expanded ||
-		!_xfdashboard_desktop_app_info_expand_macros(self, inCommand, inURIs, expanded))
+	name=garcon_menu_item_get_name(priv->item);
+	uri=garcon_menu_item_get_uri(priv->item);
+	expanded=xfce_expand_desktop_entry_field_codes(inCommand, (GSList*)inURIs,
+																								garcon_menu_item_get_icon_name(priv->item),
+																								name, uri,
+																								garcon_menu_item_requires_terminal(priv->item));
+  g_free(uri);
+
+	if(!expanded)
 	{
 		/* Set error */
 		g_set_error_literal(outError,
@@ -910,31 +748,33 @@ static gboolean _xfdashboard_desktop_app_info_launch_appinfo_internal(Xfdashboar
 								G_IO_ERROR_FAILED,
 								_("Unable to expand macros at command-line."));
 
-		/* Release allocated resources */
-		if(expanded) g_string_free(expanded, TRUE);
-
 		/* Return error state */
 		return(FALSE);
 	}
 
-	/* If a terminal is required, prepend "exo-open" command.
-	 * NOTE: The space at end of command is important to separate
-	 *       the command we prepend from command-line of application.
+	/* If URIs was provided but not used (exec key does not contain %f, %F, %u, %U)
+	 * append first URI to expanded inCommand-line.
 	 */
-	if(garcon_menu_item_requires_terminal(priv->item))
+	if(inURIs && !g_regex_match_simple("%[fu]", inCommand, G_REGEX_CASELESS, 0))
 	{
-		g_string_prepend(expanded, "exo-open --launch TerminalEmulator ");
+		string=g_string_new(expanded);
+		g_free(expanded);
+		g_string_append_c(string, ' ');
+		filename=g_filename_from_uri(inURIs->data, NULL, NULL);
+		xfce_append_quoted(string, filename);
+		g_free(filename);
+		expanded=g_string_free(string, FALSE);
 	}
 
 	/* Get command-line arguments as string list */
-	if(!g_shell_parse_argv(expanded->str, &argc, &argv, &error))
+	if(!g_shell_parse_argv(expanded, &argc, &argv, &error))
 	{
 		/* Propagate error */
 		g_propagate_error(outError, error);
 
 		/* Release allocated resources */
 		if(argv) g_strfreev(argv);
-		if(expanded) g_string_free(expanded, TRUE);
+		if(expanded) g_free(expanded);
 
 		/* Return error state */
 		return(FALSE);
@@ -1015,8 +855,7 @@ static gboolean _xfdashboard_desktop_app_info_launch_appinfo_internal(Xfdashboar
 
 		XFDASHBOARD_DEBUG(self, APPLICATIONS,
 							"Launching %s succeeded with PID %ld.",
-							garcon_menu_item_get_name(priv->item),
-							(long)launchedPID);
+							name, (long)launchedPID);
 
 		/* Open connection to DBUS session bus and send notification about
 		 * successful launch of application. Then flush and close DBUS
@@ -1110,7 +949,7 @@ static gboolean _xfdashboard_desktop_app_info_launch_appinfo_internal(Xfdashboar
 	}
 		else
 		{
-			g_warning("Launching %s failed!", garcon_menu_item_get_name(priv->item));
+			g_warning("Launching %s failed!", name);
 
 			/* Propagate error */
 			g_propagate_error(outError, error);
@@ -1123,7 +962,7 @@ static gboolean _xfdashboard_desktop_app_info_launch_appinfo_internal(Xfdashboar
 		}
 
 	/* Release allocated resources */
-	if(expanded) g_string_free(expanded, TRUE);
+	if(expanded) g_free(expanded);
 	if(argv) g_strfreev(argv);
 	if(desktopFile) g_free(desktopFile);
 	if(startupNotificationID) g_free(startupNotificationID);
