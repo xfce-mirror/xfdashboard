@@ -272,7 +272,7 @@ static gboolean _xfdashboard_quicklaunch_has_favourite_appinfo(XfdashboardQuickl
 		value=(GValue*)g_ptr_array_index(priv->favourites, i);
 		if(value)
 		{
-#if DEBUG
+#ifdef DEBUG
 			if(!G_VALUE_HOLDS_STRING(value))
 			{
 				g_critical("Value at %p of type %s is not a %s so assume this desktop application item exists",
