@@ -47,7 +47,7 @@ AC_REVISION([xfdashboard_version_build])
 dnl ***************************
 dnl *** Initialize automake ***
 dnl ***************************
-AM_CONFIG_HEADER([config.h])
+AC_CONFIG_HEADERS([config.h])
 AM_INIT_AUTOMAKE([1.8 no-dist-gzip dist-bzip2 tar-ustar foreign])
 AM_MAINTAINER_MODE()
 m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
@@ -56,8 +56,8 @@ AC_CONFIG_MACRO_DIR([m4])
 dnl *******************************
 dnl *** Check for UNIX variants ***
 dnl *******************************
-AC_AIX()
-AC_ISC_POSIX()
+AC_USE_SYSTEM_EXTENSIONS
+AC_SEARCH_LIBS([strerror],[cposix])
 
 dnl ********************************
 dnl *** Check for basic programs ***
@@ -107,7 +107,6 @@ AC_SUBST([LIBXFDASHBOARD_VERINFO])
 dnl **********************************
 dnl *** Check for standard headers ***
 dnl **********************************
-AC_HEADER_STDC()
 AC_CHECK_HEADERS([stdlib.h unistd.h locale.h stdio.h errno.h time.h string.h \
                   math.h sys/types.h sys/wait.h memory.h signal.h sys/prctl.h \
                   libintl.h])
@@ -302,7 +301,7 @@ dnl *** Substitue package requirements ***
 dnl **************************************
 AC_SUBST(XFDASHBOARD_REQUIRES)
 
-AC_OUTPUT([
+AC_CONFIG_FILES([
 Makefile
 common/Makefile
 data/Makefile
@@ -335,6 +334,7 @@ po/Makefile.in
 settings/Makefile
 xfdashboard/Makefile
 ])
+AC_OUTPUT
 
 dnl ***************************
 dnl *** Print configuration ***
