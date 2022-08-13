@@ -14,15 +14,16 @@
 # Xfce Bot <transifex@xfce.org>, 2020
 # Urien Desterres <urien.desterres@gmail.com>, 2021
 # jc1 <jc1.quebecos@gmail.com>, 2022
+# Wallon Wallon, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-15 12:52+0200\n"
+"POT-Creation-Date: 2022-08-13 00:50+0200\n"
 "PO-Revision-Date: 2020-10-07 10:59+0000\n"
-"Last-Translator: jc1 <jc1.quebecos@gmail.com>, 2022\n"
+"Last-Translator: Wallon Wallon, 2022\n"
 "Language-Team: French (https://www.transifex.com/xfce/teams/16840/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -83,6 +84,10 @@ msgid "Searching applications"
 msgstr "Applications de recherche"
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:6
+msgid "This stable release is the first major one :)"
+msgstr "Cette version stable est la première version majeure :)"
+
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:7
 msgid ""
 "This release candidate adds a new last-minute feature with adding new "
 "actions for key binding as weill as lots of bug fixes."
@@ -91,7 +96,7 @@ msgstr ""
 "minute avec l'ajout de nouvelles actions pour les raccourcis clavier ainsi "
 "que de nombreuses corrections de bogues."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:7
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:8
 msgid ""
 "This release candidate adds a new property \"visibility\" to all actors and "
 "fixes compiler warnings."
@@ -99,13 +104,13 @@ msgstr ""
 "Cette version candidate ajoute une nouvelle propriété « visibilité » à tous "
 "les acteurs et corrige les avertissements du compilateur."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:8
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:9
 msgid "This unstable development version fixes the mode to run in background."
 msgstr ""
 "Cette version de développement instable corrige le mode à exécuter en "
 "arrière-plan."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:9
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:10
 msgid ""
 "This unstable development version introduces a new plugin to pin windows on "
 "secondary monitors automatically."
@@ -114,7 +119,7 @@ msgstr ""
 "épingler automatiquement les fenêtres secondaires sur des moniteurs "
 "secondaires."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:10
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:11
 msgid ""
 "This unstable development version improves window placement and a new search"
 " plugin looking for matches against the recently used documents."
@@ -123,7 +128,7 @@ msgstr ""
 "et un nouveau greffon de recherche recherchant des correspondances avec les "
 "documents récemment utilisés."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:11
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:12
 msgid ""
 "This unstable development version completes gradients with linear gradients "
 "for outline and background filling."
@@ -131,7 +136,7 @@ msgstr ""
 "Cette version de développement instable complète les dégradés avec des "
 "dégradés linéaires pour le remplissage des contours et de l'arrière-plan."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:12
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:13
 msgid ""
 "This unstable development version introduces completes turning "
 "libxfdashboard into a real library and introduces path gradients for "
@@ -141,7 +146,7 @@ msgstr ""
 "complète de libxfdashboard en une véritable bibliothèque et introduit des "
 "dégradés de chemin pour les contours."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:13
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:14
 msgid ""
 "This unstable development version introduces nothing user visible but begin "
 "moving libxfdashboard into a real library."
@@ -150,7 +155,7 @@ msgstr ""
 "l'utilisateur mais commence à déplacer libexfdashboard dans une vraie "
 "bibliothèque."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:14
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:15
 msgid ""
 "This stable version fixes a bug and replaces AppInfo with AppStream "
 "metainfo."
@@ -158,18 +163,18 @@ msgstr ""
 "Cette version stable corrige un bogue et remplace AppInfo par Appstream "
 "Metainfo."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:15
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:16
 msgid ""
 "This stable version introduces lots of new features like animations, pop-up "
 "menus, multiple backend and support for jumplists etc. It also includes lots"
 " of new and updated translations."
 msgstr ""
-"Cette version stable introduit de nombreuses nouvelles fonctionnalités "
-"telles que les animations, les menues pop-up, de multiples retours et le "
-"support des listes de saut, etc. Il contient également des traductions "
-"nouvelles et mise à jour."
+"Cette version stable présente un grand nombre de nouvelles fonctionnalités "
+"telles que des animations, des menus contextuels, un backend multiple et la "
+"prise en charge des listes de liens, etc. Elle comprend également de "
+"nombreuses traductions nouvelles et mises à jour."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:16
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:17
 msgid ""
 "This stable version fixes a bug setting the correct default applications at "
 "first use."
@@ -177,7 +182,7 @@ msgstr ""
 "Cette version stable corrige un bogue définissant les applications par "
 "défaut correctes lors de la première utilisation."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:17
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:18
 msgid ""
 "This stable version introduces lots of new features like plugins and "
 "application tracker. It also contains a huge collection of other larger and "
@@ -505,7 +510,7 @@ msgstr "erreur inconnue"
 #: ../plugins/recently-used-search-provider/recently-used-search-provider.c:595
 #, c-format
 msgid "Application '%s' launched"
-msgstr "Application « %s »lancée"
+msgstr "Application « %s » lancée"
 
 #: ../libxfdashboard/applications-search-provider.c:849
 #: ../libxfdashboard/applications-view.c:415
@@ -724,7 +729,7 @@ msgstr "Rayon du coin d'activation :"
 #. Add widget to choose activation duration
 #: ../plugins/hot-corner/plugin.c:379
 msgid "Timeout to activate:"
-msgstr "Timeout pour activer:"
+msgstr "Délai pour activer :"
 
 #. Add widget to limit checks to primary monitor only or to all monitors
 #: ../plugins/hot-corner/plugin.c:401
@@ -782,11 +787,11 @@ msgstr "Ne rien faire "
 
 #: ../settings/general.c:85
 msgid "Windows view"
-msgstr "Vue fenêtre"
+msgstr "Aperçu des fenêtres"
 
 #: ../settings/general.c:86
 msgid "Applications view"
-msgstr "Vue Applications"
+msgstr "Aperçu des applications"
 
 #: ../settings/general.c:93
 msgid "High"
@@ -861,11 +866,11 @@ msgstr "Bifurquer pour le fond"
 
 #: ../xfdashboard/application.c:479
 msgid "Quit running instance"
-msgstr "Quitter l'instance fonctionnant"
+msgstr "Quitter l'instance en cours d'exécution"
 
 #: ../xfdashboard/application.c:480
 msgid "Restart running instance"
-msgstr "Redémarrez instance fonctionnant"
+msgstr "Redémarrer l'instance en cours d'exécution"
 
 #: ../xfdashboard/application.c:481
 msgid ""
