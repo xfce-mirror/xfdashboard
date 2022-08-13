@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-15 12:52+0200\n"
+"POT-Creation-Date: 2022-08-13 00:50+0200\n"
 "PO-Revision-Date: 2020-10-07 10:59+0000\n"
 "Last-Translator: heskjestad <cato@heskjestad.xyz>, 2022\n"
 "Language-Team: Norwegian Bokmål (https://www.transifex.com/xfce/teams/16840/nb/)\n"
@@ -76,6 +76,10 @@ msgid "Searching applications"
 msgstr "Søker etter programmer"
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:6
+msgid "This stable release is the first major one :)"
+msgstr "Denne stabile utgivelsen er også den første hovedutgivelsen!"
+
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:7
 msgid ""
 "This release candidate adds a new last-minute feature with adding new "
 "actions for key binding as weill as lots of bug fixes."
@@ -83,7 +87,7 @@ msgstr ""
 "Denne utgivelseskandidaten legger til funksjonalitet for hurtigtaster, og "
 "dessuten mange feilrettinger."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:7
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:8
 msgid ""
 "This release candidate adds a new property \"visibility\" to all actors and "
 "fixes compiler warnings."
@@ -91,11 +95,11 @@ msgstr ""
 "Denne utgivelseskandidaten legger til en ny egenskap, «visibility» "
 "(synlighet), til alle aktører. Dessuten er kompileringsadvarsler rettet."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:8
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:9
 msgid "This unstable development version fixes the mode to run in background."
 msgstr "Denne ustabile utgivelsen fikser bakgrunnsmodus."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:9
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:10
 msgid ""
 "This unstable development version introduces a new plugin to pin windows on "
 "secondary monitors automatically."
@@ -103,7 +107,7 @@ msgstr ""
 "Denne ustabile utviklerversjonen innfører et nytt programtillegg for å feste"
 " vinduer på sekundærskjermer automatisk."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:10
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:11
 msgid ""
 "This unstable development version improves window placement and a new search"
 " plugin looking for matches against the recently used documents."
@@ -111,7 +115,7 @@ msgstr ""
 "Denne ustabile utviklerversjonen forbedrer vindusplassering og har et nytt "
 "søketillegg som kan lete etter treff i nylig brukte dokumenter."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:11
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:12
 msgid ""
 "This unstable development version completes gradients with linear gradients "
 "for outline and background filling."
@@ -119,7 +123,7 @@ msgstr ""
 "Denne ustabile utviklerversjonen ferdigstiller fargeoverganger. Det er "
 "lineære overganger for utheving og bakgrunnsfyll."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:12
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:13
 msgid ""
 "This unstable development version introduces completes turning "
 "libxfdashboard into a real library and introduces path gradients for "
@@ -128,7 +132,7 @@ msgstr ""
 "Denne ustabile utviklerversjonen ferdigstiller flytting av libxfdashboard "
 "til et ordentlig bibliotek, og innfører fargeoverganger for uthevinger."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:13
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:14
 msgid ""
 "This unstable development version introduces nothing user visible but begin "
 "moving libxfdashboard into a real library."
@@ -136,7 +140,7 @@ msgstr ""
 "Denne ustabile utviklerversjonen har ingen endringer som er synlige for "
 "brukere. Man har begynt å flytte libxfdashboard til et ordentlig bibliotek."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:14
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:15
 msgid ""
 "This stable version fixes a bug and replaces AppInfo with AppStream "
 "metainfo."
@@ -144,7 +148,7 @@ msgstr ""
 "Denne stabile utgivelsen fikser en feil, og erstatter AppInfo med AppStream "
 "metainfo."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:15
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:16
 msgid ""
 "This stable version introduces lots of new features like animations, pop-up "
 "menus, multiple backend and support for jumplists etc. It also includes lots"
@@ -154,7 +158,7 @@ msgstr ""
 "animasjoner, sprettoppmenyer, flere bakstykker og hurtiglister. Den har "
 "dessuten flere nye og oppdaterte oversettelser."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:16
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:17
 msgid ""
 "This stable version fixes a bug setting the correct default applications at "
 "first use."
@@ -162,7 +166,7 @@ msgstr ""
 "Denne stabile utgivelsen fikser en feil ved valg av forvalgte programmer ved"
 " første bruk."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:17
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:18
 msgid ""
 "This stable version introduces lots of new features like plugins and "
 "application tracker. It also contains a huge collection of other larger and "
