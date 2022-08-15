@@ -1,0 +1,840 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Dušan Kazik <prescott66@gmail.com>, 2020
+# Slavko <linux@slavino.sk>, 2020
+# Nick Schermer <nick@xfce.org>, 2021
+# Jan Ziak <0xe2.0x9a.0x9b@gmail.com>, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-13 00:50+0200\n"
+"PO-Revision-Date: 2020-10-07 10:59+0000\n"
+"Last-Translator: Jan Ziak <0xe2.0x9a.0x9b@gmail.com>, 2022\n"
+"Language-Team: Slovak (https://www.transifex.com/xfce/teams/16840/sk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+
+#: ../data/org.xfce.xfdashboard.desktop.in.in.h:1
+#: ../data/org.xfce.xfdashboard-autostart.desktop.in.in.h:1
+msgid "Xfdashboard"
+msgstr "Xfdashboard"
+
+#: ../data/org.xfce.xfdashboard.desktop.in.in.h:2
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:1
+msgid "Maybe a Gnome shell like dashboard for Xfce"
+msgstr "Dashboard pre Xfce podobný Gnome shellu"
+
+#: ../data/org.xfce.xfdashboard-autostart.desktop.in.in.h:2
+msgid "Start xfdashboard as daemon in background"
+msgstr "Spustiť xfdashboard ako démona na pozadí"
+
+#: ../data/org.xfce.xfdashboard-settings.desktop.in.in.h:1
+msgid "Xfdashboard settings"
+msgstr "Nastavenia Xfdashboard"
+
+#: ../data/org.xfce.xfdashboard-settings.desktop.in.in.h:2
+msgid "Configure xfdashboard"
+msgstr "Nastavenie Xfdashboard"
+
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:2
+msgid ""
+"Xfdashboard provides a GNOME shell dashboard like interface for use with "
+"Xfce desktop."
+msgstr ""
+"Xfdashboard poskytuje desktopu Xfce rozhranie podobné dashboardu GNOME "
+"shellu."
+
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:3
+msgid ""
+"It can be configured to run to any keyboard shortcut and when executed "
+"provides an overview of applications currently open enabling the user to "
+"switch between different applications. The search feature works like Xfce's "
+"app finder which makes it convenient to search for and start applications."
+msgstr ""
+"Môže byť nakonfigurovaný tak, aby sa spúšťal pomocou ľubovoľnej klávesovej "
+"skratky a po spustení poskytuje prehľad aktuálne otvorených aplikácií, čo "
+"umožňuje používateľovi prepínať medzi rôznymi aplikáciami. Funkcia "
+"vyhľadávania funguje ako vyhľadávač aplikácií Xfce, čo uľahčuje vyhľadávanie"
+" a spúšťanie aplikácií."
+
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:4
+msgid "Browsing applications"
+msgstr "Prechádzať aplikácie"
+
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:5
+msgid "Searching applications"
+msgstr "Hľadanie aplikácií"
+
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:6
+msgid "This stable release is the first major one :)"
+msgstr "Toto stabilné vydanie je prvé veľké :)"
+
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:7
+msgid ""
+"This release candidate adds a new last-minute feature with adding new "
+"actions for key binding as weill as lots of bug fixes."
+msgstr ""
+"Tento kandidát na vydanie pridáva novú funkcionalitu ohľadom klávesových "
+"skratiek, ako aj veľa opráv menších chýb."
+
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:8
+msgid ""
+"This release candidate adds a new property \"visibility\" to all actors and "
+"fixes compiler warnings."
+msgstr ""
+"Tento kandidát na vydanie pridáva novú vlastnosť „viditeľnosť“ všetkým "
+"aktérom a opravuje upozornenia kompilátora."
+
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:9
+msgid "This unstable development version fixes the mode to run in background."
+msgstr ""
+"Táto nestabilná vývojová verzia opravuje režim na spustenie na pozadí."
+
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:10
+msgid ""
+"This unstable development version introduces a new plugin to pin windows on "
+"secondary monitors automatically."
+msgstr ""
+"Táto nestabilná vývojová verzia predstavuje nový doplnok na automatické "
+"pripínanie okien na sekundárnych monitoroch."
+
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:11
+msgid ""
+"This unstable development version improves window placement and a new search"
+" plugin looking for matches against the recently used documents."
+msgstr ""
+"Táto nestabilná vývojová verzia zlepšuje umiestnenie okien a nový "
+"vyhľadávací doplnok, ktorý hľadá zhody s nedávno použitými dokumentmi."
+
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:12
+msgid ""
+"This unstable development version completes gradients with linear gradients "
+"for outline and background filling."
+msgstr ""
+"Táto nestabilná vývojová verzia završuje podporu pre gradienty lineárnymi "
+"grandientmi pre obrys a vyplnenie pozadia."
+
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:13
+msgid ""
+"This unstable development version introduces completes turning "
+"libxfdashboard into a real library and introduces path gradients for "
+"outlines."
+msgstr ""
+"Táto nestabilná vývojová verzia zavádza premenu libxfdashboard na skutočnú "
+"knižnicu a zavádza gradienty ciest pre obrysy."
+
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:14
+msgid ""
+"This unstable development version introduces nothing user visible but begin "
+"moving libxfdashboard into a real library."
+msgstr ""
+"Táto nestabilná vývojová verzia neprináša nič viditeľné pre používateľa, ale"
+" začína presúvať libxfdashboard do skutočnej knižnice."
+
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:15
+msgid ""
+"This stable version fixes a bug and replaces AppInfo with AppStream "
+"metainfo."
+msgstr ""
+"Táto stabilná verzia opravuje chybu a nahrádza AppInfo metainformáciami "
+"AppStream."
+
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:16
+msgid ""
+"This stable version introduces lots of new features like animations, pop-up "
+"menus, multiple backend and support for jumplists etc. It also includes lots"
+" of new and updated translations."
+msgstr ""
+"Táto stabilná verzia prináša množstvo nových funkcií, ako sú animácie, "
+"vyskakovacie menu, viacero backendov a podporu pre jumplisty atď. Obsahuje "
+"tiež množstvo nových a aktualizovaných prekladov."
+
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:17
+msgid ""
+"This stable version fixes a bug setting the correct default applications at "
+"first use."
+msgstr ""
+"Táto stabilná verzia opravuje chybu pri nastavovaní správnych predvolených "
+"aplikácií pri prvom použití."
+
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:18
+msgid ""
+"This stable version introduces lots of new features like plugins and "
+"application tracker. It also contains a huge collection of other larger and "
+"smaller improvements."
+msgstr ""
+"Táto stabilná verzia prináša množstvo nových funkcií, ako sú doplnky a "
+"sledovač aplikácií. Obsahuje aj obrovskú zbierku ďalších väčších i menších "
+"vylepšení."
+
+#: ../data/data/preferences.ui.h:1
+msgid "<span size=\"large\"><b>Xfdashboard settings</b></span>"
+msgstr "<span size=\"large\"><b>Nastavenia Xfdashboard</b></span>"
+
+#: ../data/data/preferences.ui.h:2
+msgid "Configure plugin"
+msgstr "Konfigurovať doplnok"
+
+#: ../data/data/preferences.ui.h:3
+msgid ""
+"<span size=\"large\"><b>Xfdashboard settings</b></span>\n"
+"Configure xfdashboard"
+msgstr ""
+"<span size=\"large\"><b>Nastavenia Xfdashboard</b></span>\n"
+"Nakonfigurovať xfdashboard"
+
+#: ../data/data/preferences.ui.h:5
+msgid "<b>General settings:</b>"
+msgstr "<b>Všeobecné nastavenia:</b>"
+
+#: ../data/data/preferences.ui.h:6
+msgid "Reset search view when resumed"
+msgstr "Po obnovení resetovať zobrazenie vyhľadávania"
+
+#: ../data/data/preferences.ui.h:7
+msgid ""
+"If enabled the search view will be resetted when xfdashboard is resumed. That means the active view is switched back to last view active before last search was started and search box will be emptied.\n"
+"\n"
+"<b>NOTE:</b> This setting only takes effect if xfdashboard is running in daemon mode. "
+msgstr ""
+"Ak je zapnuté, zobrazenie vyhľadávania sa po obnovení xfdashboard resetuje. To znamená, že aktívne zobrazenie sa prepne späť na zobrazenie, ktoré bolo posledné aktívne pred spustením posledného vyhľadávania, a vyhľadávacie pole sa vyprázdni.\n"
+"\n"
+"<b>POZNÁMKA:</b> Toto nastavenie sa prejaví iba vtedy, ak xfdashboard beží v režime démona."
+
+#: ../data/data/preferences.ui.h:10
+msgid ""
+"When xfdashboard resumes the selected view will be activated.\n"
+"\n"
+"<b>NOTE:</b> This setting only takes effect if xfdashboard is running in daemon mode."
+msgstr ""
+
+#: ../data/data/preferences.ui.h:13
+msgid "Switch to view when resumed:"
+msgstr ""
+
+#: ../data/data/preferences.ui.h:14
+msgid ""
+"Sets the minimum time a notification is being shown.\n"
+"\n"
+"The duration is calculated by the length of the text to show in notification. This setting allows you to specify how long the notification must be shown at least."
+msgstr ""
+
+#: ../data/data/preferences.ui.h:17
+msgid "Minimum notification timeout:"
+msgstr "Minimálny časový limit upozornení:"
+
+#: ../data/data/preferences.ui.h:18
+msgid "Enable workaround for minimized windows"
+msgstr ""
+
+#: ../data/data/preferences.ui.h:19
+msgid ""
+"When enabled a workaround for minimized windows will be tried to get still images of these windows by restoring them shortly and minimizing them again.\n"
+"\n"
+"<b>NOTE:</b> Be aware that this is a <u>workaround</u> and your minimized windows could stay unminimized, change workspace etc."
+msgstr ""
+
+#: ../data/data/preferences.ui.h:22
+msgid ""
+"This value defines how fast the window content should be created. While the value 'immediate' tells xfdashboard to create the window content at the time it is requested, all other values will set up a queue and value defines how fast the queue will be processed.\n"
+"\n"
+"<b>NOTE:</b> Only change this value from 'immediate' to other value if your graphics card, driver or system is too slow to create the window contents immediately. You have to try each value to find the one fitting your system."
+msgstr ""
+
+#: ../data/data/preferences.ui.h:25
+msgid "Priority of window content creation"
+msgstr ""
+
+#: ../data/data/preferences.ui.h:26
+msgid "Show child windows in main windows"
+msgstr ""
+
+#: ../data/data/preferences.ui.h:27
+msgid ""
+"When enabled all live window previews will also show their child windows. "
+"Disabling this option will increase performance on slower machines."
+msgstr ""
+
+#: ../data/data/preferences.ui.h:28
+msgid "Always start a new instance for application"
+msgstr ""
+
+#: ../data/data/preferences.ui.h:29
+msgid ""
+"When enabled and an icon in quicklaunch is clicked it will always start a new instance of the application.\n"
+"\n"
+"When not enabled it will select the last known active window of the running application instance. If application is not running, a new instance will be started."
+msgstr ""
+
+#: ../data/data/preferences.ui.h:32
+msgid "Enable animations"
+msgstr ""
+
+#: ../data/data/preferences.ui.h:33
+msgid "If enabled theme-defined animations will be shown."
+msgstr ""
+
+#: ../data/data/preferences.ui.h:34
+msgid "<b>Applications view:</b>"
+msgstr ""
+
+#: ../data/data/preferences.ui.h:35
+msgid "Show menu for all installed applications"
+msgstr ""
+
+#: ../data/data/preferences.ui.h:36
+msgid ""
+"When enabled an \"all applications\" menu containing all installed "
+"applications will be shown at applications view"
+msgstr ""
+
+#: ../data/data/preferences.ui.h:37
+msgid "<b>Windows view:</b>"
+msgstr ""
+
+#: ../data/data/preferences.ui.h:38
+msgid "Mouse wheel changes workspace"
+msgstr ""
+
+#: ../data/data/preferences.ui.h:39
+msgid ""
+"When enabled any scroll event, like mouse-wheel up and down, at the windows "
+"view will change the active workspace. This behaviour is the same as in "
+"workspace selector."
+msgstr ""
+
+#: ../data/data/preferences.ui.h:40
+msgid "<b>Search view:</b>"
+msgstr ""
+
+#: ../data/data/preferences.ui.h:41
+msgid ""
+"Sets the interval the search should be delayed by after the first character "
+"was entered."
+msgstr ""
+
+#: ../data/data/preferences.ui.h:42
+msgid "Delay initial search interval:"
+msgstr ""
+
+#: ../data/data/preferences.ui.h:43
+msgid "General"
+msgstr "Všeobecné"
+
+#: ../data/data/preferences.ui.h:44
+msgid "<b>Name:</b>"
+msgstr "<b>Názov:</b>"
+
+#: ../data/data/preferences.ui.h:45
+msgid "<b>Author:</b>"
+msgstr ""
+
+#: ../data/data/preferences.ui.h:46
+msgid "<b>Version:</b>"
+msgstr "<b>Verzia:</b>"
+
+#: ../data/data/preferences.ui.h:47
+msgid "<b>Description:</b>"
+msgstr "<b>Popis:</b>"
+
+#: ../data/data/preferences.ui.h:48
+msgid "Themes"
+msgstr "Témy"
+
+#: ../data/data/preferences.ui.h:49
+msgid "<b>License:</b>"
+msgstr "<b>Licencia:</b>"
+
+#: ../data/data/preferences.ui.h:50
+msgid "Plugins"
+msgstr "Doplnky"
+
+#: ../data/themes/xfdashboard/xfdashboard.theme.in.in.h:1
+msgid "xfdashboard"
+msgstr "xfdashboard"
+
+#: ../data/themes/xfdashboard/xfdashboard.theme.in.in.h:2
+msgid "Default theme for xfdashboard"
+msgstr "Predvolená téma pre Xfdashboard"
+
+#: ../data/themes/xfdashboard-auber/xfdashboard.theme.in.in.h:1
+msgid "xfdashboard-auber"
+msgstr "xfdashboard-auber"
+
+#: ../data/themes/xfdashboard-auber/xfdashboard.theme.in.in.h:2
+msgid "Aubergine theme for xfdashboard"
+msgstr "Baklažánová téma pre Xfdashboard"
+
+#: ../data/themes/xfdashboard-blue/xfdashboard.theme.in.in.h:1
+msgid "xfdashboard-blue"
+msgstr "xfdashboard-modrá"
+
+#: ../data/themes/xfdashboard-blue/xfdashboard.theme.in.in.h:2
+msgid "Blue theme for xfdashboard"
+msgstr "Modrá téma pre Xfdashboard"
+
+#: ../data/themes/xfdashboard-dark/xfdashboard.theme.in.in.h:1
+msgid "xfdashboard-dark"
+msgstr "xfdashboard-tmavá"
+
+#: ../data/themes/xfdashboard-dark/xfdashboard.theme.in.in.h:2
+msgid "Dark theme for xfdashboard"
+msgstr "Tmavá téma pre Xfdashboard"
+
+#: ../data/themes/xfdashboard-mint/xfdashboard.theme.in.in.h:1
+msgid "xfdashboard-mint"
+msgstr "xfdashboard-mint"
+
+#: ../data/themes/xfdashboard-mint/xfdashboard.theme.in.in.h:2
+msgid "Fresh-green flavored theme for xfdashboard"
+msgstr "Sviežo-zelená téma pre Xfdashboard"
+
+#: ../data/themes/xfdashboard-moranga/xfdashboard.theme.in.in.h:1
+msgid "xfdashboard-moranga"
+msgstr "xfdashboard-moranga"
+
+#: ../data/themes/xfdashboard-moranga/xfdashboard.theme.in.in.h:2
+msgid "Moranga theme for xfdashboard"
+msgstr "Tekvicová téma pre Xfdashboard"
+
+#: ../data/themes/xfdashboard-wine/xfdashboard.theme.in.in.h:1
+msgid "xfdashboard-wine"
+msgstr "xfdashboard-víno"
+
+#: ../data/themes/xfdashboard-wine/xfdashboard.theme.in.in.h:2
+msgid "Red wine theme for xfdashboard"
+msgstr "Téma červeného vína pre Xfdashboard"
+
+#: ../libxfdashboard/application-button.c:267
+#, c-format
+msgid "Could not execute action '%s' for application '%s': %s"
+msgstr ""
+
+#: ../libxfdashboard/application-button.c:270 ../settings/main.c:76
+#: ../settings/plugins.c:794
+msgid "Unknown error"
+msgstr "Neznáma chyba"
+
+#: ../libxfdashboard/application-button.c:287
+#, c-format
+msgid "Executed action '%s' for application '%s'"
+msgstr ""
+
+#: ../libxfdashboard/application-button.c:748
+#: ../libxfdashboard/application-button.c:766
+#: ../libxfdashboard/applications-search-provider.c:765
+#: ../libxfdashboard/applications-view.c:332
+#: ../libxfdashboard/quicklaunch.c:334 ../libxfdashboard/quicklaunch.c:382
+#: ../libxfdashboard/quicklaunch.c:440
+#: ../plugins/recently-used-search-provider/recently-used-search-provider.c:581
+#, c-format
+msgid "Launching application '%s' failed: %s"
+msgstr ""
+
+#: ../libxfdashboard/application-button.c:750
+#: ../libxfdashboard/quicklaunch.c:336
+#: ../plugins/recently-used-search-provider/recently-used-search-provider.c:499
+#: ../plugins/recently-used-search-provider/recently-used-search-provider.c:520
+msgid "No information available for application"
+msgstr ""
+
+#: ../libxfdashboard/application-button.c:768
+#: ../libxfdashboard/applications-search-provider.c:767
+#: ../libxfdashboard/applications-view.c:334 ../libxfdashboard/core.c:373
+#: ../libxfdashboard/quicklaunch.c:442
+#: ../plugins/recently-used-search-provider/recently-used-search-provider.c:480
+#: ../plugins/recently-used-search-provider/recently-used-search-provider.c:583
+#: ../xfdashboard/application.c:520
+msgid "unknown error"
+msgstr "neznáma chyba"
+
+#: ../libxfdashboard/application-button.c:779
+#: ../libxfdashboard/applications-search-provider.c:778
+#: ../libxfdashboard/applications-view.c:345
+#: ../libxfdashboard/quicklaunch.c:453
+#: ../plugins/recently-used-search-provider/recently-used-search-provider.c:595
+#, c-format
+msgid "Application '%s' launched"
+msgstr ""
+
+#: ../libxfdashboard/applications-search-provider.c:849
+#: ../libxfdashboard/applications-view.c:415
+#: ../libxfdashboard/quicklaunch.c:664
+msgid "Launch"
+msgstr "Spustiť"
+
+#. Set up view
+#. Add "applications" button
+#: ../libxfdashboard/applications-search-provider.c:1191
+#: ../libxfdashboard/applications-view.c:1589
+#: ../libxfdashboard/quicklaunch.c:3225
+msgid "Applications"
+msgstr "Aplikácie"
+
+#: ../libxfdashboard/applications-view.c:552
+#: ../libxfdashboard/applications-view.c:553
+#: ../libxfdashboard/applications-view.c:664
+#: ../libxfdashboard/applications-view.c:665
+msgid "Back"
+msgstr "Predchádzajúci deň"
+
+#: ../libxfdashboard/applications-view.c:552
+#: ../libxfdashboard/applications-view.c:664
+msgid "Go back to previous menu"
+msgstr ""
+
+#: ../libxfdashboard/applications-view.c:692
+#: ../libxfdashboard/applications-view.c:693
+msgid "All applications"
+msgstr "Všetky aplikácie"
+
+#: ../libxfdashboard/applications-view.c:692
+msgid "List of all installed applications"
+msgstr ""
+
+#: ../libxfdashboard/core.c:371
+#, c-format
+msgid "Could not load theme '%s': %s"
+msgstr "Nemožno nahrať tému '%s': %s"
+
+#: ../libxfdashboard/core.c:1268
+#, c-format
+msgid "Welcome to %s (%s)!"
+msgstr "Vitajte v %s (%s)!"
+
+#: ../libxfdashboard/core.c:1270
+#, c-format
+msgid "Welcome to %s!"
+msgstr "Vitajte v %s!"
+
+#: ../libxfdashboard/quicklaunch.c:384
+msgid "No windows to activate for application"
+msgstr ""
+
+#: ../libxfdashboard/quicklaunch.c:507 ../libxfdashboard/quicklaunch.c:1243
+#: ../libxfdashboard/quicklaunch.c:2053
+#, c-format
+msgid "Favourite '%s' removed"
+msgstr ""
+
+#: ../libxfdashboard/quicklaunch.c:606 ../libxfdashboard/quicklaunch.c:925
+#: ../libxfdashboard/quicklaunch.c:1986
+#, c-format
+msgid "Favourite '%s' added"
+msgstr ""
+
+#: ../libxfdashboard/quicklaunch.c:687
+msgid "Remove from favourites"
+msgstr "Odstrániť z obľúbených"
+
+#: ../libxfdashboard/quicklaunch.c:701
+msgid "Add to favourites"
+msgstr "Pridať do obľúbených"
+
+#. Next add trash button to box but initially hidden and register as drop
+#. target
+#: ../libxfdashboard/quicklaunch.c:3232
+msgid "Remove"
+msgstr "Odstrániť"
+
+#: ../libxfdashboard/search-result-container.c:664
+#: ../libxfdashboard/search-result-container.c:1734
+#, c-format
+msgid "Show %d more results..."
+msgstr ""
+
+#. Get text to set at "all"-label
+#: ../libxfdashboard/search-result-container.c:686
+#, c-format
+msgid "Show all %d results..."
+msgstr ""
+
+#: ../libxfdashboard/search-view.c:979
+#, c-format
+msgid "No results found for '%s'"
+msgstr ""
+
+#. Set up view (Note: Search view is disabled by default!)
+#: ../libxfdashboard/search-view.c:1719
+msgid "Search"
+msgstr "Hľadať"
+
+#: ../libxfdashboard/stage.c:1111
+msgid "Just type to search..."
+msgstr ""
+
+#. Set up view
+#: ../libxfdashboard/windows-view.c:2310
+msgid "Windows"
+msgstr "Okná"
+
+#: ../plugins/autopin-windows/plugin.c:71
+msgid "Auto-pin windows"
+msgstr ""
+
+#: ../plugins/autopin-windows/plugin.c:72
+msgid ""
+"Pins windows on secondary windows or unpins windows on primary windows "
+"automatically"
+msgstr ""
+
+#. Set up view
+#: ../plugins/clock-view/clock-view.c:307 ../plugins/clock-view/plugin.c:311
+msgid "Clock"
+msgstr "Hodiny"
+
+#. Add widget to choose hour color
+#: ../plugins/clock-view/plugin.c:203
+msgid "Hour color:"
+msgstr "Farba hodín:"
+
+#: ../plugins/clock-view/plugin.c:213
+msgid "Choose color for hour hand"
+msgstr "Vyberte farbu hodinovej ručičky"
+
+#. Add widget to choose minute color
+#: ../plugins/clock-view/plugin.c:218
+msgid "Minute color:"
+msgstr "Farba minút:"
+
+#: ../plugins/clock-view/plugin.c:228
+msgid "Choose color for minute hand"
+msgstr "Vyberte farbu minútovej ručičky"
+
+#. Add widget to choose second color
+#: ../plugins/clock-view/plugin.c:233
+msgid "Second color:"
+msgstr "Farba sekúnd:"
+
+#: ../plugins/clock-view/plugin.c:243
+msgid "Choose color for second hand"
+msgstr "Vyberte farbu sekundovej ručičky"
+
+#. Add widget to choose minute color
+#: ../plugins/clock-view/plugin.c:248
+msgid "Background color:"
+msgstr "Farba pozadia:"
+
+#: ../plugins/clock-view/plugin.c:258
+msgid "Choose color for background of second hand"
+msgstr ""
+
+#: ../plugins/clock-view/plugin.c:312
+msgid "Adds a new view showing a clock"
+msgstr ""
+
+#: ../plugins/example-search-provider/example-search-provider.c:67
+msgid "Example search"
+msgstr ""
+
+#: ../plugins/example-search-provider/plugin.c:75
+msgid "Example search provider"
+msgstr ""
+
+#: ../plugins/example-search-provider/plugin.c:76
+msgid "This is just a useless example search provider plugin"
+msgstr ""
+
+#: ../plugins/gnome-shell-search-provider/plugin.c:464
+msgid "Gnome-Shell search provider"
+msgstr ""
+
+#: ../plugins/gnome-shell-search-provider/plugin.c:465
+msgid "Uses Gnome-Shell search providers as source for searches"
+msgstr ""
+
+#: ../plugins/hot-corner/plugin.c:194
+msgid "s"
+msgstr ""
+
+#: ../plugins/hot-corner/plugin.c:198 ../settings/general.c:320
+msgid "ms"
+msgstr "ms"
+
+#: ../plugins/hot-corner/plugin.c:202 ../settings/general.c:92
+#: ../settings/general.c:324
+msgid "Immediately"
+msgstr ""
+
+#. Add widget to choose activation corner
+#: ../plugins/hot-corner/plugin.c:325
+msgid "Activation corner:"
+msgstr ""
+
+#. Add widget to choose activation radius
+#: ../plugins/hot-corner/plugin.c:361
+msgid "Radius of activation corner:"
+msgstr ""
+
+#. Add widget to choose activation duration
+#: ../plugins/hot-corner/plugin.c:379
+msgid "Timeout to activate:"
+msgstr ""
+
+#. Add widget to limit checks to primary monitor only or to all monitors
+#: ../plugins/hot-corner/plugin.c:401
+msgid "Primary monitor only"
+msgstr ""
+
+#: ../plugins/hot-corner/plugin.c:457
+msgid "Hot corner"
+msgstr ""
+
+#: ../plugins/hot-corner/plugin.c:458
+msgid ""
+"Activates xfdashboard when pointer is moved to a configured corner of "
+"monitor"
+msgstr ""
+
+#: ../plugins/middle-click-window-close/plugin.c:71
+msgid "Middle-click window close"
+msgstr ""
+
+#: ../plugins/middle-click-window-close/plugin.c:72
+msgid "Closes windows in windows view by middle-click"
+msgstr ""
+
+#: ../plugins/recently-used-search-provider/plugin.c:75
+msgid "Recently used search provider"
+msgstr ""
+
+#: ../plugins/recently-used-search-provider/plugin.c:76
+msgid "A search provider using recently used files as source"
+msgstr ""
+
+#: ../plugins/recently-used-search-provider/recently-used-search-provider.c:246
+msgid "Recently used"
+msgstr "_Nedávno použité"
+
+#: ../plugins/recently-used-search-provider/recently-used-search-provider.c:475
+#, c-format
+msgid "Launching application for '%s' failed: %s"
+msgstr ""
+
+#: ../plugins/recently-used-search-provider/recently-used-search-provider.c:497
+#: ../plugins/recently-used-search-provider/recently-used-search-provider.c:518
+#, c-format
+msgid "Launching application for file '%s' failed: %s"
+msgstr ""
+
+#: ../settings/general.c:84
+msgid "Do nothing"
+msgstr ""
+
+#: ../settings/general.c:85
+msgid "Windows view"
+msgstr ""
+
+#: ../settings/general.c:86
+msgid "Applications view"
+msgstr ""
+
+#: ../settings/general.c:93
+msgid "High"
+msgstr "Vysoká"
+
+#: ../settings/general.c:94
+msgid "Normal"
+msgstr "Normálna"
+
+#: ../settings/general.c:95
+msgid "Low"
+msgstr "Nízka"
+
+#: ../settings/general.c:269
+msgid "seconds"
+msgstr "sekundách"
+
+#: ../settings/main.c:46
+msgid "Settings manager socket"
+msgstr "Soket správcu nastavení"
+
+#: ../settings/main.c:46
+msgid "SOCKET ID"
+msgstr ""
+
+#: ../settings/main.c:47
+msgid "Version information"
+msgstr "Informácie o verzii"
+
+#. Initialize GTK+
+#: ../settings/main.c:70
+msgid "."
+msgstr ""
+
+#: ../settings/main.c:74
+#, c-format
+msgid ""
+"%s: %s\n"
+"Try %s --help to see a full list of available command line options.\n"
+msgstr ""
+"%s: %s\n"
+"Úplný zoznam dostupných volieb získate príkazom %s --help\n"
+
+#: ../settings/plugins.c:222
+#, c-format
+msgid "Configure plugin: %s"
+msgstr ""
+
+#. Create error message to store in list
+#: ../settings/plugins.c:793
+#, c-format
+msgid ""
+"<b>Plugin could not be loaded.</b>\n"
+"\n"
+"%s"
+msgstr ""
+
+#: ../settings/plugins.c:1005
+msgid "Name"
+msgstr "Názov"
+
+#: ../settings/themes.c:731
+msgid "Theme"
+msgstr "Téma"
+
+#: ../xfdashboard/application.c:478
+msgid "Fork to background"
+msgstr "Spustiť na pozadí"
+
+#: ../xfdashboard/application.c:479
+msgid "Quit running instance"
+msgstr "Ukončiť spustenú inštanciu"
+
+#: ../xfdashboard/application.c:480
+msgid "Restart running instance"
+msgstr ""
+
+#: ../xfdashboard/application.c:481
+msgid ""
+"Toggles visibility if running instance was started in daemon mode otherwise "
+"it quits running non-daemon instance"
+msgstr ""
+
+#: ../xfdashboard/application.c:482
+msgid "The ID of view to switch to on startup or resume"
+msgstr ""
+
+#: ../xfdashboard/application.c:483
+msgid "Show version"
+msgstr "Zobraziť verziu"
+
+#: ../xfdashboard/application.c:502
+msgid "A Gnome Shell like dashboard for Xfce4 - version "
+msgstr ""
+
+#. Show error
+#: ../xfdashboard/application.c:519
+#, c-format
+msgid "%s\n"
+msgstr "%s\n"
