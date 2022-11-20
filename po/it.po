@@ -11,15 +11,16 @@
 # Nick Schermer <nick@xfce.org>, 2021
 # Dmytro Tokayev, 2022
 # Emanuele Petriglia <transifex@emanuelepetriglia.com>, 2022
+# Alessandro Frisenda <yhouse@zoho.eu>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-15 12:52+0200\n"
+"POT-Creation-Date: 2022-08-13 00:50+0200\n"
 "PO-Revision-Date: 2020-10-07 10:59+0000\n"
-"Last-Translator: Emanuele Petriglia <transifex@emanuelepetriglia.com>, 2022\n"
+"Last-Translator: Alessandro Frisenda <yhouse@zoho.eu>, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/xfce/teams/16840/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -79,6 +80,10 @@ msgid "Searching applications"
 msgstr "Ricerca delle applicazioni"
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:6
+msgid "This stable release is the first major one :)"
+msgstr "Questo rilascio stabile è il primo rilascio principale :)"
+
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:7
 msgid ""
 "This release candidate adds a new last-minute feature with adding new "
 "actions for key binding as weill as lots of bug fixes."
@@ -87,7 +92,7 @@ msgstr ""
 " per l'aggiunta di nuove azioni per le scorciatoie da tastiera e altri bug "
 "fix."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:7
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:8
 msgid ""
 "This release candidate adds a new property \"visibility\" to all actors and "
 "fixes compiler warnings."
@@ -95,13 +100,13 @@ msgstr ""
 "Questo candidato per il rilascio aggiunge una nuova proprietà \"visibilità\""
 " a tutti gli attori e corregge gli avvertimenti del compilatore."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:8
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:9
 msgid "This unstable development version fixes the mode to run in background."
 msgstr ""
 "Questa versione instabile di sviluppo corregge la modalità di esecuzione in "
 "background."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:9
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:10
 msgid ""
 "This unstable development version introduces a new plugin to pin windows on "
 "secondary monitors automatically."
@@ -109,7 +114,7 @@ msgstr ""
 "Questa versione instabile di sviluppo introduce una nuova estensione per "
 "agganciare automaticamente le finestre su schermi secondari. "
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:10
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:11
 msgid ""
 "This unstable development version improves window placement and a new search"
 " plugin looking for matches against the recently used documents."
@@ -117,7 +122,7 @@ msgstr ""
 "Questa versione instabile di sviluppo migliora il piazzamento delle finestre"
 " ed una nuova estensione di ricerca per documenti usati di recente."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:11
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:12
 msgid ""
 "This unstable development version completes gradients with linear gradients "
 "for outline and background filling."
@@ -125,7 +130,7 @@ msgstr ""
 "Questa versione instabile di sviluppo completa i gradienti con gradienti "
 "lineari per il contorno ed il riempimento dello sfondo."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:12
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:13
 msgid ""
 "This unstable development version introduces completes turning "
 "libxfdashboard into a real library and introduces path gradients for "
@@ -135,7 +140,7 @@ msgstr ""
 "trasformazione di libxfdashboard in una vera libreria ed introduce i "
 "gradienti di percorso per i contorni."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:13
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:14
 msgid ""
 "This unstable development version introduces nothing user visible but begin "
 "moving libxfdashboard into a real library."
@@ -144,7 +149,7 @@ msgstr ""
 "all'utente ma indica il punto dal quale libxfdashboard verrà trasferita in "
 "una vera libreria."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:14
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:15
 msgid ""
 "This stable version fixes a bug and replaces AppInfo with AppStream "
 "metainfo."
@@ -152,7 +157,7 @@ msgstr ""
 "Questa versione stabile risolve un bug e sostituisce AppInfo con metainfo di"
 " Appstream."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:15
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:16
 msgid ""
 "This stable version introduces lots of new features like animations, pop-up "
 "menus, multiple backend and support for jumplists etc. It also includes lots"
@@ -162,7 +167,7 @@ msgstr ""
 "animazioni, menu a comparsa, backend multipli, supporto per jumplist, ecc. "
 "Contiene inoltre molte traduzioni nuove ed aggiornate."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:16
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:17
 msgid ""
 "This stable version fixes a bug setting the correct default applications at "
 "first use."
@@ -170,7 +175,7 @@ msgstr ""
 "Questa versione stabile risolve un bug impostando applicazioni predefinite "
 "corrette al primo utilizzo."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:17
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:18
 msgid ""
 "This stable version introduces lots of new features like plugins and "
 "application tracker. It also contains a huge collection of other larger and "
