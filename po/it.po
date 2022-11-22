@@ -9,7 +9,7 @@
 # Eugenio Marconicchio <eugeniomarconicchio@protonmail.com>, 2020
 # Gianvito Cavasoli <gianvito@gmx.it>, 2021
 # Nick Schermer <nick@xfce.org>, 2021
-# Dmytro Tokayev, 2022
+# Dmytro Tokayev, 2021
 # Emanuele Petriglia <transifex@emanuelepetriglia.com>, 2022
 # Alessandro Frisenda <yhouse@zoho.eu>, 2022
 # 
@@ -97,13 +97,14 @@ msgid ""
 "This release candidate adds a new property \"visibility\" to all actors and "
 "fixes compiler warnings."
 msgstr ""
-"Questo candidato per il rilascio aggiunge una nuova proprietà \"visibilità\""
-" a tutti gli attori e corregge gli avvertimenti del compilatore."
+"Questa versione candidata per il rilascio aggiunge una nuova proprietà "
+"\"visibilità\" a tutti gli attori e corregge gli avvertimenti del "
+"compilatore."
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:9
 msgid "This unstable development version fixes the mode to run in background."
 msgstr ""
-"Questa versione instabile di sviluppo corregge la modalità di esecuzione in "
+"Questa versione di sviluppo instabile corregge la modalità di esecuzione in "
 "background."
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:10
@@ -111,16 +112,17 @@ msgid ""
 "This unstable development version introduces a new plugin to pin windows on "
 "secondary monitors automatically."
 msgstr ""
-"Questa versione instabile di sviluppo introduce una nuova estensione per "
-"agganciare automaticamente le finestre su schermi secondari. "
+"Questa versione di sviluppo instabile introduce una nuova estensione per "
+"fissare automaticamente le finestre su schermi secondari."
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:11
 msgid ""
 "This unstable development version improves window placement and a new search"
 " plugin looking for matches against the recently used documents."
 msgstr ""
-"Questa versione instabile di sviluppo migliora il piazzamento delle finestre"
-" ed una nuova estensione di ricerca per documenti usati di recente."
+"Questa versione di sviluppo instabile migliora il posizionamento della "
+"finestra ed una nuova estensione di ricerca per corrispondenze nei documenti"
+" usati di recente."
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:12
 msgid ""
