@@ -129,7 +129,7 @@ msgid ""
 "This unstable development version completes gradients with linear gradients "
 "for outline and background filling."
 msgstr ""
-"Questa versione instabile di sviluppo completa i gradienti con gradienti "
+"Questa versione di sviluppo instabile completa i gradienti con gradienti "
 "lineari per il contorno ed il riempimento dello sfondo."
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:13
@@ -147,9 +147,8 @@ msgid ""
 "This unstable development version introduces nothing user visible but begin "
 "moving libxfdashboard into a real library."
 msgstr ""
-"Questa versione instabile di sviluppo non ha introdotto nulla di visibile "
-"all'utente ma indica il punto dal quale libxfdashboard verrà trasferita in "
-"una vera libreria."
+"Questa versione di sviluppo instabile non introduce nulla di visibile "
+"all'utente ma inizia a trasformare libxfdashboard in una vera libreria."
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:15
 msgid ""
@@ -233,7 +232,7 @@ msgstr ""
 
 #: ../data/data/preferences.ui.h:13
 msgid "Switch to view when resumed:"
-msgstr "Spostarsi sulla vista al ripristino:"
+msgstr "Spostati sulla vista al ripristino:"
 
 #: ../data/data/preferences.ui.h:14
 msgid ""
@@ -310,7 +309,7 @@ msgstr "Abilita animazioni"
 
 #: ../data/data/preferences.ui.h:33
 msgid "If enabled theme-defined animations will be shown."
-msgstr "Se attivato, verranno mostrate animazioni definite dal tema."
+msgstr "Se attivato verranno mostrate animazioni definite dal tema."
 
 #: ../data/data/preferences.ui.h:34
 msgid "<b>Applications view:</b>"
