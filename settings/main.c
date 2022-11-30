@@ -48,10 +48,8 @@ int main(int argc, char **argv)
 												{ NULL }
 											};
 
-#ifdef ENABLE_NLS
 	/* Set up localization */
 	xfce_textdomain(GETTEXT_PACKAGE, PACKAGE_LOCALE_DIR, "UTF-8");
-#endif
 
 	/* Initialize Xfconf */
 	if(G_UNLIKELY(!xfconf_init(&error)))
