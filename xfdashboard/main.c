@@ -197,10 +197,8 @@ int main(int argc, char **argv)
 #endif
 	GError						*error=NULL;
 
-#ifdef ENABLE_NLS
 	/* Set up localization */
 	xfce_textdomain(GETTEXT_PACKAGE, PACKAGE_LOCALE_DIR, "UTF-8");
-#endif
 
 #if !GLIB_CHECK_VERSION(2, 36, 0)
 	/* Initialize GObject type system */
