@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-13 00:50+0200\n"
+"POT-Creation-Date: 2022-11-28 15:06+0100\n"
 "PO-Revision-Date: 2020-10-07 10:59+0000\n"
 "Last-Translator: Moo, 2022\n"
 "Language-Team: Lithuanian (https://www.transifex.com/xfce/teams/16840/lt/)\n"
@@ -258,9 +258,9 @@ msgid ""
 "\n"
 "<b>NOTE:</b> Only change this value from 'immediate' to other value if your graphics card, driver or system is too slow to create the window contents immediately. You have to try each value to find the one fitting your system."
 msgstr ""
-"Ši reikšmė apibrėžia kaip greitai turėtų būti kuriamas langų turinys. Reikšmė \"nedelsiant\" pasako xfdashboard sukurti lango turinį užklausos metu, visos kitos reikšmės nustatys eilę, o reikšmė apibrėš kaip greitai eilė bus vykdoma.\n"
+"Ši reikšmė apibrėžia kaip greitai turėtų būti kuriamas langų turinys. Reikšmė „nedelsiant“ nurodo xfdashboard sukurti lango turinį užklausos metu, visos kitos reikšmės nustatys eilę, o reikšmė apibrėš kaip greitai eilė bus vykdoma.\n"
 "\n"
-"<b>PASTABA:</b> Keiskite šią reikšmė iš \"nedelsiant\" į kitą reikšmę tik tuo atveju, jei jūsų vaizdo plokštė, tvarkyklė ar sistema yra pernelyg lėta, kad kurtų langų turinius nedelsiant. Jums reikia išbandyti kiekvieną reikšmę, kad rastumėte tą, kuri tiks jūsų sistemai."
+"<b>PASTABA:</b> Keiskite šią reikšmė iš „nedelsiant“ į kitą reikšmę tik tuo atveju, jei jūsų vaizdo plokštė, tvarkyklė ar sistema yra pernelyg lėta, kad kurtų langų turinius nedelsiant. Jums reikia išbandyti kiekvieną reikšmę, kad rastumėte tą, kuri tiks jūsų sistemai."
 
 #: ../data/data/preferences.ui.h:25
 msgid "Priority of window content creation"
@@ -313,8 +313,8 @@ msgid ""
 "When enabled an \"all applications\" menu containing all installed "
 "applications will be shown at applications view"
 msgstr ""
-"Kai įjungta, programų rodinyje bus rodomas \"visos programos\" meniu, "
-"kuriame bus rodomos visos įdiegtos programos"
+"Kai įjungta, programų rodinyje bus rodomas „visos programos“ meniu, kuriame "
+"bus rodomos visos įdiegtos programos"
 
 #: ../data/data/preferences.ui.h:37
 msgid "<b>Windows view:</b>"
@@ -462,7 +462,7 @@ msgstr "Įvykdytas veiksmas „%s“, skirtas programai „%s“"
 #: ../plugins/recently-used-search-provider/recently-used-search-provider.c:581
 #, c-format
 msgid "Launching application '%s' failed: %s"
-msgstr "\"%s programos paleidimas nepavyko: %s"
+msgstr "„%s“ programos paleidimas patyrė nesėkmę: %s"
 
 #: ../libxfdashboard/application-button.c:750
 #: ../libxfdashboard/quicklaunch.c:336
@@ -488,7 +488,7 @@ msgstr "nežinoma klaida"
 #: ../plugins/recently-used-search-provider/recently-used-search-provider.c:595
 #, c-format
 msgid "Application '%s' launched"
-msgstr "Paleista programa \"%s\""
+msgstr "Paleista programa „%s“"
 
 #: ../libxfdashboard/applications-search-provider.c:849
 #: ../libxfdashboard/applications-view.c:415
@@ -528,7 +528,7 @@ msgstr "Visų įdiegtų programų sąrašas"
 #: ../libxfdashboard/core.c:371
 #, c-format
 msgid "Could not load theme '%s': %s"
-msgstr "Nepavyko įkelti temos \"%s\": %s"
+msgstr "Nepavyko įkelti temos „%s“: %s"
 
 #: ../libxfdashboard/core.c:1268
 #, c-format
