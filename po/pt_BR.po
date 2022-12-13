@@ -7,26 +7,26 @@
 # Rafael Fontenelle <rffontenelle@gmail.com>, 2020
 # Xfce Bot <transifex@xfce.org>, 2020
 # Wellington Almeida <wsalmeida6@gmail.com>, 2020
-# Andre Miranda <andre42m@gmail.com>, 2020
 # Michael Martins <michaelfm21@gmail.com>, 2021
 # Nick Schermer <nick@xfce.org>, 2021
 # Lucas Wilm <lucaswilm@gmail.com>, 2021
 # The Cat, 2021
+# Andre Miranda <andre42m@gmail.com>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-04 12:53+0100\n"
+"POT-Creation-Date: 2022-11-28 15:06+0100\n"
 "PO-Revision-Date: 2020-10-07 10:59+0000\n"
-"Last-Translator: The Cat, 2021\n"
+"Last-Translator: Andre Miranda <andre42m@gmail.com>, 2022\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/xfce/teams/16840/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt_BR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../data/org.xfce.xfdashboard.desktop.in.in.h:1
 #: ../data/org.xfce.xfdashboard-autostart.desktop.in.in.h:1
@@ -80,22 +80,41 @@ msgid "Searching applications"
 msgstr "Procurando aplicativos"
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:6
-msgid ""
-"This release candidate adds anew property \"visibility\" to all actors and "
-"fixes compiler warnings."
-msgstr ""
+msgid "This stable release is the first major one :)"
+msgstr "Esta versão estável é a primeira das grandes :)"
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:7
-msgid "This unstable development version fixes the mode to run in background."
+msgid ""
+"This release candidate adds a new last-minute feature with adding new "
+"actions for key binding as weill as lots of bug fixes."
 msgstr ""
+"Esta versão candidata adiciona uma nova funcionalidade de última hora que "
+"permite vincular teclas de atalho para novas ações bem como muitas correções"
+" de bugs."
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:8
+msgid ""
+"This release candidate adds a new property \"visibility\" to all actors and "
+"fixes compiler warnings."
+msgstr ""
+"teclas atalho adiciona uma nova propriedade \"visibilidade\" a todos os "
+"atores e corrige mensagens de advertência do compilador."
+
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:9
+msgid "This unstable development version fixes the mode to run in background."
+msgstr ""
+"Esta versão de desenvolvimento instável corrige o modo para executar em "
+"segundo plano."
+
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:10
 msgid ""
 "This unstable development version introduces a new plugin to pin windows on "
 "secondary monitors automatically."
 msgstr ""
+"Esta versão de desenvolvimento instável apresenta um novo plugin para afixar"
+" janelas em monitores secundários automaticamente."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:9
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:11
 msgid ""
 "This unstable development version improves window placement and a new search"
 " plugin looking for matches against the recently used documents."
@@ -104,7 +123,7 @@ msgstr ""
 "novo plugin de pesquisa à procura de correspondência com os documentos "
 "recentemente utilizados."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:10
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:12
 msgid ""
 "This unstable development version completes gradients with linear gradients "
 "for outline and background filling."
@@ -112,7 +131,7 @@ msgstr ""
 "Esta versão de desenvolvimento instável completa os gradientes com "
 "gradientes lineares para preenchimento de contornos e fundo."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:11
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:13
 msgid ""
 "This unstable development version introduces completes turning "
 "libxfdashboard into a real library and introduces path gradients for "
@@ -122,7 +141,7 @@ msgstr ""
 " do libxfdashboard em uma biblioteca real e introduz padrão de gradientes "
 "para contornos."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:12
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:14
 msgid ""
 "This unstable development version introduces nothing user visible but begin "
 "moving libxfdashboard into a real library."
@@ -130,7 +149,7 @@ msgstr ""
 "Esta versão de desenvolvimento instável introduz nada visível para o "
 "usuário, mas começa a transformar libxfdashboard em uma biblioteca real."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:13
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:15
 msgid ""
 "This stable version fixes a bug and replaces AppInfo with AppStream "
 "metainfo."
@@ -138,7 +157,7 @@ msgstr ""
 "Esta versão estável corrige um bug e substitui o AppInfo com o AppStream "
 "Metainfo."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:14
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:16
 msgid ""
 "This stable version introduces lots of new features like animations, pop-up "
 "menus, multiple backend and support for jumplists etc. It also includes lots"
@@ -148,7 +167,7 @@ msgstr ""
 "pop-up, múltiplo e suporte para jumplists, etc. Também inclui muitas "
 "traduções novas e atualizadas."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:15
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:17
 msgid ""
 "This stable version fixes a bug setting the correct default applications at "
 "first use."
@@ -156,7 +175,7 @@ msgstr ""
 "Esta versão estável corrige um problema ao definir os aplicativos padrões "
 "corretos no primeiro uso."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:16
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:18
 msgid ""
 "This stable version introduces lots of new features like plugins and "
 "application tracker. It also contains a huge collection of other larger and "
@@ -429,23 +448,23 @@ msgstr "xfdashboard-wine"
 msgid "Red wine theme for xfdashboard"
 msgstr "Tema vinho tinto para xfdashboard"
 
-#: ../libxfdashboard/application-button.c:262
+#: ../libxfdashboard/application-button.c:267
 #, c-format
 msgid "Could not execute action '%s' for application '%s': %s"
 msgstr "Não foi possível executar a ação '%s' para o aplicativo '%s': %s"
 
-#: ../libxfdashboard/application-button.c:265 ../settings/main.c:76
+#: ../libxfdashboard/application-button.c:270 ../settings/main.c:76
 #: ../settings/plugins.c:794
 msgid "Unknown error"
 msgstr "Erro desconhecido"
 
-#: ../libxfdashboard/application-button.c:282
+#: ../libxfdashboard/application-button.c:287
 #, c-format
 msgid "Executed action '%s' for application '%s'"
 msgstr "Ação executada '%s' para o aplicativo '%s'"
 
-#: ../libxfdashboard/application-button.c:743
-#: ../libxfdashboard/application-button.c:761
+#: ../libxfdashboard/application-button.c:748
+#: ../libxfdashboard/application-button.c:766
 #: ../libxfdashboard/applications-search-provider.c:765
 #: ../libxfdashboard/applications-view.c:332
 #: ../libxfdashboard/quicklaunch.c:334 ../libxfdashboard/quicklaunch.c:382
@@ -455,14 +474,14 @@ msgstr "Ação executada '%s' para o aplicativo '%s'"
 msgid "Launching application '%s' failed: %s"
 msgstr "Falha%s ao iniciar o aplicativo '%s'"
 
-#: ../libxfdashboard/application-button.c:745
+#: ../libxfdashboard/application-button.c:750
 #: ../libxfdashboard/quicklaunch.c:336
 #: ../plugins/recently-used-search-provider/recently-used-search-provider.c:499
 #: ../plugins/recently-used-search-provider/recently-used-search-provider.c:520
 msgid "No information available for application"
 msgstr "Nenhuma informação disponível para aplicação"
 
-#: ../libxfdashboard/application-button.c:763
+#: ../libxfdashboard/application-button.c:768
 #: ../libxfdashboard/applications-search-provider.c:767
 #: ../libxfdashboard/applications-view.c:334 ../libxfdashboard/core.c:373
 #: ../libxfdashboard/quicklaunch.c:442
@@ -472,7 +491,7 @@ msgstr "Nenhuma informação disponível para aplicação"
 msgid "unknown error"
 msgstr "erro desconhecido"
 
-#: ../libxfdashboard/application-button.c:774
+#: ../libxfdashboard/application-button.c:779
 #: ../libxfdashboard/applications-search-provider.c:778
 #: ../libxfdashboard/applications-view.c:345
 #: ../libxfdashboard/quicklaunch.c:453
@@ -490,29 +509,29 @@ msgstr "Lançador"
 #. Set up view
 #. Add "applications" button
 #: ../libxfdashboard/applications-search-provider.c:1191
-#: ../libxfdashboard/applications-view.c:1580
-#: ../libxfdashboard/quicklaunch.c:3218
+#: ../libxfdashboard/applications-view.c:1589
+#: ../libxfdashboard/quicklaunch.c:3225
 msgid "Applications"
 msgstr "Aplicativos"
 
-#: ../libxfdashboard/applications-view.c:543
-#: ../libxfdashboard/applications-view.c:544
-#: ../libxfdashboard/applications-view.c:655
-#: ../libxfdashboard/applications-view.c:656
+#: ../libxfdashboard/applications-view.c:552
+#: ../libxfdashboard/applications-view.c:553
+#: ../libxfdashboard/applications-view.c:664
+#: ../libxfdashboard/applications-view.c:665
 msgid "Back"
 msgstr "Voltar"
 
-#: ../libxfdashboard/applications-view.c:543
-#: ../libxfdashboard/applications-view.c:655
+#: ../libxfdashboard/applications-view.c:552
+#: ../libxfdashboard/applications-view.c:664
 msgid "Go back to previous menu"
 msgstr "Voltar ao menu anterior"
 
-#: ../libxfdashboard/applications-view.c:683
-#: ../libxfdashboard/applications-view.c:684
+#: ../libxfdashboard/applications-view.c:692
+#: ../libxfdashboard/applications-view.c:693
 msgid "All applications"
 msgstr "Todos os aplicativos"
 
-#: ../libxfdashboard/applications-view.c:683
+#: ../libxfdashboard/applications-view.c:692
 msgid "List of all installed applications"
 msgstr "Lista de todos os aplicativos instalados"
 
@@ -557,7 +576,7 @@ msgstr "Adicionar aos favoritos"
 
 #. Next add trash button to box but initially hidden and register as drop
 #. target
-#: ../libxfdashboard/quicklaunch.c:3225
+#: ../libxfdashboard/quicklaunch.c:3232
 msgid "Remove"
 msgstr "Remover"
 
