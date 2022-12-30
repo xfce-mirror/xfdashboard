@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# 박정규(Jung-Kyu Park) <bagjunggyu@gmail.com>, 2020
+# 1763f4a4329a2376c933c5e919a36cbc_341ca53 <1f851310383599d03339229d772e1290_119292>, 2020
 # Nick Schermer <nick@xfce.org>, 2021
 # Seong-ho Cho <darkcircle.0426@gmail.com>, 2022
 # 
@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-17 12:53+0100\n"
+"POT-Creation-Date: 2022-11-28 15:06+0100\n"
 "PO-Revision-Date: 2020-10-07 10:59+0000\n"
 "Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>, 2022\n"
 "Language-Team: Korean (https://www.transifex.com/xfce/teams/16840/ko/)\n"
@@ -26,7 +26,7 @@ msgstr ""
 #: ../data/org.xfce.xfdashboard.desktop.in.in.h:1
 #: ../data/org.xfce.xfdashboard-autostart.desktop.in.in.h:1
 msgid "Xfdashboard"
-msgstr "xfdashboard"
+msgstr "xf대시보드"
 
 #: ../data/org.xfce.xfdashboard.desktop.in.in.h:2
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:1
@@ -35,7 +35,7 @@ msgstr "xfce용 그놈 셸 유사 대시보드"
 
 #: ../data/org.xfce.xfdashboard-autostart.desktop.in.in.h:2
 msgid "Start xfdashboard as daemon in background"
-msgstr "xfdashboard를 백그라운드에서 데몬으로 시작"
+msgstr "xf대시보드를 백그라운드에서 데몬으로 시작"
 
 #: ../data/org.xfce.xfdashboard-settings.desktop.in.in.h:1
 msgid "Xfdashboard settings"
@@ -70,35 +70,45 @@ msgid "Searching applications"
 msgstr "프로그램 검색"
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:6
+msgid "This stable release is the first major one :)"
+msgstr "이 안정 릴리스가 첫 메이저 버전입니다 :)"
+
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:7
+msgid ""
+"This release candidate adds a new last-minute feature with adding new "
+"actions for key binding as weill as lots of bug fixes."
+msgstr "이 릴리스 후보에는 새 키 지정 동작 기능을 추가하였으며, 마찬가지로 버그도 수정했습니다."
+
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:8
 msgid ""
 "This release candidate adds a new property \"visibility\" to all actors and "
 "fixes compiler warnings."
 msgstr "이 출시 후보작에서는 모든 액터에 새 \"가시성\" 속성을 추가하였으며, 컴파일러 경고를 수정했습니다."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:7
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:9
 msgid "This unstable development version fixes the mode to run in background."
 msgstr "이 불안정 개발 버전에서는 백그라운드 실행 모드를 수정했습니다."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:8
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:10
 msgid ""
 "This unstable development version introduces a new plugin to pin windows on "
 "secondary monitors automatically."
 msgstr "이 불안정 개발 버전에서는 창을 2차 모니터에 자동으로 고정하는 새 플러그인을 도입했습니다."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:9
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:11
 msgid ""
 "This unstable development version improves window placement and a new search"
 " plugin looking for matches against the recently used documents."
 msgstr ""
 "이 불안정 개발 버전에서는 창 배치 기능을 개선했고, 최근 사용한 문서 내용과 일치하는 부분을 검색하는 새 검색 플러그인을 도입했습니다."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:10
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:12
 msgid ""
 "This unstable development version completes gradients with linear gradients "
 "for outline and background filling."
 msgstr "이 불안정 개발 버전에서는 외곽선과 배경 채우기에 선형 그레디언트로 완전한 그레디언트 채우기 기능을 완성했습니다."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:11
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:13
 msgid ""
 "This unstable development version introduces completes turning "
 "libxfdashboard into a real library and introduces path gradients for "
@@ -106,20 +116,20 @@ msgid ""
 msgstr ""
 "이 불안정 개발 버전에서는 libxfdashboard를 실 라이브러리로 도입 완료했고, 외곽선의 경로 그레디언트를 도입했습니다."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:12
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:14
 msgid ""
 "This unstable development version introduces nothing user visible but begin "
 "moving libxfdashboard into a real library."
 msgstr ""
 "이 불안정 개발 버전에서는 사용자 눈에 띄는 부분은 없지만, libxfdashboard를 실 라이브러리로 옮기기 시작했습니다."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:13
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:15
 msgid ""
 "This stable version fixes a bug and replaces AppInfo with AppStream "
 "metainfo."
 msgstr "이 안정 버전에서는 버그를 수정했으며 AppInfo를 AppStream metainfo로 대체했습니다."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:14
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:16
 msgid ""
 "This stable version introduces lots of new features like animations, pop-up "
 "menus, multiple backend and support for jumplists etc. It also includes lots"
@@ -128,13 +138,13 @@ msgstr ""
 "이 안정 버전에는 애니메이션, 단축 메뉴, 다중 백엔드, 점프 목록 등의 다양한 새 기능을 도입했습니다. 또한 상당한 분량의 새로운 최신"
 " 번역 결과물을 반영했습니다."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:15
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:17
 msgid ""
 "This stable version fixes a bug setting the correct default applications at "
 "first use."
 msgstr "이 안정 버전에서는 첫 사용시 기본 프로그램을 올바르게 설정하는 부분의 문제를 해결했습니다."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:16
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:18
 msgid ""
 "This stable version introduces lots of new features like plugins and "
 "application tracker. It also contains a huge collection of other larger and "
@@ -173,9 +183,9 @@ msgid ""
 "\n"
 "<b>NOTE:</b> This setting only takes effect if xfdashboard is running in daemon mode. "
 msgstr ""
-"활성화하면 xfdashboard를 되살렸을 때 검색 보기를 초기화합니다. 최근 검색을 시작하기 전의 마지막 보기 활성 상태로 활성 보기를 되돌리고 검색 상자를 비워둡니다.\n"
+"활성화하면 xf대시보드를 되살렸을 때 검색 보기를 초기화합니다. 최근 검색을 시작하기 전의 마지막 보기 활성 상태로 활성 보기를 되돌리고 검색 상자를 비워둡니다.\n"
 "\n"
-"<b>참고:</b> 이 설정은 xfdashboard를 데몬 모드로 실행할 경우에만 적용합니다."
+"<b>참고:</b> 이 설정은 xf대시보드를 데몬 모드로 실행할 경우에만 해당합니다."
 
 #: ../data/data/preferences.ui.h:10
 msgid ""
@@ -183,9 +193,9 @@ msgid ""
 "\n"
 "<b>NOTE:</b> This setting only takes effect if xfdashboard is running in daemon mode."
 msgstr ""
-"xfdashboard를 되살리면 선택한 뷰를 띄웁니다.\n"
+"xf대시보드를 되살리면 선택한 뷰를 띄웁니다.\n"
 "\n"
-"<b>참고:</b> 이 설정은 xfdashboard를 데몬 모드로 실행할 때만 적용합니다."
+"<b>참고:</b> 이 설정은 xf대시보드를 데몬 모드로 실행할 때만 해당합니다."
 
 #: ../data/data/preferences.ui.h:13
 msgid "Switch to view when resumed:"
@@ -215,6 +225,9 @@ msgid ""
 "\n"
 "<b>NOTE:</b> Be aware that this is a <u>workaround</u> and your minimized windows could stay unminimized, change workspace etc."
 msgstr ""
+"최소화 창에 대해 창 그림을 가져오려는 과정의 해결책을 활성화할 때 잠깐 복원한 다음 바로 다시 최소화 하는 방식으로 처리합니다.\n"
+"\n"
+"<b>참고:</b> 단순한 <u>해결책</u>일 뿐이며 최소화하려는 창이 그대로 남아있거나 다른 작업 영역으로 넘어갈 수도 있습니다."
 
 #: ../data/data/preferences.ui.h:22
 msgid ""
@@ -222,6 +235,9 @@ msgid ""
 "\n"
 "<b>NOTE:</b> Only change this value from 'immediate' to other value if your graphics card, driver or system is too slow to create the window contents immediately. You have to try each value to find the one fitting your system."
 msgstr ""
+"이 값은 창 내용을 얼마나 빨리 만들어야 하는지 지정합니다. '즉시' 값을 지정하면 xf대시보드에서 요청받은 즉시 창 내용을 만들도록 지시하며, 다른 값은 큐를 구성하고 큐의 처리 속도 값을 지정합니다.\n"
+"\n"
+"<b>참고:</b> 그래픽 카드, 드라이버, 시스템이 창 내용을 바로 만들기에 너무 느릴 경우에만 '즉시' 값을 다른 값으로 바꾸십시오. 시스템에 어떤 값이 적절한지 각각의 값을 다 시험해봐야 합니다."
 
 #: ../data/data/preferences.ui.h:25
 msgid "Priority of window content creation"
@@ -390,25 +406,25 @@ msgstr "xfdashboard-wine"
 
 #: ../data/themes/xfdashboard-wine/xfdashboard.theme.in.in.h:2
 msgid "Red wine theme for xfdashboard"
-msgstr "xf대시보드용 레드 와인 테마"
+msgstr "xf대시보드용 적포도주 테마"
 
-#: ../libxfdashboard/application-button.c:262
+#: ../libxfdashboard/application-button.c:267
 #, c-format
 msgid "Could not execute action '%s' for application '%s': %s"
-msgstr ""
+msgstr " '%s' 동작을 '%s' 프로그램에 실행할 수 없습니다: %s"
 
-#: ../libxfdashboard/application-button.c:265 ../settings/main.c:76
+#: ../libxfdashboard/application-button.c:270 ../settings/main.c:76
 #: ../settings/plugins.c:794
 msgid "Unknown error"
 msgstr "알 수 없는 오류"
 
-#: ../libxfdashboard/application-button.c:282
+#: ../libxfdashboard/application-button.c:287
 #, c-format
 msgid "Executed action '%s' for application '%s'"
-msgstr ""
+msgstr "'%s' 동작을 '%s' 프로그램에 실행했습니다"
 
-#: ../libxfdashboard/application-button.c:743
-#: ../libxfdashboard/application-button.c:761
+#: ../libxfdashboard/application-button.c:748
+#: ../libxfdashboard/application-button.c:766
 #: ../libxfdashboard/applications-search-provider.c:765
 #: ../libxfdashboard/applications-view.c:332
 #: ../libxfdashboard/quicklaunch.c:334 ../libxfdashboard/quicklaunch.c:382
@@ -418,14 +434,14 @@ msgstr ""
 msgid "Launching application '%s' failed: %s"
 msgstr "'%s' 프로그램 실행 실패: %s"
 
-#: ../libxfdashboard/application-button.c:745
+#: ../libxfdashboard/application-button.c:750
 #: ../libxfdashboard/quicklaunch.c:336
 #: ../plugins/recently-used-search-provider/recently-used-search-provider.c:499
 #: ../plugins/recently-used-search-provider/recently-used-search-provider.c:520
 msgid "No information available for application"
 msgstr "프로그램 가용 정보가 없습니다"
 
-#: ../libxfdashboard/application-button.c:763
+#: ../libxfdashboard/application-button.c:768
 #: ../libxfdashboard/applications-search-provider.c:767
 #: ../libxfdashboard/applications-view.c:334 ../libxfdashboard/core.c:373
 #: ../libxfdashboard/quicklaunch.c:442
@@ -435,7 +451,7 @@ msgstr "프로그램 가용 정보가 없습니다"
 msgid "unknown error"
 msgstr "알 수 없는 오류"
 
-#: ../libxfdashboard/application-button.c:774
+#: ../libxfdashboard/application-button.c:779
 #: ../libxfdashboard/applications-search-provider.c:778
 #: ../libxfdashboard/applications-view.c:345
 #: ../libxfdashboard/quicklaunch.c:453
@@ -453,29 +469,29 @@ msgstr "실행"
 #. Set up view
 #. Add "applications" button
 #: ../libxfdashboard/applications-search-provider.c:1191
-#: ../libxfdashboard/applications-view.c:1580
-#: ../libxfdashboard/quicklaunch.c:3218
+#: ../libxfdashboard/applications-view.c:1589
+#: ../libxfdashboard/quicklaunch.c:3225
 msgid "Applications"
 msgstr "프로그램"
 
-#: ../libxfdashboard/applications-view.c:543
-#: ../libxfdashboard/applications-view.c:544
-#: ../libxfdashboard/applications-view.c:655
-#: ../libxfdashboard/applications-view.c:656
+#: ../libxfdashboard/applications-view.c:552
+#: ../libxfdashboard/applications-view.c:553
+#: ../libxfdashboard/applications-view.c:664
+#: ../libxfdashboard/applications-view.c:665
 msgid "Back"
 msgstr "뒤로"
 
-#: ../libxfdashboard/applications-view.c:543
-#: ../libxfdashboard/applications-view.c:655
+#: ../libxfdashboard/applications-view.c:552
+#: ../libxfdashboard/applications-view.c:664
 msgid "Go back to previous menu"
 msgstr "이전 메뉴로 돌아갑니다"
 
-#: ../libxfdashboard/applications-view.c:683
-#: ../libxfdashboard/applications-view.c:684
+#: ../libxfdashboard/applications-view.c:692
+#: ../libxfdashboard/applications-view.c:693
 msgid "All applications"
 msgstr "모든 프로그램"
 
-#: ../libxfdashboard/applications-view.c:683
+#: ../libxfdashboard/applications-view.c:692
 msgid "List of all installed applications"
 msgstr "설치한 모든 프로그램의 목록입니다"
 
@@ -520,7 +536,7 @@ msgstr "즐겨찾기에 추가합니다"
 
 #. Next add trash button to box but initially hidden and register as drop
 #. target
-#: ../libxfdashboard/quicklaunch.c:3225
+#: ../libxfdashboard/quicklaunch.c:3232
 msgid "Remove"
 msgstr "제거"
 
@@ -696,13 +712,13 @@ msgstr "최근 사용한 것"
 #: ../plugins/recently-used-search-provider/recently-used-search-provider.c:475
 #, c-format
 msgid "Launching application for '%s' failed: %s"
-msgstr ""
+msgstr "'%s'용 프로그램 실행 실패: %s"
 
 #: ../plugins/recently-used-search-provider/recently-used-search-provider.c:497
 #: ../plugins/recently-used-search-provider/recently-used-search-provider.c:518
 #, c-format
 msgid "Launching application for file '%s' failed: %s"
-msgstr ""
+msgstr "'%s' 파일용 프로그램 실행 실패: %s"
 
 #: ../settings/general.c:84
 msgid "Do nothing"
@@ -812,7 +828,7 @@ msgstr "버전 표시"
 
 #: ../xfdashboard/application.c:502
 msgid "A Gnome Shell like dashboard for Xfce4 - version "
-msgstr "Xfce4용 그놈 셸 유사 대시보드"
+msgstr "Xfce4용 그놈 셸 유사 대시보드 - 버전"
 
 #. Show error
 #: ../xfdashboard/application.c:519
