@@ -52,6 +52,8 @@ msgid ""
 "Xfdashboard provides a GNOME shell dashboard like interface for use with "
 "Xfce desktop."
 msgstr ""
+"Xfdashboard надає інтерфейс, схожий на панель оболонки GNOME, для "
+"використання з робочим столом Xfce."
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:3
 msgid ""
@@ -75,13 +77,15 @@ msgstr "Пошук програм"
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:6
 msgid "This stable release is the first major one :)"
-msgstr ""
+msgstr "Цей стабільний випуск є першим великим випуском :)"
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:7
 msgid ""
 "This release candidate adds a new last-minute feature with adding new "
 "actions for key binding as weill as lots of bug fixes."
 msgstr ""
+"Цей випуск-кандидат додає в останню хвилину нову функцію з додаванням нових "
+"дій для прив’язки клавіш, а також багато виправлень помилок."
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:8
 msgid ""
@@ -163,6 +167,8 @@ msgid ""
 "<span size=\"large\"><b>Xfdashboard settings</b></span>\n"
 "Configure xfdashboard"
 msgstr ""
+"<span size=\"large\"><b>Налаштування Xfdashboard </b></span>\n"
+"Налаштувати xfdashboard"
 
 #: ../data/data/preferences.ui.h:5
 msgid "<b>General settings:</b>"
@@ -170,7 +176,7 @@ msgstr "<b>Загальні налаштування:</b>"
 
 #: ../data/data/preferences.ui.h:6
 msgid "Reset search view when resumed"
-msgstr ""
+msgstr "Скидати вигляд пошуку при кожному запуску"
 
 #: ../data/data/preferences.ui.h:7
 msgid ""
@@ -178,6 +184,9 @@ msgid ""
 "\n"
 "<b>NOTE:</b> This setting only takes effect if xfdashboard is running in daemon mode. "
 msgstr ""
+"Якщо ввімкнено, вигляд пошуку буде скинуто, коли xfdashboard буде запущено. Це означає, що активний перегляд повернеться до останнього, активного перед початком попередньго пошуку, і вікно пошуку буде очищено.\n"
+"\n"
+"<b>ПРИМІТКА:</b> Цей параметр діє, лише якщо xfdashboard працює в режимі демона."
 
 #: ../data/data/preferences.ui.h:10
 msgid ""
@@ -221,17 +230,20 @@ msgstr ""
 
 #: ../data/data/preferences.ui.h:25
 msgid "Priority of window content creation"
-msgstr ""
+msgstr "Пріоритет створення вмісту вікна"
 
 #: ../data/data/preferences.ui.h:26
 msgid "Show child windows in main windows"
-msgstr ""
+msgstr "Показувати дочірні вікна в головних вікнах"
 
 #: ../data/data/preferences.ui.h:27
 msgid ""
 "When enabled all live window previews will also show their child windows. "
 "Disabling this option will increase performance on slower machines."
 msgstr ""
+"Якщо ввімкнено, у всіх попередніх переглядах поточних вікон також "
+"відображатимуться їхні дочірні вікна. Вимкнення цієї опції збільшить "
+"продуктивність на повільніших машинах."
 
 #: ../data/data/preferences.ui.h:28
 msgid "Always start a new instance for application"
@@ -250,25 +262,27 @@ msgstr "Дозволити анімації"
 
 #: ../data/data/preferences.ui.h:33
 msgid "If enabled theme-defined animations will be shown."
-msgstr ""
+msgstr "Якщо ввімкнено, відображатимуться анімації, визначені темою."
 
 #: ../data/data/preferences.ui.h:34
 msgid "<b>Applications view:</b>"
-msgstr ""
+msgstr "<b>Вигляд додатків:</b>"
 
 #: ../data/data/preferences.ui.h:35
 msgid "Show menu for all installed applications"
-msgstr ""
+msgstr "Показати меню для всіх встановлених додатків"
 
 #: ../data/data/preferences.ui.h:36
 msgid ""
 "When enabled an \"all applications\" menu containing all installed "
 "applications will be shown at applications view"
 msgstr ""
+"Якщо ввімкнено, у вікні перегляду додатків відображатиметься меню «Усі "
+"додатки», яке містить усі встановлені додатки"
 
 #: ../data/data/preferences.ui.h:37
 msgid "<b>Windows view:</b>"
-msgstr ""
+msgstr "<b>Вигляд вікон:</b>"
 
 #: ../data/data/preferences.ui.h:38
 msgid "Mouse wheel changes workspace"
@@ -283,7 +297,7 @@ msgstr ""
 
 #: ../data/data/preferences.ui.h:40
 msgid "<b>Search view:</b>"
-msgstr ""
+msgstr "<b>Вигляд пошуку:</b>"
 
 #: ../data/data/preferences.ui.h:41
 msgid ""
