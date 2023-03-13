@@ -33,7 +33,7 @@ msgstr "Xfdashboard"
 #: ../data/org.xfce.xfdashboard.desktop.in.in.h:2
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:1
 msgid "Maybe a Gnome shell like dashboard for Xfce"
-msgstr ""
+msgstr "Інтерфейс Gnome shell для середовища Xfce"
 
 #: ../data/org.xfce.xfdashboard-autostart.desktop.in.in.h:2
 msgid "Start xfdashboard as daemon in background"
@@ -156,7 +156,7 @@ msgstr ""
 
 #: ../data/data/preferences.ui.h:1
 msgid "<span size=\"large\"><b>Xfdashboard settings</b></span>"
-msgstr ""
+msgstr "<span size=\"large\"><b>Налаштування xfdashboard</b></span>"
 
 #: ../data/data/preferences.ui.h:2
 msgid "Configure plugin"
@@ -194,10 +194,13 @@ msgid ""
 "\n"
 "<b>NOTE:</b> This setting only takes effect if xfdashboard is running in daemon mode."
 msgstr ""
+"Коли xfdashboard відновить роботу, буде активовано вибраний режим перегляду.\n"
+"\n"
+"<b>Примітка:</b> Цей параметр діє, лише якщо xfdashboard працює в режимі демона."
 
 #: ../data/data/preferences.ui.h:13
 msgid "Switch to view when resumed:"
-msgstr ""
+msgstr "Перегляд при відновленні роботи:"
 
 #: ../data/data/preferences.ui.h:14
 msgid ""
@@ -212,7 +215,7 @@ msgstr "Найменший час нагадування:"
 
 #: ../data/data/preferences.ui.h:18
 msgid "Enable workaround for minimized windows"
-msgstr ""
+msgstr "Увімкнути обхідний шлях для згорнутих вікон"
 
 #: ../data/data/preferences.ui.h:19
 msgid ""
@@ -255,6 +258,9 @@ msgid ""
 "\n"
 "When not enabled it will select the last known active window of the running application instance. If application is not running, a new instance will be started."
 msgstr ""
+"Якщо ввімкнено та натиснуто значок в панелі швидкого запуску, завжди запускатиметься новий екземпляр програми.\n"
+"\n"
+"Якщо не ввімкнено, буде вибрано останнє відоме активне вікно запущеного екземпляра програми. Якщо програма не запущена, буде запущено новий екземпляр."
 
 #: ../data/data/preferences.ui.h:32
 msgid "Enable animations"
@@ -286,7 +292,7 @@ msgstr "<b>Вигляд вікон:</b>"
 
 #: ../data/data/preferences.ui.h:38
 msgid "Mouse wheel changes workspace"
-msgstr ""
+msgstr "Переключати робочі області колесом миші"
 
 #: ../data/data/preferences.ui.h:39
 msgid ""
@@ -347,55 +353,55 @@ msgstr "xfdashboard"
 
 #: ../data/themes/xfdashboard/xfdashboard.theme.in.in.h:2
 msgid "Default theme for xfdashboard"
-msgstr ""
+msgstr "Тема за замовчуванням для xfdashboard"
 
 #: ../data/themes/xfdashboard-auber/xfdashboard.theme.in.in.h:1
 msgid "xfdashboard-auber"
-msgstr ""
+msgstr "Auber"
 
 #: ../data/themes/xfdashboard-auber/xfdashboard.theme.in.in.h:2
 msgid "Aubergine theme for xfdashboard"
-msgstr ""
+msgstr "Баклажанова тема для xfdashboard"
 
 #: ../data/themes/xfdashboard-blue/xfdashboard.theme.in.in.h:1
 msgid "xfdashboard-blue"
-msgstr ""
+msgstr "Blue"
 
 #: ../data/themes/xfdashboard-blue/xfdashboard.theme.in.in.h:2
 msgid "Blue theme for xfdashboard"
-msgstr ""
+msgstr "Синя тема для xfdashboard"
 
 #: ../data/themes/xfdashboard-dark/xfdashboard.theme.in.in.h:1
 msgid "xfdashboard-dark"
-msgstr ""
+msgstr "Dark"
 
 #: ../data/themes/xfdashboard-dark/xfdashboard.theme.in.in.h:2
 msgid "Dark theme for xfdashboard"
-msgstr ""
+msgstr "Темна тема для xfdashboard"
 
 #: ../data/themes/xfdashboard-mint/xfdashboard.theme.in.in.h:1
 msgid "xfdashboard-mint"
-msgstr ""
+msgstr "Mint"
 
 #: ../data/themes/xfdashboard-mint/xfdashboard.theme.in.in.h:2
 msgid "Fresh-green flavored theme for xfdashboard"
-msgstr ""
+msgstr "Тема свіжої зелені для xfdashboard"
 
 #: ../data/themes/xfdashboard-moranga/xfdashboard.theme.in.in.h:1
 msgid "xfdashboard-moranga"
-msgstr ""
+msgstr "Moranga"
 
 #: ../data/themes/xfdashboard-moranga/xfdashboard.theme.in.in.h:2
 msgid "Moranga theme for xfdashboard"
-msgstr ""
+msgstr "Тема Moranga для xfdashboard"
 
 #: ../data/themes/xfdashboard-wine/xfdashboard.theme.in.in.h:1
 msgid "xfdashboard-wine"
-msgstr ""
+msgstr "Wine"
 
 #: ../data/themes/xfdashboard-wine/xfdashboard.theme.in.in.h:2
 msgid "Red wine theme for xfdashboard"
-msgstr ""
+msgstr "Тема червоного вина для xfdashboard"
 
 #: ../libxfdashboard/application-button.c:267
 #, c-format
@@ -487,7 +493,7 @@ msgstr "Список усіх встановлених додатків"
 #: ../libxfdashboard/core.c:371
 #, c-format
 msgid "Could not load theme '%s': %s"
-msgstr ""
+msgstr "Не вдалося завантажити тему  '%s': %s"
 
 #: ../libxfdashboard/core.c:1268
 #, c-format
