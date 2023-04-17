@@ -334,8 +334,9 @@ msgid ""
 "When enabled an \"all applications\" menu containing all installed "
 "applications will be shown at applications view"
 msgstr ""
-"Une fois activé, un menu \"toutes les applications\" contenant toutes les "
-"applications installées sera présentée à voir applications"
+"Lorsque cette option est activée, un menu « toutes les applications » "
+"contenant toutes les applications installées s’affiche dans la vue des "
+"applications."
 
 #: ../data/data/preferences.ui.h:37
 msgid "<b>Windows view:</b>"
