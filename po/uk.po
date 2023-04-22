@@ -18,7 +18,7 @@ msgstr ""
 "POT-Creation-Date: 2022-11-28 15:06+0100\n"
 "PO-Revision-Date: 2020-10-07 10:59+0000\n"
 "Last-Translator: Gordon Freeman, 2023\n"
-"Language-Team: Ukrainian (https://www.transifex.com/xfce/teams/16840/uk/)\n"
+"Language-Team: Ukrainian (https://app.transifex.com/xfce/teams/16840/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -92,6 +92,8 @@ msgid ""
 "This release candidate adds a new property \"visibility\" to all actors and "
 "fixes compiler warnings."
 msgstr ""
+"Цей випуск-кандидат додає нову властивість «видимість» для всіх акторів і "
+"виправляє попередження компілятора."
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:9
 msgid "This unstable development version fixes the mode to run in background."
@@ -310,10 +312,12 @@ msgid ""
 "Sets the interval the search should be delayed by after the first character "
 "was entered."
 msgstr ""
+"Встановлює інтервал, на який має відкладатися пошук після введення першого "
+"символу."
 
 #: ../data/data/preferences.ui.h:42
 msgid "Delay initial search interval:"
-msgstr ""
+msgstr "Затримка початкового інтервалу пошуку:"
 
 #: ../data/data/preferences.ui.h:43
 msgid "General"
@@ -406,7 +410,7 @@ msgstr "Тема червоного вина для xfdashboard"
 #: ../libxfdashboard/application-button.c:267
 #, c-format
 msgid "Could not execute action '%s' for application '%s': %s"
-msgstr ""
+msgstr "Не вдалося виконати дію '%s' для програми '%s': %s"
 
 #: ../libxfdashboard/application-button.c:270 ../settings/main.c:76
 #: ../settings/plugins.c:794
@@ -507,19 +511,19 @@ msgstr "Ласкаво просимо до %s!"
 
 #: ../libxfdashboard/quicklaunch.c:384
 msgid "No windows to activate for application"
-msgstr ""
+msgstr "Немає вікон для активації програми"
 
 #: ../libxfdashboard/quicklaunch.c:507 ../libxfdashboard/quicklaunch.c:1243
 #: ../libxfdashboard/quicklaunch.c:2053
 #, c-format
 msgid "Favourite '%s' removed"
-msgstr ""
+msgstr "Улюблене '%s' видалено"
 
 #: ../libxfdashboard/quicklaunch.c:606 ../libxfdashboard/quicklaunch.c:925
 #: ../libxfdashboard/quicklaunch.c:1986
 #, c-format
 msgid "Favourite '%s' added"
-msgstr ""
+msgstr "Улюблене '%s' додано"
 
 #: ../libxfdashboard/quicklaunch.c:687
 msgid "Remove from favourites"
@@ -568,7 +572,7 @@ msgstr "Вікна"
 
 #: ../plugins/autopin-windows/plugin.c:71
 msgid "Auto-pin windows"
-msgstr ""
+msgstr "Вікна з автозакріпленням"
 
 #: ../plugins/autopin-windows/plugin.c:72
 msgid ""
@@ -588,7 +592,7 @@ msgstr "Кольор для годин:"
 
 #: ../plugins/clock-view/plugin.c:213
 msgid "Choose color for hour hand"
-msgstr ""
+msgstr "Виберіть колір годинникової стрілки"
 
 #. Add widget to choose minute color
 #: ../plugins/clock-view/plugin.c:218
@@ -597,7 +601,7 @@ msgstr "Кольор для хвилин:"
 
 #: ../plugins/clock-view/plugin.c:228
 msgid "Choose color for minute hand"
-msgstr ""
+msgstr "Виберіть колір хвилинної стрілки"
 
 #. Add widget to choose second color
 #: ../plugins/clock-view/plugin.c:233
@@ -606,7 +610,7 @@ msgstr "Кольор для секунд:"
 
 #: ../plugins/clock-view/plugin.c:243
 msgid "Choose color for second hand"
-msgstr ""
+msgstr "Виберіть колір секундної стрілки"
 
 #. Add widget to choose minute color
 #: ../plugins/clock-view/plugin.c:248
@@ -615,11 +619,11 @@ msgstr "Колір тла:"
 
 #: ../plugins/clock-view/plugin.c:258
 msgid "Choose color for background of second hand"
-msgstr ""
+msgstr "Виберіть колір фону секундної стрілки"
 
 #: ../plugins/clock-view/plugin.c:312
 msgid "Adds a new view showing a clock"
-msgstr ""
+msgstr "Додати нове відображення годинника"
 
 #: ../plugins/example-search-provider/example-search-provider.c:67
 msgid "Example search"
@@ -657,12 +661,12 @@ msgstr "Негайно"
 #. Add widget to choose activation corner
 #: ../plugins/hot-corner/plugin.c:325
 msgid "Activation corner:"
-msgstr ""
+msgstr "Куточок активації:"
 
 #. Add widget to choose activation radius
 #: ../plugins/hot-corner/plugin.c:361
 msgid "Radius of activation corner:"
-msgstr ""
+msgstr "Радіус куточку активації:"
 
 #. Add widget to choose activation duration
 #: ../plugins/hot-corner/plugin.c:379
@@ -672,17 +676,18 @@ msgstr "Час активації завершено."
 #. Add widget to limit checks to primary monitor only or to all monitors
 #: ../plugins/hot-corner/plugin.c:401
 msgid "Primary monitor only"
-msgstr ""
+msgstr "Лише на головному моніторі"
 
 #: ../plugins/hot-corner/plugin.c:457
 msgid "Hot corner"
-msgstr ""
+msgstr "Гарячий куточок"
 
 #: ../plugins/hot-corner/plugin.c:458
 msgid ""
 "Activates xfdashboard when pointer is moved to a configured corner of "
 "monitor"
 msgstr ""
+"Активує xfdashboard, коли вказівник переміщується до обраного кута монітора"
 
 #: ../plugins/middle-click-window-close/plugin.c:71
 msgid "Middle-click window close"
@@ -707,13 +712,13 @@ msgstr "Нещодавно використані"
 #: ../plugins/recently-used-search-provider/recently-used-search-provider.c:475
 #, c-format
 msgid "Launching application for '%s' failed: %s"
-msgstr ""
+msgstr "Запуск програми для '%s' не вдався: %s"
 
 #: ../plugins/recently-used-search-provider/recently-used-search-provider.c:497
 #: ../plugins/recently-used-search-provider/recently-used-search-provider.c:518
 #, c-format
 msgid "Launching application for file '%s' failed: %s"
-msgstr ""
+msgstr "Запуск програми для файлу '%s' не вдався: %s"
 
 #: ../settings/general.c:84
 msgid "Do nothing"
