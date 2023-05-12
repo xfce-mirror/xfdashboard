@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-28 15:06+0100\n"
+"POT-Creation-Date: 2023-05-05 10:54+0200\n"
 "PO-Revision-Date: 2020-10-07 10:59+0000\n"
 "Last-Translator: Gordon Freeman, 2023\n"
 "Language-Team: Ukrainian (https://app.transifex.com/xfce/teams/16840/uk/)\n"
@@ -97,13 +97,15 @@ msgstr ""
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:9
 msgid "This unstable development version fixes the mode to run in background."
-msgstr ""
+msgstr "Ця нестабільна версія для розробки виправляє режим роботи у фоні."
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:10
 msgid ""
 "This unstable development version introduces a new plugin to pin windows on "
 "secondary monitors automatically."
 msgstr ""
+"У цій нестабільній версії для розробки представлено новий плагін для "
+"автоматичного закріплення вікон на додаткових моніторах."
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:11
 msgid ""
@@ -210,6 +212,9 @@ msgid ""
 "\n"
 "The duration is calculated by the length of the text to show in notification. This setting allows you to specify how long the notification must be shown at least."
 msgstr ""
+"Встановлює мінімальний час показу сповіщення.\n"
+"\n"
+"Тривалість розраховується за довжиною тексту, який буде показано в сповіщенні. Цей параметр дозволяє вказати принаймні тривалість показу сповіщення."
 
 #: ../data/data/preferences.ui.h:17
 msgid "Minimum notification timeout:"
@@ -225,6 +230,9 @@ msgid ""
 "\n"
 "<b>NOTE:</b> Be aware that this is a <u>workaround</u> and your minimized windows could stay unminimized, change workspace etc."
 msgstr ""
+"Якщо ввімкнути обхідний шлях для мінімізованих вікон, буде зроблена спроба отримати статичні зображення цих вікон шляхом їх короткого відновлення та повторного згортання. \n"
+"\n"
+"<b>ПРИМІТКА:</b>Майте на увазі, що це <u>обхідний шлях</u>, і ваші згорнуті вікна можуть залишитися не згорнутими, змінити робочу область тощо."
 
 #: ../data/data/preferences.ui.h:22
 msgid ""
@@ -232,6 +240,9 @@ msgid ""
 "\n"
 "<b>NOTE:</b> Only change this value from 'immediate' to other value if your graphics card, driver or system is too slow to create the window contents immediately. You have to try each value to find the one fitting your system."
 msgstr ""
+"Це значення визначає швидкість створення вмісту вікна. У той час як значення «Негайно» вказує xfdashboard створювати вміст вікна в той час, коли його запитують, усі інші значення встановлюють чергу, а значення визначає швидкість обробки черги.\n"
+"\n"
+"<b>ПРИМІТКА:</b>Змінюйте це значення з «Негайного» на інше, лише якщо ваша графічна карта, драйвер або система надто повільні для негайного створення вмісту вікна. Ви повинні спробувати кожне значення, щоб знайти те, що підходить для вашої системи."
 
 #: ../data/data/preferences.ui.h:25
 msgid "Priority of window content creation"
@@ -302,6 +313,9 @@ msgid ""
 "view will change the active workspace. This behaviour is the same as in "
 "workspace selector."
 msgstr ""
+"Якщо ввімкнено, будь-яка подія прокручування у режимі перегляду вікон, як-от"
+" коліщатко миші вгору та вниз, змінить активну робочу область. Ця поведінка "
+"така ж, як у селектора робочої області."
 
 #: ../data/data/preferences.ui.h:40
 msgid "<b>Search view:</b>"
@@ -412,7 +426,7 @@ msgstr "Тема червоного вина для xfdashboard"
 msgid "Could not execute action '%s' for application '%s': %s"
 msgstr "Не вдалося виконати дію '%s' для програми '%s': %s"
 
-#: ../libxfdashboard/application-button.c:270 ../settings/main.c:76
+#: ../libxfdashboard/application-button.c:270 ../settings/main.c:74
 #: ../settings/plugins.c:794
 msgid "Unknown error"
 msgstr "Невідома помилка"
@@ -579,6 +593,8 @@ msgid ""
 "Pins windows on secondary windows or unpins windows on primary windows "
 "automatically"
 msgstr ""
+"Автоматично закріплює вікна на додаткових вікнах або відкріплює вікна на "
+"основних"
 
 #. Set up view
 #: ../plugins/clock-view/clock-view.c:307 ../plugins/clock-view/plugin.c:311
@@ -635,19 +651,19 @@ msgstr "Приклад пошуковиків"
 
 #: ../plugins/example-search-provider/plugin.c:76
 msgid "This is just a useless example search provider plugin"
-msgstr ""
+msgstr "Це лише некорисний приклад плагіна пошукової служби"
 
 #: ../plugins/gnome-shell-search-provider/plugin.c:464
 msgid "Gnome-Shell search provider"
-msgstr ""
+msgstr "Пошуковик Gnome-Shell"
 
 #: ../plugins/gnome-shell-search-provider/plugin.c:465
 msgid "Uses Gnome-Shell search providers as source for searches"
-msgstr ""
+msgstr "Використовує пошуковики Gnome-Shell як джерела для пошуку"
 
 #: ../plugins/hot-corner/plugin.c:194
 msgid "s"
-msgstr "s"
+msgstr "с"
 
 #: ../plugins/hot-corner/plugin.c:198 ../settings/general.c:320
 msgid "ms"
@@ -695,15 +711,15 @@ msgstr "Середня кнопка - закрити вікно."
 
 #: ../plugins/middle-click-window-close/plugin.c:72
 msgid "Closes windows in windows view by middle-click"
-msgstr ""
+msgstr "Закрити вікна у перегляді вікон клацанням середньої кнопки миші"
 
 #: ../plugins/recently-used-search-provider/plugin.c:75
 msgid "Recently used search provider"
-msgstr ""
+msgstr "Нещодавно використаний пошуковик"
 
 #: ../plugins/recently-used-search-provider/plugin.c:76
 msgid "A search provider using recently used files as source"
-msgstr ""
+msgstr "Пошуковик, що використовує нещодавні файли як джерело"
 
 #: ../plugins/recently-used-search-provider/recently-used-search-provider.c:246
 msgid "Recently used"
@@ -761,11 +777,11 @@ msgid "Version information"
 msgstr "Інформація про версію"
 
 #. Initialize GTK+
-#: ../settings/main.c:70
+#: ../settings/main.c:68
 msgid "."
 msgstr "."
 
-#: ../settings/main.c:74
+#: ../settings/main.c:72
 #, c-format
 msgid ""
 "%s: %s\n"
@@ -822,6 +838,8 @@ msgstr ""
 #: ../xfdashboard/application.c:482
 msgid "The ID of view to switch to on startup or resume"
 msgstr ""
+"Ідентифікатор перегляду, до якого потрібно перейти під час запуску або "
+"відновлення"
 
 #: ../xfdashboard/application.c:483
 msgid "Show version"
