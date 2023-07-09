@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-05 10:54+0200\n"
+"POT-Creation-Date: 2023-05-30 00:52+0200\n"
 "PO-Revision-Date: 2020-10-07 10:59+0000\n"
 "Last-Translator: Gordon Freeman, 2023\n"
 "Language-Team: Ukrainian (https://app.transifex.com/xfce/teams/16840/uk/)\n"
@@ -112,12 +112,16 @@ msgid ""
 "This unstable development version improves window placement and a new search"
 " plugin looking for matches against the recently used documents."
 msgstr ""
+"У цій нестабільній версії для розробки покращено розміщення вікон і новий "
+"плагін пошуку, який шукає збіги з нещодавно використаними документами."
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:12
 msgid ""
 "This unstable development version completes gradients with linear gradients "
 "for outline and background filling."
 msgstr ""
+"Ця нестабільна версія для розробки доповнює градієнти лінійними градієнтами "
+"для заповнення контурів та фону."
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:13
 msgid ""
@@ -125,18 +129,26 @@ msgid ""
 "libxfdashboard into a real library and introduces path gradients for "
 "outlines."
 msgstr ""
+"У цій нестабільній версії для розробки представлено повне перетворення "
+"libxfdashboard на справжню бібліотеку та представлено градієнти траєкторії "
+"для контурів."
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:14
 msgid ""
 "This unstable development version introduces nothing user visible but begin "
 "moving libxfdashboard into a real library."
 msgstr ""
+"У цій нестабільній версії для розробки немає нічого видимого для "
+"користувача, але починається перетворення libxfdashboard у справжню "
+"бібліотеку."
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:15
 msgid ""
 "This stable version fixes a bug and replaces AppInfo with AppStream "
 "metainfo."
 msgstr ""
+"Ця стабільна версія виправляє помилку та замінює AppInfo метаінформацією "
+"AppStream."
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:16
 msgid ""
@@ -144,12 +156,17 @@ msgid ""
 "menus, multiple backend and support for jumplists etc. It also includes lots"
 " of new and updated translations."
 msgstr ""
+"У цій стабільній версії представлено багато нових функцій, як-от анімація, "
+"спливаючі меню, кілька способів відмальовки і підтримка списків переходів "
+"тощо."
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:17
 msgid ""
 "This stable version fixes a bug setting the correct default applications at "
 "first use."
 msgstr ""
+"Ця стабільна версія виправляє помилку встановлення правильних програм за "
+"замовчуванням під час першого використання."
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:18
 msgid ""
@@ -157,6 +174,9 @@ msgid ""
 "application tracker. It also contains a huge collection of other larger and "
 "smaller improvements."
 msgstr ""
+"У цій стабільній версії представлено багато нових функцій, таких як плагіни "
+"та трекер програм. Вона також містить величезну кількість інших більших і "
+"менших покращень."
 
 #: ../data/data/preferences.ui.h:1
 msgid "<span size=\"large\"><b>Xfdashboard settings</b></span>"
