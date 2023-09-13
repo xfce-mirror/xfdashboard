@@ -5,20 +5,20 @@
 # 
 # Translators:
 # Chris Darnell <chris@cedeel.com>, 2020
-# Aputsiak Niels Janussen <aj@isit.gl>, 2020
+# Aputsiak Niels Janussen <aputtu@gmail.com>, 2020
 # Xfce Bot <transifex@xfce.org>, 2020
 # Nick Schermer <nick@xfce.org>, 2021
-# scootergrisen, 2022
+# scootergrisen, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-17 12:53+0100\n"
+"POT-Creation-Date: 2023-05-30 00:52+0200\n"
 "PO-Revision-Date: 2020-10-07 10:59+0000\n"
-"Last-Translator: scootergrisen, 2022\n"
-"Language-Team: Danish (https://www.transifex.com/xfce/teams/16840/da/)\n"
+"Last-Translator: scootergrisen, 2023\n"
+"Language-Team: Danish (https://app.transifex.com/xfce/teams/16840/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -77,6 +77,19 @@ msgid "Searching applications"
 msgstr "Søger efter programmer"
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:6
+msgid "This stable release is the first major one :)"
+msgstr "Denne stabile udgivelse er den første større udgivelse :)"
+
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:7
+msgid ""
+"This release candidate adds a new last-minute feature with adding new "
+"actions for key binding as weill as lots of bug fixes."
+msgstr ""
+"Denne udgivelseskandidat tilføjer en ny funktionalitet i sidste øjeblik med "
+"tilføjelse af nye handlinger til tastebindinger samt massere af "
+"fejlrettelser."
+
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:8
 msgid ""
 "This release candidate adds a new property \"visibility\" to all actors and "
 "fixes compiler warnings."
@@ -84,12 +97,12 @@ msgstr ""
 "Udgivelseskandidaten tilføjer en ny egenskab til alle actors kaldet "
 "\"visibility\" og retter compileradvarsler."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:7
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:9
 msgid "This unstable development version fixes the mode to run in background."
 msgstr ""
 "Denne ustabile udviklingsversion retter tilstanden til at køre i baggrunden."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:8
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:10
 msgid ""
 "This unstable development version introduces a new plugin to pin windows on "
 "secondary monitors automatically."
@@ -97,7 +110,7 @@ msgstr ""
 "Denne ustabile udviklingsversion indfører et nyt plugin til automatisk at "
 "fastgøre vinduer til sekundære skærme."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:9
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:11
 msgid ""
 "This unstable development version improves window placement and a new search"
 " plugin looking for matches against the recently used documents."
@@ -105,7 +118,7 @@ msgstr ""
 "Denne ustabile udviklingsversioner forbedrer vinduesplacering og et nyt "
 "søgeplugin leder efter match i de seneste brugte dokumenter."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:10
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:12
 msgid ""
 "This unstable development version completes gradients with linear gradients "
 "for outline and background filling."
@@ -113,7 +126,7 @@ msgstr ""
 "Denne ustabile udviklingsversioner indfører gradienter med lineære "
 "gradienter til udfyldning af omrids og baggrunde."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:11
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:13
 msgid ""
 "This unstable development version introduces completes turning "
 "libxfdashboard into a real library and introduces path gradients for "
@@ -122,7 +135,7 @@ msgstr ""
 "Denne ustabile udviklingsversion indfører fuldførelse libxfdashboard som et "
 "ægte bibliotek og introducerer stigradienter til omrids."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:12
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:14
 msgid ""
 "This unstable development version introduces nothing user visible but begin "
 "moving libxfdashboard into a real library."
@@ -130,7 +143,7 @@ msgstr ""
 "Denne ustabile udviklingsversion indfører ikke noget som er synligt for "
 "brugeren men flytter libxfdashboard ind i et ægte bibliotek."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:13
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:15
 msgid ""
 "This stable version fixes a bug and replaces AppInfo with AppStream "
 "metainfo."
@@ -138,7 +151,7 @@ msgstr ""
 "Denne stabile version retter en fejl og erstatter AppInfo- med AppStream-"
 "metainfo."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:14
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:16
 msgid ""
 "This stable version introduces lots of new features like animations, pop-up "
 "menus, multiple backend and support for jumplists etc. It also includes lots"
@@ -148,7 +161,7 @@ msgstr ""
 "animationer pop op-menuer, adskillige motorer og understøttelse af hoplister"
 " osv. Den indeholder også massere af nye og opdaterede oversættelser."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:15
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:17
 msgid ""
 "This stable version fixes a bug setting the correct default applications at "
 "first use."
@@ -156,7 +169,7 @@ msgstr ""
 "Denne stabile version retter en fejl ved indstilling af de korrekte "
 "standardprogrammer første gang det bruges."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:16
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:18
 msgid ""
 "This stable version introduces lots of new features like plugins and "
 "application tracker. It also contains a huge collection of other larger and "
@@ -429,23 +442,23 @@ msgstr "xfdashboard-wine"
 msgid "Red wine theme for xfdashboard"
 msgstr "Rødvin tema tile xfdashboard"
 
-#: ../libxfdashboard/application-button.c:262
+#: ../libxfdashboard/application-button.c:267
 #, c-format
 msgid "Could not execute action '%s' for application '%s': %s"
 msgstr "Kunne ikke udføre handlingen '%s' for programmet '%s': %s"
 
-#: ../libxfdashboard/application-button.c:265 ../settings/main.c:76
+#: ../libxfdashboard/application-button.c:270 ../settings/main.c:74
 #: ../settings/plugins.c:794
 msgid "Unknown error"
 msgstr "Ukendt fejl"
 
-#: ../libxfdashboard/application-button.c:282
+#: ../libxfdashboard/application-button.c:287
 #, c-format
 msgid "Executed action '%s' for application '%s'"
 msgstr "Udførte handlingen '%s' for programmet '%s'"
 
-#: ../libxfdashboard/application-button.c:743
-#: ../libxfdashboard/application-button.c:761
+#: ../libxfdashboard/application-button.c:748
+#: ../libxfdashboard/application-button.c:766
 #: ../libxfdashboard/applications-search-provider.c:765
 #: ../libxfdashboard/applications-view.c:332
 #: ../libxfdashboard/quicklaunch.c:334 ../libxfdashboard/quicklaunch.c:382
@@ -455,14 +468,14 @@ msgstr "Udførte handlingen '%s' for programmet '%s'"
 msgid "Launching application '%s' failed: %s"
 msgstr "Start af program '%s' mislykkede: %s"
 
-#: ../libxfdashboard/application-button.c:745
+#: ../libxfdashboard/application-button.c:750
 #: ../libxfdashboard/quicklaunch.c:336
 #: ../plugins/recently-used-search-provider/recently-used-search-provider.c:499
 #: ../plugins/recently-used-search-provider/recently-used-search-provider.c:520
 msgid "No information available for application"
 msgstr "Ingen information tilgængelige for programmet"
 
-#: ../libxfdashboard/application-button.c:763
+#: ../libxfdashboard/application-button.c:768
 #: ../libxfdashboard/applications-search-provider.c:767
 #: ../libxfdashboard/applications-view.c:334 ../libxfdashboard/core.c:373
 #: ../libxfdashboard/quicklaunch.c:442
@@ -472,7 +485,7 @@ msgstr "Ingen information tilgængelige for programmet"
 msgid "unknown error"
 msgstr "ukendt fejl"
 
-#: ../libxfdashboard/application-button.c:774
+#: ../libxfdashboard/application-button.c:779
 #: ../libxfdashboard/applications-search-provider.c:778
 #: ../libxfdashboard/applications-view.c:345
 #: ../libxfdashboard/quicklaunch.c:453
@@ -490,29 +503,29 @@ msgstr "Start"
 #. Set up view
 #. Add "applications" button
 #: ../libxfdashboard/applications-search-provider.c:1191
-#: ../libxfdashboard/applications-view.c:1580
-#: ../libxfdashboard/quicklaunch.c:3218
+#: ../libxfdashboard/applications-view.c:1589
+#: ../libxfdashboard/quicklaunch.c:3225
 msgid "Applications"
 msgstr "Programmer"
 
-#: ../libxfdashboard/applications-view.c:543
-#: ../libxfdashboard/applications-view.c:544
-#: ../libxfdashboard/applications-view.c:655
-#: ../libxfdashboard/applications-view.c:656
+#: ../libxfdashboard/applications-view.c:552
+#: ../libxfdashboard/applications-view.c:553
+#: ../libxfdashboard/applications-view.c:664
+#: ../libxfdashboard/applications-view.c:665
 msgid "Back"
 msgstr "Tilbage"
 
-#: ../libxfdashboard/applications-view.c:543
-#: ../libxfdashboard/applications-view.c:655
+#: ../libxfdashboard/applications-view.c:552
+#: ../libxfdashboard/applications-view.c:664
 msgid "Go back to previous menu"
 msgstr "Gå tilbage til forrige menu"
 
-#: ../libxfdashboard/applications-view.c:683
-#: ../libxfdashboard/applications-view.c:684
+#: ../libxfdashboard/applications-view.c:692
+#: ../libxfdashboard/applications-view.c:693
 msgid "All applications"
 msgstr "Alle programmer"
 
-#: ../libxfdashboard/applications-view.c:683
+#: ../libxfdashboard/applications-view.c:692
 msgid "List of all installed applications"
 msgstr "Liste over alle installerede programmer"
 
@@ -557,7 +570,7 @@ msgstr "Tilføj til favoritter"
 
 #. Next add trash button to box but initially hidden and register as drop
 #. target
-#: ../libxfdashboard/quicklaunch.c:3225
+#: ../libxfdashboard/quicklaunch.c:3232
 msgid "Remove"
 msgstr "Fjern"
 
@@ -786,11 +799,11 @@ msgid "Version information"
 msgstr "Versionsinformation"
 
 #. Initialize GTK+
-#: ../settings/main.c:70
+#: ../settings/main.c:68
 msgid "."
 msgstr "."
 
-#: ../settings/main.c:74
+#: ../settings/main.c:72
 #, c-format
 msgid ""
 "%s: %s\n"
