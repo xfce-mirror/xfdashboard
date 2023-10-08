@@ -8,17 +8,18 @@
 # Nick Schermer <nick@xfce.org>, 2020
 # Carles Muñoz Gorriz <carlesmu@internautas.org>, 2020
 # Xfce Bot <transifex@xfce.org>, 2020
-# Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2021
+# Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>, 2021
+# Oscar Perez <oscarpc@gmail.com>, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-04 12:53+0100\n"
+"POT-Creation-Date: 2023-05-30 00:52+0200\n"
 "PO-Revision-Date: 2020-10-07 10:59+0000\n"
-"Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2021\n"
-"Language-Team: Catalan (https://www.transifex.com/xfce/teams/16840/ca/)\n"
+"Last-Translator: Oscar Perez <oscarpc@gmail.com>, 2023\n"
+"Language-Team: Catalan (https://app.transifex.com/xfce/teams/16840/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -62,6 +63,11 @@ msgid ""
 "switch between different applications. The search feature works like Xfce's "
 "app finder which makes it convenient to search for and start applications."
 msgstr ""
+"Pot configurar-se per a ésser executar amb qualsevol drecera de teclat i "
+"proporciona una vista ràpida de les aplicacions actualment obertes, "
+"permetent a l'usuari canviar entre elles. L'opció de cerca funciona com el "
+"cercador d'aplicacions de l'Xfce, cosa que la fa convenient per a buscar i "
+"iniciar aplicacions."
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:4
 msgid "Browsing applications"
@@ -72,71 +78,110 @@ msgid "Searching applications"
 msgstr "Cerca d'aplicacions"
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:6
-msgid ""
-"This release candidate adds anew property \"visibility\" to all actors and "
-"fixes compiler warnings."
-msgstr ""
+msgid "This stable release is the first major one :)"
+msgstr "Aquesta versió estable és la primera important :)"
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:7
-msgid "This unstable development version fixes the mode to run in background."
+msgid ""
+"This release candidate adds a new last-minute feature with adding new "
+"actions for key binding as weill as lots of bug fixes."
 msgstr ""
+"Aquest candidat de lliurament afegeix una nova característica que permet "
+"associar noves accions a tecles, així com moltes correccions d'errors."
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:8
+msgid ""
+"This release candidate adds a new property \"visibility\" to all actors and "
+"fixes compiler warnings."
+msgstr ""
+"Aquest candidat de lliurament afegeix una nova propietat «visibilitat» a "
+"tots actors i corregeix avisos del compilador."
+
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:9
+msgid "This unstable development version fixes the mode to run in background."
+msgstr ""
+"Aquesta versió inestable de desenvolupament corregeix el mode d'execució en "
+"segon terme."
+
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:10
 msgid ""
 "This unstable development version introduces a new plugin to pin windows on "
 "secondary monitors automatically."
 msgstr ""
+"Aquesta versió inestable de desenvolupament introdueix un nou complement per"
+" a fixar finestres als monitors secundaris de manera automàtica."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:9
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:11
 msgid ""
 "This unstable development version improves window placement and a new search"
 " plugin looking for matches against the recently used documents."
 msgstr ""
+"Aquesta versió inestable de desenvolupament millora el posicionament de les "
+"finestres i incorpora un nou complement de cerca que busca per coincidències"
+" amb els documents recentment usats."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:10
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:12
 msgid ""
 "This unstable development version completes gradients with linear gradients "
 "for outline and background filling."
 msgstr ""
+"Aquesta versió inestable de desenvolupament completa els gradients amb "
+"gradients lineals per a omplir esquemes i fons."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:11
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:13
 msgid ""
 "This unstable development version introduces completes turning "
 "libxfdashboard into a real library and introduces path gradients for "
 "outlines."
 msgstr ""
+"Aquesta versió inestable de desenvolupament completa la conversió de "
+"libxfdashboard en una biblioteca real i introdueix gradients de camí per als"
+" esquemes."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:12
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:14
 msgid ""
 "This unstable development version introduces nothing user visible but begin "
 "moving libxfdashboard into a real library."
 msgstr ""
+"Aquesta versió inestable de desenvolupament no introdueix res visible a "
+"l'usuari, però comença la conversió de libxfdashboard en una biblioteca "
+"real."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:13
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:15
 msgid ""
 "This stable version fixes a bug and replaces AppInfo with AppStream "
 "metainfo."
 msgstr ""
+"Aquesta versió estable corregeix un error i substitueix l'AppInfo per la "
+"metainformació de l'AppStream."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:14
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:16
 msgid ""
 "This stable version introduces lots of new features like animations, pop-up "
 "menus, multiple backend and support for jumplists etc. It also includes lots"
 " of new and updated translations."
 msgstr ""
+"Aquesta versió estable introdueix moltes característiques noves, com "
+"animacions, menús emergents, múltiples servidors i suport per a llistes de "
+"salt, etc. També inclou moltes traduccions noves i actualitzades."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:15
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:17
 msgid ""
 "This stable version fixes a bug setting the correct default applications at "
 "first use."
 msgstr ""
+"Aquesta versió estable corregeix un error en establir les aplicacions "
+"predeterminades en el primer ús."
 
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:16
+#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:18
 msgid ""
 "This stable version introduces lots of new features like plugins and "
 "application tracker. It also contains a huge collection of other larger and "
 "smaller improvements."
 msgstr ""
+"Aquesta versió estable introdueix moltes característiques noves com "
+"complements i un seguiment d'aplicacions. També conté una gran col·lecció "
+"d'altres millores grans i petites."
 
 #: ../data/data/preferences.ui.h:1
 msgid "<span size=\"large\"><b>Xfdashboard settings</b></span>"
@@ -192,6 +237,9 @@ msgid ""
 "\n"
 "The duration is calculated by the length of the text to show in notification. This setting allows you to specify how long the notification must be shown at least."
 msgstr ""
+"Estableix el temps mínim que es mostrarà una notificació.\n"
+"\n"
+"La durada es calcula amb la llargada del text a mostrar a la notificació. Aquest paràmetre us permetrà especificar el temps mínim en què cal mostrar la notificació."
 
 #: ../data/data/preferences.ui.h:17
 msgid "Minimum notification timeout:"
@@ -207,6 +255,9 @@ msgid ""
 "\n"
 "<b>NOTE:</b> Be aware that this is a <u>workaround</u> and your minimized windows could stay unminimized, change workspace etc."
 msgstr ""
+"En habilitar-lo, s'intentarà un mètode alternatiu per a obtenir imatges immòbils de les finestres minimitzades restaurant-les ràpidament i tornant-les a minimitzar de seguida.\n"
+"\n"
+"<b>NOTA:<b/> Tingueu en compte que es tracta d'un <u>mètode alternatiu</u> i que les vostres finestres minimitzades podrien quedar desminimitzades, canviar d'espai de treball, etc."
 
 #: ../data/data/preferences.ui.h:22
 msgid ""
@@ -214,6 +265,9 @@ msgid ""
 "\n"
 "<b>NOTE:</b> Only change this value from 'immediate' to other value if your graphics card, driver or system is too slow to create the window contents immediately. You have to try each value to find the one fitting your system."
 msgstr ""
+"Aquest valor defineix com de ràpid s'ha de crear el contingut de la finestra. Mentre que el valor «immediat» indica a l'xfdashboard que creï el contingut de la finestra al moment de fer la petició, tots els altres valors establiran una cua i un valor que defineix com de ràpid serà processada.\n"
+"\n"
+"<b>NOTA:</b> Canvieu aquest valor des de «immediat» a un altre valor únicament si la vostra targeta gràfica, controlador o sistema és massa lent per a crear els continguts de la finestra immediatament. Haureu de provar cada valor per a trobar el que millor s'adapti al vostre sistema."
 
 #: ../data/data/preferences.ui.h:25
 msgid "Priority of window content creation"
@@ -221,7 +275,7 @@ msgstr "Prioritat de la creació del contingut de la finestra"
 
 #: ../data/data/preferences.ui.h:26
 msgid "Show child windows in main windows"
-msgstr ""
+msgstr "Mostra les finestres filles dins de les finestres principals"
 
 #: ../data/data/preferences.ui.h:27
 msgid ""
@@ -379,23 +433,23 @@ msgstr "xfdashboard-wine"
 msgid "Red wine theme for xfdashboard"
 msgstr "Tema vi negre per a xfdashboard"
 
-#: ../libxfdashboard/application-button.c:262
+#: ../libxfdashboard/application-button.c:267
 #, c-format
 msgid "Could not execute action '%s' for application '%s': %s"
 msgstr ""
 
-#: ../libxfdashboard/application-button.c:265 ../settings/main.c:76
+#: ../libxfdashboard/application-button.c:270 ../settings/main.c:74
 #: ../settings/plugins.c:794
 msgid "Unknown error"
 msgstr "Error desconegut"
 
-#: ../libxfdashboard/application-button.c:282
+#: ../libxfdashboard/application-button.c:287
 #, c-format
 msgid "Executed action '%s' for application '%s'"
 msgstr ""
 
-#: ../libxfdashboard/application-button.c:743
-#: ../libxfdashboard/application-button.c:761
+#: ../libxfdashboard/application-button.c:748
+#: ../libxfdashboard/application-button.c:766
 #: ../libxfdashboard/applications-search-provider.c:765
 #: ../libxfdashboard/applications-view.c:332
 #: ../libxfdashboard/quicklaunch.c:334 ../libxfdashboard/quicklaunch.c:382
@@ -405,14 +459,14 @@ msgstr ""
 msgid "Launching application '%s' failed: %s"
 msgstr "Ha fallat el llançament de l'aplicació «%s»: %s"
 
-#: ../libxfdashboard/application-button.c:745
+#: ../libxfdashboard/application-button.c:750
 #: ../libxfdashboard/quicklaunch.c:336
 #: ../plugins/recently-used-search-provider/recently-used-search-provider.c:499
 #: ../plugins/recently-used-search-provider/recently-used-search-provider.c:520
 msgid "No information available for application"
 msgstr "No hi ha disponible cap informació per a l'aplicació"
 
-#: ../libxfdashboard/application-button.c:763
+#: ../libxfdashboard/application-button.c:768
 #: ../libxfdashboard/applications-search-provider.c:767
 #: ../libxfdashboard/applications-view.c:334 ../libxfdashboard/core.c:373
 #: ../libxfdashboard/quicklaunch.c:442
@@ -422,7 +476,7 @@ msgstr "No hi ha disponible cap informació per a l'aplicació"
 msgid "unknown error"
 msgstr "error desconegut"
 
-#: ../libxfdashboard/application-button.c:774
+#: ../libxfdashboard/application-button.c:779
 #: ../libxfdashboard/applications-search-provider.c:778
 #: ../libxfdashboard/applications-view.c:345
 #: ../libxfdashboard/quicklaunch.c:453
@@ -440,29 +494,29 @@ msgstr "Llança"
 #. Set up view
 #. Add "applications" button
 #: ../libxfdashboard/applications-search-provider.c:1191
-#: ../libxfdashboard/applications-view.c:1580
-#: ../libxfdashboard/quicklaunch.c:3218
+#: ../libxfdashboard/applications-view.c:1589
+#: ../libxfdashboard/quicklaunch.c:3225
 msgid "Applications"
 msgstr "Aplicacions"
 
-#: ../libxfdashboard/applications-view.c:543
-#: ../libxfdashboard/applications-view.c:544
-#: ../libxfdashboard/applications-view.c:655
-#: ../libxfdashboard/applications-view.c:656
+#: ../libxfdashboard/applications-view.c:552
+#: ../libxfdashboard/applications-view.c:553
+#: ../libxfdashboard/applications-view.c:664
+#: ../libxfdashboard/applications-view.c:665
 msgid "Back"
 msgstr "Enrere"
 
-#: ../libxfdashboard/applications-view.c:543
-#: ../libxfdashboard/applications-view.c:655
+#: ../libxfdashboard/applications-view.c:552
+#: ../libxfdashboard/applications-view.c:664
 msgid "Go back to previous menu"
 msgstr "Torna al menú anterior"
 
-#: ../libxfdashboard/applications-view.c:683
-#: ../libxfdashboard/applications-view.c:684
+#: ../libxfdashboard/applications-view.c:692
+#: ../libxfdashboard/applications-view.c:693
 msgid "All applications"
 msgstr "Totes les aplicacions"
 
-#: ../libxfdashboard/applications-view.c:683
+#: ../libxfdashboard/applications-view.c:692
 msgid "List of all installed applications"
 msgstr "Llista de les aplicacions instal·lades"
 
@@ -507,7 +561,7 @@ msgstr "Afegeix als preferits"
 
 #. Next add trash button to box but initially hidden and register as drop
 #. target
-#: ../libxfdashboard/quicklaunch.c:3225
+#: ../libxfdashboard/quicklaunch.c:3232
 msgid "Remove"
 msgstr "Suprimeix"
 
@@ -734,11 +788,11 @@ msgid "Version information"
 msgstr "Informació de la versió"
 
 #. Initialize GTK+
-#: ../settings/main.c:70
+#: ../settings/main.c:68
 msgid "."
 msgstr "."
 
-#: ../settings/main.c:74
+#: ../settings/main.c:72
 #, c-format
 msgid ""
 "%s: %s\n"
