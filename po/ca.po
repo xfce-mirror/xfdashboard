@@ -282,6 +282,9 @@ msgid ""
 "When enabled all live window previews will also show their child windows. "
 "Disabling this option will increase performance on slower machines."
 msgstr ""
+"En habilitar-lo, totes les previsualitzacions de les finestres mostraran "
+"també les seves finestres filles. Deshabilitar aquesta opció incrementarà el"
+" rendiment en sistemes lents."
 
 #: ../data/data/preferences.ui.h:28
 msgid "Always start a new instance for application"
@@ -296,7 +299,7 @@ msgstr ""
 
 #: ../data/data/preferences.ui.h:32
 msgid "Enable animations"
-msgstr ""
+msgstr "Habilita les animacions"
 
 #: ../data/data/preferences.ui.h:33
 msgid "If enabled theme-defined animations will be shown."
