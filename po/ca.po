@@ -546,17 +546,17 @@ msgstr ""
 #: ../libxfdashboard/quicklaunch.c:2053
 #, c-format
 msgid "Favourite '%s' removed"
-msgstr ""
+msgstr "Eliminat el preferit «%s»"
 
 #: ../libxfdashboard/quicklaunch.c:606 ../libxfdashboard/quicklaunch.c:925
 #: ../libxfdashboard/quicklaunch.c:1986
 #, c-format
 msgid "Favourite '%s' added"
-msgstr ""
+msgstr "Afegit el preferit «%s»"
 
 #: ../libxfdashboard/quicklaunch.c:687
 msgid "Remove from favourites"
-msgstr ""
+msgstr "Elimina dels preferits"
 
 #: ../libxfdashboard/quicklaunch.c:701
 msgid "Add to favourites"
@@ -583,7 +583,7 @@ msgstr "Mostra tots els %d resultats..."
 #: ../libxfdashboard/search-view.c:979
 #, c-format
 msgid "No results found for '%s'"
-msgstr ""
+msgstr "No s'ha trobat resultats per a «%s»"
 
 #. Set up view (Note: Search view is disabled by default!)
 #: ../libxfdashboard/search-view.c:1719
@@ -601,7 +601,7 @@ msgstr "Finestres"
 
 #: ../plugins/autopin-windows/plugin.c:71
 msgid "Auto-pin windows"
-msgstr ""
+msgstr "Ancora automàticament les finestres"
 
 #: ../plugins/autopin-windows/plugin.c:72
 msgid ""
@@ -652,11 +652,11 @@ msgstr "Trieu el color per al fons de l'agulla dels segons"
 
 #: ../plugins/clock-view/plugin.c:312
 msgid "Adds a new view showing a clock"
-msgstr ""
+msgstr "Afegeix una nova vista mostrant un rellotge"
 
 #: ../plugins/example-search-provider/example-search-provider.c:67
 msgid "Example search"
-msgstr ""
+msgstr "Cerca d'exemple"
 
 #: ../plugins/example-search-provider/plugin.c:75
 msgid "Example search provider"
