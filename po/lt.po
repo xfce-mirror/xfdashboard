@@ -6,17 +6,17 @@
 # Translators:
 # Nick Schermer <nick@xfce.org>, 2020
 # Xfce Bot <transifex@xfce.org>, 2020
-# Moo, 2022
+# Moo, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-28 15:06+0100\n"
+"POT-Creation-Date: 2023-05-30 00:52+0200\n"
 "PO-Revision-Date: 2020-10-07 10:59+0000\n"
-"Last-Translator: Moo, 2022\n"
-"Language-Team: Lithuanian (https://www.transifex.com/xfce/teams/16840/lt/)\n"
+"Last-Translator: Moo, 2023\n"
+"Language-Team: Lithuanian (https://app.transifex.com/xfce/teams/16840/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -298,7 +298,7 @@ msgstr "Įjungti animacijas"
 
 #: ../data/data/preferences.ui.h:33
 msgid "If enabled theme-defined animations will be shown."
-msgstr "Jei įjungta, bus rodomos temos apibrėžtos animacijos."
+msgstr "Jei įjungta, bus rodomos apipavidalinimo apibrėžtos animacijos."
 
 #: ../data/data/preferences.ui.h:34
 msgid "<b>Applications view:</b>"
@@ -372,7 +372,7 @@ msgstr "<b>Aprašas:</b>"
 
 #: ../data/data/preferences.ui.h:48
 msgid "Themes"
-msgstr "Temos"
+msgstr "Apipavidalinimai"
 
 #: ../data/data/preferences.ui.h:49
 msgid "<b>License:</b>"
@@ -388,7 +388,7 @@ msgstr "xfdashboard"
 
 #: ../data/themes/xfdashboard/xfdashboard.theme.in.in.h:2
 msgid "Default theme for xfdashboard"
-msgstr "Numatytoji xfdashboard tema"
+msgstr "Numatytasis xfdashboard apipavidalinimas"
 
 #: ../data/themes/xfdashboard-auber/xfdashboard.theme.in.in.h:1
 msgid "xfdashboard-auber"
@@ -396,7 +396,7 @@ msgstr "xfdashboard-baklažanas"
 
 #: ../data/themes/xfdashboard-auber/xfdashboard.theme.in.in.h:2
 msgid "Aubergine theme for xfdashboard"
-msgstr "Baklažaninė xfdashboard tema"
+msgstr "Baklažaninis xfdashboard apipavidalinimas"
 
 #: ../data/themes/xfdashboard-blue/xfdashboard.theme.in.in.h:1
 msgid "xfdashboard-blue"
@@ -404,7 +404,7 @@ msgstr "xfdashboard-mėlyna"
 
 #: ../data/themes/xfdashboard-blue/xfdashboard.theme.in.in.h:2
 msgid "Blue theme for xfdashboard"
-msgstr "Mėlyna xfdashboard tema"
+msgstr "Mėlynas xfdashboard apipavidalinimas"
 
 #: ../data/themes/xfdashboard-dark/xfdashboard.theme.in.in.h:1
 msgid "xfdashboard-dark"
@@ -412,7 +412,7 @@ msgstr "xfdashboard-tamsi"
 
 #: ../data/themes/xfdashboard-dark/xfdashboard.theme.in.in.h:2
 msgid "Dark theme for xfdashboard"
-msgstr "Tamsi xfdashboard tema"
+msgstr "Tamsus xfdashboard apipavidalinimas"
 
 #: ../data/themes/xfdashboard-mint/xfdashboard.theme.in.in.h:1
 msgid "xfdashboard-mint"
@@ -420,7 +420,7 @@ msgstr "xfdashboard-mėta"
 
 #: ../data/themes/xfdashboard-mint/xfdashboard.theme.in.in.h:2
 msgid "Fresh-green flavored theme for xfdashboard"
-msgstr "Šviežiai žalia xfdashboard tema"
+msgstr "Šviežiai žalias xfdashboard apipavidalinimas"
 
 #: ../data/themes/xfdashboard-moranga/xfdashboard.theme.in.in.h:1
 msgid "xfdashboard-moranga"
@@ -428,7 +428,7 @@ msgstr "xfdashboard-moliūgas"
 
 #: ../data/themes/xfdashboard-moranga/xfdashboard.theme.in.in.h:2
 msgid "Moranga theme for xfdashboard"
-msgstr "Moliūginė xfdashboard tema"
+msgstr "Moliūginis xfdashboard apipavidalinimas"
 
 #: ../data/themes/xfdashboard-wine/xfdashboard.theme.in.in.h:1
 msgid "xfdashboard-wine"
@@ -436,14 +436,14 @@ msgstr "xfdashboard-vynas"
 
 #: ../data/themes/xfdashboard-wine/xfdashboard.theme.in.in.h:2
 msgid "Red wine theme for xfdashboard"
-msgstr "Raudono vyno xfdashboard tema"
+msgstr "Raudono vyno xfdashboard apipavidalinimas"
 
 #: ../libxfdashboard/application-button.c:267
 #, c-format
 msgid "Could not execute action '%s' for application '%s': %s"
 msgstr "Nepavyko įvykdyti veiksmo „%s“, skirto programai „%s“: %s"
 
-#: ../libxfdashboard/application-button.c:270 ../settings/main.c:76
+#: ../libxfdashboard/application-button.c:270 ../settings/main.c:74
 #: ../settings/plugins.c:794
 msgid "Unknown error"
 msgstr "Nežinoma klaida"
@@ -528,7 +528,7 @@ msgstr "Visų įdiegtų programų sąrašas"
 #: ../libxfdashboard/core.c:371
 #, c-format
 msgid "Could not load theme '%s': %s"
-msgstr "Nepavyko įkelti temos „%s“: %s"
+msgstr "Nepavyko įkelti apipavidalinimo „%s“: %s"
 
 #: ../libxfdashboard/core.c:1268
 #, c-format
@@ -796,11 +796,11 @@ msgid "Version information"
 msgstr "Versijos informacija"
 
 #. Initialize GTK+
-#: ../settings/main.c:70
+#: ../settings/main.c:68
 msgid "."
 msgstr "."
 
-#: ../settings/main.c:74
+#: ../settings/main.c:72
 #, c-format
 msgid ""
 "%s: %s\n"
@@ -832,7 +832,7 @@ msgstr "Pavadinimas"
 
 #: ../settings/themes.c:731
 msgid "Theme"
-msgstr "Tema"
+msgstr "Apipavidalinimas"
 
 #: ../xfdashboard/application.c:478
 msgid "Fork to background"
