@@ -5,17 +5,17 @@
 # 
 # Translators:
 # Nick Schermer <nick@xfce.org>, 2020
-# Priit Jõerüüt <transifex@joeruut.com>, 2022
+# Priit Jõerüüt <transifex@joeruut.com>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-13 00:50+0200\n"
+"POT-Creation-Date: 2023-05-30 00:52+0200\n"
 "PO-Revision-Date: 2020-10-07 10:59+0000\n"
-"Last-Translator: Priit Jõerüüt <transifex@joeruut.com>, 2022\n"
-"Language-Team: Estonian (https://www.transifex.com/xfce/teams/16840/et/)\n"
+"Last-Translator: Priit Jõerüüt <transifex@joeruut.com>, 2024\n"
+"Language-Team: Estonian (https://app.transifex.com/xfce/teams/16840/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -30,7 +30,7 @@ msgstr "Xfdashboard"
 #: ../data/org.xfce.xfdashboard.desktop.in.in.h:2
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:1
 msgid "Maybe a Gnome shell like dashboard for Xfce"
-msgstr ""
+msgstr "Gnome Shell'i sarnane töölaud Xfce4 jaoks"
 
 #: ../data/org.xfce.xfdashboard-autostart.desktop.in.in.h:2
 msgid "Start xfdashboard as daemon in background"
@@ -49,6 +49,8 @@ msgid ""
 "Xfdashboard provides a GNOME shell dashboard like interface for use with "
 "Xfce desktop."
 msgstr ""
+"Xfdashboard on Gnome Shell'i sarnane töölaud kasutamiseks Xfce4 graafilises "
+"liideses."
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:3
 msgid ""
@@ -84,19 +86,24 @@ msgstr ""
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:9
 msgid "This unstable development version fixes the mode to run in background."
-msgstr ""
+msgstr "See ebastabiilne arendusversioon parandab taustal töötamise režiimi."
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:10
 msgid ""
 "This unstable development version introduces a new plugin to pin windows on "
 "secondary monitors automatically."
 msgstr ""
+"See ebastabiilne arendusversioon lisab uue pistikprogrammi, mis kinnitab "
+"aknad sekundaarsetele monitoridele automaatselt."
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:11
 msgid ""
 "This unstable development version improves window placement and a new search"
 " plugin looking for matches against the recently used documents."
 msgstr ""
+"See ebastabiilne arendusversioon parandab akende paigutust ja lisab uue "
+"otsinguteenuse, mis kasutab andmeallikana hiljuti kasutatud dokumentide "
+"loendit."
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:12
 msgid ""
@@ -129,6 +136,9 @@ msgid ""
 "menus, multiple backend and support for jumplists etc. It also includes lots"
 " of new and updated translations."
 msgstr ""
+"Sellele stabiilsele versioonile on lisatud palju uut funktsionaalsust, nagu "
+"animatsioonid, hüpikmenüüd, mitu taustateenust ja tugi hüpikloenditele jne. "
+"See sisaldab ka palju uusi ja ajakohastatud tõlkeid."
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:17
 msgid ""
@@ -280,6 +290,9 @@ msgid ""
 "view will change the active workspace. This behaviour is the same as in "
 "workspace selector."
 msgstr ""
+"Kui see valik onkasutusel, siis iga kerimissündmus, näiteks hiire rullimine "
+"üles ja alla, muudab akna vaates aktiivset tööala. See toimimispõhimäte on "
+"sama, nagu tööala valijal."
 
 #: ../data/data/preferences.ui.h:40
 msgid "<b>Search view:</b>"
@@ -390,7 +403,7 @@ msgstr "Punase veini teema xfdashboard'i jaoks"
 msgid "Could not execute action '%s' for application '%s': %s"
 msgstr "Toimingut „%s“ ei saanud käivitada rakenduse „%s“ jaoks: %s"
 
-#: ../libxfdashboard/application-button.c:270 ../settings/main.c:76
+#: ../libxfdashboard/application-button.c:270 ../settings/main.c:74
 #: ../settings/plugins.c:794
 msgid "Unknown error"
 msgstr "Teadmata viga"
@@ -550,13 +563,15 @@ msgstr "Aknad"
 
 #: ../plugins/autopin-windows/plugin.c:71
 msgid "Auto-pin windows"
-msgstr ""
+msgstr "Akende automaatne kinnitamine"
 
 #: ../plugins/autopin-windows/plugin.c:72
 msgid ""
 "Pins windows on secondary windows or unpins windows on primary windows "
 "automatically"
 msgstr ""
+"Kinnitab aknad automatselt teisejärguliste akende peale või automaatselt "
+"eemaldab muud aknad esmajärguliste akende pealt "
 
 #. Set up view
 #: ../plugins/clock-view/clock-view.c:307 ../plugins/clock-view/plugin.c:311
@@ -639,17 +654,17 @@ msgstr "Koheselt"
 #. Add widget to choose activation corner
 #: ../plugins/hot-corner/plugin.c:325
 msgid "Activation corner:"
-msgstr ""
+msgstr "Aktiveerimise nurk:"
 
 #. Add widget to choose activation radius
 #: ../plugins/hot-corner/plugin.c:361
 msgid "Radius of activation corner:"
-msgstr ""
+msgstr "Aktiveerimisnurga raadius:"
 
 #. Add widget to choose activation duration
 #: ../plugins/hot-corner/plugin.c:379
 msgid "Timeout to activate:"
-msgstr ""
+msgstr "Sisselülitamiseaegumine:"
 
 #. Add widget to limit checks to primary monitor only or to all monitors
 #: ../plugins/hot-corner/plugin.c:401
@@ -658,7 +673,7 @@ msgstr "Vaid esmasel monitoril"
 
 #: ../plugins/hot-corner/plugin.c:457
 msgid "Hot corner"
-msgstr ""
+msgstr "Kuum nurk"
 
 #: ../plugins/hot-corner/plugin.c:458
 msgid ""
@@ -669,19 +684,20 @@ msgstr ""
 
 #: ../plugins/middle-click-window-close/plugin.c:71
 msgid "Middle-click window close"
-msgstr ""
+msgstr "Sulge aknad keskmise hiireklõpsuga"
 
 #: ../plugins/middle-click-window-close/plugin.c:72
 msgid "Closes windows in windows view by middle-click"
-msgstr ""
+msgstr "Sulge akendevaates aknaid keskmise hiireklõpsuga"
 
 #: ../plugins/recently-used-search-provider/plugin.c:75
 msgid "Recently used search provider"
-msgstr ""
+msgstr "Viimati kasutatud failid otsinguteenusena"
 
 #: ../plugins/recently-used-search-provider/plugin.c:76
 msgid "A search provider using recently used files as source"
 msgstr ""
+"Otsinguteenus, mis kasutab viimati pruugitud failide loendit andmeallikana"
 
 #: ../plugins/recently-used-search-provider/recently-used-search-provider.c:246
 msgid "Recently used"
@@ -739,11 +755,11 @@ msgid "Version information"
 msgstr "Versiooniteave"
 
 #. Initialize GTK+
-#: ../settings/main.c:70
+#: ../settings/main.c:68
 msgid "."
 msgstr "."
 
-#: ../settings/main.c:74
+#: ../settings/main.c:72
 #, c-format
 msgid ""
 "%s: %s\n"
@@ -805,7 +821,7 @@ msgstr "Näita versiooniteavet"
 
 #: ../xfdashboard/application.c:502
 msgid "A Gnome Shell like dashboard for Xfce4 - version "
-msgstr ""
+msgstr "Gnome Shell'i sarnane töölaud Xfce4 jaoks - versioon"
 
 #. Show error
 #: ../xfdashboard/application.c:519
