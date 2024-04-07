@@ -977,7 +977,7 @@ static void xfdashboard_popup_menu_class_init(XfdashboardPopupMenuClass *klass)
 		g_param_spec_string("title",
 							"Title",
 							"Title of pop-up menu",
-							N_(""),
+							"",
 							G_PARAM_READWRITE | G_PARAM_STATIC_STRINGS);
 
 	/**
@@ -1002,7 +1002,7 @@ static void xfdashboard_popup_menu_class_init(XfdashboardPopupMenuClass *klass)
 		g_param_spec_string("title-icon-name",
 							"Title icon name",
 							"Themed icon name or file name of icon used in title",
-							N_(""),
+							"",
 							G_PARAM_READWRITE | G_PARAM_STATIC_STRINGS);
 
 	/**

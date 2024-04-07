@@ -1456,7 +1456,7 @@ void xfdashboard_image_content_class_init(XfdashboardImageContentClass *klass)
 		g_param_spec_string("key",
 							"Key",
 							"The hash key for caching this image",
-							N_(""),
+							"",
 							G_PARAM_WRITABLE | G_PARAM_STATIC_STRINGS | G_PARAM_CONSTRUCT_ONLY);
 
 	XfdashboardImageContentProperties[PROP_MISSING_ICON_NAME]=

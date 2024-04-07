@@ -32,7 +32,8 @@ org.xfce.xfdashboard-settings.desktop.in:org.xfce.xfdashboard-settings.desktop.i
 	    -e "s|@VERSION[@]|$(VERSION)|" \
 	    $< > $@ || rm $@
 
-@INTLTOOL_DESKTOP_RULE@
+%.desktop: %.desktop.in
+	$(AM_V_GEN)$(MSGFMT) --desktop --template $< -d $(top_srcdir)/po -o $@
 
 EXTRA_DIST = \
 	$(desktop_in_files:.desktop.in=.desktop.in.in) \

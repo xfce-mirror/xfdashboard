@@ -814,7 +814,7 @@ static void xfdashboard_text_box_class_init(XfdashboardTextBoxClass *klass)
 		g_param_spec_string("text",
 							"Text",
 							"Text of editable text box",
-							N_(""),
+							"",
 							G_PARAM_READWRITE | G_PARAM_STATIC_STRINGS);
 
 	XfdashboardTextBoxProperties[PROP_TEXT_FONT]=
