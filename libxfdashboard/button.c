@@ -189,7 +189,7 @@ static void xfdashboard_button_init(XfdashboardButton *self)
 ClutterActor* xfdashboard_button_new(void)
 {
 	return(g_object_new(XFDASHBOARD_TYPE_BUTTON,
-						"text", N_(""),
+						"text", "",
 						"label-style", XFDASHBOARD_LABEL_STYLE_TEXT,
 						NULL));
 }
