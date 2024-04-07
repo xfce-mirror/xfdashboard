@@ -1,10 +1,10 @@
 [Xfdashboard Theme]
-_Name=xfdashboard-wine
-_Comment=Red wine theme for xfdashboard
-Style=xfdashboard-wine.css
+Name=xfdashboard-blue
+Comment=Blue theme for xfdashboard
+Style=xfdashboard-blue.css
 Layout=xfdashboard.xml;xfdashboard-secondary.xml
 Effects=effects.xml
 Animations=animations.xml
 Author=lacios
 Version=@PACKAGE_VERSION@
-Screenshot=screenshot-xfdashboard-wine.png
+Screenshot=screenshot-xfdashboard-blue.png

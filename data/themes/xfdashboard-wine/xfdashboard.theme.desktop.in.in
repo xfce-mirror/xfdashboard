@@ -1,10 +1,10 @@
 [Xfdashboard Theme]
-_Name=xfdashboard-moranga
-_Comment=Moranga theme for xfdashboard
-Style=xfdashboard-moranga.css
+Name=xfdashboard-wine
+Comment=Red wine theme for xfdashboard
+Style=xfdashboard-wine.css
 Layout=xfdashboard.xml;xfdashboard-secondary.xml
 Effects=effects.xml
 Animations=animations.xml
 Author=lacios
 Version=@PACKAGE_VERSION@
-Screenshot=screenshot-xfdashboard-moranga.png
+Screenshot=screenshot-xfdashboard-wine.png
