@@ -7,12 +7,7 @@ dnl
 dnl ***************************
 dnl *** Version information ***
 dnl ***************************
-m4_define([xfdashboard_version_major], [1])
-m4_define([xfdashboard_version_minor], [1])
-m4_define([xfdashboard_version_micro], [0])
-m4_define([xfdashboard_version_build], [@REVISION@])
-m4_define([xfdashboard_version_tag],   [git])
-m4_define([xfdashboard_version], [xfdashboard_version_major().xfdashboard_version_minor().xfdashboard_version_micro()ifelse(xfdashboard_version_tag(), [git], [xfdashboard_version_tag().xfdashboard_version_build()], [xfdashboard_version_tag()])])
+XDT_VERSION_INIT([1.1.0], [git])
 
 dnl **************************************
 dnl *** Minimum package version needed ***
@@ -37,9 +32,9 @@ dnl ***************************
 dnl *** Initialize autoconf ***
 dnl ***************************
 AC_COPYRIGHT([Copyright (c) 2012-2022 Stephan Haller <nomad@froevel.de>])
-AC_INIT([xfdashboard], [xfdashboard_version], [http://docs.xfce.org/apps/xfdashboard/start], [xfdashboard])
-AC_PREREQ([2.50])
-AC_REVISION([xfdashboard_version_build])
+AC_INIT([xfdashboard], [xdt_version], [https://gitlab.xfce.org/apps/xfdashboard], [xfdashboard])
+AC_PREREQ([2.69])
+AC_REVISION([xdt_version_build])
 
 dnl ***************************
 dnl *** Initialize automake ***
@@ -77,10 +72,10 @@ LT_LIB_M
 dnl **********************************
 dnl *** Substitute package version ***
 dnl **********************************
-XFDASHBOARD_VERSION=xfdashboard_version()
-XFDASHBOARD_VERSION_MAJOR=xfdashboard_version_major()
-XFDASHBOARD_VERSION_MINOR=xfdashboard_version_minor()
-XFDASHBOARD_VERSION_MICRO=xfdashboard_version_micro()
+XFDASHBOARD_VERSION=xdt_version()
+XFDASHBOARD_VERSION_MAJOR=xdt_version_major()
+XFDASHBOARD_VERSION_MINOR=xdt_version_minor()
+XFDASHBOARD_VERSION_MICRO=xdt_version_micro()
 AC_SUBST([XFDASHBOARD_VERSION])
 AC_SUBST([XFDASHBOARD_VERSION_MAJOR])
 AC_SUBST([XFDASHBOARD_VERSION_MINOR])
@@ -89,8 +84,8 @@ AC_SUBST([XFDASHBOARD_VERSION_MICRO])
 dnl **********************************
 dnl *** Substitute library version ***
 dnl **********************************
-m4_define([libxfdashboard_binary_age], [m4_eval(10000 * xfdashboard_version_major + 100 * xfdashboard_version_minor + xfdashboard_version_micro)])
-m4_define([libxfdashboard_interface_age], [xfdashboard_version_micro])
+m4_define([libxfdashboard_binary_age], [m4_eval(10000 * xdt_version_major + 100 * xdt_version_minor + xdt_version_micro)])
+m4_define([libxfdashboard_interface_age], [xdt_version_micro])
 
 m4_define([libxfdashboard_lt_current], [m4_eval(libxfdashboard_binary_age - libxfdashboard_interface_age)])
 m4_define([libxfdashboard_lt_revision], [libxfdashboard_interface_age])
@@ -245,7 +240,7 @@ AC_SUBST(HAVE_BACKEND_GDK)
 dnl ***********************************
 dnl *** Check for debugging support ***
 dnl ***********************************
-XDT_FEATURE_DEBUG([xfdashboard_debug_default])
+XDT_FEATURE_DEBUG([xdt_debug_default])
 
 AS_CASE([$enable_debug],
 	[full],

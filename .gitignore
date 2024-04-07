@@ -56,7 +56,6 @@ ltmain.sh
 missing
 mkinstalldirs
 stamp-h1
-configure.ac
 m4/*
 .dirstamp
 
