@@ -1269,7 +1269,7 @@ static void xfdashboard_label_class_init(XfdashboardLabelClass *klass)
 		g_param_spec_string("icon-name",
 							"Icon name",
 							"Themed icon name or file name of icon",
-							N_(""),
+							"",
 							G_PARAM_READWRITE | G_PARAM_STATIC_STRINGS);
 
 	XfdashboardLabelProperties[PROP_ICON_GICON]=
@@ -1313,7 +1313,7 @@ static void xfdashboard_label_class_init(XfdashboardLabelClass *klass)
 		g_param_spec_string("text",
 							"Label text",
 							"Text of label",
-							N_(""),
+							"",
 							G_PARAM_READWRITE | G_PARAM_STATIC_STRINGS);
 
 	XfdashboardLabelProperties[PROP_TEXT_FONT]=
@@ -1418,7 +1418,7 @@ static void xfdashboard_label_init(XfdashboardLabel *self)
 ClutterActor* xfdashboard_label_new(void)
 {
 	return(g_object_new(XFDASHBOARD_TYPE_LABEL,
-						"text", N_(""),
+						"text", "",
 						"label-style", XFDASHBOARD_LABEL_STYLE_TEXT,
 						NULL));
 }
