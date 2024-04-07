@@ -7,6 +7,7 @@
 .libs
 *.geany
 *~
+ABOUT-NLS
 ChangeLog
 data/metainfo/org.xfce.xfdashboard.metainfo.xml
 data/themes/xfdashboard/xfdashboard.theme
@@ -50,9 +51,6 @@ config.*
 configure
 depcomp
 install-sh
-intltool-extract.in
-intltool-merge.in
-intltool-update.in
 libtool
 ltmain.sh
 missing
@@ -67,6 +65,14 @@ m4/*
 po/POTFILES
 po/*.gmo
 po/Makefile.in.in
-po/stamp-it
-po/.intltool-merge-cache
+po/Makevars.template
+po/Rules-quot
+po/boldquot.sed
+po/en@boldquot.header
+po/en@quot.header
+po/insert-header.sin
+po/quot.sed
+po/remove-potcdate.sed
+po/remove-potcdate.sin
+po/stamp-po
 po/xfdashboard.pot

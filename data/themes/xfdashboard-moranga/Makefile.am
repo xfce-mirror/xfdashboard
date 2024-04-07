@@ -18,7 +18,8 @@ xfdashboard.theme.in:xfdashboard.theme.in.in
 	$(AM_V_GEN) sed -e "s|@PACKAGE_VERSION[@]|$(PACKAGE_VERSION)|" \
 	    $< > $@ || rm $@
 
-@INTLTOOL_THEME_RULE@
+xfdashboard.theme: xfdashboard.theme.in
+	$(AM_V_GEN)$(MSGFMT) --desktop --template $< -d $(top_srcdir)/po -o $@
 
 CLEANFILES = \
 	$(theme_in_files) \
