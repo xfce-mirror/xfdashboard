@@ -24,7 +24,6 @@ m4_define([gio_minimum_version], [2.66])
 m4_define([garcon_minimum_version], [0.2.0])
 m4_define([xfconf_minimum_version], [4.14.0])
 m4_define([xcomposite_minimum_version], [0.2])
-m4_define([intltool_minimum_version], [0.35])
 m4_define([gtk_minimum_version], [3.2])
 m4_define([libxfce4util_minimum_version],[4.10.0])
 m4_define([libxfce4ui_minimum_version],[4.10.0])
@@ -64,7 +63,6 @@ AC_PROG_CC()
 AM_PROG_CC_C_O()
 AC_PROG_LD()
 AC_PROG_INSTALL()
-IT_PROG_INTLTOOL([intltool_minimum_version], [no-xml])
 AC_CHECK_PROGS([PERL], [perl5 perl])
 m4_ifdef([AC_PROG_SED], [AC_PROG_SED], [AC_CHECK_PROG(SED, sed, sed)])
 XDT_PROG_PKG_CONFIG()
@@ -119,7 +117,12 @@ AC_SUBST(LIBM)
 dnl ******************************
 dnl *** Check for i18n support ***
 dnl ******************************
-XDT_I18N([@LINGUAS@])
+GETTEXT_PACKAGE="$PACKAGE"
+AC_DEFINE_UNQUOTED([GETTEXT_PACKAGE], ["$GETTEXT_PACKAGE"], [Name of default gettext domain])
+AC_SUBST([GETTEXT_PACKAGE])
+
+AM_GNU_GETTEXT([external])
+AM_GNU_GETTEXT_VERSION([0.19.8])
 
 dnl *******************************
 dnl *** Check for X11 installed ***
