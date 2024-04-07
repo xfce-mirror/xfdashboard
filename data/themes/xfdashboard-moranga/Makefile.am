@@ -1,10 +1,10 @@
 themedir = $(datadir)/themes/xfdashboard-moranga/xfdashboard-1.0
 
 theme_in_files = \
-	xfdashboard.theme.in
+	xfdashboard.theme.desktop.in
 
 theme_DATA = \
-	$(theme_in_files:.theme.in=.theme) \
+	$(theme_in_files:.theme.desktop.in=.theme) \
 	xfdashboard-moranga.css \
 	xfdashboard.css \
 	xfdashboard.xml \
@@ -14,21 +14,21 @@ theme_DATA = \
 	screenshot-xfdashboard-moranga.png
 
 # Substitute bindir so it works when built in a non-system prefix
-xfdashboard.theme.in:xfdashboard.theme.in.in
+xfdashboard.theme.desktop.in:xfdashboard.theme.desktop.in.in
 	$(AM_V_GEN) sed -e "s|@PACKAGE_VERSION[@]|$(PACKAGE_VERSION)|" \
 	    $< > $@ || rm $@
 
-xfdashboard.theme: xfdashboard.theme.in
+xfdashboard.theme: xfdashboard.theme.desktop.in
 	$(AM_V_GEN)$(MSGFMT) --desktop --template $< -d $(top_srcdir)/po -o $@
 
 CLEANFILES = \
 	$(theme_in_files) \
-	$(theme_in_files:.theme.in=.theme)
+	$(theme_in_files:.theme.desktop.in=.theme)
 
 EXTRA_DIST = \
-	$(theme_in_files:.theme.in=.theme.in.in) \
+	$(theme_in_files:.theme.desktop.in=.theme.desktop.in.in) \
 	$(theme_DATA)
 
 DISTCLEANFILES = \
 	$(theme_in_files) \
-	$(theme_in_files:.theme.in=.theme)
+	$(theme_in_files:.theme.desktop.in=.theme)
