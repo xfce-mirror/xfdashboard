@@ -499,7 +499,9 @@ static gint _xfdashboard_application_handle_command_line_arguments(XfdashboardAp
 
 	/* Setup command-line options */
 	context=g_option_context_new("");
-	g_option_context_set_summary(context, N_("A Gnome Shell like dashboard for Xfce4 - version " PACKAGE_VERSION));
+	gchar buf[1024];
+	g_snprintf(buf, sizeof(buf), _("A Gnome Shell like dashboard for Xfce4 - version %s"), PACKAGE_VERSION);
+	g_option_context_set_summary(context, buf);
 	g_option_context_set_translation_domain(context, GETTEXT_PACKAGE);
 	g_option_context_add_group(context, gtk_get_option_group(TRUE));
 	g_option_context_add_group(context, clutter_get_option_group_without_init());
