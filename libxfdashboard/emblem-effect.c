@@ -470,7 +470,7 @@ static void xfdashboard_emblem_effect_class_init(XfdashboardEmblemEffectClass *k
 		g_param_spec_string("icon-name",
 							"Icon name",
 							"Themed icon name or file name of icon",
-							N_(""),
+							"",
 							G_PARAM_READWRITE | G_PARAM_STATIC_STRINGS);
 
 	XfdashboardEmblemEffectProperties[PROP_ICON_SIZE]=
