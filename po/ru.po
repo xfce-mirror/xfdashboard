@@ -43,7 +43,7 @@ msgstr "Интерфейс GNOME shell, для среды Xfce"
 
 #: ../data/org.xfce.xfdashboard-autostart.desktop.in.in.h:2
 msgid "Start xfdashboard as daemon in background"
-msgstr "Запустить xfdashboard в фоновом режиме"
+msgstr "Запустить xfdashboard в фоновом режиме демона"
 
 #: ../data/org.xfce.xfdashboard-settings.desktop.in.in.h:1
 msgid "Xfdashboard settings"
@@ -219,7 +219,7 @@ msgid ""
 msgstr ""
 "Поиск будет сбрасываться при каждом запуске xfdashboard. Активное представление переключится обратно в режим последнего просмотра до начала предыдущего поиска и окно поиска будет очищено.\n"
 "\n"
-"<b> ПРИМЕЧАНИЕ:</b> Данный параметр действует только при работе xfdashboard в служебном режиме."
+"<b> ПРИМЕЧАНИЕ:</b> Данный параметр действует только при работе xfdashboard в режиме демона."
 
 #: ../data/data/preferences.ui.h:10
 msgid ""
