@@ -4,18 +4,18 @@
 	<metadata_license>CC-BY-3.0</metadata_license>
 	<project_license>GPL-2.0+</project_license>
 	<name>xfdashboard</name>
-	<_summary>Maybe a Gnome shell like dashboard for Xfce</_summary>
+	<summary>Maybe a Gnome shell like dashboard for Xfce</summary>
 
 	<description>
-		<_p>Xfdashboard provides a GNOME shell dashboard like interface
+		<p>Xfdashboard provides a GNOME shell dashboard like interface
 		for use with Xfce desktop.
-		</_p>
-		<_p>It can be configured to run to any keyboard shortcut and
+		</p>
+		<p>It can be configured to run to any keyboard shortcut and
 		when executed provides an overview of applications currently
 		open enabling the user to switch between different applications.
 		The search feature works like Xfce's app finder which makes
 		it convenient to search for and start applications.
-		</_p>
+		</p>
 	</description>
 
 	<screenshots>
@@ -23,11 +23,11 @@
 			<image>https://docs.xfce.org/_media/apps/xfdashboard/starting-up.png</image>
 		</screenshot>
 		<screenshot>
-			<_caption>Browsing applications</_caption>
+			<caption>Browsing applications</caption>
 			<image>https://docs.xfce.org/_media/apps/xfdashboard/applications-view.png</image>
 		</screenshot>
 		<screenshot>
-			<_caption>Searching applications</_caption>
+			<caption>Searching applications</caption>
 			<image>https://docs.xfce.org/_media/apps/xfdashboard/search-view.png</image>
 		</screenshot>
 	</screenshots>
@@ -63,101 +63,101 @@
 	<releases>
 		<release version="1.0.0" timestamp="1660301987">
 			<description>
-				<_p>This stable release is the first major one :)
-				</_p>
+				<p>This stable release is the first major one :)
+				</p>
 			</description>
 		</release>
 		<release version="0.9.91" timestamp="1657872321">
 			<description>
-				<_p>This release candidate adds a new last-minute
+				<p>This release candidate adds a new last-minute
 				feature with adding new actions for key binding
 				as weill as lots of bug fixes.
-				</_p>
+				</p>
 			</description>
 		</release>
 		<release version="0.9.90" timestamp="1646385254">
 			<description>
-				<_p>This release candidate adds a new property
+				<p>This release candidate adds a new property
 				"visibility" to all actors and fixes compiler
 				warnings.
-				</_p>
+				</p>
 			</description>
 		</release>
 		<release version="0.9.5" timestamp="1633152304">
 			<description>
-				<_p>This unstable development version fixes the
+				<p>This unstable development version fixes the
 				mode to run in background.
-				</_p>
+				</p>
 			</description>
 		</release>
 		<release version="0.9.4" timestamp="1632293693">
 			<description>
-				<_p>This unstable development version introduces
+				<p>This unstable development version introduces
 				a new plugin to pin windows on secondary monitors
 				automatically.
-				</_p>
+				</p>
 			</description>
 		</release>
 		<release version="0.9.3" timestamp="1619428997">
 			<description>
-				<_p>This unstable development version improves window
+				<p>This unstable development version improves window
 				placement and a new search plugin looking for matches
 				against the recently used documents.
-				</_p>
+				</p>
 			</description>
 		</release>
 		<release version="0.9.2" timestamp="1617869265">
 			<description>
-				<_p>This unstable development version completes gradients
+				<p>This unstable development version completes gradients
 				with linear gradients for outline and background filling.
-				</_p>
+				</p>
 			</description>
 		</release>
 		<release version="0.9.1" timestamp="1616140047">
 			<description>
-				<_p>This unstable development version introduces completes
+				<p>This unstable development version introduces completes
 				turning libxfdashboard into a real library and introduces
 				path gradients for outlines.
-				</_p>
+				</p>
 			</description>
 		</release>
 		<release version="0.9.0" timestamp="1614942988">
 			<description>
-				<_p>This unstable development version introduces nothing
+				<p>This unstable development version introduces nothing
 				user visible but begin moving libxfdashboard into a real
 				library.
-				</_p>
+				</p>
 			</description>
 		</release>
 		<release version="0.8.1" timestamp="1614859879">
 			<description>
-				<_p>This stable version fixes a bug and replaces AppInfo
+				<p>This stable version fixes a bug and replaces AppInfo
 				with AppStream metainfo.
-				</_p>
+				</p>
 			</description>
 		</release>
 		<release version="0.8.0" timestamp="1608711235">
 			<description>
-				<_p>This stable version introduces lots of new features like
+				<p>This stable version introduces lots of new features like
 				animations, pop-up menus, multiple backend and support for
 				jumplists etc. It also includes lots of new and updated
 				translations.
-				</_p>
+				</p>
 			</description>
 		</release>
 		<release version="0.6.1" timestamp="1482422594">
 			<description>
-				<_p>This stable version fixes a bug setting the correct default
+				<p>This stable version fixes a bug setting the correct default
 				applications at first use.
-				</_p>
+				</p>
 			</description>
 		</release>
 		<release version="0.6.0" timestamp="1463772864">
 			<description>
-				<_p>This stable version introduces lots of new features like
+				<p>This stable version introduces lots of new features like
 				plugins and application tracker. It also contains a huge
 				collection of other larger and smaller improvements.
-				</_p>
+				</p>
 			</description>
 		</release>
 	</releases>
