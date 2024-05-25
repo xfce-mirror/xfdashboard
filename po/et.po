@@ -129,6 +129,8 @@ msgid ""
 "This stable version fixes a bug and replaces AppInfo with AppStream "
 "metainfo."
 msgstr ""
+"See stabiilne versioon parandab ühe vea ja asendab senise AppInfo AppStreami"
+" metainfoga."
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:16
 msgid ""
@@ -145,6 +147,8 @@ msgid ""
 "This stable version fixes a bug setting the correct default applications at "
 "first use."
 msgstr ""
+"Selle stabiilse versiooniga parandame vea, mis tekkis korrektse vaikimisi "
+"rakenduse määramisega esimesel käivitamisel."
 
 #: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:18
 msgid ""
@@ -152,6 +156,9 @@ msgid ""
 "application tracker. It also contains a huge collection of other larger and "
 "smaller improvements."
 msgstr ""
+"See stabiilne versioon lisab palju uut funktsionaalsust nagu pluginate "
+"kasutamine ja rakenduste träkker. Lisaks on siin versioonis ka palju "
+"suuremaid ja väiksemaid parandusi."
 
 #: ../data/data/preferences.ui.h:1
 msgid "<span size=\"large\"><b>Xfdashboard settings</b></span>"
@@ -204,10 +211,13 @@ msgid ""
 "\n"
 "The duration is calculated by the length of the text to show in notification. This setting allows you to specify how long the notification must be shown at least."
 msgstr ""
+"Sellega määratakse teavituse kuvamise minimaalne aeg.\n"
+"\n"
+"Teavituse kestus arvutatakse kuvatava teksti pikkuse alusel. See eelistus võimaldab antud kontekstis määrata vähima aja teavituste lugemiseks."
 
 #: ../data/data/preferences.ui.h:17
 msgid "Minimum notification timeout:"
-msgstr ""
+msgstr "Väikseim teavituste aegumine:"
 
 #: ../data/data/preferences.ui.h:18
 msgid "Enable workaround for minimized windows"
@@ -229,21 +239,24 @@ msgstr ""
 
 #: ../data/data/preferences.ui.h:25
 msgid "Priority of window content creation"
-msgstr ""
+msgstr "Akende sisu loomise prioriteet"
 
 #: ../data/data/preferences.ui.h:26
 msgid "Show child windows in main windows"
-msgstr ""
+msgstr "Näita alamaknaid põhiaknas"
 
 #: ../data/data/preferences.ui.h:27
 msgid ""
 "When enabled all live window previews will also show their child windows. "
 "Disabling this option will increase performance on slower machines."
 msgstr ""
+"Kui see valik on kasutusel, siis akende reaalajas eelvaated kuvavad ka "
+"alamaknaid. Selle valiku väljalülitamine parandab vanemate arvutite puhul "
+"jõudlust."
 
 #: ../data/data/preferences.ui.h:28
 msgid "Always start a new instance for application"
-msgstr ""
+msgstr "Alati käivita rakendusest uus koopia"
 
 #: ../data/data/preferences.ui.h:29
 msgid ""
@@ -251,6 +264,9 @@ msgid ""
 "\n"
 "When not enabled it will select the last known active window of the running application instance. If application is not running, a new instance will be started."
 msgstr ""
+"Kui see valik on sisse lülitatud, siis ikooni klõpsimisel kiirvalikute alt alati käivitub rakendusest uus koopia. \n"
+"\n"
+"Kui see valik pole kasutusel, siis kuvatakse juba käivitatud viimane teadaolev rakenduse aken. Kui rakendus aga ei tööta, siis ta lihtsalt käivitatakse."
 
 #: ../data/data/preferences.ui.h:32
 msgid "Enable animations"
@@ -502,7 +518,7 @@ msgstr "Tere tulemast kasutama %s'i!"
 
 #: ../libxfdashboard/quicklaunch.c:384
 msgid "No windows to activate for application"
-msgstr ""
+msgstr "Ei ole ühtegi akent, mida saaks rakenduse jaoks aktiveerida"
 
 #: ../libxfdashboard/quicklaunch.c:507 ../libxfdashboard/quicklaunch.c:1243
 #: ../libxfdashboard/quicklaunch.c:2053
@@ -632,11 +648,11 @@ msgstr "Tegemist on natuke kasutu näitega otsingupluginast"
 
 #: ../plugins/gnome-shell-search-provider/plugin.c:464
 msgid "Gnome-Shell search provider"
-msgstr ""
+msgstr "Gnome-Shelli otsinguteenused"
 
 #: ../plugins/gnome-shell-search-provider/plugin.c:465
 msgid "Uses Gnome-Shell search providers as source for searches"
-msgstr ""
+msgstr "Kasutame Gnome-Shelli otsinguteenuseid otsingute tegemisel"
 
 #: ../plugins/hot-corner/plugin.c:194
 msgid "s"
