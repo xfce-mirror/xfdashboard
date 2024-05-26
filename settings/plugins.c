@@ -965,7 +965,7 @@ static void _xfdashboard_settings_plugins_setup(XfdashboardSettingsPlugins *self
 						"stock-size", GTK_ICON_SIZE_MENU,
 						NULL);
 		if(icon) g_object_unref(icon);
-		column=gtk_tree_view_column_new_with_attributes(N_(""),
+		column=gtk_tree_view_column_new_with_attributes("",
 														renderer,
 														"visible", XFDASHBOARD_SETTINGS_PLUGINS_COLUMN_IS_INVALID,
 														"sensitive", XFDASHBOARD_SETTINGS_PLUGINS_COLUMN_IS_VALID,
@@ -978,7 +978,7 @@ static void _xfdashboard_settings_plugins_setup(XfdashboardSettingsPlugins *self
 									"toggled",
 									G_CALLBACK(_xfdashboard_settings_plugins_enabled_plugins_changed_by_widget),
 									self);
-		column=gtk_tree_view_column_new_with_attributes(N_(""),
+		column=gtk_tree_view_column_new_with_attributes("",
 														renderer,
 														"active", XFDASHBOARD_SETTINGS_PLUGINS_COLUMN_IS_ENABLED,
 														"sensitive", XFDASHBOARD_SETTINGS_PLUGINS_COLUMN_IS_VALID,
@@ -993,7 +993,7 @@ static void _xfdashboard_settings_plugins_setup(XfdashboardSettingsPlugins *self
 						"stock-size", GTK_ICON_SIZE_MENU,
 						NULL);
 		if(icon) g_object_unref(icon);
-		column=gtk_tree_view_column_new_with_attributes(N_(""),
+		column=gtk_tree_view_column_new_with_attributes("",
 														renderer,
 														"visible", XFDASHBOARD_SETTINGS_PLUGINS_COLUMN_IS_CONFIGURABLE,
 														"sensitive", XFDASHBOARD_SETTINGS_PLUGINS_COLUMN_IS_VALID,

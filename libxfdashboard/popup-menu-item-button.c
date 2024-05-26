@@ -147,7 +147,7 @@ static void xfdashboard_popup_menu_item_button_init(XfdashboardPopupMenuItemButt
 ClutterActor* xfdashboard_popup_menu_item_button_new(void)
 {
 	return(g_object_new(XFDASHBOARD_TYPE_POPUP_MENU_ITEM_BUTTON,
-						"text", N_(""),
+						"text", "",
 						"label-style", XFDASHBOARD_LABEL_STYLE_TEXT,
 						NULL));
 }
