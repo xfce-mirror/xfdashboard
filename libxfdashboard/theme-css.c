@@ -1128,7 +1128,9 @@ static gchar* _xfdashboard_theme_css_parse_at_identifier(XfdashboardThemeCSS *se
 		oldScannerConfig=ioScanner->config;
 
 #if GLIB_CHECK_VERSION(2, 67, 4)
+G_GNUC_BEGIN_IGNORE_DEPRECATIONS
 		scannerConfig=(GScannerConfig*)g_memdup2(ioScanner->config, sizeof(GScannerConfig));
+G_GNUC_END_IGNORE_DEPRECATIONS
 #else
 		scannerConfig=(GScannerConfig*)g_memdup(ioScanner->config, sizeof(GScannerConfig));
 #endif
@@ -1789,7 +1791,9 @@ static GTokenType _xfdashboard_theme_css_parse_css_key_value(XfdashboardThemeCSS
 
 	/* Set parser option to parse property value and parse them */
 #if GLIB_CHECK_VERSION(2, 67, 4)
+G_GNUC_BEGIN_IGNORE_DEPRECATIONS
 	scannerConfig=(GScannerConfig*)g_memdup2(inScanner->config, sizeof(GScannerConfig));
+G_GNUC_END_IGNORE_DEPRECATIONS
 #else
 	scannerConfig=(GScannerConfig*)g_memdup(inScanner->config, sizeof(GScannerConfig));
 #endif
@@ -1983,7 +1987,9 @@ static GTokenType _xfdashboard_theme_css_command_import(XfdashboardThemeCSS *sel
 
 	/* Set parser option to parse property value and parse them */
 #if GLIB_CHECK_VERSION(2, 67, 4)
+G_GNUC_BEGIN_IGNORE_DEPRECATIONS
 	scannerConfig=(GScannerConfig*)g_memdup2(inScanner->config, sizeof(GScannerConfig));
+G_GNUC_END_IGNORE_DEPRECATIONS
 #else
 	scannerConfig=(GScannerConfig*)g_memdup(inScanner->config, sizeof(GScannerConfig));
 #endif

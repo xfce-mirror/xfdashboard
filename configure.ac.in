@@ -245,6 +245,9 @@ dnl ***********************************
 XDT_FEATURE_DEBUG([xfdashboard_debug_default])
 
 AS_CASE([$enable_debug],
+	[werror],
+	[XFDASHBOARD_DEBUG_CFLAGS="-DXFDASHBOARD_ENABLE_DEBUG"],
+
 	[full],
 	[XFDASHBOARD_DEBUG_CFLAGS="-DXFDASHBOARD_ENABLE_DEBUG"],
 

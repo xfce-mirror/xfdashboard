@@ -757,7 +757,9 @@ static gboolean _xfdashboard_css_selector_parse(XfdashboardCssSelector *self, GS
 	 * - Identifiers cannot be double quoted
 	 */
 #if GLIB_CHECK_VERSION(2, 67, 4)
+G_GNUC_BEGIN_IGNORE_DEPRECATIONS
 	scannerConfig=(GScannerConfig*)g_memdup2(ioScanner->config, sizeof(GScannerConfig));
+G_GNUC_END_IGNORE_DEPRECATIONS
 #else
 	scannerConfig=(GScannerConfig*)g_memdup(ioScanner->config, sizeof(GScannerConfig));
 #endif
