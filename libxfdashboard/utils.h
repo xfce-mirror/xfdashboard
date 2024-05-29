@@ -67,6 +67,9 @@ G_BEGIN_DECLS
  *
  * Stuffs the #GType specified at @gtype into a pointer type.
  */
+#ifdef GTYPE_TO_POINTER /* added in glib 2.80 */
+#undef GTYPE_TO_POINTER
+#endif
 #define GTYPE_TO_POINTER(gtype) \
 	(GSIZE_TO_POINTER(gtype))
 
@@ -76,6 +79,9 @@ G_BEGIN_DECLS
  *
  * Extracts a #GType from a pointer. The #GType must have been stored in the pointer with GTYPE_TO_POINTER().
  */
+#ifdef GPOINTER_TO_GTYPE /* added in glib 2.80 */
+#undef GPOINTER_TO_GTYPE
+#endif
 #define GPOINTER_TO_GTYPE(pointer) \
 	((GType)GPOINTER_TO_SIZE(pointer))
 

@@ -186,10 +186,8 @@ static GAppInfo*  _xfdashboard_window_tracker_window_x11_window_tracker_window_r
 			globAppInfo=G_APP_INFO(iterApps->data);
 
 #if GLIB_CHECK_VERSION(2,70,0)
+G_GNUC_BEGIN_IGNORE_DEPRECATIONS
 			if(g_pattern_spec_match_string(globPattern, g_app_info_get_id(globAppInfo)))
-#else
-			if(g_pattern_match_string(globPattern, g_app_info_get_id(globAppInfo)))
-#endif
 			{
 				foundSubdirApps=g_list_prepend(foundSubdirApps, globAppInfo);
 				XFDASHBOARD_DEBUG(self, APPLICATIONS,
@@ -198,6 +196,18 @@ static GAppInfo*  _xfdashboard_window_tracker_window_x11_window_tracker_window_r
 									wnck_window_get_name(priv->window),
 									globName);
 			}
+G_GNUC_END_IGNORE_DEPRECATIONS
+#else
+			if(g_pattern_match_string(globPattern, g_app_info_get_id(globAppInfo)))
+			{
+				foundSubdirApps=g_list_prepend(foundSubdirApps, globAppInfo);
+				XFDASHBOARD_DEBUG(self, APPLICATIONS,
+									"Found possible application '%s' for window '%s' using pattern '%s'",
+									g_app_info_get_id(globAppInfo),
+									wnck_window_get_name(priv->window),
+									globName);
+			}
+#endif
 		}
 
 		/* If exactly one application was collected because it matched
