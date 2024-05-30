@@ -255,7 +255,7 @@ static void xfdashboard_toggle_button_init(XfdashboardToggleButton *self)
 ClutterActor* xfdashboard_toggle_button_new(void)
 {
 	return(g_object_new(XFDASHBOARD_TYPE_TOGGLE_BUTTON,
-						"text", N_(""),
+						"text", "",
 						"label-style", XFDASHBOARD_LABEL_STYLE_TEXT,
 						NULL));
 }
