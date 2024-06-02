@@ -7,12 +7,7 @@ dnl
 dnl ***************************
 dnl *** Version information ***
 dnl ***************************
-m4_define([xfdashboard_version_major], [1])
-m4_define([xfdashboard_version_minor], [1])
-m4_define([xfdashboard_version_micro], [0])
-m4_define([xfdashboard_version_build], [@REVISION@])
-m4_define([xfdashboard_version_tag],   [git])
-m4_define([xfdashboard_version], [xfdashboard_version_major().xfdashboard_version_minor().xfdashboard_version_micro()ifelse(xfdashboard_version_tag(), [git], [xfdashboard_version_tag().xfdashboard_version_build()], [xfdashboard_version_tag()])])
+XDT_VERSION_INIT([1.1.0], [git])
 
 dnl **************************************
 dnl *** Minimum package version needed ***
@@ -24,23 +19,17 @@ m4_define([gio_minimum_version], [2.66])
 m4_define([garcon_minimum_version], [0.2.0])
 m4_define([xfconf_minimum_version], [4.14.0])
 m4_define([xcomposite_minimum_version], [0.2])
-m4_define([intltool_minimum_version], [0.35])
 m4_define([gtk_minimum_version], [3.2])
 m4_define([libxfce4util_minimum_version],[4.10.0])
 m4_define([libxfce4ui_minimum_version],[4.10.0])
-
-dnl *******************************************
-dnl *** Debugging support for GIT snapshots ***
-dnl *******************************************
-m4_define([xfdashboard_debug_default], [ifelse(xfdashboard_version_tag(), [git], [yes], [minimum])])
 
 dnl ***************************
 dnl *** Initialize autoconf ***
 dnl ***************************
 AC_COPYRIGHT([Copyright (c) 2012-2022 Stephan Haller <nomad@froevel.de>])
-AC_INIT([xfdashboard], [xfdashboard_version], [http://docs.xfce.org/apps/xfdashboard/start], [xfdashboard])
-AC_PREREQ([2.50])
-AC_REVISION([xfdashboard_version_build])
+AC_INIT([xfdashboard], [xdt_version], [https://gitlab.xfce.org/apps/xfdashboard], [xfdashboard])
+AC_PREREQ([2.69])
+AC_REVISION([xdt_version_build])
 
 dnl ***************************
 dnl *** Initialize automake ***
@@ -64,7 +53,6 @@ AC_PROG_CC()
 AM_PROG_CC_C_O()
 AC_PROG_LD()
 AC_PROG_INSTALL()
-IT_PROG_INTLTOOL([intltool_minimum_version], [no-xml])
 AC_CHECK_PROGS([PERL], [perl5 perl])
 m4_ifdef([AC_PROG_SED], [AC_PROG_SED], [AC_CHECK_PROG(SED, sed, sed)])
 XDT_PROG_PKG_CONFIG()
@@ -79,10 +67,10 @@ LT_LIB_M
 dnl **********************************
 dnl *** Substitute package version ***
 dnl **********************************
-XFDASHBOARD_VERSION=xfdashboard_version()
-XFDASHBOARD_VERSION_MAJOR=xfdashboard_version_major()
-XFDASHBOARD_VERSION_MINOR=xfdashboard_version_minor()
-XFDASHBOARD_VERSION_MICRO=xfdashboard_version_micro()
+XFDASHBOARD_VERSION=xdt_version()
+XFDASHBOARD_VERSION_MAJOR=xdt_version_major()
+XFDASHBOARD_VERSION_MINOR=xdt_version_minor()
+XFDASHBOARD_VERSION_MICRO=xdt_version_micro()
 AC_SUBST([XFDASHBOARD_VERSION])
 AC_SUBST([XFDASHBOARD_VERSION_MAJOR])
 AC_SUBST([XFDASHBOARD_VERSION_MINOR])
@@ -91,8 +79,8 @@ AC_SUBST([XFDASHBOARD_VERSION_MICRO])
 dnl **********************************
 dnl *** Substitute library version ***
 dnl **********************************
-m4_define([libxfdashboard_binary_age], [m4_eval(10000 * xfdashboard_version_major + 100 * xfdashboard_version_minor + xfdashboard_version_micro)])
-m4_define([libxfdashboard_interface_age], [xfdashboard_version_micro])
+m4_define([libxfdashboard_binary_age], [m4_eval(10000 * xdt_version_major + 100 * xdt_version_minor + xdt_version_micro)])
+m4_define([libxfdashboard_interface_age], [xdt_version_micro])
 
 m4_define([libxfdashboard_lt_current], [m4_eval(libxfdashboard_binary_age - libxfdashboard_interface_age)])
 m4_define([libxfdashboard_lt_revision], [libxfdashboard_interface_age])
@@ -119,7 +107,12 @@ AC_SUBST(LIBM)
 dnl ******************************
 dnl *** Check for i18n support ***
 dnl ******************************
-XDT_I18N([@LINGUAS@])
+GETTEXT_PACKAGE="$PACKAGE"
+AC_DEFINE_UNQUOTED([GETTEXT_PACKAGE], ["$GETTEXT_PACKAGE"], [Name of default gettext domain])
+AC_SUBST([GETTEXT_PACKAGE])
+
+AM_GNU_GETTEXT([external])
+AM_GNU_GETTEXT_VERSION([0.19.8])
 
 dnl *******************************
 dnl *** Check for X11 installed ***
@@ -242,7 +235,7 @@ AC_SUBST(HAVE_BACKEND_GDK)
 dnl ***********************************
 dnl *** Check for debugging support ***
 dnl ***********************************
-XDT_FEATURE_DEBUG([xfdashboard_debug_default])
+XDT_FEATURE_DEBUG([xdt_debug_default])
 
 AS_CASE([$enable_debug],
 	[werror],
