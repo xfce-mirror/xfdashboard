@@ -6,454 +6,34 @@
 # Translators:
 # Rafael Fontenelle <rffontenelle@gmail.com>, 2020
 # Xfce Bot <transifex@xfce.org>, 2020
+# Andre Miranda <andre@andreldm.com>, 2020
+# Michael Martins <michaelfm21@gmail.com>, 2020
 # Wellington Almeida <wsalmeida6@gmail.com>, 2020
 # Nick Schermer <nick@xfce.org>, 2021
 # Lucas Wilm <lucaswilm@gmail.com>, 2021
 # The Cat, 2021
-# Andre Miranda <andre42m@gmail.com>, 2022
-# Michael Martins <michaelfm21@gmail.com>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-28 15:06+0100\n"
+"POT-Creation-Date: 2024-06-23 00:50+0200\n"
 "PO-Revision-Date: 2020-10-07 10:59+0000\n"
-"Last-Translator: Michael Martins <michaelfm21@gmail.com>, 2022\n"
-"Language-Team: Portuguese (Brazil) (https://www.transifex.com/xfce/teams/16840/pt_BR/)\n"
+"Last-Translator: The Cat, 2021\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/xfce/teams/16840/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: ../data/org.xfce.xfdashboard.desktop.in.in.h:1
-#: ../data/org.xfce.xfdashboard-autostart.desktop.in.in.h:1
-msgid "Xfdashboard"
-msgstr "Xfdashboard"
-
-#: ../data/org.xfce.xfdashboard.desktop.in.in.h:2
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:1
-msgid "Maybe a Gnome shell like dashboard for Xfce"
-msgstr "Talvez um painel semelhante ao shell do Gnome para o Xfce"
-
-#: ../data/org.xfce.xfdashboard-autostart.desktop.in.in.h:2
-msgid "Start xfdashboard as daemon in background"
-msgstr "Inicie o xfdashboard como daemon em segundo plano"
-
-#: ../data/org.xfce.xfdashboard-settings.desktop.in.in.h:1
-msgid "Xfdashboard settings"
-msgstr "Configurações do Xfdashboard"
-
-#: ../data/org.xfce.xfdashboard-settings.desktop.in.in.h:2
-msgid "Configure xfdashboard"
-msgstr "Configurar o xfdashboard"
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:2
-msgid ""
-"Xfdashboard provides a GNOME shell dashboard like interface for use with "
-"Xfce desktop."
-msgstr ""
-"O Xfdashboard fornece um painel do shell do GNOME como interface para uso "
-"com a área de trabalho do Xfce."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:3
-msgid ""
-"It can be configured to run to any keyboard shortcut and when executed "
-"provides an overview of applications currently open enabling the user to "
-"switch between different applications. The search feature works like Xfce's "
-"app finder which makes it convenient to search for and start applications."
-msgstr ""
-"Ele pode ser configurado para ser executado em qualquer atalho do teclado e,"
-" quando executado, fornece uma visão geral dos aplicativos atualmente "
-"abertos, permitindo que o usuário alterne entre diferentes aplicativos. O "
-"recurso de pesquisa funciona como o localizador de aplicativos do Xfce, o "
-"que facilita a pesquisa e o início de aplicativos."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:4
-msgid "Browsing applications"
-msgstr "Navegando em aplicativos"
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:5
-msgid "Searching applications"
-msgstr "Procurando aplicativos"
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:6
-msgid "This stable release is the first major one :)"
-msgstr "Esta versão estável é a primeira das grandes :)"
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:7
-msgid ""
-"This release candidate adds a new last-minute feature with adding new "
-"actions for key binding as weill as lots of bug fixes."
-msgstr ""
-"Esta versão candidata adiciona uma nova funcionalidade de última hora que "
-"permite vincular teclas de atalho para novas ações bem como muitas correções"
-" de bugs."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:8
-msgid ""
-"This release candidate adds a new property \"visibility\" to all actors and "
-"fixes compiler warnings."
-msgstr ""
-"Este candidato a lançamento adiciona uma nova propriedade \"visibilidade\" a"
-" todos os atores e corrige os avisos do compilador."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:9
-msgid "This unstable development version fixes the mode to run in background."
-msgstr ""
-"Esta versão de desenvolvimento instável corrige o modo para executar em "
-"segundo plano."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:10
-msgid ""
-"This unstable development version introduces a new plugin to pin windows on "
-"secondary monitors automatically."
-msgstr ""
-"Esta versão de desenvolvimento instável apresenta um novo plugin para afixar"
-" janelas em monitores secundários automaticamente."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:11
-msgid ""
-"This unstable development version improves window placement and a new search"
-" plugin looking for matches against the recently used documents."
-msgstr ""
-"Esta versão de desenvolvimento instável melhora a colocação de janelas e um "
-"novo plugin de pesquisa à procura de correspondência com os documentos "
-"recentemente utilizados."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:12
-msgid ""
-"This unstable development version completes gradients with linear gradients "
-"for outline and background filling."
-msgstr ""
-"Esta versão de desenvolvimento instável completa os gradientes com "
-"gradientes lineares para preenchimento de contornos e fundo."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:13
-msgid ""
-"This unstable development version introduces completes turning "
-"libxfdashboard into a real library and introduces path gradients for "
-"outlines."
-msgstr ""
-"Esta versão instável de desenvolvimento apresenta uma transformação completa"
-" do libxfdashboard em uma biblioteca real e introduz padrão de gradientes "
-"para contornos."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:14
-msgid ""
-"This unstable development version introduces nothing user visible but begin "
-"moving libxfdashboard into a real library."
-msgstr ""
-"Esta versão de desenvolvimento instável introduz nada visível para o "
-"usuário, mas começa a transformar libxfdashboard em uma biblioteca real."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:15
-msgid ""
-"This stable version fixes a bug and replaces AppInfo with AppStream "
-"metainfo."
-msgstr ""
-"Esta versão estável corrige um bug e substitui o AppInfo com o AppStream "
-"Metainfo."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:16
-msgid ""
-"This stable version introduces lots of new features like animations, pop-up "
-"menus, multiple backend and support for jumplists etc. It also includes lots"
-" of new and updated translations."
-msgstr ""
-"Esta versão estável apresenta muitos recursos novos como animações, menus "
-"pop-up, múltiplo e suporte para jumplists, etc. Também inclui muitas "
-"traduções novas e atualizadas."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:17
-msgid ""
-"This stable version fixes a bug setting the correct default applications at "
-"first use."
-msgstr ""
-"Esta versão estável corrige um problema ao definir os aplicativos padrões "
-"corretos no primeiro uso."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:18
-msgid ""
-"This stable version introduces lots of new features like plugins and "
-"application tracker. It also contains a huge collection of other larger and "
-"smaller improvements."
-msgstr ""
-"Esta versão estável introduz várias novos recursos como plug-ins e o "
-"rastreador de aplicativos. Ela também contém uma enorme coleção de outras "
-"melhorias grandes e pequenas."
-
-#: ../data/data/preferences.ui.h:1
-msgid "<span size=\"large\"><b>Xfdashboard settings</b></span>"
-msgstr "Configurações do Xfdashboard"
-
-#: ../data/data/preferences.ui.h:2
-msgid "Configure plugin"
-msgstr "Configurar plugin"
-
-#: ../data/data/preferences.ui.h:3
-msgid ""
-"<span size=\"large\"><b>Xfdashboard settings</b></span>\n"
-"Configure xfdashboard"
-msgstr ""
-"<span size=\"large\"><b>Definições Xfdashboard</b></span>\n"
-"Configurar xfdashboard"
-
-#: ../data/data/preferences.ui.h:5
-msgid "<b>General settings:</b>"
-msgstr "<b>Configurações Gerais:</b>"
-
-#: ../data/data/preferences.ui.h:6
-msgid "Reset search view when resumed"
-msgstr "Redefinir a visualização da pesquisa ao retomar"
-
-#: ../data/data/preferences.ui.h:7
-msgid ""
-"If enabled the search view will be resetted when xfdashboard is resumed. That means the active view is switched back to last view active before last search was started and search box will be emptied.\n"
-"\n"
-"<b>NOTE:</b> This setting only takes effect if xfdashboard is running in daemon mode. "
-msgstr ""
-"Se ativada, a vista de pesquisa será redefinida quando o xfdashboard for reiniciado. Isto significa que a vista ativa retorna à última vista ativa antes do início da última pesquisa e a caixa de pesquisa será esvaziada.\n"
-"\n"
-"<b>NOTA:</b> Esta definição só tem efeito se o xfdashboard estiver sendo executado no modo daemon."
-
-#: ../data/data/preferences.ui.h:10
-msgid ""
-"When xfdashboard resumes the selected view will be activated.\n"
-"\n"
-"<b>NOTE:</b> This setting only takes effect if xfdashboard is running in daemon mode."
-msgstr ""
-"Quando o xfdashboard retomar, a vista selecionada será ativada.\n"
-"\n"
-"<b>NOTA:</b>Esta definição só tem efeito se o xfdashboard estiver sendo executado em modo daemon ."
-
-#: ../data/data/preferences.ui.h:13
-msgid "Switch to view when resumed:"
-msgstr "Mudar para ver quando reiniciado:"
-
-#: ../data/data/preferences.ui.h:14
-msgid ""
-"Sets the minimum time a notification is being shown.\n"
-"\n"
-"The duration is calculated by the length of the text to show in notification. This setting allows you to specify how long the notification must be shown at least."
-msgstr ""
-"Define o tempo mínimo que uma notificação é exibida.\n"
-"\n"
-"A duração é calculada pela extensão do texto que será exibido na notificação. Esta definição permite especificar a duração mínima da notificação que será exibida."
-
-#: ../data/data/preferences.ui.h:17
-msgid "Minimum notification timeout:"
-msgstr "Tempo limite mínimo de notificação:"
-
-#: ../data/data/preferences.ui.h:18
-msgid "Enable workaround for minimized windows"
-msgstr "Ativar solução alternativa para janelas minimizadas"
-
-#: ../data/data/preferences.ui.h:19
-msgid ""
-"When enabled a workaround for minimized windows will be tried to get still images of these windows by restoring them shortly and minimizing them again.\n"
-"\n"
-"<b>NOTE:</b> Be aware that this is a <u>workaround</u> and your minimized windows could stay unminimized, change workspace etc."
-msgstr ""
-"Quando ativada, uma solução alternativa para janelas minimizadas será tentada para obter imagens estáticas dessas janelas, restaurando-as rapidamente e minimizando-as novamente.\n"
-"\n"
-"<b>NOTA:</b> Esteja ciente de que isto é uma <u>solução alternativa</u> e que as suas janelas minimizadas podem permanecer não minimizadas, alterar a área de trabalho, etc."
-
-#: ../data/data/preferences.ui.h:22
-msgid ""
-"This value defines how fast the window content should be created. While the value 'immediate' tells xfdashboard to create the window content at the time it is requested, all other values will set up a queue and value defines how fast the queue will be processed.\n"
-"\n"
-"<b>NOTE:</b> Only change this value from 'immediate' to other value if your graphics card, driver or system is too slow to create the window contents immediately. You have to try each value to find the one fitting your system."
-msgstr ""
-"Este valor define a velocidade com que o conteúdo da janela deve ser criado. Embora o valor 'imediato' diga ao xfdashboard para criar o conteúdo da janela no momento em que for solicitado, todos os outros valores irão criar uma fila e o valor define o quão rápido a fila será processada.\n"
-"\n"
-"<b>NOTA:</b> Apenas altere este valor de 'imediato' para outro valor se a sua placa de vídeo, controlador ou sistema forem muito lentos para criar o conteúdo da janela imediatamente. Você precisa testar cada valor para encontrar aquele que se encaixa no seu sistema."
-
-#: ../data/data/preferences.ui.h:25
-msgid "Priority of window content creation"
-msgstr "Prioridade de criação de conteúdo de janela"
-
-#: ../data/data/preferences.ui.h:26
-msgid "Show child windows in main windows"
-msgstr "Mostrar janelas filhas nas janelas principais"
-
-#: ../data/data/preferences.ui.h:27
-msgid ""
-"When enabled all live window previews will also show their child windows. "
-"Disabling this option will increase performance on slower machines."
-msgstr ""
-"Quando ativadas, todas as pré-visualizações em tempo real das janelas "
-"mostrarão também as suas janelas secundárias. A desativação desta opção irá "
-"melhorar o desempenho em máquinas mais lentas."
-
-#: ../data/data/preferences.ui.h:28
-msgid "Always start a new instance for application"
-msgstr "Sempre inicie uma nova instância para o aplicativo"
-
-#: ../data/data/preferences.ui.h:29
-msgid ""
-"When enabled and an icon in quicklaunch is clicked it will always start a new instance of the application.\n"
-"\n"
-"When not enabled it will select the last known active window of the running application instance. If application is not running, a new instance will be started."
-msgstr ""
-"Quando ativado e um ícone no início rápido é clicado, sempre iniciará uma nova instância da aplicação.\n"
-"\n"
-"Quando não ativado, ele seleciona a última janela ativa conhecida da instância da aplicação em execução. Se a aplicação não estiver em execução, uma nova instância será iniciada."
-
-#: ../data/data/preferences.ui.h:32
-msgid "Enable animations"
-msgstr "Habilitar animações"
-
-#: ../data/data/preferences.ui.h:33
-msgid "If enabled theme-defined animations will be shown."
-msgstr "Se habilitado, animações definidas por tema serão mostradas."
-
-#: ../data/data/preferences.ui.h:34
-msgid "<b>Applications view:</b>"
-msgstr "<b>Visualização de aplicativos:</b>"
-
-#: ../data/data/preferences.ui.h:35
-msgid "Show menu for all installed applications"
-msgstr "Mostrar menu para todos os aplicativos instalados"
-
-#: ../data/data/preferences.ui.h:36
-msgid ""
-"When enabled an \"all applications\" menu containing all installed "
-"applications will be shown at applications view"
-msgstr ""
-"Quando ativado, um menu \"todos os aplicativos\" contendo todos os "
-"aplicativos instalados será mostrado na visualização de aplicativos"
-
-#: ../data/data/preferences.ui.h:37
-msgid "<b>Windows view:</b>"
-msgstr "<b>Vista de janelas:</b>"
-
-#: ../data/data/preferences.ui.h:38
-msgid "Mouse wheel changes workspace"
-msgstr "A roda do mouse muda a área de trabalho"
-
-#: ../data/data/preferences.ui.h:39
-msgid ""
-"When enabled any scroll event, like mouse-wheel up and down, at the windows "
-"view will change the active workspace. This behaviour is the same as in "
-"workspace selector."
-msgstr ""
-"Quando habilitado, qualquer evento de rolagem, como a roda do mouse para "
-"cima e para baixo, na visualização da janela mudará o espaço de trabalho "
-"ativo. Este comportamento é igual ao do seletor de espaço de trabalho."
-
-#: ../data/data/preferences.ui.h:40
-msgid "<b>Search view:</b>"
-msgstr "<b>Resultado da pesquisa:</b>"
-
-#: ../data/data/preferences.ui.h:41
-msgid ""
-"Sets the interval the search should be delayed by after the first character "
-"was entered."
-msgstr ""
-"Define o intervalo pelo qual a pesquisa deve ser atrasada depois que o "
-"primeiro caractere foi inserido."
-
-#: ../data/data/preferences.ui.h:42
-msgid "Delay initial search interval:"
-msgstr "Atrasar o intervalo de pesquisa inicial:"
-
-#: ../data/data/preferences.ui.h:43
-msgid "General"
-msgstr "Geral"
-
-#: ../data/data/preferences.ui.h:44
-msgid "<b>Name:</b>"
-msgstr "<b>Nome:</b>"
-
-#: ../data/data/preferences.ui.h:45
-msgid "<b>Author:</b>"
-msgstr "<b>Autor:</b>"
-
-#: ../data/data/preferences.ui.h:46
-msgid "<b>Version:</b>"
-msgstr "<b>Versão:</b>"
-
-#: ../data/data/preferences.ui.h:47
-msgid "<b>Description:</b>"
-msgstr "<b>Descrição:</b>"
-
-#: ../data/data/preferences.ui.h:48
-msgid "Themes"
-msgstr "Temas:"
-
-#: ../data/data/preferences.ui.h:49
-msgid "<b>License:</b>"
-msgstr "<b>Licença:</b>"
-
-#: ../data/data/preferences.ui.h:50
-msgid "Plugins"
-msgstr "Plugins"
-
-#: ../data/themes/xfdashboard/xfdashboard.theme.in.in.h:1
-msgid "xfdashboard"
-msgstr "xfdashboard"
-
-#: ../data/themes/xfdashboard/xfdashboard.theme.in.in.h:2
-msgid "Default theme for xfdashboard"
-msgstr "Tema padrão para xfdashboard"
-
-#: ../data/themes/xfdashboard-auber/xfdashboard.theme.in.in.h:1
-msgid "xfdashboard-auber"
-msgstr "xfdashboard-beringela"
-
-#: ../data/themes/xfdashboard-auber/xfdashboard.theme.in.in.h:2
-msgid "Aubergine theme for xfdashboard"
-msgstr "Tema Aubergine para xfdashboard"
-
-#: ../data/themes/xfdashboard-blue/xfdashboard.theme.in.in.h:1
-msgid "xfdashboard-blue"
-msgstr "xfdashboard-blue"
-
-#: ../data/themes/xfdashboard-blue/xfdashboard.theme.in.in.h:2
-msgid "Blue theme for xfdashboard"
-msgstr "Tema azul para xfdashboard"
-
-#: ../data/themes/xfdashboard-dark/xfdashboard.theme.in.in.h:1
-msgid "xfdashboard-dark"
-msgstr "xfdashboard-dark"
-
-#: ../data/themes/xfdashboard-dark/xfdashboard.theme.in.in.h:2
-msgid "Dark theme for xfdashboard"
-msgstr "Tema escuro para xfdashboard"
-
-#: ../data/themes/xfdashboard-mint/xfdashboard.theme.in.in.h:1
-msgid "xfdashboard-mint"
-msgstr "xfdashboard-hortelã"
-
-#: ../data/themes/xfdashboard-mint/xfdashboard.theme.in.in.h:2
-msgid "Fresh-green flavored theme for xfdashboard"
-msgstr "Tema com sabor verde-fresco para o xfdashboard"
-
-#: ../data/themes/xfdashboard-moranga/xfdashboard.theme.in.in.h:1
-msgid "xfdashboard-moranga"
-msgstr "xfdashboard-moranga"
-
-#: ../data/themes/xfdashboard-moranga/xfdashboard.theme.in.in.h:2
-msgid "Moranga theme for xfdashboard"
-msgstr "Tema Moranga para xfdashboard"
-
-#: ../data/themes/xfdashboard-wine/xfdashboard.theme.in.in.h:1
-msgid "xfdashboard-wine"
-msgstr "xfdashboard-wine"
-
-#: ../data/themes/xfdashboard-wine/xfdashboard.theme.in.in.h:2
-msgid "Red wine theme for xfdashboard"
-msgstr "Tema vinho tinto para xfdashboard"
-
 #: ../libxfdashboard/application-button.c:267
 #, c-format
 msgid "Could not execute action '%s' for application '%s': %s"
 msgstr "Não foi possível executar a ação '%s' para o aplicativo '%s': %s"
 
-#: ../libxfdashboard/application-button.c:270 ../settings/main.c:76
+#: ../libxfdashboard/application-button.c:270 ../settings/main.c:74
 #: ../settings/plugins.c:794
 msgid "Unknown error"
 msgstr "Erro desconhecido"
@@ -487,7 +67,7 @@ msgstr "Nenhuma informação disponível para aplicação"
 #: ../libxfdashboard/quicklaunch.c:442
 #: ../plugins/recently-used-search-provider/recently-used-search-provider.c:480
 #: ../plugins/recently-used-search-provider/recently-used-search-provider.c:583
-#: ../xfdashboard/application.c:520
+#: ../xfdashboard/application.c:522
 msgid "unknown error"
 msgstr "erro desconhecido"
 
@@ -805,11 +385,11 @@ msgid "Version information"
 msgstr "Informação da versão"
 
 #. Initialize GTK+
-#: ../settings/main.c:70
+#: ../settings/main.c:68
 msgid "."
 msgstr "."
 
-#: ../settings/main.c:74
+#: ../settings/main.c:72
 #, c-format
 msgid ""
 "%s: %s\n"
@@ -871,12 +451,13 @@ msgstr "O ID da vista para a qual alternar na inicialização ou ao retomar"
 msgid "Show version"
 msgstr "Exibir versão"
 
-#: ../xfdashboard/application.c:502
-msgid "A Gnome Shell like dashboard for Xfce4 - version "
-msgstr "Um painel do tipo Shell do Gnome para Xfce4 - versão"
+#: ../xfdashboard/application.c:503
+#, c-format
+msgid "A Gnome Shell like dashboard for Xfce4 - version %s"
+msgstr ""
 
 #. Show error
-#: ../xfdashboard/application.c:519
+#: ../xfdashboard/application.c:521
 #, c-format
 msgid "%s\n"
 msgstr "%s\n"
