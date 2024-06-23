@@ -6,441 +6,29 @@
 # Translators:
 # Xfce Bot <transifex@xfce.org>, 2020
 # Nick Schermer <nick@xfce.org>, 2021
-# Саша Петровић <salepetronije@gmail.com>, 2022
+# Саша Петровић <salepetronije@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-13 00:50+0200\n"
+"POT-Creation-Date: 2024-06-23 00:50+0200\n"
 "PO-Revision-Date: 2020-10-07 10:59+0000\n"
-"Last-Translator: Саша Петровић <salepetronije@gmail.com>, 2022\n"
-"Language-Team: Serbian (https://www.transifex.com/xfce/teams/16840/sr/)\n"
+"Last-Translator: Саша Петровић <salepetronije@gmail.com>, 2021\n"
+"Language-Team: Serbian (https://app.transifex.com/xfce/teams/16840/sr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sr\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: ../data/org.xfce.xfdashboard.desktop.in.in.h:1
-#: ../data/org.xfce.xfdashboard-autostart.desktop.in.in.h:1
-msgid "Xfdashboard"
-msgstr "Полетник Иксфце-а"
-
-#: ../data/org.xfce.xfdashboard.desktop.in.in.h:2
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:1
-msgid "Maybe a Gnome shell like dashboard for Xfce"
-msgstr "Полетник Иксфце-а који подсећа на Гномову шкољку"
-
-#: ../data/org.xfce.xfdashboard-autostart.desktop.in.in.h:2
-msgid "Start xfdashboard as daemon in background"
-msgstr "Покрени полетника иксфце-а као домара у позадини"
-
-#: ../data/org.xfce.xfdashboard-settings.desktop.in.in.h:1
-msgid "Xfdashboard settings"
-msgstr "Поставке полетника Иксфце-а"
-
-#: ../data/org.xfce.xfdashboard-settings.desktop.in.in.h:2
-msgid "Configure xfdashboard"
-msgstr "Подесите полетника Иксфце-а"
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:2
-msgid ""
-"Xfdashboard provides a GNOME shell dashboard like interface for use with "
-"Xfce desktop."
-msgstr ""
-"Полетник Иксфце-а је сучеље попут Гномове шкољке за употребу на радној "
-"површи Иксфце-а."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:3
-msgid ""
-"It can be configured to run to any keyboard shortcut and when executed "
-"provides an overview of applications currently open enabling the user to "
-"switch between different applications. The search feature works like Xfce's "
-"app finder which makes it convenient to search for and start applications."
-msgstr ""
-"Може се подесити да се покреће на било коју пречицу дугмади, и када се "
-"изврши даје преглед тренутно отворених програма, омогућујући кориснику да "
-"прелази са једног програма на други. Претрага ради попут претраживача "
-"програма за Иксфце што чини полетника згодним за претрагу и покретање "
-"програма."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:4
-msgid "Browsing applications"
-msgstr "Преглед програма"
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:5
-msgid "Searching applications"
-msgstr "Претрага програма"
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:6
-msgid "This stable release is the first major one :)"
-msgstr "Ово је прво велико стабилно издање :)"
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:7
-msgid ""
-"This release candidate adds a new last-minute feature with adding new "
-"actions for key binding as weill as lots of bug fixes."
-msgstr ""
-"Ово предложено издање додаје у задњи час могућност додавања нових радњи за "
-"пречице дугмади и подоста исправака грешака."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:8
-msgid ""
-"This release candidate adds a new property \"visibility\" to all actors and "
-"fixes compiler warnings."
-msgstr ""
-"Овај предлог издања додаје ново својство „видљивост“ свим члановима и "
-"исправља упозорења превода (компилер)."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:9
-msgid "This unstable development version fixes the mode to run in background."
-msgstr "Ово нестабилно издање исправља начин рада у позадини."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:10
-msgid ""
-"This unstable development version introduces a new plugin to pin windows on "
-"secondary monitors automatically."
-msgstr ""
-"Ово нестабилно издање представља нови прикључак за самостално лепљење "
-"прозора на помоћном приказу."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:11
-msgid ""
-"This unstable development version improves window placement and a new search"
-" plugin looking for matches against the recently used documents."
-msgstr ""
-"Ово нестабилно развојно издање побољшава смештај прозора и нови погон "
-"претраге за поклапањима међу скорашње коришћеним документима."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:12
-msgid ""
-"This unstable development version completes gradients with linear gradients "
-"for outline and background filling."
-msgstr ""
-"Ово нестабилно развојно издање употпуњује градијент линијским градијентом за"
-" спољњи оквир као пуњач позадине."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:13
-msgid ""
-"This unstable development version introduces completes turning "
-"libxfdashboard into a real library and introduces path gradients for "
-"outlines."
-msgstr ""
-"Ово је нестабилно развојно издање које представља потпуни прелазак "
-"либиксдашбода у стварну датотеку и представља градирање путање за спољње "
-"оквире."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:14
-msgid ""
-"This unstable development version introduces nothing user visible but begin "
-"moving libxfdashboard into a real library."
-msgstr ""
-"Ово нестабилно развојно издање не представља кориснику ништа видно, већ "
-"преноси libxfdashboard у праву књижницу."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:15
-msgid ""
-"This stable version fixes a bug and replaces AppInfo with AppStream "
-"metainfo."
-msgstr ""
-"Ово стабилно издање исправља грешку и замењује Апинфо са Апстрим метаинфо."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:16
-msgid ""
-"This stable version introduces lots of new features like animations, pop-up "
-"menus, multiple backend and support for jumplists etc. It also includes lots"
-" of new and updated translations."
-msgstr ""
-"Ово стабилно издање представља мноштво нових могућности попут оживљавања, "
-"искачућих изборника, вишеструких позадинских програма и подржава искачуће "
-"спискове, итд. Такође, укључује много нових и освежених превода."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:17
-msgid ""
-"This stable version fixes a bug setting the correct default applications at "
-"first use."
-msgstr ""
-"Oво стабилно издање исправља поставке грешака и поправља подразумеване "
-"програме при првој употреби."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:18
-msgid ""
-"This stable version introduces lots of new features like plugins and "
-"application tracker. It also contains a huge collection of other larger and "
-"smaller improvements."
-msgstr ""
-"Ово стабилно издање представља мноштво нових могућности, попут прикључака и "
-"пратиоца програма. Оно такође садржи и огромну збирку осталих већих и мањих "
-"исправки грешака."
-
-#: ../data/data/preferences.ui.h:1
-msgid "<span size=\"large\"><b>Xfdashboard settings</b></span>"
-msgstr "span size=\"large\"><b>Поставке Полетника</b></span>"
-
-#: ../data/data/preferences.ui.h:2
-msgid "Configure plugin"
-msgstr "Подесите прикључак"
-
-#: ../data/data/preferences.ui.h:3
-msgid ""
-"<span size=\"large\"><b>Xfdashboard settings</b></span>\n"
-"Configure xfdashboard"
-msgstr ""
-"<span size=\"large\"><b>Поставке полетника Иксфце-а</b></span>\n"
-"Подесите полетника"
-
-#: ../data/data/preferences.ui.h:5
-msgid "<b>General settings:</b>"
-msgstr "<b>Опште поставке:</b>"
-
-#: ../data/data/preferences.ui.h:6
-msgid "Reset search view when resumed"
-msgstr "Обнови преглед претраге при наставку"
-
-#: ../data/data/preferences.ui.h:7
-msgid ""
-"If enabled the search view will be resetted when xfdashboard is resumed. That means the active view is switched back to last view active before last search was started and search box will be emptied.\n"
-"\n"
-"<b>NOTE:</b> This setting only takes effect if xfdashboard is running in daemon mode. "
-msgstr ""
-"Ако је омогућено, преглед претраге ће се поново постављати сваки пут када полетник наставља са радом. То значи да ће преглед бити враћан на претходно употребљени и да ће кућица претраге бити редовно чишћена.\n"
-"\n"
-"<b>Примедба:</b> Ове поставке ступају на снагу само ако полетник ради као домар. "
-
-#: ../data/data/preferences.ui.h:10
-msgid ""
-"When xfdashboard resumes the selected view will be activated.\n"
-"\n"
-"<b>NOTE:</b> This setting only takes effect if xfdashboard is running in daemon mode."
-msgstr ""
-"Када полетник настави са радом, изабрани преглед ће се покретати.\n"
-"\n"
-"<b>Примедба:</b>Ове поставке ступају на снагу само ако полетник ради као домар."
-
-#: ../data/data/preferences.ui.h:13
-msgid "Switch to view when resumed:"
-msgstr "Пређи на преглед при наставку:"
-
-#: ../data/data/preferences.ui.h:14
-msgid ""
-"Sets the minimum time a notification is being shown.\n"
-"\n"
-"The duration is calculated by the length of the text to show in notification. This setting allows you to specify how long the notification must be shown at least."
-msgstr ""
-"Поставља најмање време за приказ обавештења.\n"
-"\n"
-"Трајање се рачуна по дужини натписа који се приказују у обавештењима. Ове поставке омогућавају да одредите најмање временско трајање приказа обавештења."
-
-#: ../data/data/preferences.ui.h:17
-msgid "Minimum notification timeout:"
-msgstr "Најмање трајање обавештења:"
-
-#: ../data/data/preferences.ui.h:18
-msgid "Enable workaround for minimized windows"
-msgstr "Омогући заобилажење правила отсустава приказа умањених прозоре"
-
-#: ../data/data/preferences.ui.h:19
-msgid ""
-"When enabled a workaround for minimized windows will be tried to get still images of these windows by restoring them shortly and minimizing them again.\n"
-"\n"
-"<b>NOTE:</b> Be aware that this is a <u>workaround</u> and your minimized windows could stay unminimized, change workspace etc."
-msgstr ""
-"Када је омогућено заобилажење правила поставки умањених прозора, ипак ће се покушати са приказом слика прозора њиховим краткотрајним увећањем и поновним умањењем.\n"
-"<b>Примедба:</b> Знајте да је ово <u>заобилажење</u> и да умањени прозори могу да остају умањени, мењају радне просторе, и слично."
-
-#: ../data/data/preferences.ui.h:22
-msgid ""
-"This value defines how fast the window content should be created. While the value 'immediate' tells xfdashboard to create the window content at the time it is requested, all other values will set up a queue and value defines how fast the queue will be processed.\n"
-"\n"
-"<b>NOTE:</b> Only change this value from 'immediate' to other value if your graphics card, driver or system is too slow to create the window contents immediately. You have to try each value to find the one fitting your system."
-msgstr ""
-"Ова вредност одређује колико брзо треба створити садржај прозора. Док вредност „одмах“ казује полетнику иксфце-а да створи садржај прозора у време захтева, остале вредности ће заказивати и вредност одређује колико брзо ће заказано бити извршено.\n"
-"\n"
-"<b>ПРЕМЕДБА/b> Ову вредност мењајте само од „одмах“ на остале вредности ако су Вам графичка картица, њен покретачки програм или систем преспори да створе прозор одмах. Треба да пробате сваку вредност понаособ ради проналажења вредности које одговарају систему."
-
-#: ../data/data/preferences.ui.h:25
-msgid "Priority of window content creation"
-msgstr "Предност образовања прозора садржаја"
-
-#: ../data/data/preferences.ui.h:26
-msgid "Show child windows in main windows"
-msgstr "Приказуј подпрозоре у главном прозору"
-
-#: ../data/data/preferences.ui.h:27
-msgid ""
-"When enabled all live window previews will also show their child windows. "
-"Disabling this option will increase performance on slower machines."
-msgstr ""
-"Ако ли је омогућено, сви живи призори прозора ће такође приказивати и "
-"подпрозоре. Онемогућивши ово ће повећати учинак на спорим машинама."
-
-#: ../data/data/preferences.ui.h:28
-msgid "Always start a new instance for application"
-msgstr "Увек покрећи нови примерак програма"
-
-#: ../data/data/preferences.ui.h:29
-msgid ""
-"When enabled and an icon in quicklaunch is clicked it will always start a new instance of the application.\n"
-"\n"
-"When not enabled it will select the last known active window of the running application instance. If application is not running, a new instance will be started."
-msgstr ""
-"Када је омогућено и сличица у брзом покретачу је кликнута то ће увек покретати нови примерак програма.\n"
-"\n"
-"Када није омогућено то ће увек одабирати последњи радни прозор примерка покренутог програма. Ако програм није у погону, нови примерак ће бити покренут."
-
-#: ../data/data/preferences.ui.h:32
-msgid "Enable animations"
-msgstr "Омогући оживљавања"
-
-#: ../data/data/preferences.ui.h:33
-msgid "If enabled theme-defined animations will be shown."
-msgstr "Ако је омогућено, оживљавања описана темом ће бити приказивана."
-
-#: ../data/data/preferences.ui.h:34
-msgid "<b>Applications view:</b>"
-msgstr "<b>Преглед програма:</b>"
-
-#: ../data/data/preferences.ui.h:35
-msgid "Show menu for all installed applications"
-msgstr "Приказуј изборник свих уграђених прозора"
-
-#: ../data/data/preferences.ui.h:36
-msgid ""
-"When enabled an \"all applications\" menu containing all installed "
-"applications will be shown at applications view"
-msgstr ""
-"Када је омогућен изборник „свих програма“, сви уграђени програми се "
-"приказују заједно у прегледу програма"
-
-#: ../data/data/preferences.ui.h:37
-msgid "<b>Windows view:</b>"
-msgstr "<b>Преглед прозора:</b>"
-
-#: ../data/data/preferences.ui.h:38
-msgid "Mouse wheel changes workspace"
-msgstr "Точкић миша мења радне просторе"
-
-#: ../data/data/preferences.ui.h:39
-msgid ""
-"When enabled any scroll event, like mouse-wheel up and down, at the windows "
-"view will change the active workspace. This behaviour is the same as in "
-"workspace selector."
-msgstr ""
-"Када је омогућено, сваки догађај клизања, попут обртања точкића миша надоле "
-"или нагоре, мењаће се на који ће радни простор бити поглед. Ово понашање је "
-"исто као код изабирача радног простора."
-
-#: ../data/data/preferences.ui.h:40
-msgid "<b>Search view:</b>"
-msgstr "<b>Преглед претраге:</b>"
-
-#: ../data/data/preferences.ui.h:41
-msgid ""
-"Sets the interval the search should be delayed by after the first character "
-"was entered."
-msgstr ""
-"Постави време за које ће се одгодити претрага од првог унесеног слова."
-
-#: ../data/data/preferences.ui.h:42
-msgid "Delay initial search interval:"
-msgstr "Одгода почетка претраге:"
-
-#: ../data/data/preferences.ui.h:43
-msgid "General"
-msgstr "Опште"
-
-#: ../data/data/preferences.ui.h:44
-msgid "<b>Name:</b>"
-msgstr "<b>_Име:</b>"
-
-#: ../data/data/preferences.ui.h:45
-msgid "<b>Author:</b>"
-msgstr "<b>Стваралац:</b>"
-
-#: ../data/data/preferences.ui.h:46
-msgid "<b>Version:</b>"
-msgstr "<b>Издање:</b>"
-
-#: ../data/data/preferences.ui.h:47
-msgid "<b>Description:</b>"
-msgstr "<b>Опис:</b>"
-
-#: ../data/data/preferences.ui.h:48
-msgid "Themes"
-msgstr "Теме"
-
-#: ../data/data/preferences.ui.h:49
-msgid "<b>License:</b>"
-msgstr "<b>Дозвола:</b>"
-
-#: ../data/data/preferences.ui.h:50
-msgid "Plugins"
-msgstr "Прикључци"
-
-#: ../data/themes/xfdashboard/xfdashboard.theme.in.in.h:1
-msgid "xfdashboard"
-msgstr "полетник иксфцеа"
-
-#: ../data/themes/xfdashboard/xfdashboard.theme.in.in.h:2
-msgid "Default theme for xfdashboard"
-msgstr "Подразумевана тема полетника"
-
-#: ../data/themes/xfdashboard-auber/xfdashboard.theme.in.in.h:1
-msgid "xfdashboard-auber"
-msgstr "полетник-вишња"
-
-#: ../data/themes/xfdashboard-auber/xfdashboard.theme.in.in.h:2
-msgid "Aubergine theme for xfdashboard"
-msgstr "Тема полетника Aubergine"
-
-#: ../data/themes/xfdashboard-blue/xfdashboard.theme.in.in.h:1
-msgid "xfdashboard-blue"
-msgstr "полетник-модри"
-
-#: ../data/themes/xfdashboard-blue/xfdashboard.theme.in.in.h:2
-msgid "Blue theme for xfdashboard"
-msgstr "Плава тема полетника"
-
-#: ../data/themes/xfdashboard-dark/xfdashboard.theme.in.in.h:1
-msgid "xfdashboard-dark"
-msgstr "полетник-тамни"
-
-#: ../data/themes/xfdashboard-dark/xfdashboard.theme.in.in.h:2
-msgid "Dark theme for xfdashboard"
-msgstr "Тамна тема полетника"
-
-#: ../data/themes/xfdashboard-mint/xfdashboard.theme.in.in.h:1
-msgid "xfdashboard-mint"
-msgstr "полетник-мента"
-
-#: ../data/themes/xfdashboard-mint/xfdashboard.theme.in.in.h:2
-msgid "Fresh-green flavored theme for xfdashboard"
-msgstr "Свежа зелена тема полетника"
-
-#: ../data/themes/xfdashboard-moranga/xfdashboard.theme.in.in.h:1
-msgid "xfdashboard-moranga"
-msgstr "полетник-тиква"
-
-#: ../data/themes/xfdashboard-moranga/xfdashboard.theme.in.in.h:2
-msgid "Moranga theme for xfdashboard"
-msgstr "Тема полетника моранга"
-
-#: ../data/themes/xfdashboard-wine/xfdashboard.theme.in.in.h:1
-msgid "xfdashboard-wine"
-msgstr "полетник-вино"
-
-#: ../data/themes/xfdashboard-wine/xfdashboard.theme.in.in.h:2
-msgid "Red wine theme for xfdashboard"
-msgstr "Тема полетника у боји црвеног вина"
-
 #: ../libxfdashboard/application-button.c:267
 #, c-format
 msgid "Could not execute action '%s' for application '%s': %s"
 msgstr "Нисам успео да извршим радњу „%s“ за програм „%s“: %s"
 
-#: ../libxfdashboard/application-button.c:270 ../settings/main.c:76
+#: ../libxfdashboard/application-button.c:270 ../settings/main.c:74
 #: ../settings/plugins.c:794
 msgid "Unknown error"
 msgstr "Непозната грешка"
@@ -474,7 +62,7 @@ msgstr "Нема доступних података о програму"
 #: ../libxfdashboard/quicklaunch.c:442
 #: ../plugins/recently-used-search-provider/recently-used-search-provider.c:480
 #: ../plugins/recently-used-search-provider/recently-used-search-provider.c:583
-#: ../xfdashboard/application.c:520
+#: ../xfdashboard/application.c:522
 msgid "unknown error"
 msgstr "непозната грешка"
 
@@ -792,11 +380,11 @@ msgid "Version information"
 msgstr "Подаци о издању"
 
 #. Initialize GTK+
-#: ../settings/main.c:70
+#: ../settings/main.c:68
 msgid "."
 msgstr "."
 
-#: ../settings/main.c:74
+#: ../settings/main.c:72
 #, c-format
 msgid ""
 "%s: %s\n"
@@ -858,12 +446,13 @@ msgstr "ЛБ погледа за прелаз на почетку или нас�
 msgid "Show version"
 msgstr "Прикажи издање"
 
-#: ../xfdashboard/application.c:502
-msgid "A Gnome Shell like dashboard for Xfce4 - version "
-msgstr "Полетник за ИксФЦЕ4 налик Гномовој шкољци - издање "
+#: ../xfdashboard/application.c:503
+#, c-format
+msgid "A Gnome Shell like dashboard for Xfce4 - version %s"
+msgstr ""
 
 #. Show error
-#: ../xfdashboard/application.c:519
+#: ../xfdashboard/application.c:521
 #, c-format
 msgid "%s\n"
 msgstr "%s\n"
