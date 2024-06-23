@@ -1,23 +1,23 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR Xfce
+# This file is distributed under the same license as the xfce-apps.xfdashboard package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Georgios Zarkadas <georgios.zarkadas@gmail.com>, 2020
-# Xfce Bot <transifex@xfce.org>, 2020
-# Nick Schermer <nick@xfce.org>, 2021
-# Ápo. <apostolos.papadimitriu@gmail.com>, 2022
 # Ioannis LM, 2024
+# Nick Schermer <nick@xfce.org>, 2024
+# Ápo. <apostolos.papadimitriu@gmail.com>, 2024
+# Xfce Bot <transifex@xfce.org>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-23 00:50+0200\n"
+"Project-Id-Version: xfce-apps.xfdashboard\n"
+"Report-Msgid-Bugs-To: https://gitlab.xfce.org/\n"
+"POT-Creation-Date: 2024-06-23 12:51+0200\n"
 "PO-Revision-Date: 2020-10-07 10:59+0000\n"
-"Last-Translator: Ioannis LM, 2024\n"
+"Last-Translator: Xfce Bot <transifex@xfce.org>, 2024\n"
 "Language-Team: Greek (https://app.transifex.com/xfce/teams/16840/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,364 +25,665 @@ msgstr ""
 "Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../libxfdashboard/application-button.c:267
+#: data/org.xfce.xfdashboard.desktop.in.in:4
+#: data/org.xfce.xfdashboard.desktop.in.in:6
+#: data/org.xfce.xfdashboard-autostart.desktop.in.in:4
+msgid "Xfdashboard"
+msgstr "Xfdashboard"
+
+#: data/org.xfce.xfdashboard.desktop.in.in:5
+#: data/metainfo/org.xfce.xfdashboard.metainfo.xml.in:7
+msgid "Maybe a Gnome shell like dashboard for Xfce"
+msgstr ""
+"Ενδεχομένως ένα ταμπλό δραστηριοτήτων όμοιο με αυτό του κελύφους Gnome"
+
+#: data/org.xfce.xfdashboard-autostart.desktop.in.in:5
+msgid "Start xfdashboard as daemon in background"
+msgstr "Εκκίνηση του xfdashboard ως δαίμονα στο παρασκήνιο"
+
+#: data/org.xfce.xfdashboard-settings.desktop.in.in:5
+#: data/org.xfce.xfdashboard-settings.desktop.in.in:7
+msgid "Xfdashboard settings"
+msgstr "Ρυθμίσεις Xfdashboard"
+
+#: data/org.xfce.xfdashboard-settings.desktop.in.in:6
+msgid "Configure xfdashboard"
+msgstr "Διαμορφώστε το xfdashboard"
+
+#: data/metainfo/org.xfce.xfdashboard.metainfo.xml.in:6
+#: data/themes/xfdashboard/xfdashboard.theme.desktop.in.in:3
+msgid "xfdashboard"
+msgstr "xfdashboard"
+
+#: data/metainfo/org.xfce.xfdashboard.metainfo.xml.in:10
+msgid ""
+"Xfdashboard provides a GNOME shell dashboard like interface for use with "
+"Xfce desktop."
+msgstr ""
+"To Xfdashboard παρέχει μια διεπαφή όμοια με την επισκόπηση δραστηριοτήτων "
+"του κελύφους GNOME προς χρήση με το περιβάλλον εργασίας Xfce."
+
+#: data/metainfo/org.xfce.xfdashboard.metainfo.xml.in:13
+msgid ""
+"It can be configured to run to any keyboard shortcut and when executed "
+"provides an overview of applications currently open enabling the user to "
+"switch between different applications. The search feature works like Xfce's "
+"app finder which makes it convenient to search for and start applications."
+msgstr ""
+"Μπορεί να ρυθμιστεί ώστε να εκτελείται με οποιαδήποτε εντολή και όταν "
+"εκτελείται παρέχει μια επισκόπηση των ανοιχτών εφαρμογών δίνοντας στο χρήστη"
+" τη δυνατότητα εναλλαγής μεταξύ διαφορετικών εφαρμογών. Η λειτουργία "
+"αναζήτησης λειτουργεί όπως η εύρεση εφαρμογών του Xfce πράγμα που καθιστά "
+"βολική την αναζήτηση και εκκίνηση εφαρμογών."
+
+#: data/metainfo/org.xfce.xfdashboard.metainfo.xml.in:26
+msgid "Browsing applications"
+msgstr "Περιήγηση στις εφαρμογές"
+
+#: data/metainfo/org.xfce.xfdashboard.metainfo.xml.in:30
+msgid "Searching applications"
+msgstr "Αναζήτηση εφαρμογών"
+
+#: data/data/preferences.ui:88
+msgid "<span size=\"large\"><b>Xfdashboard settings</b></span>"
+msgstr "<span size=\"large\"><b>Ρυθμίσεις του Xfdashboard</b></span>"
+
+#: data/data/preferences.ui:103
+msgid "Configure plugin"
+msgstr "Διαμόρφωση προσθέτου"
+
+#: data/data/preferences.ui:177
+msgid ""
+"<span size=\"large\"><b>Xfdashboard settings</b></span>\n"
+"Configure xfdashboard"
+msgstr ""
+"<span size=\"large\"><b>Ρυθμίσεις του Xfdashboard</b></span>\n"
+"Διαμορφώστε το Xfdashboard"
+
+#: data/data/preferences.ui:216
+msgid "<b>General settings:</b>"
+msgstr "<b>Γενικές ρυθμίσεις:</b>"
+
+#: data/data/preferences.ui:228
+msgid "Reset search view when resumed"
+msgstr "Επαναφορά της προβολής αναζήτησης κατά την επιστροφή"
+
+#: data/data/preferences.ui:232
+msgid ""
+"If enabled the search view will be resetted when xfdashboard is resumed. That means the active view is switched back to last view active before last search was started and search box will be emptied.\n"
+"\n"
+"<b>NOTE:</b> This setting only takes effect if xfdashboard is running in daemon mode. "
+msgstr ""
+"Όταν είναι ενεργό θα γίνεται επαναφορά της προβολής αναζήτησης όταν επιστρέφετε στο xfdashboard. Αυτό σημαίνει πως η ενεργή προβολή αλλάζει στην τελευταία ενεργή προβολή πριν την έναρξη αναζήτησης και το κουτί αναζήτησης θα αδειάζει. \n"
+"\n"
+"<b>ΣΗΜΕΙΩΣΗ:</b> Αυτή η ρύθμιση λειτουργεί μόνο όταν το xfdashboard εκτελείται ως δαίμονας παρασκηνίου"
+
+#: data/data/preferences.ui:253 data/data/preferences.ui:270
+msgid ""
+"When xfdashboard resumes the selected view will be activated.\n"
+"\n"
+"<b>NOTE:</b> This setting only takes effect if xfdashboard is running in daemon mode."
+msgstr ""
+"Όταν επιστρέφετε στο xfdashboard η επιλεγμένη προβολή θα ενεργοποιείται\n"
+"\n"
+"<b>ΣΗΜΕΙΩΣΗ:</b> Αυτή η ρύθμιση λειτουργεί μόνο όταν το xfdashboard εκτελείται ως δαίμονας παρασκηνίου."
+
+#: data/data/preferences.ui:258
+msgid "Switch to view when resumed:"
+msgstr "Κατά την επιστροφή εναλλαγή στην προβολή:"
+
+#: data/data/preferences.ui:295 data/data/preferences.ui:312
+msgid ""
+"Sets the minimum time a notification is being shown.\n"
+"\n"
+"The duration is calculated by the length of the text to show in notification. This setting allows you to specify how long the notification must be shown at least."
+msgstr ""
+
+#: data/data/preferences.ui:300
+msgid "Minimum notification timeout:"
+msgstr ""
+
+#: data/data/preferences.ui:332
+msgid "Enable workaround for minimized windows"
+msgstr "Ενεργοποίηση πειραματικής λύσης για τα ελαχιστοποιημένα παράθυρα."
+
+#: data/data/preferences.ui:336
+msgid ""
+"When enabled a workaround for minimized windows will be tried to get still images of these windows by restoring them shortly and minimizing them again.\n"
+"\n"
+"<b>NOTE:</b> Be aware that this is a <u>workaround</u> and your minimized windows could stay unminimized, change workspace etc."
+msgstr ""
+"Όταν είναι ενεργό μια πειραματική λύση θα δοκιμασθεί ώστε να ληφθούν εικόνες από τα ελαχιστοποιημένα παράθυρα με την μεγιστοποίησή τους για λίγο και την ελαχιστοποίησή τους ξανά.\n"
+"<b>ΣΗΜΕΙΩΣΗ:<b/>Πρόκειται για μια <b>πρόχειρη λύση</b> και το ελαχιστοποιημένο σας παράθυρο μπορεί να παραμείνει μεγιστοποιημένο, να αλλάξει χώρο εργασίας κτλ"
+
+#: data/data/preferences.ui:357 data/data/preferences.ui:372
+msgid ""
+"This value defines how fast the window content should be created. While the value 'immediate' tells xfdashboard to create the window content at the time it is requested, all other values will set up a queue and value defines how fast the queue will be processed.\n"
+"\n"
+"<b>NOTE:</b> Only change this value from 'immediate' to other value if your graphics card, driver or system is too slow to create the window contents immediately. You have to try each value to find the one fitting your system."
+msgstr ""
+
+#: data/data/preferences.ui:360
+msgid "Priority of window content creation"
+msgstr "Προτεραιότητα δημιουργίας περιεχομένου παραθύρου"
+
+#: data/data/preferences.ui:391
+msgid "Show child windows in main windows"
+msgstr ""
+
+#: data/data/preferences.ui:395
+msgid ""
+"When enabled all live window previews will also show their child windows. "
+"Disabling this option will increase performance on slower machines."
+msgstr ""
+
+#: data/data/preferences.ui:407
+msgid "Always start a new instance for application"
+msgstr "Πάντα εκκίνηση ενός νέου στιγμιοτύπου για την εφαρμογή"
+
+#: data/data/preferences.ui:411
+msgid ""
+"When enabled and an icon in quicklaunch is clicked it will always start a new instance of the application.\n"
+"\n"
+"When not enabled it will select the last known active window of the running application instance. If application is not running, a new instance will be started."
+msgstr ""
+
+#: data/data/preferences.ui:425
+msgid "Enable animations"
+msgstr "Ενεργοποίηση εφέ"
+
+#: data/data/preferences.ui:429
+msgid "If enabled theme-defined animations will be shown."
+msgstr ""
+
+#: data/data/preferences.ui:444
+msgid "<b>Applications view:</b>"
+msgstr "<b>Προβολή εφαρμογών:</b>"
+
+#: data/data/preferences.ui:456
+msgid "Show menu for all installed applications"
+msgstr "Εμφάνιση μενού για όλες τις εγκατεστημένες εφαρμογές"
+
+#: data/data/preferences.ui:460
+msgid ""
+"When enabled an \"all applications\" menu containing all installed "
+"applications will be shown at applications view"
+msgstr ""
+"Όταν είναι ενεργό το μενού «Όλες οι εφαρμογές» θα εμφανίζεται στην προβολή "
+"εφαρμογών και θα περιέχει όλες τις εγκαταστημένες εφαρμογές"
+
+#: data/data/preferences.ui:475
+msgid "<b>Windows view:</b>"
+msgstr "<b>Προβολή παραθύρων</b>"
+
+#: data/data/preferences.ui:487
+msgid "Mouse wheel changes workspace"
+msgstr "Η ροδέλα του ποντικιού αλλάζει χώρο εργασίας"
+
+#: data/data/preferences.ui:491
+msgid ""
+"When enabled any scroll event, like mouse-wheel up and down, at the windows "
+"view will change the active workspace. This behaviour is the same as in "
+"workspace selector."
+msgstr ""
+"Όταν είναι ενεργό οποιοδήποτε συμβάν κύλισης, όπως η κίνηση της ροδέλας του "
+"ποντικιού πάνω ή κάτω στην προβολή παραθύρων θα αλλάξει τον τρέχοντα ενεργό "
+"χώρο εργασίας. Αυτή η συμπεριφορά είναι ίδια με αυτή του εναλλάκτη χώρων "
+"εργασίας."
+
+#: data/data/preferences.ui:507
+msgid "<b>Search view:</b>"
+msgstr "<b>Προβολή αναζήτησης:</b>"
+
+#: data/data/preferences.ui:525 data/data/preferences.ui:538
+msgid ""
+"Sets the interval the search should be delayed by after the first character "
+"was entered."
+msgstr ""
+"Ορίζει το διάστημα που η αναζήτηση πρέπει να καθυστερήσει αφού εισαχθεί ο "
+"πρώτος χαρακτήρας"
+
+#: data/data/preferences.ui:526
+msgid "Delay initial search interval:"
+msgstr "Καθυστέρηση αρχικού μεσοδιαστήματος αναζήτησης:"
+
+#: data/data/preferences.ui:563
+msgid "General"
+msgstr "Γενικές"
+
+#: data/data/preferences.ui:617 data/data/preferences.ui:844
+msgid "<b>Name:</b>"
+msgstr "<b>Όνομα:</b>"
+
+#: data/data/preferences.ui:641 data/data/preferences.ui:793
+msgid "<b>Author:</b>"
+msgstr "<b>Δημιουργός:</b>"
+
+#: data/data/preferences.ui:668 data/data/preferences.ui:819
+msgid "<b>Version:</b>"
+msgstr "<b>Έκδοση:</b>"
+
+#: data/data/preferences.ui:694 data/data/preferences.ui:870
+msgid "<b>Description:</b>"
+msgstr "<b>Περιγραφή:</b>"
+
+#: data/data/preferences.ui:740
+msgid "Themes"
+msgstr "Θέματα"
+
+#: data/data/preferences.ui:857
+msgid "<b>License:</b>"
+msgstr "<b>Άδεια:</b>"
+
+#: data/data/preferences.ui:942
+msgid "Plugins"
+msgstr "Πρόσθετα"
+
+#: data/themes/xfdashboard/xfdashboard.theme.desktop.in.in:4
+msgid "Default theme for xfdashboard"
+msgstr "Προεπιλεγμένο θέμα του xfdashboard"
+
+#: data/themes/xfdashboard-auber/xfdashboard.theme.desktop.in.in:3
+msgid "xfdashboard-auber"
+msgstr "xfdashboard-auber"
+
+#: data/themes/xfdashboard-auber/xfdashboard.theme.desktop.in.in:4
+msgid "Aubergine theme for xfdashboard"
+msgstr "Μελιτζανί θέμα για το xfdashboard"
+
+#: data/themes/xfdashboard-blue/xfdashboard.theme.desktop.in.in:3
+msgid "xfdashboard-blue"
+msgstr "xfdashboard-blue"
+
+#: data/themes/xfdashboard-blue/xfdashboard.theme.desktop.in.in:4
+msgid "Blue theme for xfdashboard"
+msgstr "Μπλε θέμα για το xfdashboard"
+
+#: data/themes/xfdashboard-dark/xfdashboard.theme.desktop.in.in:3
+msgid "xfdashboard-dark"
+msgstr "xfdashboard-dark"
+
+#: data/themes/xfdashboard-dark/xfdashboard.theme.desktop.in.in:4
+msgid "Dark theme for xfdashboard"
+msgstr "Σκούρο θέμα για το xfdashboard"
+
+#: data/themes/xfdashboard-mint/xfdashboard.theme.desktop.in.in:3
+msgid "xfdashboard-mint"
+msgstr "xfdashboard-mint"
+
+#: data/themes/xfdashboard-mint/xfdashboard.theme.desktop.in.in:4
+msgid "Fresh-green flavored theme for xfdashboard"
+msgstr "Θέμα με γεύση μέντας για το xfdashboard"
+
+#: data/themes/xfdashboard-moranga/xfdashboard.theme.desktop.in.in:3
+msgid "xfdashboard-moranga"
+msgstr "xfdashboard-moranga"
+
+#: data/themes/xfdashboard-moranga/xfdashboard.theme.desktop.in.in:4
+msgid "Moranga theme for xfdashboard"
+msgstr "Θέμα στο χρώμα της κολοκύθας για το xfdashboard"
+
+#: data/themes/xfdashboard-wine/xfdashboard.theme.desktop.in.in:3
+msgid "xfdashboard-wine"
+msgstr "xfdashboard-wine"
+
+#: data/themes/xfdashboard-wine/xfdashboard.theme.desktop.in.in:4
+msgid "Red wine theme for xfdashboard"
+msgstr "Θέμα στο χρώμα του κόκκινου κρασιού για το xfdashboard"
+
+#: libxfdashboard/application-button.c:267
 #, c-format
 msgid "Could not execute action '%s' for application '%s': %s"
 msgstr ""
 
-#: ../libxfdashboard/application-button.c:270 ../settings/main.c:74
-#: ../settings/plugins.c:794
+#: libxfdashboard/application-button.c:270 settings/main.c:74
+#: settings/plugins.c:794
 msgid "Unknown error"
 msgstr "Άγνωστο σφάλμα"
 
-#: ../libxfdashboard/application-button.c:287
+#: libxfdashboard/application-button.c:287
 #, c-format
 msgid "Executed action '%s' for application '%s'"
 msgstr ""
 
-#: ../libxfdashboard/application-button.c:748
-#: ../libxfdashboard/application-button.c:766
-#: ../libxfdashboard/applications-search-provider.c:765
-#: ../libxfdashboard/applications-view.c:332
-#: ../libxfdashboard/quicklaunch.c:334 ../libxfdashboard/quicklaunch.c:382
-#: ../libxfdashboard/quicklaunch.c:440
-#: ../plugins/recently-used-search-provider/recently-used-search-provider.c:581
+#: libxfdashboard/application-button.c:748
+#: libxfdashboard/application-button.c:766
+#: libxfdashboard/applications-search-provider.c:765
+#: libxfdashboard/applications-view.c:332 libxfdashboard/quicklaunch.c:334
+#: libxfdashboard/quicklaunch.c:382 libxfdashboard/quicklaunch.c:440
+#: plugins/recently-used-search-provider/recently-used-search-provider.c:581
 #, c-format
 msgid "Launching application '%s' failed: %s"
 msgstr ""
 
-#: ../libxfdashboard/application-button.c:750
-#: ../libxfdashboard/quicklaunch.c:336
-#: ../plugins/recently-used-search-provider/recently-used-search-provider.c:499
-#: ../plugins/recently-used-search-provider/recently-used-search-provider.c:520
+#: libxfdashboard/application-button.c:750 libxfdashboard/quicklaunch.c:336
+#: plugins/recently-used-search-provider/recently-used-search-provider.c:499
+#: plugins/recently-used-search-provider/recently-used-search-provider.c:520
 msgid "No information available for application"
 msgstr "Δεν υπάρχουν διαθέσιμες πληροφορίες για την εφαρμογή"
 
-#: ../libxfdashboard/application-button.c:768
-#: ../libxfdashboard/applications-search-provider.c:767
-#: ../libxfdashboard/applications-view.c:334 ../libxfdashboard/core.c:373
-#: ../libxfdashboard/quicklaunch.c:442
-#: ../plugins/recently-used-search-provider/recently-used-search-provider.c:480
-#: ../plugins/recently-used-search-provider/recently-used-search-provider.c:583
-#: ../xfdashboard/application.c:522
+#: libxfdashboard/application-button.c:768
+#: libxfdashboard/applications-search-provider.c:767
+#: libxfdashboard/applications-view.c:334 libxfdashboard/core.c:373
+#: libxfdashboard/quicklaunch.c:442
+#: plugins/recently-used-search-provider/recently-used-search-provider.c:480
+#: plugins/recently-used-search-provider/recently-used-search-provider.c:583
+#: xfdashboard/application.c:522
 msgid "unknown error"
 msgstr "άγνωστο σφάλμα"
 
-#: ../libxfdashboard/application-button.c:779
-#: ../libxfdashboard/applications-search-provider.c:778
-#: ../libxfdashboard/applications-view.c:345
-#: ../libxfdashboard/quicklaunch.c:453
-#: ../plugins/recently-used-search-provider/recently-used-search-provider.c:595
+#: libxfdashboard/application-button.c:779
+#: libxfdashboard/applications-search-provider.c:778
+#: libxfdashboard/applications-view.c:345 libxfdashboard/quicklaunch.c:453
+#: plugins/recently-used-search-provider/recently-used-search-provider.c:595
 #, c-format
 msgid "Application '%s' launched"
 msgstr "Εκκίνηση εφαρμογής '%s'"
 
-#: ../libxfdashboard/applications-search-provider.c:849
-#: ../libxfdashboard/applications-view.c:415
-#: ../libxfdashboard/quicklaunch.c:664
+#: libxfdashboard/applications-search-provider.c:849
+#: libxfdashboard/applications-view.c:415 libxfdashboard/quicklaunch.c:664
 msgid "Launch"
 msgstr "Εκκίνηση"
 
 #. Set up view
 #. Add "applications" button
-#: ../libxfdashboard/applications-search-provider.c:1191
-#: ../libxfdashboard/applications-view.c:1589
-#: ../libxfdashboard/quicklaunch.c:3225
+#: libxfdashboard/applications-search-provider.c:1191
+#: libxfdashboard/applications-view.c:1589 libxfdashboard/quicklaunch.c:3225
 msgid "Applications"
 msgstr "Εφαρμογές"
 
-#: ../libxfdashboard/applications-view.c:552
-#: ../libxfdashboard/applications-view.c:553
-#: ../libxfdashboard/applications-view.c:664
-#: ../libxfdashboard/applications-view.c:665
+#: libxfdashboard/applications-view.c:552
+#: libxfdashboard/applications-view.c:553
+#: libxfdashboard/applications-view.c:664
+#: libxfdashboard/applications-view.c:665
 msgid "Back"
 msgstr "Πίσω"
 
-#: ../libxfdashboard/applications-view.c:552
-#: ../libxfdashboard/applications-view.c:664
+#: libxfdashboard/applications-view.c:552
+#: libxfdashboard/applications-view.c:664
 msgid "Go back to previous menu"
 msgstr "Μετάβαση πίσω στο προηγούμενο μενού"
 
-#: ../libxfdashboard/applications-view.c:692
-#: ../libxfdashboard/applications-view.c:693
+#: libxfdashboard/applications-view.c:692
+#: libxfdashboard/applications-view.c:693
 msgid "All applications"
 msgstr "Όλες οι εφαρμογές"
 
-#: ../libxfdashboard/applications-view.c:692
+#: libxfdashboard/applications-view.c:692
 msgid "List of all installed applications"
 msgstr "Λίστα όλων των εγκατεστημένων εφαρμογών"
 
-#: ../libxfdashboard/core.c:371
+#: libxfdashboard/core.c:371
 #, c-format
 msgid "Could not load theme '%s': %s"
 msgstr "Αδυναμία φόρτωσης του θέματος '%s': %s"
 
-#: ../libxfdashboard/core.c:1268
+#: libxfdashboard/core.c:1268
 #, c-format
 msgid "Welcome to %s (%s)!"
 msgstr "Καλωσορίσατε στο %s (%s)!"
 
-#: ../libxfdashboard/core.c:1270
+#: libxfdashboard/core.c:1270
 #, c-format
 msgid "Welcome to %s!"
 msgstr "Καλωσορίσατε στο %s!"
 
-#: ../libxfdashboard/quicklaunch.c:384
+#: libxfdashboard/quicklaunch.c:384
 msgid "No windows to activate for application"
 msgstr "Κανένα παράθυρο να ενεργοποιηθεί για την εφαρμογή"
 
-#: ../libxfdashboard/quicklaunch.c:507 ../libxfdashboard/quicklaunch.c:1243
-#: ../libxfdashboard/quicklaunch.c:2053
+#: libxfdashboard/quicklaunch.c:507 libxfdashboard/quicklaunch.c:1243
+#: libxfdashboard/quicklaunch.c:2053
 #, c-format
 msgid "Favourite '%s' removed"
 msgstr "Αφαιρέθηκε το αγαπημένο '%s'"
 
-#: ../libxfdashboard/quicklaunch.c:606 ../libxfdashboard/quicklaunch.c:925
-#: ../libxfdashboard/quicklaunch.c:1986
+#: libxfdashboard/quicklaunch.c:606 libxfdashboard/quicklaunch.c:925
+#: libxfdashboard/quicklaunch.c:1986
 #, c-format
 msgid "Favourite '%s' added"
 msgstr "Προστέθηκε το αγαπημένο '%s'"
 
-#: ../libxfdashboard/quicklaunch.c:687
+#: libxfdashboard/quicklaunch.c:687
 msgid "Remove from favourites"
 msgstr "Αφαίρεση από τα αγαπημένα"
 
-#: ../libxfdashboard/quicklaunch.c:701
+#: libxfdashboard/quicklaunch.c:701
 msgid "Add to favourites"
 msgstr "Προσθήκη στα αγαπημένα"
 
 #. Next add trash button to box but initially hidden and register as drop
 #. target
-#: ../libxfdashboard/quicklaunch.c:3232
+#: libxfdashboard/quicklaunch.c:3232
 msgid "Remove"
 msgstr "Αφαίρεση"
 
-#: ../libxfdashboard/search-result-container.c:664
-#: ../libxfdashboard/search-result-container.c:1734
+#: libxfdashboard/search-result-container.c:664
+#: libxfdashboard/search-result-container.c:1734
 #, c-format
 msgid "Show %d more results..."
 msgstr "Δείξε %d περισσότερα αποτελέσματα..."
 
 #. Get text to set at "all"-label
-#: ../libxfdashboard/search-result-container.c:686
+#: libxfdashboard/search-result-container.c:686
 #, c-format
 msgid "Show all %d results..."
 msgstr "Εμφάνιση και των %d αποτελεσμάτων..."
 
-#: ../libxfdashboard/search-view.c:979
+#: libxfdashboard/search-view.c:979
 #, c-format
 msgid "No results found for '%s'"
 msgstr "Δεν βρέθηκαν αποτελέσματα για το %s'"
 
 #. Set up view (Note: Search view is disabled by default!)
-#: ../libxfdashboard/search-view.c:1719
+#: libxfdashboard/search-view.c:1719
 msgid "Search"
 msgstr "Αναζήτηση"
 
-#: ../libxfdashboard/stage.c:1111
+#: libxfdashboard/stage.c:1111
 msgid "Just type to search..."
 msgstr "Απλά πληκτρολογήστε για αναζήτηση..."
 
 #. Set up view
-#: ../libxfdashboard/windows-view.c:2310
+#: libxfdashboard/windows-view.c:2310
 msgid "Windows"
 msgstr "Παράθυρα"
 
-#: ../plugins/autopin-windows/plugin.c:71
+#: plugins/autopin-windows/plugin.c:71
 msgid "Auto-pin windows"
 msgstr ""
 
-#: ../plugins/autopin-windows/plugin.c:72
+#: plugins/autopin-windows/plugin.c:72
 msgid ""
 "Pins windows on secondary windows or unpins windows on primary windows "
 "automatically"
 msgstr ""
 
 #. Set up view
-#: ../plugins/clock-view/clock-view.c:307 ../plugins/clock-view/plugin.c:311
+#: plugins/clock-view/clock-view.c:307 plugins/clock-view/plugin.c:311
 msgid "Clock"
 msgstr "Ρολόι"
 
 #. Add widget to choose hour color
-#: ../plugins/clock-view/plugin.c:203
+#: plugins/clock-view/plugin.c:203
 msgid "Hour color:"
 msgstr "Χρώμα ώρας:"
 
-#: ../plugins/clock-view/plugin.c:213
+#: plugins/clock-view/plugin.c:213
 msgid "Choose color for hour hand"
 msgstr ""
 
 #. Add widget to choose minute color
-#: ../plugins/clock-view/plugin.c:218
+#: plugins/clock-view/plugin.c:218
 msgid "Minute color:"
 msgstr "Χρώμα λεπτών:"
 
-#: ../plugins/clock-view/plugin.c:228
+#: plugins/clock-view/plugin.c:228
 msgid "Choose color for minute hand"
 msgstr ""
 
 #. Add widget to choose second color
-#: ../plugins/clock-view/plugin.c:233
+#: plugins/clock-view/plugin.c:233
 msgid "Second color:"
 msgstr "Χρώμα δευτερολέπτων:"
 
-#: ../plugins/clock-view/plugin.c:243
+#: plugins/clock-view/plugin.c:243
 msgid "Choose color for second hand"
 msgstr ""
 
 #. Add widget to choose minute color
-#: ../plugins/clock-view/plugin.c:248
+#: plugins/clock-view/plugin.c:248
 msgid "Background color:"
 msgstr "Χρώμα φόντου:"
 
-#: ../plugins/clock-view/plugin.c:258
+#: plugins/clock-view/plugin.c:258
 msgid "Choose color for background of second hand"
 msgstr ""
 
-#: ../plugins/clock-view/plugin.c:312
+#: plugins/clock-view/plugin.c:312
 msgid "Adds a new view showing a clock"
 msgstr ""
 
-#: ../plugins/example-search-provider/example-search-provider.c:67
+#: plugins/example-search-provider/example-search-provider.c:67
 msgid "Example search"
 msgstr "Παράδειγμα αναζήτησης"
 
-#: ../plugins/example-search-provider/plugin.c:75
+#: plugins/example-search-provider/plugin.c:75
 msgid "Example search provider"
 msgstr "Παράδειγμα παρόχου αναζήτησης"
 
-#: ../plugins/example-search-provider/plugin.c:76
+#: plugins/example-search-provider/plugin.c:76
 msgid "This is just a useless example search provider plugin"
 msgstr ""
 
-#: ../plugins/gnome-shell-search-provider/plugin.c:464
+#: plugins/gnome-shell-search-provider/plugin.c:464
 msgid "Gnome-Shell search provider"
 msgstr ""
 
-#: ../plugins/gnome-shell-search-provider/plugin.c:465
+#: plugins/gnome-shell-search-provider/plugin.c:465
 msgid "Uses Gnome-Shell search providers as source for searches"
 msgstr ""
 
-#: ../plugins/hot-corner/plugin.c:194
+#: plugins/hot-corner/plugin.c:194
 msgid "s"
 msgstr ""
 
-#: ../plugins/hot-corner/plugin.c:198 ../settings/general.c:320
+#: plugins/hot-corner/plugin.c:198 settings/general.c:320
 msgid "ms"
 msgstr "ms"
 
-#: ../plugins/hot-corner/plugin.c:202 ../settings/general.c:92
-#: ../settings/general.c:324
+#: plugins/hot-corner/plugin.c:202 settings/general.c:92
+#: settings/general.c:324
 msgid "Immediately"
 msgstr "Αμέσως"
 
 #. Add widget to choose activation corner
-#: ../plugins/hot-corner/plugin.c:325
+#: plugins/hot-corner/plugin.c:325
 msgid "Activation corner:"
 msgstr "Γωνία ενεργοποίησης"
 
 #. Add widget to choose activation radius
-#: ../plugins/hot-corner/plugin.c:361
+#: plugins/hot-corner/plugin.c:361
 msgid "Radius of activation corner:"
 msgstr "Ακτίνα γωνίας ενεργοποίησης:"
 
 #. Add widget to choose activation duration
-#: ../plugins/hot-corner/plugin.c:379
+#: plugins/hot-corner/plugin.c:379
 msgid "Timeout to activate:"
 msgstr ""
 
 #. Add widget to limit checks to primary monitor only or to all monitors
-#: ../plugins/hot-corner/plugin.c:401
+#: plugins/hot-corner/plugin.c:401
 msgid "Primary monitor only"
 msgstr ""
 
-#: ../plugins/hot-corner/plugin.c:457
+#: plugins/hot-corner/plugin.c:457
 msgid "Hot corner"
 msgstr ""
 
-#: ../plugins/hot-corner/plugin.c:458
+#: plugins/hot-corner/plugin.c:458
 msgid ""
 "Activates xfdashboard when pointer is moved to a configured corner of "
 "monitor"
 msgstr ""
 
-#: ../plugins/middle-click-window-close/plugin.c:71
+#: plugins/middle-click-window-close/plugin.c:71
 msgid "Middle-click window close"
 msgstr "Κλείσιμο παραθύρου με μεσαίο κλικ"
 
-#: ../plugins/middle-click-window-close/plugin.c:72
+#: plugins/middle-click-window-close/plugin.c:72
 msgid "Closes windows in windows view by middle-click"
 msgstr ""
 
-#: ../plugins/recently-used-search-provider/plugin.c:75
+#: plugins/recently-used-search-provider/plugin.c:75
 msgid "Recently used search provider"
 msgstr ""
 
-#: ../plugins/recently-used-search-provider/plugin.c:76
+#: plugins/recently-used-search-provider/plugin.c:76
 msgid "A search provider using recently used files as source"
 msgstr ""
 
-#: ../plugins/recently-used-search-provider/recently-used-search-provider.c:246
+#: plugins/recently-used-search-provider/recently-used-search-provider.c:246
 msgid "Recently used"
 msgstr "Χρησιμοποιήθηκε πρόσφατα"
 
-#: ../plugins/recently-used-search-provider/recently-used-search-provider.c:475
+#: plugins/recently-used-search-provider/recently-used-search-provider.c:475
 #, c-format
 msgid "Launching application for '%s' failed: %s"
 msgstr ""
 
-#: ../plugins/recently-used-search-provider/recently-used-search-provider.c:497
-#: ../plugins/recently-used-search-provider/recently-used-search-provider.c:518
+#: plugins/recently-used-search-provider/recently-used-search-provider.c:497
+#: plugins/recently-used-search-provider/recently-used-search-provider.c:518
 #, c-format
 msgid "Launching application for file '%s' failed: %s"
 msgstr ""
 
-#: ../settings/general.c:84
+#: settings/general.c:84
 msgid "Do nothing"
 msgstr "Καμία ενέργεια"
 
-#: ../settings/general.c:85
+#: settings/general.c:85
 msgid "Windows view"
 msgstr "Προβολή παραθύρων"
 
-#: ../settings/general.c:86
+#: settings/general.c:86
 msgid "Applications view"
 msgstr "Προβολή εφαρμογών"
 
-#: ../settings/general.c:93
+#: settings/general.c:93
 msgid "High"
 msgstr "Υψηλό"
 
-#: ../settings/general.c:94
+#: settings/general.c:94
 msgid "Normal"
 msgstr "Κανονικό"
 
-#: ../settings/general.c:95
+#: settings/general.c:95
 msgid "Low"
 msgstr "Χαμηλό"
 
-#: ../settings/general.c:269
+#: settings/general.c:269
 msgid "seconds"
 msgstr "δευτερόλεπτα"
 
-#: ../settings/main.c:46
+#: settings/main.c:46
 msgid "Settings manager socket"
 msgstr "Υποδοχή διαχειριστή ρυθμίσεων"
 
-#: ../settings/main.c:46
+#: settings/main.c:46
 msgid "SOCKET ID"
 msgstr "ID ΥΠΟΔΟΧΗΣ"
 
-#: ../settings/main.c:47
+#: settings/main.c:47
 msgid "Version information"
 msgstr "Πληροφορίες έκδοσης"
 
 #. Initialize GTK+
-#: ../settings/main.c:68
+#: settings/main.c:68
 msgid "."
 msgstr ""
 
-#: ../settings/main.c:72
+#: settings/main.c:72
 #, c-format
 msgid ""
 "%s: %s\n"
@@ -391,13 +692,13 @@ msgstr ""
 "%s: %s\n"
 "Δοκίμασε %s --help για να δεις μία πλήρη λίστα με τις διαθέσιμες επιλογές της γραμμής εντολών.\n"
 
-#: ../settings/plugins.c:222
+#: settings/plugins.c:222
 #, c-format
 msgid "Configure plugin: %s"
 msgstr ""
 
 #. Create error message to store in list
-#: ../settings/plugins.c:793
+#: settings/plugins.c:793
 #, c-format
 msgid ""
 "<b>Plugin could not be loaded.</b>\n"
@@ -405,47 +706,47 @@ msgid ""
 "%s"
 msgstr ""
 
-#: ../settings/plugins.c:1005
+#: settings/plugins.c:1005
 msgid "Name"
 msgstr "Όνομα"
 
-#: ../settings/themes.c:731
+#: settings/themes.c:731
 msgid "Theme"
 msgstr "Θέμα"
 
-#: ../xfdashboard/application.c:478
+#: xfdashboard/application.c:478
 msgid "Fork to background"
 msgstr ""
 
-#: ../xfdashboard/application.c:479
+#: xfdashboard/application.c:479
 msgid "Quit running instance"
 msgstr "Τερματισμός στιγμιοτύπου που εκτελείται"
 
-#: ../xfdashboard/application.c:480
+#: xfdashboard/application.c:480
 msgid "Restart running instance"
 msgstr "Επανεκκίνηση στιγμιοτύπου που εκτελείται"
 
-#: ../xfdashboard/application.c:481
+#: xfdashboard/application.c:481
 msgid ""
 "Toggles visibility if running instance was started in daemon mode otherwise "
 "it quits running non-daemon instance"
 msgstr ""
 
-#: ../xfdashboard/application.c:482
+#: xfdashboard/application.c:482
 msgid "The ID of view to switch to on startup or resume"
 msgstr ""
 
-#: ../xfdashboard/application.c:483
+#: xfdashboard/application.c:483
 msgid "Show version"
 msgstr "Εμφάνιση έκδοσης"
 
-#: ../xfdashboard/application.c:503
+#: xfdashboard/application.c:503
 #, c-format
 msgid "A Gnome Shell like dashboard for Xfce4 - version %s"
 msgstr ""
 
 #. Show error
-#: ../xfdashboard/application.c:521
+#: xfdashboard/application.c:521
 #, c-format
 msgid "%s\n"
 msgstr "%s\n"
