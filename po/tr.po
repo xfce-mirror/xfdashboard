@@ -4,454 +4,35 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Recep, 2020
+# Demiray Muhterem <mdemiray@msn.com>, 2020
 # Xfce Bot <transifex@xfce.org>, 2020
 # Necdet Yücel <necdetyucel@gmail.com>, 2020
 # Nick Schermer <nick@xfce.org>, 2020
 # Yaşar Çiv <yasarciv@protonmail.com>, 2020
 # Serdar Sağlam <teknomobil@msn.com>, 2021
-# Emin Tufan Çetin <etcetin@gmail.com>, 2022
-# Demiray Muhterem <mdemiray@msn.com>, 2022
-# Sabri Ünal <libreajans@gmail.com>, 2022
+# Emin Tufan Çetin <etcetin@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-13 00:50+0200\n"
+"POT-Creation-Date: 2024-06-23 00:50+0200\n"
 "PO-Revision-Date: 2020-10-07 10:59+0000\n"
-"Last-Translator: Sabri Ünal <libreajans@gmail.com>, 2022\n"
-"Language-Team: Turkish (https://www.transifex.com/xfce/teams/16840/tr/)\n"
+"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>, 2021\n"
+"Language-Team: Turkish (https://app.transifex.com/xfce/teams/16840/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../data/org.xfce.xfdashboard.desktop.in.in.h:1
-#: ../data/org.xfce.xfdashboard-autostart.desktop.in.in.h:1
-msgid "Xfdashboard"
-msgstr "Xfdashboard"
-
-#: ../data/org.xfce.xfdashboard.desktop.in.in.h:2
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:1
-msgid "Maybe a Gnome shell like dashboard for Xfce"
-msgstr "Xfce için belki Gnome shell'e benzeyen kumanda paneli"
-
-#: ../data/org.xfce.xfdashboard-autostart.desktop.in.in.h:2
-msgid "Start xfdashboard as daemon in background"
-msgstr "Xfdashboard'u arthizmet olarak başlat"
-
-#: ../data/org.xfce.xfdashboard-settings.desktop.in.in.h:1
-msgid "Xfdashboard settings"
-msgstr "Xfdashboard ayarları"
-
-#: ../data/org.xfce.xfdashboard-settings.desktop.in.in.h:2
-msgid "Configure xfdashboard"
-msgstr "Xfdashboard'ı yapılandır"
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:2
-msgid ""
-"Xfdashboard provides a GNOME shell dashboard like interface for use with "
-"Xfce desktop."
-msgstr ""
-"Xfdashboard, Xfce masaüstüyle kullanmak için GNOME kabuğu kumanda paneli "
-"benzeri arayüz sağlar."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:3
-msgid ""
-"It can be configured to run to any keyboard shortcut and when executed "
-"provides an overview of applications currently open enabling the user to "
-"switch between different applications. The search feature works like Xfce's "
-"app finder which makes it convenient to search for and start applications."
-msgstr ""
-"Başlatıldığında, açık uygulamaları göstererek kullanıcının farklı "
-"uygulamalar arasında geçiş yapmasını sağlar ve herhangi bir klavye "
-"kısayolunu çalıştırmak üzere yapılandırılabilir. Arama özelliği, Xfce'nin "
-"uygulama bulucusu gibi çalışır, böylece uygulamaları başlatmak ve aramak "
-"kolaylaşır."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:4
-msgid "Browsing applications"
-msgstr "Uygulamalara göz atma"
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:5
-msgid "Searching applications"
-msgstr "Uygulamaları arama"
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:6
-msgid "This stable release is the first major one :)"
-msgstr "Bu kararlı sürüm ilk büyük sürümdür :)"
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:7
-msgid ""
-"This release candidate adds a new last-minute feature with adding new "
-"actions for key binding as weill as lots of bug fixes."
-msgstr ""
-"Bu sürüm adayı, birçok hata düzeltmesinin yanı sıra anahtar bağlama için "
-"yeni eylemler ekleyerek yeni bir son dakika özelliği ekler."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:8
-msgid ""
-"This release candidate adds a new property \"visibility\" to all actors and "
-"fixes compiler warnings."
-msgstr ""
-"Bu aday sürüm, tüm aktörlere \"visibility\" (görünürlük) özelliği ekler ve "
-"derleyici uyarılarını giderir."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:9
-msgid "This unstable development version fixes the mode to run in background."
-msgstr ""
-"Bu kararsız geliştirme sürümü, kipi arka planda çalışacak biçimde düzeltir."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:10
-msgid ""
-"This unstable development version introduces a new plugin to pin windows on "
-"secondary monitors automatically."
-msgstr ""
-"Bu kararsız geliştirme sürümü, pencereleri kendiliğinden ikincil monitörlere"
-" sabitlemek için yeni eklenti sunar."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:11
-msgid ""
-"This unstable development version improves window placement and a new search"
-" plugin looking for matches against the recently used documents."
-msgstr ""
-"Bu kararsız geliştirme sürümü pencere yerleşimini iyileştirir, son "
-"kullanılan belgelere karşı eşleşmelere bakmak için yeni arama eklentisi "
-"sunar."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:12
-msgid ""
-"This unstable development version completes gradients with linear gradients "
-"for outline and background filling."
-msgstr ""
-"Bu kararsız geliştirme sürümü, dış çizgi ve arka plan dolumu için "
-"gradyanları çizgisel gradyanlarla tamamlar."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:13
-msgid ""
-"This unstable development version introduces completes turning "
-"libxfdashboard into a real library and introduces path gradients for "
-"outlines."
-msgstr ""
-"Bu kararsız geliştirme sürümü, libxfdashboard'un gerçek kitaplığa dönüşümünü"
-" tamamlar ve dış çizgiler için yol geçişlerini tanıtır."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:14
-msgid ""
-"This unstable development version introduces nothing user visible but begin "
-"moving libxfdashboard into a real library."
-msgstr ""
-"Bu kararsız geliştirme sürümü kullanıcının görebileceği bir şey sunmaz ancak"
-" libxfdashboard'u gerçek kitaplığa dönüştürmeye başlar."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:15
-msgid ""
-"This stable version fixes a bug and replaces AppInfo with AppStream "
-"metainfo."
-msgstr ""
-"Bu kararlı sürüm bir hatayı giderir ve AppInfo'yu AppStream üst veri "
-"bilgisiyle değiştirir."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:16
-msgid ""
-"This stable version introduces lots of new features like animations, pop-up "
-"menus, multiple backend and support for jumplists etc. It also includes lots"
-" of new and updated translations."
-msgstr ""
-"Bu kararlı sürüm; animasyonlar, açılır pencere menüler, çoklu arkayüzler ve "
-"atlama listeleri için destek gibi yeni özellikleri içerir. Yeni ve "
-"güncellenmiş birçok çeviriyi de içerir."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:17
-msgid ""
-"This stable version fixes a bug setting the correct default applications at "
-"first use."
-msgstr ""
-"Bu kararlı sürüm, ilk kullanımda doğru öntanımlı uygulamaları ayarlayan "
-"hatayı düzeltir."
-
-#: ../data/metainfo/org.xfce.xfdashboard.metainfo.xml.in.h:18
-msgid ""
-"This stable version introduces lots of new features like plugins and "
-"application tracker. It also contains a huge collection of other larger and "
-"smaller improvements."
-msgstr ""
-"Bu kararlı sürüm, eklentiler ve uygulama izleyici gibi birçok yeni özellik "
-"sunar. Aynı zamanda diğer büyük ve küçük geliştirmelerden oluşan devasa bir "
-"koleksiyon da içerir."
-
-#: ../data/data/preferences.ui.h:1
-msgid "<span size=\"large\"><b>Xfdashboard settings</b></span>"
-msgstr "<span size=\"large\"><b>Xfdashboard ayarları</b></span>"
-
-#: ../data/data/preferences.ui.h:2
-msgid "Configure plugin"
-msgstr "Eklentiyi yapılandır"
-
-#: ../data/data/preferences.ui.h:3
-msgid ""
-"<span size=\"large\"><b>Xfdashboard settings</b></span>\n"
-"Configure xfdashboard"
-msgstr ""
-"<span size=\"large\"><b>Xfdashboard ayarları</b></span>\n"
-"Xfdashboard'u yapılandır"
-
-#: ../data/data/preferences.ui.h:5
-msgid "<b>General settings:</b>"
-msgstr "<b>Genel ayarlar:</b>"
-
-#: ../data/data/preferences.ui.h:6
-msgid "Reset search view when resumed"
-msgstr "Devreye girdiğinde arama görünümünü sıfırla"
-
-#: ../data/data/preferences.ui.h:7
-msgid ""
-"If enabled the search view will be resetted when xfdashboard is resumed. That means the active view is switched back to last view active before last search was started and search box will be emptied.\n"
-"\n"
-"<b>NOTE:</b> This setting only takes effect if xfdashboard is running in daemon mode. "
-msgstr ""
-"Etkinleştirilirse, arama görünümü xfdashboard yeniden başlatıldığında sıfırlanır. Bu, son arama başlamadan ve arama kutusu boşaltılmadan önce etkin görünümün son görünüme etkinleştir hale getirildiği anlamına gelir.\n"
-"\n"
-"<b>NOT:</b> Bu ayar yalnızca xfdashboard arthizmet kipinde çalışıyorsa etkindir."
-
-#: ../data/data/preferences.ui.h:10
-msgid ""
-"When xfdashboard resumes the selected view will be activated.\n"
-"\n"
-"<b>NOTE:</b> This setting only takes effect if xfdashboard is running in daemon mode."
-msgstr ""
-"Xfdashboard devam edince seçilen görüntü etkinleştirilir.\n"
-"\n"
-"<b>NOT:</b> Bu ayar yalnızca xfdashboard arthizmet kipinde çalışıyorsa etkindir."
-
-#: ../data/data/preferences.ui.h:13
-msgid "Switch to view when resumed:"
-msgstr "Devam ettirildiğinde görünümü değiştir:"
-
-#: ../data/data/preferences.ui.h:14
-msgid ""
-"Sets the minimum time a notification is being shown.\n"
-"\n"
-"The duration is calculated by the length of the text to show in notification. This setting allows you to specify how long the notification must be shown at least."
-msgstr ""
-"Bir bildirimin gösterileceği en az süreyi ayarlar.\n"
-"\n"
-"Süre, bildirimde gösterilecek metnin uzunluğuna göre hesaplanır. Bu ayar, bildirimin ne kadar süreyle gösterilmesi gerektiğini belirlemenizi sağlar."
-
-#: ../data/data/preferences.ui.h:17
-msgid "Minimum notification timeout:"
-msgstr "En az bildirim zaman aşımı:"
-
-#: ../data/data/preferences.ui.h:18
-msgid "Enable workaround for minimized windows"
-msgstr "Küçültülmüş pencereler için geçici çözümü etkinleştir"
-
-#: ../data/data/preferences.ui.h:19
-msgid ""
-"When enabled a workaround for minimized windows will be tried to get still images of these windows by restoring them shortly and minimizing them again.\n"
-"\n"
-"<b>NOTE:</b> Be aware that this is a <u>workaround</u> and your minimized windows could stay unminimized, change workspace etc."
-msgstr ""
-"Etkinleştirildiğinde, simge durumuna küçültülmüş pencereler için bu pencerelerin hareketsiz görüntülerini elde etmek için kısa bir süre geri yükleyip bunları en aza indirgemek için bir geçici çözüm denenecektir.\n"
-"\n"
-"<b>NOT:</b> Bunun bir <u>geçici çözüm</u> olduğunu ve pencerelerinizin simge durumunda kalabileceğini, çalışma alanınızı değiştirebileceğini vb. unutmayın."
-
-#: ../data/data/preferences.ui.h:22
-msgid ""
-"This value defines how fast the window content should be created. While the value 'immediate' tells xfdashboard to create the window content at the time it is requested, all other values will set up a queue and value defines how fast the queue will be processed.\n"
-"\n"
-"<b>NOTE:</b> Only change this value from 'immediate' to other value if your graphics card, driver or system is too slow to create the window contents immediately. You have to try each value to find the one fitting your system."
-msgstr ""
-"Bu değer, pencere içeriğinin ne kadar hızlı oluşturulacağını belirler. 'immediate' değeri, xfdashboard'a pencere içeriğini istenen zamanda yaratmasını söylerken diğer tüm değerler sıra oluşturur ve değer kuyruğun ne kadar hızlı işleneceğini tanımlar.\n"
-"\n"
-"<b>NOT:</b> Ekran kartınız, sürücünüz veya sisteminiz pencerenin içeriğini anında oluşturmak için çok yavaşsa, bu değeri yalnızca 'immediate' değerinden başka değere değiştirin. Sisteminize uyan birini bulmak için her değeri denemek zorundasınız."
-
-#: ../data/data/preferences.ui.h:25
-msgid "Priority of window content creation"
-msgstr "Pencere içerik oluşturma önceliği"
-
-#: ../data/data/preferences.ui.h:26
-msgid "Show child windows in main windows"
-msgstr "Ana pencerelerde çocuk pencereleri göster"
-
-#: ../data/data/preferences.ui.h:27
-msgid ""
-"When enabled all live window previews will also show their child windows. "
-"Disabling this option will increase performance on slower machines."
-msgstr ""
-"Etkinleştirildiğinde tüm canlı pencere ön izlemeleri çocuk pencerelerini de "
-"gösterir. Bu seçeneğin devre dışı bırakılması yavaş makinelerde performansı "
-"artıracaktır."
-
-#: ../data/data/preferences.ui.h:28
-msgid "Always start a new instance for application"
-msgstr "Her zaman yeni uygulama örneği başlat"
-
-#: ../data/data/preferences.ui.h:29
-msgid ""
-"When enabled and an icon in quicklaunch is clicked it will always start a new instance of the application.\n"
-"\n"
-"When not enabled it will select the last known active window of the running application instance. If application is not running, a new instance will be started."
-msgstr ""
-"Etkinleştirildiğinde ve hızlı başlatmada bir simge tıklandığında, uygulamanın her zaman yeni örneğini başlatır.\n"
-"\n"
-"Etkinleştirilmediğinde, çalışan uygulama örneğinin bilinen en son etkin pencereyi seçecektir. Uygulama çalışmıyorsa, yeni örnek başlatılacaktır."
-
-#: ../data/data/preferences.ui.h:32
-msgid "Enable animations"
-msgstr "Animasyonları etkinleştir"
-
-#: ../data/data/preferences.ui.h:33
-msgid "If enabled theme-defined animations will be shown."
-msgstr "Etkinleştirilirse, tema tanımlı animasyonlar gösterilir."
-
-#: ../data/data/preferences.ui.h:34
-msgid "<b>Applications view:</b>"
-msgstr "<b>Uygulamalar görünümü:</b>"
-
-#: ../data/data/preferences.ui.h:35
-msgid "Show menu for all installed applications"
-msgstr "Yüklü tüm uygulamalar için menü göster"
-
-#: ../data/data/preferences.ui.h:36
-msgid ""
-"When enabled an \"all applications\" menu containing all installed "
-"applications will be shown at applications view"
-msgstr ""
-"Etkinleştirildiğinde, kurulu tüm uygulamaları içeren \"tüm uygulamalar\" "
-"menüsü uygulamalar görünümünde gösterilir"
-
-#: ../data/data/preferences.ui.h:37
-msgid "<b>Windows view:</b>"
-msgstr "<b>Pencereler görünümü:</b>"
-
-#: ../data/data/preferences.ui.h:38
-msgid "Mouse wheel changes workspace"
-msgstr "Fare tekerleği çalışma alanını değiştirir"
-
-#: ../data/data/preferences.ui.h:39
-msgid ""
-"When enabled any scroll event, like mouse-wheel up and down, at the windows "
-"view will change the active workspace. This behaviour is the same as in "
-"workspace selector."
-msgstr ""
-"Etkinleştirildiğinde, fare tekerleği yukarı ve aşağı gibi pencereler "
-"görünümünde herhangi bir kaydırma etkinliği, etkin çalışma alanını "
-"değiştirecektir. Bu davranış, çalışma alanı seçiminde olduğu gibi aynıdır."
-
-#: ../data/data/preferences.ui.h:40
-msgid "<b>Search view:</b>"
-msgstr "<b>Arama görünümü:</b>"
-
-#: ../data/data/preferences.ui.h:41
-msgid ""
-"Sets the interval the search should be delayed by after the first character "
-"was entered."
-msgstr ""
-"İlk karakter girildikten sonra aramanın geciktirilmesi gereken aralığı "
-"ayarlar."
-
-#: ../data/data/preferences.ui.h:42
-msgid "Delay initial search interval:"
-msgstr "İlk arama aralığını geciktir:"
-
-#: ../data/data/preferences.ui.h:43
-msgid "General"
-msgstr "Genel"
-
-#: ../data/data/preferences.ui.h:44
-msgid "<b>Name:</b>"
-msgstr "<b>Ad:</b>"
-
-#: ../data/data/preferences.ui.h:45
-msgid "<b>Author:</b>"
-msgstr "<b>Yazar:</b>"
-
-#: ../data/data/preferences.ui.h:46
-msgid "<b>Version:</b>"
-msgstr "<b>Sürüm:</b>"
-
-#: ../data/data/preferences.ui.h:47
-msgid "<b>Description:</b>"
-msgstr "<b>Açıklama:</b>"
-
-#: ../data/data/preferences.ui.h:48
-msgid "Themes"
-msgstr "Temalar"
-
-#: ../data/data/preferences.ui.h:49
-msgid "<b>License:</b>"
-msgstr "<b>Lisans:</b>"
-
-#: ../data/data/preferences.ui.h:50
-msgid "Plugins"
-msgstr "Eklentiler"
-
-#: ../data/themes/xfdashboard/xfdashboard.theme.in.in.h:1
-msgid "xfdashboard"
-msgstr "xfdashboard"
-
-#: ../data/themes/xfdashboard/xfdashboard.theme.in.in.h:2
-msgid "Default theme for xfdashboard"
-msgstr "Xfdashboard için öntanımlı tema"
-
-#: ../data/themes/xfdashboard-auber/xfdashboard.theme.in.in.h:1
-msgid "xfdashboard-auber"
-msgstr "xfdashboard-auber"
-
-#: ../data/themes/xfdashboard-auber/xfdashboard.theme.in.in.h:2
-msgid "Aubergine theme for xfdashboard"
-msgstr "Xfdashboard için patlıcan teması"
-
-#: ../data/themes/xfdashboard-blue/xfdashboard.theme.in.in.h:1
-msgid "xfdashboard-blue"
-msgstr "xfdashboard-blue"
-
-#: ../data/themes/xfdashboard-blue/xfdashboard.theme.in.in.h:2
-msgid "Blue theme for xfdashboard"
-msgstr "Xfdashboard için mavi tema"
-
-#: ../data/themes/xfdashboard-dark/xfdashboard.theme.in.in.h:1
-msgid "xfdashboard-dark"
-msgstr "xfdashboard-dark"
-
-#: ../data/themes/xfdashboard-dark/xfdashboard.theme.in.in.h:2
-msgid "Dark theme for xfdashboard"
-msgstr "Xfdashboard için koyu tema"
-
-#: ../data/themes/xfdashboard-mint/xfdashboard.theme.in.in.h:1
-msgid "xfdashboard-mint"
-msgstr "xfdashboard-mint"
-
-#: ../data/themes/xfdashboard-mint/xfdashboard.theme.in.in.h:2
-msgid "Fresh-green flavored theme for xfdashboard"
-msgstr "Xfdashboard için taze yeşil aromalı tema"
-
-#: ../data/themes/xfdashboard-moranga/xfdashboard.theme.in.in.h:1
-msgid "xfdashboard-moranga"
-msgstr "xfdashboard-moranga"
-
-#: ../data/themes/xfdashboard-moranga/xfdashboard.theme.in.in.h:2
-msgid "Moranga theme for xfdashboard"
-msgstr "Xfdashboard için moranga teması"
-
-#: ../data/themes/xfdashboard-wine/xfdashboard.theme.in.in.h:1
-msgid "xfdashboard-wine"
-msgstr "xfdashboard-wine"
-
-#: ../data/themes/xfdashboard-wine/xfdashboard.theme.in.in.h:2
-msgid "Red wine theme for xfdashboard"
-msgstr "Xfdashboard için kırmızı şarap teması"
-
 #: ../libxfdashboard/application-button.c:267
 #, c-format
 msgid "Could not execute action '%s' for application '%s': %s"
 msgstr "'%s' uygulaması için '%s' eylemi yürütülemedi: %s"
 
-#: ../libxfdashboard/application-button.c:270 ../settings/main.c:76
+#: ../libxfdashboard/application-button.c:270 ../settings/main.c:74
 #: ../settings/plugins.c:794
 msgid "Unknown error"
 msgstr "Bilinmeyen hata "
@@ -485,7 +66,7 @@ msgstr "Uygulama için bilgi yok"
 #: ../libxfdashboard/quicklaunch.c:442
 #: ../plugins/recently-used-search-provider/recently-used-search-provider.c:480
 #: ../plugins/recently-used-search-provider/recently-used-search-provider.c:583
-#: ../xfdashboard/application.c:520
+#: ../xfdashboard/application.c:522
 msgid "unknown error"
 msgstr "bilinmeyen hata"
 
@@ -804,11 +385,11 @@ msgid "Version information"
 msgstr "Sürüm bilgisi"
 
 #. Initialize GTK+
-#: ../settings/main.c:70
+#: ../settings/main.c:68
 msgid "."
 msgstr "."
 
-#: ../settings/main.c:74
+#: ../settings/main.c:72
 #, c-format
 msgid ""
 "%s: %s\n"
@@ -870,12 +451,13 @@ msgstr "Başlangıç veya devam ettirmeye geçmek için görünüm kimliği"
 msgid "Show version"
 msgstr "Sürümü göster"
 
-#: ../xfdashboard/application.c:502
-msgid "A Gnome Shell like dashboard for Xfce4 - version "
-msgstr "Xfce4 için Gnome Kabuğu benzeri gösterge paneli - sürüm"
+#: ../xfdashboard/application.c:503
+#, c-format
+msgid "A Gnome Shell like dashboard for Xfce4 - version %s"
+msgstr ""
 
 #. Show error
-#: ../xfdashboard/application.c:519
+#: ../xfdashboard/application.c:521
 #, c-format
 msgid "%s\n"
 msgstr "%s\n"
