@@ -736,7 +736,7 @@ msgstr ""
 
 #: xfdashboard/application.c:482
 msgid "The ID of view to switch to on startup or resume"
-msgstr ""
+msgstr "Vaate tunnus, mis käivitamisel või jätkamisel kuvatakse"
 
 #: xfdashboard/application.c:483
 msgid "Show version"
