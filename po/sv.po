@@ -762,7 +762,7 @@ msgstr "Visa version"
 #: xfdashboard/application.c:503
 #, c-format
 msgid "A Gnome Shell like dashboard for Xfce4 - version %s"
-msgstr ""
+msgstr "En Gnome Shell liknande dashboard för Xfce4 - version %s"
 
 #. Show error
 #: xfdashboard/application.c:521
