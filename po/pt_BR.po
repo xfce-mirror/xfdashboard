@@ -46,7 +46,7 @@ msgstr "Inicie o xfdashboard como daemon em segundo plano"
 #: data/org.xfce.xfdashboard-settings.desktop.in.in:5
 #: data/org.xfce.xfdashboard-settings.desktop.in.in:7
 msgid "Xfdashboard settings"
-msgstr "Configurações do Xfdashboard"
+msgstr "Configurações do xfdashboard"
 
 #: data/org.xfce.xfdashboard-settings.desktop.in.in:6
 msgid "Configure xfdashboard"
@@ -62,7 +62,7 @@ msgid ""
 "Xfdashboard provides a GNOME shell dashboard like interface for use with "
 "Xfce desktop."
 msgstr ""
-"O Xfdashboard fornece um painel do shell do GNOME como interface para uso "
+"O xfdashboard fornece um painel do shell do GNOME como interface para uso "
 "com a área de trabalho do Xfce."
 
 #: data/metainfo/org.xfce.xfdashboard.metainfo.xml.in:13
@@ -88,7 +88,7 @@ msgstr "Procurando aplicativos"
 
 #: data/data/preferences.ui:88
 msgid "<span size=\"large\"><b>Xfdashboard settings</b></span>"
-msgstr "Configurações do Xfdashboard"
+msgstr "<span size=\"large\"><b>Configurações do xfdashboard</b></span>"
 
 #: data/data/preferences.ui:103
 msgid "Configure plugin"
@@ -99,7 +99,7 @@ msgid ""
 "<span size=\"large\"><b>Xfdashboard settings</b></span>\n"
 "Configure xfdashboard"
 msgstr ""
-"<span size=\"large\"><b>Definições Xfdashboard</b></span>\n"
+"<span size=\"large\"><b>Configurações do xfdashboard</b></span>\n"
 "Configurar xfdashboard"
 
 #: data/data/preferences.ui:216
@@ -185,7 +185,7 @@ msgid ""
 "When enabled all live window previews will also show their child windows. "
 "Disabling this option will increase performance on slower machines."
 msgstr ""
-"Quando ativadas, todas as pré-visualizações em tempo real das janelas "
+"Quando habilitadas, todas as pré-visualizações em tempo real das janelas "
 "mostrarão também as suas janelas secundárias. A desativação desta opção irá "
 "melhorar o desempenho em máquinas mais lentas."
 
@@ -199,9 +199,9 @@ msgid ""
 "\n"
 "When not enabled it will select the last known active window of the running application instance. If application is not running, a new instance will be started."
 msgstr ""
-"Quando ativado e um ícone no início rápido é clicado, sempre iniciará uma nova instância da aplicação.\n"
+"Quando habilitado e um ícone no início rápido é clicado, sempre iniciará uma nova instância da aplicação.\n"
 "\n"
-"Quando não ativado, ele seleciona a última janela ativa conhecida da instância da aplicação em execução. Se a aplicação não estiver em execução, uma nova instância será iniciada."
+"Quando não habilitado, ele seleciona a última janela ativa conhecida da instância da aplicação em execução. Se a aplicação não estiver em execução, uma nova instância será iniciada."
 
 #: data/data/preferences.ui:425
 msgid "Enable animations"
@@ -224,7 +224,7 @@ msgid ""
 "When enabled an \"all applications\" menu containing all installed "
 "applications will be shown at applications view"
 msgstr ""
-"Quando ativado, um menu \"todos os aplicativos\" contendo todos os "
+"Quando habilitado, um menu \"todos os aplicativos\" contendo todos os "
 "aplicativos instalados será mostrado na visualização de aplicativos"
 
 #: data/data/preferences.ui:475
@@ -233,7 +233,7 @@ msgstr "<b>Vista de janelas:</b>"
 
 #: data/data/preferences.ui:487
 msgid "Mouse wheel changes workspace"
-msgstr "A roda do mouse muda a área de trabalho"
+msgstr "A roda do mouse muda o espaço de trabalho"
 
 #: data/data/preferences.ui:491
 msgid ""
@@ -766,7 +766,7 @@ msgstr "Exibir versão"
 #: xfdashboard/application.c:503
 #, c-format
 msgid "A Gnome Shell like dashboard for Xfce4 - version %s"
-msgstr ""
+msgstr "Um painel semelhante ao Gnome Shell para Xfce4 - versão %s"
 
 #. Show error
 #: xfdashboard/application.c:521
