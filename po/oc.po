@@ -32,7 +32,7 @@ msgstr "Xfdashboard"
 #: data/org.xfce.xfdashboard.desktop.in.in:5
 #: data/metainfo/org.xfce.xfdashboard.metainfo.xml.in:7
 msgid "Maybe a Gnome shell like dashboard for Xfce"
-msgstr ""
+msgstr "Benlèu una inspiracion de Gnome shell per Xfce"
 
 #: data/org.xfce.xfdashboard-autostart.desktop.in.in:5
 msgid "Start xfdashboard as daemon in background"
@@ -57,6 +57,8 @@ msgid ""
 "Xfdashboard provides a GNOME shell dashboard like interface for use with "
 "Xfce desktop."
 msgstr ""
+"Xfdashboard fornís una interfàcia de tablèu de bòrd inspirada de GNOME shell"
+" d’utilizar amb lo burèu Xfce."
 
 #: data/metainfo/org.xfce.xfdashboard.metainfo.xml.in:13
 msgid ""
@@ -147,21 +149,24 @@ msgstr ""
 
 #: data/data/preferences.ui:360
 msgid "Priority of window content creation"
-msgstr ""
+msgstr "Prioritat de la creacion de contengut de fenèstra"
 
 #: data/data/preferences.ui:391
 msgid "Show child windows in main windows"
-msgstr ""
+msgstr "Afichar las fenèstras filhas dins las fenèstras principalas"
 
 #: data/data/preferences.ui:395
 msgid ""
 "When enabled all live window previews will also show their child windows. "
 "Disabling this option will increase performance on slower machines."
 msgstr ""
+"Quand activat totas las previsualizacions de fenèstras en dirècte mostraràn "
+"tanben lors fenèstras filhas. Desactivar aquesta opcion aumentarà la "
+"performança sus de maquinas mai lentas."
 
 #: data/data/preferences.ui:407
 msgid "Always start a new instance for application"
-msgstr ""
+msgstr "Totjorn aviar una instància novèla per aplicacion"
 
 #: data/data/preferences.ui:411
 msgid ""
@@ -176,7 +181,7 @@ msgstr "Activar las animacions"
 
 #: data/data/preferences.ui:429
 msgid "If enabled theme-defined animations will be shown."
-msgstr ""
+msgstr "Se activat las animacions del tèma definit s’aficharàn."
 
 #: data/data/preferences.ui:444
 msgid "<b>Applications view:</b>"
@@ -200,7 +205,7 @@ msgstr "<b>Vista fenèstras :</b>"
 
 #: data/data/preferences.ui:487
 msgid "Mouse wheel changes workspace"
-msgstr ""
+msgstr "La rodeta de la mirga càmbia d’espaci de trabalh"
 
 #: data/data/preferences.ui:491
 msgid ""
@@ -208,6 +213,10 @@ msgid ""
 "view will change the active workspace. This behaviour is the same as in "
 "workspace selector."
 msgstr ""
+"Quand activat quin eveniment de defilament que siá, coma la rodeta de la "
+"mirga cap amont e cap aval, dins la vista de las fenèstras cambiarà l'espaci"
+" de trabalh actiu. Aqueste compòrtament es lo meteis que dins lo selector "
+"d'espaci de trabalh."
 
 #: data/data/preferences.ui:507
 msgid "<b>Search view:</b>"
@@ -271,7 +280,7 @@ msgstr "Tèma aubergina per xfdashboard"
 
 #: data/themes/xfdashboard-blue/xfdashboard.theme.desktop.in.in:3
 msgid "xfdashboard-blue"
-msgstr ""
+msgstr "xfdashboard-blau"
 
 #: data/themes/xfdashboard-blue/xfdashboard.theme.desktop.in.in:4
 msgid "Blue theme for xfdashboard"
@@ -279,7 +288,7 @@ msgstr "Tèma blau per xfdashboard"
 
 #: data/themes/xfdashboard-dark/xfdashboard.theme.desktop.in.in:3
 msgid "xfdashboard-dark"
-msgstr ""
+msgstr "xfdashboard-escur"
 
 #: data/themes/xfdashboard-dark/xfdashboard.theme.desktop.in.in:4
 msgid "Dark theme for xfdashboard"
@@ -287,7 +296,7 @@ msgstr "Tèma escur per xfdashboard"
 
 #: data/themes/xfdashboard-mint/xfdashboard.theme.desktop.in.in:3
 msgid "xfdashboard-mint"
-msgstr ""
+msgstr "xfdashboard-menta"
 
 #: data/themes/xfdashboard-mint/xfdashboard.theme.desktop.in.in:4
 msgid "Fresh-green flavored theme for xfdashboard"
@@ -303,16 +312,16 @@ msgstr ""
 
 #: data/themes/xfdashboard-wine/xfdashboard.theme.desktop.in.in:3
 msgid "xfdashboard-wine"
-msgstr ""
+msgstr "xfdashboard-vin"
 
 #: data/themes/xfdashboard-wine/xfdashboard.theme.desktop.in.in:4
 msgid "Red wine theme for xfdashboard"
-msgstr ""
+msgstr "Tèma roge vin per xfdashboard"
 
 #: libxfdashboard/application-button.c:267
 #, c-format
 msgid "Could not execute action '%s' for application '%s': %s"
-msgstr ""
+msgstr "Execucion impossibla de l’accion « %s » per l’aplicacion « %s » : %s"
 
 #: libxfdashboard/application-button.c:270 settings/main.c:74
 #: settings/plugins.c:794
@@ -322,7 +331,7 @@ msgstr "Error desconeguda"
 #: libxfdashboard/application-button.c:287
 #, c-format
 msgid "Executed action '%s' for application '%s'"
-msgstr ""
+msgstr "Accion « %s » executada per l’aplicacion « %s »"
 
 #: libxfdashboard/application-button.c:748
 #: libxfdashboard/application-button.c:766
@@ -332,13 +341,13 @@ msgstr ""
 #: plugins/recently-used-search-provider/recently-used-search-provider.c:581
 #, c-format
 msgid "Launching application '%s' failed: %s"
-msgstr ""
+msgstr "Lo lançament de l’aplicacion « %s » a fracassat : %s"
 
 #: libxfdashboard/application-button.c:750 libxfdashboard/quicklaunch.c:336
 #: plugins/recently-used-search-provider/recently-used-search-provider.c:499
 #: plugins/recently-used-search-provider/recently-used-search-provider.c:520
 msgid "No information available for application"
-msgstr ""
+msgstr "Cap d’informacions pas disponiblas per l’aplicacion"
 
 #: libxfdashboard/application-button.c:768
 #: libxfdashboard/applications-search-provider.c:767
@@ -394,7 +403,7 @@ msgstr "Lista de totas las aplicacions installadas"
 #: libxfdashboard/core.c:371
 #, c-format
 msgid "Could not load theme '%s': %s"
-msgstr ""
+msgstr "Cargament impossible del tèma « %s » : %s"
 
 #: libxfdashboard/core.c:1268
 #, c-format
@@ -408,7 +417,7 @@ msgstr "La benvenguda dins %s !"
 
 #: libxfdashboard/quicklaunch.c:384
 msgid "No windows to activate for application"
-msgstr ""
+msgstr "Cap de fenèstra d’activar per l’aplicacion"
 
 #: libxfdashboard/quicklaunch.c:507 libxfdashboard/quicklaunch.c:1243
 #: libxfdashboard/quicklaunch.c:2053
@@ -469,7 +478,7 @@ msgstr "Fenèstras"
 
 #: plugins/autopin-windows/plugin.c:71
 msgid "Auto-pin windows"
-msgstr ""
+msgstr "Penjar automaticament las fenèstras"
 
 #: plugins/autopin-windows/plugin.c:72
 msgid ""
@@ -524,19 +533,19 @@ msgstr "Ajusta una vista novèla que mòstra un relòtge"
 
 #: plugins/example-search-provider/example-search-provider.c:67
 msgid "Example search"
-msgstr ""
+msgstr "Exemple de recèrca"
 
 #: plugins/example-search-provider/plugin.c:75
 msgid "Example search provider"
-msgstr ""
+msgstr "Provesidor de recèrca d’exemple"
 
 #: plugins/example-search-provider/plugin.c:76
 msgid "This is just a useless example search provider plugin"
-msgstr ""
+msgstr "Es pas qu'un exemple inutil d'empeuton de provesidor de recèrca"
 
 #: plugins/gnome-shell-search-provider/plugin.c:464
 msgid "Gnome-Shell search provider"
-msgstr ""
+msgstr "Provesidor de recèrca Gnome-Shell"
 
 #: plugins/gnome-shell-search-provider/plugin.c:465
 msgid "Uses Gnome-Shell search providers as source for searches"
@@ -622,11 +631,11 @@ msgstr "Far pas res"
 
 #: settings/general.c:85
 msgid "Windows view"
-msgstr ""
+msgstr "Vista fenèstras"
 
 #: settings/general.c:86
 msgid "Applications view"
-msgstr ""
+msgstr "Vista aplicacions"
 
 #: settings/general.c:93
 msgid "High"
@@ -650,7 +659,7 @@ msgstr "Socket del gestionari de paramètres"
 
 #: settings/main.c:46
 msgid "SOCKET ID"
-msgstr ""
+msgstr "ID SOCKET"
 
 #: settings/main.c:47
 msgid "Version information"
@@ -673,7 +682,7 @@ msgstr ""
 #: settings/plugins.c:222
 #, c-format
 msgid "Configure plugin: %s"
-msgstr ""
+msgstr "Configurar empeuton : %s"
 
 #. Create error message to store in list
 #: settings/plugins.c:793
@@ -683,6 +692,9 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"<b>Cargament impossible de l’empeuton.</b>\n"
+"\n"
+"%s"
 
 #: settings/plugins.c:1005
 msgid "Name"
@@ -698,11 +710,11 @@ msgstr ""
 
 #: xfdashboard/application.c:479
 msgid "Quit running instance"
-msgstr ""
+msgstr "Quitar l’instància en execucion"
 
 #: xfdashboard/application.c:480
 msgid "Restart running instance"
-msgstr ""
+msgstr "Reaviar l’instància en execucion"
 
 #: xfdashboard/application.c:481
 msgid ""
