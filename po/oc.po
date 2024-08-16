@@ -67,6 +67,11 @@ msgid ""
 "switch between different applications. The search feature works like Xfce's "
 "app finder which makes it convenient to search for and start applications."
 msgstr ""
+"Pòt èsser configurat per foncionar sus quin acorchi de clavièr que siá e "
+"quand es executat provesís una vista generala de las aplicacions actualament"
+" dobèrtas permetent a l'utilizaire de bascular entre diferentas aplicacions."
+" La foncionalitat de recèrca fonciona coma lo cercador d'aplicacions de Xfce"
+" çò que fa venir aisit de la recèrca e aviada d'aplicacions."
 
 #: data/metainfo/org.xfce.xfdashboard.metainfo.xml.in:26
 msgid "Browsing applications"
@@ -98,7 +103,7 @@ msgstr "<b>Paramètres generals :</b>"
 
 #: data/data/preferences.ui:228
 msgid "Reset search view when resumed"
-msgstr ""
+msgstr "Reïnicializar la vista recèrca a la represa"
 
 #: data/data/preferences.ui:232
 msgid ""
