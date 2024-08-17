@@ -111,6 +111,9 @@ msgid ""
 "\n"
 "<b>NOTE:</b> This setting only takes effect if xfdashboard is running in daemon mode. "
 msgstr ""
+"Se activat la vista de recèrca serà reïnicializada quand lo tablèu de bòrd xfdashboard es représ. Aquò vòl dire que la vista activa es tornada a la darrièra vista activa abans que la darrièra recèrca siá aviada e la bóstia de recèrca serà voidada.\n"
+"\n"
+"<b>NÒTA :</b> aqueste paramètre pren pas qu'efièch se lo tablèu de bòrd xfdashboard es en execucion en mòde demòni."
 
 #: data/data/preferences.ui:253 data/data/preferences.ui:270
 msgid ""
