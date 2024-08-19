@@ -121,10 +121,13 @@ msgid ""
 "\n"
 "<b>NOTE:</b> This setting only takes effect if xfdashboard is running in daemon mode."
 msgstr ""
+"Quand lo tablèu de bòrd xfdashboard reprendrà la vista seleccionada serà activada.\n"
+"\n"
+"<b>NÒTA :</b>Aqueste paramètre pren pas qu'efièch se xfdashboard s’executa en mòde demòni."
 
 #: data/data/preferences.ui:258
 msgid "Switch to view when resumed:"
-msgstr ""
+msgstr "A la represa bascular a la vista :"
 
 #: data/data/preferences.ui:295 data/data/preferences.ui:312
 msgid ""
@@ -132,6 +135,9 @@ msgid ""
 "\n"
 "The duration is calculated by the length of the text to show in notification. This setting allows you to specify how long the notification must be shown at least."
 msgstr ""
+"Definís lo temps minimum qu'una notificacion s’aficha.\n"
+"\n"
+"La durada es calculada per la longor del tèxte a afichar dins la notificacion. Aqueste paramètre vos permet d'especificar quant de temps se deu afichar al mens la notificacion."
 
 #: data/data/preferences.ui:300
 msgid "Minimum notification timeout:"
@@ -280,7 +286,7 @@ msgstr "Tèma per defaut per xfdashboard"
 
 #: data/themes/xfdashboard-auber/xfdashboard.theme.desktop.in.in:3
 msgid "xfdashboard-auber"
-msgstr ""
+msgstr "xfdashboard-auber"
 
 #: data/themes/xfdashboard-auber/xfdashboard.theme.desktop.in.in:4
 msgid "Aubergine theme for xfdashboard"
@@ -308,15 +314,15 @@ msgstr "xfdashboard-menta"
 
 #: data/themes/xfdashboard-mint/xfdashboard.theme.desktop.in.in:4
 msgid "Fresh-green flavored theme for xfdashboard"
-msgstr ""
+msgstr "Tèma amb sabor verd fresc per xfdashboard"
 
 #: data/themes/xfdashboard-moranga/xfdashboard.theme.desktop.in.in:3
 msgid "xfdashboard-moranga"
-msgstr ""
+msgstr "xfdashboard-moranga"
 
 #: data/themes/xfdashboard-moranga/xfdashboard.theme.desktop.in.in:4
 msgid "Moranga theme for xfdashboard"
-msgstr ""
+msgstr "Tèma Moranga per xfdashboard"
 
 #: data/themes/xfdashboard-wine/xfdashboard.theme.desktop.in.in:3
 msgid "xfdashboard-wine"
@@ -493,6 +499,8 @@ msgid ""
 "Pins windows on secondary windows or unpins windows on primary windows "
 "automatically"
 msgstr ""
+"Penja las fenèstras sus las fenèstras segondàrias o despenja las fenèstras "
+"de las fenèstras primàrias automaticament"
 
 #. Set up view
 #: plugins/clock-view/clock-view.c:307 plugins/clock-view/plugin.c:311
@@ -594,7 +602,7 @@ msgstr ""
 
 #: plugins/hot-corner/plugin.c:457
 msgid "Hot corner"
-msgstr ""
+msgstr "Bòrd reactiu"
 
 #: plugins/hot-corner/plugin.c:458
 msgid ""
@@ -604,19 +612,19 @@ msgstr ""
 
 #: plugins/middle-click-window-close/plugin.c:71
 msgid "Middle-click window close"
-msgstr ""
+msgstr "Tampadura amb lo clic del mitan"
 
 #: plugins/middle-click-window-close/plugin.c:72
 msgid "Closes windows in windows view by middle-click"
-msgstr ""
+msgstr "Tampa las vistas de fenèstras amb lo clic del mitan"
 
 #: plugins/recently-used-search-provider/plugin.c:75
 msgid "Recently used search provider"
-msgstr ""
+msgstr "Provesidor de recèrca dels fichièrs recentament utilizats"
 
 #: plugins/recently-used-search-provider/plugin.c:76
 msgid "A search provider using recently used files as source"
-msgstr ""
+msgstr "Un provesidor de recèrca qu’utiliza los fichièrs recents coma font"
 
 #: plugins/recently-used-search-provider/recently-used-search-provider.c:246
 msgid "Recently used"
