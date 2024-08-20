@@ -583,12 +583,12 @@ msgstr "Immediatament"
 #. Add widget to choose activation corner
 #: plugins/hot-corner/plugin.c:325
 msgid "Activation corner:"
-msgstr ""
+msgstr "Caire d’activacion :"
 
 #. Add widget to choose activation radius
 #: plugins/hot-corner/plugin.c:361
 msgid "Radius of activation corner:"
-msgstr ""
+msgstr "Rai del caire d’activacion :"
 
 #. Add widget to choose activation duration
 #: plugins/hot-corner/plugin.c:379
@@ -633,13 +633,13 @@ msgstr "Utilizats recentament"
 #: plugins/recently-used-search-provider/recently-used-search-provider.c:475
 #, c-format
 msgid "Launching application for '%s' failed: %s"
-msgstr ""
+msgstr "Fracàs del lançament de l’aplicacion per « %s » : %s"
 
 #: plugins/recently-used-search-provider/recently-used-search-provider.c:497
 #: plugins/recently-used-search-provider/recently-used-search-provider.c:518
 #, c-format
 msgid "Launching application for file '%s' failed: %s"
-msgstr ""
+msgstr "Fracàs del lançament de l’aplicacion pel fichièr « %s » : %s"
 
 #: settings/general.c:84
 msgid "Do nothing"
