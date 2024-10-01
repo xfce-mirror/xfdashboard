@@ -71,17 +71,17 @@ msgid ""
 "app finder which makes it convenient to search for and start applications."
 msgstr ""
 "Może zostać skonfigurowany do uruchomienia pod dowolnym skrótem klawiszowym."
-" Kiedy uruchomiony, wyświetla podgląd uruchomionych aplikacji i pozwala na "
+" Kiedy uruchomiony, wyświetla podgląd uruchomionych programów i pozwala na "
 "przełączanie pomiędzy nimi. Funkcja wyszukiwania działa podobnie do "
-"Wyszukiwarki aplikacji Xfce, pozwalając szybciej uruchomić aplikacje."
+"Wyszukiwarka programów Xfce, pozwalając szybciej uruchomić programy."
 
 #: data/metainfo/org.xfce.xfdashboard.metainfo.xml.in:26
 msgid "Browsing applications"
-msgstr "Przeglądanie aplikacji"
+msgstr "Przeglądanie programów"
 
 #: data/metainfo/org.xfce.xfdashboard.metainfo.xml.in:30
 msgid "Searching applications"
-msgstr "Wyszukiwanie aplikacji"
+msgstr "Wyszukiwanie programów"
 
 #: data/data/preferences.ui:88
 msgid "<span size=\"large\"><b>Xfdashboard settings</b></span>"
@@ -165,9 +165,9 @@ msgid ""
 "\n"
 "<b>NOTE:</b> Only change this value from 'immediate' to other value if your graphics card, driver or system is too slow to create the window contents immediately. You have to try each value to find the one fitting your system."
 msgstr ""
-"Ta wartość określa, jak szybko powinna być tworzona zawartość okna. Podczas gdy wartość 'immediate' mówi Xfdashboard, aby utworzył zawartość okna w momencie, gdy jest on żądany, wszystkie inne wartości ustawiają kolejkę, a wartość określa, jak szybko kolejka będzie przetwarzana.\n"
+"Ta wartość określa, jak szybko powinna być tworzona zawartość okna. Podczas gdy wartość „immediate” mówi Xfdashboard, aby utworzył zawartość okna w momencie, gdy jest on żądany, wszystkie inne wartości ustawiają kolejkę, a wartość określa, jak szybko kolejka będzie przetwarzana.\n"
 "\n"
-"<b>UWAGA:</b> Zmień tę wartość z 'immediate' na inną tylko wtedy, gdy twoja karta graficzna, sterownik lub system są zbyt wolne, aby natychmiast utworzyć zawartość okna. Musisz wypróbować każdą wartość, aby znaleźć tę, która pasuje do twojego systemu."
+"<b>UWAGA:</b> zmień tę wartość z „immediate” na inną tylko wtedy, gdy twoja karta graficzna, sterownik lub system są zbyt wolne, aby natychmiast utworzyć zawartość okna. Musisz wypróbować każdą wartość, aby znaleźć tę, która pasuje do tego systemu."
 
 #: data/data/preferences.ui:360
 msgid "Priority of window content creation"
@@ -188,7 +188,7 @@ msgstr ""
 
 #: data/data/preferences.ui:407
 msgid "Always start a new instance for application"
-msgstr "Zawsze uruchamiaj nową kopię aplikacji"
+msgstr "Zawsze uruchamiaj nową kopię programu"
 
 #: data/data/preferences.ui:411
 msgid ""
@@ -210,19 +210,19 @@ msgstr "Jeśli włączone, zostaną wyświetlone animacje zdefiniowane motywem."
 
 #: data/data/preferences.ui:444
 msgid "<b>Applications view:</b>"
-msgstr "<b>Widok aplikacji:</b>"
+msgstr "<b>Widok programu:</b>"
 
 #: data/data/preferences.ui:456
 msgid "Show menu for all installed applications"
-msgstr "Wyświetl menu wyświetlające wszystkie zainstalowane aplikacje"
+msgstr "Wyświetl menu wyświetlające wszystkie zainstalowane programy"
 
 #: data/data/preferences.ui:460
 msgid ""
 "When enabled an \"all applications\" menu containing all installed "
 "applications will be shown at applications view"
 msgstr ""
-"Jeśli zaznaczone, menu wszystkich aplikacji będzie widoczne przy widoku "
-"aplikacji"
+"Jeśli zaznaczone, menu wszystkich programów będzie widoczne przy widoku "
+"programów"
 
 #: data/data/preferences.ui:475
 msgid "<b>Windows view:</b>"
@@ -345,7 +345,7 @@ msgstr "Motyw w kolorze czerwonego wina dla Xfdashboard"
 #: libxfdashboard/application-button.c:267
 #, c-format
 msgid "Could not execute action '%s' for application '%s': %s"
-msgstr "Nie udało się wykonać czynności '%s' dla programu '%s': %s"
+msgstr "Nie udało się wykonać czynności „%s” dla programu „%s”: %s"
 
 #: libxfdashboard/application-button.c:270 settings/main.c:74
 #: settings/plugins.c:794
@@ -355,7 +355,7 @@ msgstr "Nieznany błąd"
 #: libxfdashboard/application-button.c:287
 #, c-format
 msgid "Executed action '%s' for application '%s'"
-msgstr "Wykonana czynność '%s' dla programu '%s'"
+msgstr "Wykonana czynność „%s” dla programu „%s”"
 
 #: libxfdashboard/application-button.c:748
 #: libxfdashboard/application-button.c:766
@@ -365,7 +365,7 @@ msgstr "Wykonana czynność '%s' dla programu '%s'"
 #: plugins/recently-used-search-provider/recently-used-search-provider.c:581
 #, c-format
 msgid "Launching application '%s' failed: %s"
-msgstr "Uruchomienie programu '%s' nie powiodło się: %s"
+msgstr "Uruchomienie programu „%s” nie powiodło się: %s"
 
 #: libxfdashboard/application-button.c:750 libxfdashboard/quicklaunch.c:336
 #: plugins/recently-used-search-provider/recently-used-search-provider.c:499
@@ -389,7 +389,7 @@ msgstr "nieznany błąd"
 #: plugins/recently-used-search-provider/recently-used-search-provider.c:595
 #, c-format
 msgid "Application '%s' launched"
-msgstr "Uruchomiono aplikację '%s'"
+msgstr "Uruchomiono program „%s”"
 
 #: libxfdashboard/applications-search-provider.c:849
 #: libxfdashboard/applications-view.c:415 libxfdashboard/quicklaunch.c:664
@@ -401,7 +401,7 @@ msgstr "Uruchom"
 #: libxfdashboard/applications-search-provider.c:1191
 #: libxfdashboard/applications-view.c:1589 libxfdashboard/quicklaunch.c:3225
 msgid "Applications"
-msgstr "Aplikacje"
+msgstr "Programy"
 
 #: libxfdashboard/applications-view.c:552
 #: libxfdashboard/applications-view.c:553
@@ -418,16 +418,16 @@ msgstr "Wróć do poprzedniego menu"
 #: libxfdashboard/applications-view.c:692
 #: libxfdashboard/applications-view.c:693
 msgid "All applications"
-msgstr "Wszystkie aplikacje"
+msgstr "Wszystkie programy"
 
 #: libxfdashboard/applications-view.c:692
 msgid "List of all installed applications"
-msgstr "Lista wszystkich zainstalowanych aplikacji"
+msgstr "Lista wszystkich zainstalowanych programów"
 
 #: libxfdashboard/core.c:371
 #, c-format
 msgid "Could not load theme '%s': %s"
-msgstr "Nie udało się załadować motywu '%s': %s"
+msgstr "Nie udało się załadować motywu „%s”: %s"
 
 #: libxfdashboard/core.c:1268
 #, c-format
@@ -447,13 +447,13 @@ msgstr "Brak okien do aktywacji dla programu"
 #: libxfdashboard/quicklaunch.c:2053
 #, c-format
 msgid "Favourite '%s' removed"
-msgstr "Ulubione '%s' usunięto"
+msgstr "Ulubione „%s” usunięto"
 
 #: libxfdashboard/quicklaunch.c:606 libxfdashboard/quicklaunch.c:925
 #: libxfdashboard/quicklaunch.c:1986
 #, c-format
 msgid "Favourite '%s' added"
-msgstr "Ulubione '%s' dodano"
+msgstr "Ulubione „%s” dodano"
 
 #: libxfdashboard/quicklaunch.c:687
 msgid "Remove from favourites"
@@ -484,7 +484,7 @@ msgstr "Pokaż wszystkie %d wyników..."
 #: libxfdashboard/search-view.c:979
 #, c-format
 msgid "No results found for '%s'"
-msgstr "Nie znaleziono wyników dla '%s'"
+msgstr "Nie znaleziono wyników dla „%s”"
 
 #. Set up view (Note: Search view is disabled by default!)
 #: libxfdashboard/search-view.c:1719
@@ -645,13 +645,13 @@ msgstr "Ostatnio używane"
 #: plugins/recently-used-search-provider/recently-used-search-provider.c:475
 #, c-format
 msgid "Launching application for '%s' failed: %s"
-msgstr "Uruchomienie aplikacji dla '%s' nie powiodło się: %s"
+msgstr "Uruchomienie programu dla „%s” nie powiodło się: %s"
 
 #: plugins/recently-used-search-provider/recently-used-search-provider.c:497
 #: plugins/recently-used-search-provider/recently-used-search-provider.c:518
 #, c-format
 msgid "Launching application for file '%s' failed: %s"
-msgstr "Uruchomienie aplikacji dla pliku '%s' nie powiodło się: %s"
+msgstr "Uruchomienie programu dla pliku „%s” nie powiodło się: %s"
 
 #: settings/general.c:84
 msgid "Do nothing"
@@ -663,7 +663,7 @@ msgstr "Widok okien"
 
 #: settings/general.c:86
 msgid "Applications view"
-msgstr "Widok aplikacji"
+msgstr "Widok programów"
 
 #: settings/general.c:93
 msgid "High"
