@@ -167,7 +167,7 @@ msgid ""
 msgstr ""
 "Ta wartość określa, jak szybko powinna być tworzona zawartość okna. Podczas gdy wartość „immediate” mówi Xfdashboard, aby utworzył zawartość okna w momencie, gdy jest on żądany, wszystkie inne wartości ustawiają kolejkę, a wartość określa, jak szybko kolejka będzie przetwarzana.\n"
 "\n"
-"<b>UWAGA:</b> zmień tę wartość z „immediate” na inną tylko wtedy, gdy twoja karta graficzna, sterownik lub system są zbyt wolne, aby natychmiast utworzyć zawartość okna. Musisz wypróbować każdą wartość, aby znaleźć tę, która pasuje do tego systemu."
+"<b>UWAGA:</b> zmień tę wartość z „immediate” na inną tylko wtedy, gdy karta graficzna, sterownik lub system są zbyt wolne, aby natychmiast utworzyć zawartość okna. Musisz wypróbować każdą wartość, aby znaleźć tę, która pasuje do tego systemu."
 
 #: data/data/preferences.ui:360
 msgid "Priority of window content creation"
@@ -567,7 +567,7 @@ msgstr "Przykładowy dostawca wyszukiwania"
 
 #: plugins/example-search-provider/plugin.c:76
 msgid "This is just a useless example search provider plugin"
-msgstr "To tylko bezużyteczna przykładowa wtyczka dostawcy wyszukiwania"
+msgstr "To tylko bezużyteczna wtyczka przykładowa dostawcy wyszukiwania"
 
 #: plugins/gnome-shell-search-provider/plugin.c:464
 msgid "Gnome-Shell search provider"
@@ -766,7 +766,7 @@ msgstr "Pokaż wersję"
 #: xfdashboard/application.c:503
 #, c-format
 msgid "A Gnome Shell like dashboard for Xfce4 - version %s"
-msgstr "Podobny do powłoki Gnome pulpit nawigacyjny dla Xfce4 - wersja %s"
+msgstr "Podobny do powłoki Gnome pulpit nawigacyjny dla Xfce4 – wersja %s"
 
 #. Show error
 #: xfdashboard/application.c:521
