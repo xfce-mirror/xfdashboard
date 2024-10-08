@@ -38,7 +38,7 @@ msgstr "Morda nadzorna plošča podobna Gnome lupini za Xfce"
 
 #: data/org.xfce.xfdashboard-autostart.desktop.in.in:5
 msgid "Start xfdashboard as daemon in background"
-msgstr "Zaženi xfdashboard kot pritajeni demon program v ozadju"
+msgstr "Zaženi xfdashboard kot pritajeni program v ozadju"
 
 #: data/org.xfce.xfdashboard-settings.desktop.in.in:5
 #: data/org.xfce.xfdashboard-settings.desktop.in.in:7
@@ -69,18 +69,18 @@ msgid ""
 "switch between different applications. The search feature works like Xfce's "
 "app finder which makes it convenient to search for and start applications."
 msgstr ""
-"Mogoče ga je nastaviti  za zaganjanje poljubnih bližnjiv na tipkovnici in ko"
+"Mogoče ga je nastaviti  za zaganjanje poljubnih bližnjic na tipkovnici in ko"
 " je zagnan ponuja pregled nad trenutno odprtimi aplikacijami, kar omogoča "
-"uporabniku preklapljanje med njimi. Iskalnik deluje kakor Xfce iskalnik "
-"programov, zaradi česar je primeren za iskanje in zagon apliakcij."
+"preklapljanje med njimi. Iskalnik deluje kot Xfce iskalnik programov in je "
+"primeren za iskanje in zagon programov."
 
 #: data/metainfo/org.xfce.xfdashboard.metainfo.xml.in:26
 msgid "Browsing applications"
-msgstr "Brskanje po aplikacijah"
+msgstr "Brskanje po programih"
 
 #: data/metainfo/org.xfce.xfdashboard.metainfo.xml.in:30
 msgid "Searching applications"
-msgstr "Iskanje aplikacij"
+msgstr "Iskanje programov"
 
 #: data/data/preferences.ui:88
 msgid "<span size=\"large\"><b>Xfdashboard settings</b></span>"
