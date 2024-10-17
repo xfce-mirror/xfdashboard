@@ -116,10 +116,13 @@ msgid ""
 "\n"
 "<b>NOTE:</b> This setting only takes effect if xfdashboard is running in daemon mode."
 msgstr ""
+"Kui xfdashboard jätkab tööd, siis kuvatakse järgnev vaade.\n"
+"\n"
+"<b>Märkus</b>: See eelistus toimib vaid siis, kui xfdashboard töötab taustateenusena."
 
 #: data/data/preferences.ui:258
 msgid "Switch to view when resumed:"
-msgstr ""
+msgstr "Jätkamisel kasuta vaadet:"
 
 #: data/data/preferences.ui:295 data/data/preferences.ui:312
 msgid ""
