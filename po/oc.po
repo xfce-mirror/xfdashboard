@@ -722,7 +722,7 @@ msgstr "Tèma"
 
 #: xfdashboard/application.c:478
 msgid "Fork to background"
-msgstr ""
+msgstr "Manténer en rèireplan"
 
 #: xfdashboard/application.c:479
 msgid "Quit running instance"
