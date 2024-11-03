@@ -44,7 +44,7 @@ msgstr "Rozpocznij działanie Xfdashboard jako demon w tle"
 #: data/org.xfce.xfdashboard-settings.desktop.in.in:5
 #: data/org.xfce.xfdashboard-settings.desktop.in.in:7
 msgid "Xfdashboard settings"
-msgstr "Ustawienia Xfdashboard"
+msgstr "Ustawienia programu Xfdashboard"
 
 #: data/org.xfce.xfdashboard-settings.desktop.in.in:6
 msgid "Configure xfdashboard"
@@ -85,7 +85,7 @@ msgstr "Wyszukiwanie programów"
 
 #: data/data/preferences.ui:88
 msgid "<span size=\"large\"><b>Xfdashboard settings</b></span>"
-msgstr "<span size=\"large\"><b>Ustawienia Xfdashboard</b></span>"
+msgstr "<span size=\"large\"><b>Ustawienia programu Xfdashboard</b></span>"
 
 #: data/data/preferences.ui:103
 msgid "Configure plugin"
@@ -96,7 +96,7 @@ msgid ""
 "<span size=\"large\"><b>Xfdashboard settings</b></span>\n"
 "Configure xfdashboard"
 msgstr ""
-"<span size=\"large\"><b>Ustawienia Xfdashboard</b></span>\n"
+"<span size=\"large\"><b>Ustawienia programu Xfdashboard</b></span>\n"
 "Skonfiguruj Xfdashboard"
 
 #: data/data/preferences.ui:216
