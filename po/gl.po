@@ -766,6 +766,8 @@ msgstr "Amosar a versión"
 #, c-format
 msgid "A Gnome Shell like dashboard for Xfce4 - version %s"
 msgstr ""
+"Un panel de control parecido ao intérprete de ordes Gnome para o Xfce4 - "
+"versión %s"
 
 #. Show error
 #: xfdashboard/application.c:521
