@@ -12,6 +12,7 @@
 # Recep, 2024
 # Emin Tufan Çetin <etcetin@gmail.com>, 2024
 # Yaşar Çiv <yasarciv@protonmail.com>, 2024
+# Ufuk Furkan Öztürk, 2024
 # 
 #, fuzzy
 msgid ""
@@ -20,7 +21,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.xfce.org/\n"
 "POT-Creation-Date: 2024-06-23 12:51+0200\n"
 "PO-Revision-Date: 2020-10-07 10:59+0000\n"
-"Last-Translator: Yaşar Çiv <yasarciv@protonmail.com>, 2024\n"
+"Last-Translator: Ufuk Furkan Öztürk, 2024\n"
 "Language-Team: Turkish (https://app.transifex.com/xfce/teams/16840/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -767,7 +768,7 @@ msgstr "Sürümü göster"
 #: xfdashboard/application.c:503
 #, c-format
 msgid "A Gnome Shell like dashboard for Xfce4 - version %s"
-msgstr ""
+msgstr "Xfce4 için Gnome Kabuğu benzeri gösterge paneli - sürüm %s"
 
 #. Show error
 #: xfdashboard/application.c:521
