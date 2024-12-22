@@ -1,0 +1,778 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Xfce
+# This file is distributed under the same license as the xfce-apps.xfdashboard package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# cip <c1pr1an@tuta.io>, 2020
+# Marius Ghita, 2024
+# Nick Schermer <nick@xfce.org>, 2024
+# Xfce Bot <transifex@xfce.org>, 2024
+# vyper <xvirusxx@gmail.com>, 2024
+# Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>, 2024
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce-apps.xfdashboard\n"
+"Report-Msgid-Bugs-To: https://gitlab.xfce.org/\n"
+"POT-Creation-Date: 2024-06-23 12:51+0200\n"
+"PO-Revision-Date: 2020-10-07 10:59+0000\n"
+"Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>, 2024\n"
+"Language-Team: Romanian (https://app.transifex.com/xfce/teams/16840/ro/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: data/org.xfce.xfdashboard.desktop.in.in:4
+#: data/org.xfce.xfdashboard.desktop.in.in:6
+#: data/org.xfce.xfdashboard-autostart.desktop.in.in:4
+msgid "Xfdashboard"
+msgstr "Xfdashboard"
+
+#: data/org.xfce.xfdashboard.desktop.in.in:5
+#: data/metainfo/org.xfce.xfdashboard.metainfo.xml.in:7
+msgid "Maybe a Gnome shell like dashboard for Xfce"
+msgstr "Poate că un shell Gnome ca tablou de bord pentru Xfce"
+
+#: data/org.xfce.xfdashboard-autostart.desktop.in.in:5
+msgid "Start xfdashboard as daemon in background"
+msgstr "Pornește xfdashboard ca demon în fundal"
+
+#: data/org.xfce.xfdashboard-settings.desktop.in.in:5
+#: data/org.xfce.xfdashboard-settings.desktop.in.in:7
+msgid "Xfdashboard settings"
+msgstr "Opțiuni Xfdashboard"
+
+#: data/org.xfce.xfdashboard-settings.desktop.in.in:6
+msgid "Configure xfdashboard"
+msgstr "Configurați xfdashboard"
+
+#: data/metainfo/org.xfce.xfdashboard.metainfo.xml.in:6
+#: data/themes/xfdashboard/xfdashboard.theme.desktop.in.in:3
+msgid "xfdashboard"
+msgstr "xfdashboard"
+
+#: data/metainfo/org.xfce.xfdashboard.metainfo.xml.in:10
+msgid ""
+"Xfdashboard provides a GNOME shell dashboard like interface for use with "
+"Xfce desktop."
+msgstr ""
+"Xfdashboard oferă o interfață asemănătoare tabloului de bord GNOME shell "
+"pentru utilizarea cu mediul grafic de birou Xfce."
+
+#: data/metainfo/org.xfce.xfdashboard.metainfo.xml.in:13
+msgid ""
+"It can be configured to run to any keyboard shortcut and when executed "
+"provides an overview of applications currently open enabling the user to "
+"switch between different applications. The search feature works like Xfce's "
+"app finder which makes it convenient to search for and start applications."
+msgstr ""
+"Acesta poate fi configurat pentru a rula la orice comandă rapidă de la "
+"tastatură și, atunci când este executat, oferă o prezentare generală a "
+"aplicațiilor deschise în prezent, permițând utilizatorului să comute între "
+"diferite aplicații. Funcția de căutare funcționează ca și căutătorul de "
+"aplicații al Xfce, ceea ce face ca căutarea și pornirea aplicațiilor să fie "
+"convenabilă."
+
+#: data/metainfo/org.xfce.xfdashboard.metainfo.xml.in:26
+msgid "Browsing applications"
+msgstr "Explorarea aplicațiilor"
+
+#: data/metainfo/org.xfce.xfdashboard.metainfo.xml.in:30
+msgid "Searching applications"
+msgstr "Căutarea aplicațiilor"
+
+#: data/data/preferences.ui:88
+msgid "<span size=\"large\"><b>Xfdashboard settings</b></span>"
+msgstr "<span size=\"large\"><b>Opțiuni Xfdashboard</b></span>"
+
+#: data/data/preferences.ui:103
+msgid "Configure plugin"
+msgstr "Configurare modul"
+
+#: data/data/preferences.ui:177
+msgid ""
+"<span size=\"large\"><b>Xfdashboard settings</b></span>\n"
+"Configure xfdashboard"
+msgstr ""
+"<span size=\"large\"><b>Opțiuni Xfdashboard</b></span>\n"
+"Configurare xfdashboard"
+
+#: data/data/preferences.ui:216
+msgid "<b>General settings:</b>"
+msgstr "Setări generale:"
+
+#: data/data/preferences.ui:228
+msgid "Reset search view when resumed"
+msgstr "Restabilirea vizualizării de căutare la reluarea căutării"
+
+#: data/data/preferences.ui:232
+msgid ""
+"If enabled the search view will be resetted when xfdashboard is resumed. That means the active view is switched back to last view active before last search was started and search box will be emptied.\n"
+"\n"
+"<b>NOTE:</b> This setting only takes effect if xfdashboard is running in daemon mode. "
+msgstr ""
+"Dacă este activată, vizualizarea căutării va fi restabilită atunci când xfdashboard este reluat. Aceasta înseamnă că vizualizarea activă este comutată înapoi la ultima vizualizare activă înainte de începerea ultimei căutări, iar caseta de căutare va fi golită.\n"
+"\n"
+"<b>NOTĂ:</b> Această opțiune are efect numai dacă «xfdashboard» rulează în modul demon. "
+
+#: data/data/preferences.ui:253 data/data/preferences.ui:270
+msgid ""
+"When xfdashboard resumes the selected view will be activated.\n"
+"\n"
+"<b>NOTE:</b> This setting only takes effect if xfdashboard is running in daemon mode."
+msgstr ""
+"Când «xfdashboard» își reia activitatea, vizualizarea selectată va fi activată.\n"
+"\n"
+"<b>NOTĂ:</b> Această opțiune are efect numai dacă «xfdashboard» rulează în modul demon."
+
+#: data/data/preferences.ui:258
+msgid "Switch to view when resumed:"
+msgstr "Schimbă la vizualizare când este reluat:"
+
+#: data/data/preferences.ui:295 data/data/preferences.ui:312
+msgid ""
+"Sets the minimum time a notification is being shown.\n"
+"\n"
+"The duration is calculated by the length of the text to show in notification. This setting allows you to specify how long the notification must be shown at least."
+msgstr ""
+"Stabilește durata minimă de afișare a unei notificări.\n"
+"\n"
+"Durata este calculată în funcție de lungimea textului care trebuie afișat în notificare. Această opțiune vă permite să specificați timpul minim de afișare a notificării."
+
+#: data/data/preferences.ui:300
+msgid "Minimum notification timeout:"
+msgstr "Durata minimă de afișare a notificării:"
+
+#: data/data/preferences.ui:332
+msgid "Enable workaround for minimized windows"
+msgstr "Activează soluția alternativă pentru ferestrele minimizate"
+
+#: data/data/preferences.ui:336
+msgid ""
+"When enabled a workaround for minimized windows will be tried to get still images of these windows by restoring them shortly and minimizing them again.\n"
+"\n"
+"<b>NOTE:</b> Be aware that this is a <u>workaround</u> and your minimized windows could stay unminimized, change workspace etc."
+msgstr ""
+"Când este activată, se va încerca o soluție pentru ferestrele minimizate pentru a obține imagini fixe ale acestor ferestre prin restaurarea lor pentru scurt timp și minimizarea lor din nou.\n"
+"\n"
+"<b>NOTĂ:</b> Rețineți că aceasta este o <u>soluție alternativă</u> și ferestrele minimizate pot rămâne neminimizate, pot schimba spațiul de lucru etc."
+
+#: data/data/preferences.ui:357 data/data/preferences.ui:372
+msgid ""
+"This value defines how fast the window content should be created. While the value 'immediate' tells xfdashboard to create the window content at the time it is requested, all other values will set up a queue and value defines how fast the queue will be processed.\n"
+"\n"
+"<b>NOTE:</b> Only change this value from 'immediate' to other value if your graphics card, driver or system is too slow to create the window contents immediately. You have to try each value to find the one fitting your system."
+msgstr ""
+"Această valoare definește cât de repede ar trebui creat conținutul ferestrei. În timp ce valoarea „imediat” îi indică lui xfdashboard să creeze conținutul ferestrei în momentul în care este solicitat, toate celelalte valori vor crea o coadă, iar valoarea definește cât de repede va fi procesată coada.\n"
+"\n"
+"<b>NOTĂ:</b> Schimbați această valoare de la „imediat” la altă valoare numai dacă placa grafică, controlorul sau sistemul dvs. este prea lent pentru a crea conținutul ferestrei imediat. Trebuie să încercați fiecare valoare pentru a o găsi pe cea care se potrivește sistemului dumneavoastră."
+
+#: data/data/preferences.ui:360
+msgid "Priority of window content creation"
+msgstr "Prioritatea creării conținutului ferestrelor"
+
+#: data/data/preferences.ui:391
+msgid "Show child windows in main windows"
+msgstr "Afișează ferestrele-copil în ferestrele principale"
+
+#: data/data/preferences.ui:395
+msgid ""
+"When enabled all live window previews will also show their child windows. "
+"Disabling this option will increase performance on slower machines."
+msgstr ""
+"Atunci când este activată, toate previzualizările ferestrelor „live” vor "
+"afișa și ferestrele-copiilor acestora. Dezactivarea acestei opțiuni va "
+"crește performanța pe mașinile mai lente."
+
+#: data/data/preferences.ui:407
+msgid "Always start a new instance for application"
+msgstr "Pornește întotdeauna o nouă instanță pentru aplicație"
+
+#: data/data/preferences.ui:411
+msgid ""
+"When enabled and an icon in quicklaunch is clicked it will always start a new instance of the application.\n"
+"\n"
+"When not enabled it will select the last known active window of the running application instance. If application is not running, a new instance will be started."
+msgstr ""
+"Atunci când este activată și se face clic pe o pictogramă din bara de lansare rapidă, aceasta va porni întotdeauna o nouă instanță a aplicației.\n"
+"\n"
+"Atunci când nu este activată, aceasta va selecta ultima fereastră activă cunoscută a instanței aplicației care rulează. Dacă aplicația nu rulează, va fi pornită o nouă instanță."
+
+#: data/data/preferences.ui:425
+msgid "Enable animations"
+msgstr "Activează animațiile"
+
+#: data/data/preferences.ui:429
+msgid "If enabled theme-defined animations will be shown."
+msgstr "Dacă este activată, vor fi afișate animațiile definite de temă."
+
+#: data/data/preferences.ui:444
+msgid "<b>Applications view:</b>"
+msgstr "<b>Vizualizare aplicații:</b>"
+
+#: data/data/preferences.ui:456
+msgid "Show menu for all installed applications"
+msgstr "Afișează meniul pentru toate aplicațiile instalate"
+
+#: data/data/preferences.ui:460
+msgid ""
+"When enabled an \"all applications\" menu containing all installed "
+"applications will be shown at applications view"
+msgstr ""
+"Când este activată, un meniu „Toate aplicațiile” care conține toate "
+"aplicațiile instalate va fi afișat la vizualizarea aplicațiilor"
+
+#: data/data/preferences.ui:475
+msgid "<b>Windows view:</b>"
+msgstr "<b>Vizualizare ferestre:</b>"
+
+#: data/data/preferences.ui:487
+msgid "Mouse wheel changes workspace"
+msgstr "Rotița mausului schimbă spațiul de lucru"
+
+#: data/data/preferences.ui:491
+msgid ""
+"When enabled any scroll event, like mouse-wheel up and down, at the windows "
+"view will change the active workspace. This behaviour is the same as in "
+"workspace selector."
+msgstr ""
+"Când este activată, orice eveniment de derulare, cum ar fi rotirea cu rotița"
+" mausului în sus și în jos, la vizualizarea ferestrelor va schimba spațiul "
+"de lucru activ. Acest comportament este același ca în cazul selectorului de "
+"spațiu de lucru."
+
+#: data/data/preferences.ui:507
+msgid "<b>Search view:</b>"
+msgstr "<b>Vizualizare căutare:</b>"
+
+#: data/data/preferences.ui:525 data/data/preferences.ui:538
+msgid ""
+"Sets the interval the search should be delayed by after the first character "
+"was entered."
+msgstr ""
+"Stabilește intervalul cu care ar trebui întârziată căutarea după "
+"introducerea primului caracter."
+
+#: data/data/preferences.ui:526
+msgid "Delay initial search interval:"
+msgstr "Întârzierea intervalului inițial de căutare:"
+
+#: data/data/preferences.ui:563
+msgid "General"
+msgstr "Generale"
+
+#: data/data/preferences.ui:617 data/data/preferences.ui:844
+msgid "<b>Name:</b>"
+msgstr "<b>Nume:</b>"
+
+#: data/data/preferences.ui:641 data/data/preferences.ui:793
+msgid "<b>Author:</b>"
+msgstr "<b>Autor:</b>"
+
+#: data/data/preferences.ui:668 data/data/preferences.ui:819
+msgid "<b>Version:</b>"
+msgstr "<b>Versiune:</b>"
+
+#: data/data/preferences.ui:694 data/data/preferences.ui:870
+msgid "<b>Description:</b>"
+msgstr "<b>Descriere:</b>"
+
+#: data/data/preferences.ui:740
+msgid "Themes"
+msgstr "Teme"
+
+#: data/data/preferences.ui:857
+msgid "<b>License:</b>"
+msgstr "<b>Licență:</b>"
+
+#: data/data/preferences.ui:942
+msgid "Plugins"
+msgstr "Module"
+
+#: data/themes/xfdashboard/xfdashboard.theme.desktop.in.in:4
+msgid "Default theme for xfdashboard"
+msgstr "Tema implicită pentru xfdashboard"
+
+#: data/themes/xfdashboard-auber/xfdashboard.theme.desktop.in.in:3
+msgid "xfdashboard-auber"
+msgstr "xfdashboard-vânătă"
+
+#: data/themes/xfdashboard-auber/xfdashboard.theme.desktop.in.in:4
+msgid "Aubergine theme for xfdashboard"
+msgstr "Tema de culoare vânătă pentru xfdashboard"
+
+#: data/themes/xfdashboard-blue/xfdashboard.theme.desktop.in.in:3
+msgid "xfdashboard-blue"
+msgstr "xfdashboard-albastru"
+
+#: data/themes/xfdashboard-blue/xfdashboard.theme.desktop.in.in:4
+msgid "Blue theme for xfdashboard"
+msgstr "Temă de culoare albastră pentru xfdashboard"
+
+#: data/themes/xfdashboard-dark/xfdashboard.theme.desktop.in.in:3
+msgid "xfdashboard-dark"
+msgstr "xfdashboard-întunecat"
+
+#: data/themes/xfdashboard-dark/xfdashboard.theme.desktop.in.in:4
+msgid "Dark theme for xfdashboard"
+msgstr "Temă întunecată pentru xfdashboard"
+
+#: data/themes/xfdashboard-mint/xfdashboard.theme.desktop.in.in:3
+msgid "xfdashboard-mint"
+msgstr "xfdashboard-mentă"
+
+#: data/themes/xfdashboard-mint/xfdashboard.theme.desktop.in.in:4
+msgid "Fresh-green flavored theme for xfdashboard"
+msgstr "Temă de culoare verde-proaspăt (mentă) pentru xfdashboard"
+
+#: data/themes/xfdashboard-moranga/xfdashboard.theme.desktop.in.in:3
+msgid "xfdashboard-moranga"
+msgstr "xfdashboard-dovleac"
+
+#: data/themes/xfdashboard-moranga/xfdashboard.theme.desktop.in.in:4
+msgid "Moranga theme for xfdashboard"
+msgstr "Tema de culoarea dovleacului pentru xfdashboard"
+
+#: data/themes/xfdashboard-wine/xfdashboard.theme.desktop.in.in:3
+msgid "xfdashboard-wine"
+msgstr "xfdashboard-vin"
+
+#: data/themes/xfdashboard-wine/xfdashboard.theme.desktop.in.in:4
+msgid "Red wine theme for xfdashboard"
+msgstr "Temă de culoarea vinului roșu pentru xfdashboard"
+
+#: libxfdashboard/application-button.c:267
+#, c-format
+msgid "Could not execute action '%s' for application '%s': %s"
+msgstr "Nu s-a putut executa acțiunea „%s” pentru aplicația „%s”: %s"
+
+#: libxfdashboard/application-button.c:270 settings/main.c:74
+#: settings/plugins.c:794
+msgid "Unknown error"
+msgstr "Eroare necunoscută"
+
+#: libxfdashboard/application-button.c:287
+#, c-format
+msgid "Executed action '%s' for application '%s'"
+msgstr "Acțiunea „%s” executată pentru aplicația „%s”"
+
+#: libxfdashboard/application-button.c:748
+#: libxfdashboard/application-button.c:766
+#: libxfdashboard/applications-search-provider.c:765
+#: libxfdashboard/applications-view.c:332 libxfdashboard/quicklaunch.c:334
+#: libxfdashboard/quicklaunch.c:382 libxfdashboard/quicklaunch.c:440
+#: plugins/recently-used-search-provider/recently-used-search-provider.c:581
+#, c-format
+msgid "Launching application '%s' failed: %s"
+msgstr "Lansarea aplicației „%s” a eșuat: %s"
+
+#: libxfdashboard/application-button.c:750 libxfdashboard/quicklaunch.c:336
+#: plugins/recently-used-search-provider/recently-used-search-provider.c:499
+#: plugins/recently-used-search-provider/recently-used-search-provider.c:520
+msgid "No information available for application"
+msgstr "Nu există informații disponibile pentru aplicație"
+
+#: libxfdashboard/application-button.c:768
+#: libxfdashboard/applications-search-provider.c:767
+#: libxfdashboard/applications-view.c:334 libxfdashboard/core.c:373
+#: libxfdashboard/quicklaunch.c:442
+#: plugins/recently-used-search-provider/recently-used-search-provider.c:480
+#: plugins/recently-used-search-provider/recently-used-search-provider.c:583
+#: xfdashboard/application.c:522
+msgid "unknown error"
+msgstr "eroare necunoscută"
+
+#: libxfdashboard/application-button.c:779
+#: libxfdashboard/applications-search-provider.c:778
+#: libxfdashboard/applications-view.c:345 libxfdashboard/quicklaunch.c:453
+#: plugins/recently-used-search-provider/recently-used-search-provider.c:595
+#, c-format
+msgid "Application '%s' launched"
+msgstr "Aplicația „%s” a fost lansată"
+
+#: libxfdashboard/applications-search-provider.c:849
+#: libxfdashboard/applications-view.c:415 libxfdashboard/quicklaunch.c:664
+msgid "Launch"
+msgstr "Lansează"
+
+#. Set up view
+#. Add "applications" button
+#: libxfdashboard/applications-search-provider.c:1191
+#: libxfdashboard/applications-view.c:1589 libxfdashboard/quicklaunch.c:3225
+msgid "Applications"
+msgstr "Aplicații"
+
+#: libxfdashboard/applications-view.c:552
+#: libxfdashboard/applications-view.c:553
+#: libxfdashboard/applications-view.c:664
+#: libxfdashboard/applications-view.c:665
+msgid "Back"
+msgstr "Înapoi"
+
+#: libxfdashboard/applications-view.c:552
+#: libxfdashboard/applications-view.c:664
+msgid "Go back to previous menu"
+msgstr "Înapoi la meniul anterior"
+
+#: libxfdashboard/applications-view.c:692
+#: libxfdashboard/applications-view.c:693
+msgid "All applications"
+msgstr "Toate aplicațiile"
+
+#: libxfdashboard/applications-view.c:692
+msgid "List of all installed applications"
+msgstr "Listă cu toate aplicațiile instalate"
+
+#: libxfdashboard/core.c:371
+#, c-format
+msgid "Could not load theme '%s': %s"
+msgstr "Nu s-a putut încărca tema „%s”: %s"
+
+#: libxfdashboard/core.c:1268
+#, c-format
+msgid "Welcome to %s (%s)!"
+msgstr "Bine ați venit la %s (%s)!"
+
+#: libxfdashboard/core.c:1270
+#, c-format
+msgid "Welcome to %s!"
+msgstr "Bine ați venit la %s!"
+
+#: libxfdashboard/quicklaunch.c:384
+msgid "No windows to activate for application"
+msgstr "Nu există ferestre care să fie activate pentru aplicație"
+
+#: libxfdashboard/quicklaunch.c:507 libxfdashboard/quicklaunch.c:1243
+#: libxfdashboard/quicklaunch.c:2053
+#, c-format
+msgid "Favourite '%s' removed"
+msgstr "Apluicația favorită „%s” a fost eliminată"
+
+#: libxfdashboard/quicklaunch.c:606 libxfdashboard/quicklaunch.c:925
+#: libxfdashboard/quicklaunch.c:1986
+#, c-format
+msgid "Favourite '%s' added"
+msgstr "Apluicația favorită „%s” a fost adăugată"
+
+#: libxfdashboard/quicklaunch.c:687
+msgid "Remove from favourites"
+msgstr "Elimină aplicația dintre favorite"
+
+#: libxfdashboard/quicklaunch.c:701
+msgid "Add to favourites"
+msgstr "Adaugă aplicația între favorite"
+
+#. Next add trash button to box but initially hidden and register as drop
+#. target
+#: libxfdashboard/quicklaunch.c:3232
+msgid "Remove"
+msgstr "Elimină"
+
+#: libxfdashboard/search-result-container.c:664
+#: libxfdashboard/search-result-container.c:1734
+#, c-format
+msgid "Show %d more results..."
+msgstr "Afișează %d rezultate suplimentare..."
+
+#. Get text to set at "all"-label
+#: libxfdashboard/search-result-container.c:686
+#, c-format
+msgid "Show all %d results..."
+msgstr "Afișați toate cele %d rezultate..."
+
+#: libxfdashboard/search-view.c:979
+#, c-format
+msgid "No results found for '%s'"
+msgstr "Nu s-au găsit rezultate pentru „%s”"
+
+#. Set up view (Note: Search view is disabled by default!)
+#: libxfdashboard/search-view.c:1719
+msgid "Search"
+msgstr "Căutare"
+
+#: libxfdashboard/stage.c:1111
+msgid "Just type to search..."
+msgstr "Trebuie doar să tastați pentru a căuta..."
+
+#. Set up view
+#: libxfdashboard/windows-view.c:2310
+msgid "Windows"
+msgstr "Ferestre"
+
+#: plugins/autopin-windows/plugin.c:71
+msgid "Auto-pin windows"
+msgstr "Ferestre cu fixare automată"
+
+#: plugins/autopin-windows/plugin.c:72
+msgid ""
+"Pins windows on secondary windows or unpins windows on primary windows "
+"automatically"
+msgstr ""
+"Fixează automat ferestrele pe ferestrele secundare sau desface ferestrele pe"
+" ferestrele principale"
+
+#. Set up view
+#: plugins/clock-view/clock-view.c:307 plugins/clock-view/plugin.c:311
+msgid "Clock"
+msgstr "Ceas"
+
+#. Add widget to choose hour color
+#: plugins/clock-view/plugin.c:203
+msgid "Hour color:"
+msgstr "Culoare ore:"
+
+#: plugins/clock-view/plugin.c:213
+msgid "Choose color for hour hand"
+msgstr "Alegeți culoarea pentru arătătorul orelor"
+
+#. Add widget to choose minute color
+#: plugins/clock-view/plugin.c:218
+msgid "Minute color:"
+msgstr "Culoare minute:"
+
+#: plugins/clock-view/plugin.c:228
+msgid "Choose color for minute hand"
+msgstr "Alegeți culoarea pentru minutar"
+
+#. Add widget to choose second color
+#: plugins/clock-view/plugin.c:233
+msgid "Second color:"
+msgstr "Culoare secunde:"
+
+#: plugins/clock-view/plugin.c:243
+msgid "Choose color for second hand"
+msgstr "Alegeți culoarea pentru secundar"
+
+#. Add widget to choose minute color
+#: plugins/clock-view/plugin.c:248
+msgid "Background color:"
+msgstr "Culoare fundal:"
+
+#: plugins/clock-view/plugin.c:258
+msgid "Choose color for background of second hand"
+msgstr "Alegeți culoarea pentru fundalul secundarului"
+
+#: plugins/clock-view/plugin.c:312
+msgid "Adds a new view showing a clock"
+msgstr "Adaugă o nouă vizualizare care afișează un ceas"
+
+#: plugins/example-search-provider/example-search-provider.c:67
+msgid "Example search"
+msgstr "Exemplu de căutare"
+
+#: plugins/example-search-provider/plugin.c:75
+msgid "Example search provider"
+msgstr "Exemplu de furnizor de servicii de căutare"
+
+#: plugins/example-search-provider/plugin.c:76
+msgid "This is just a useless example search provider plugin"
+msgstr "Acesta este doar un exemplu inutil de modul furnizor de căutare"
+
+#: plugins/gnome-shell-search-provider/plugin.c:464
+msgid "Gnome-Shell search provider"
+msgstr "Furnizorul de căutare Gnome-Shell"
+
+#: plugins/gnome-shell-search-provider/plugin.c:465
+msgid "Uses Gnome-Shell search providers as source for searches"
+msgstr "Folosește furnizorii de căutare Gnome-Shell ca sursă pentru căutări"
+
+#: plugins/hot-corner/plugin.c:194
+msgid "s"
+msgstr "s"
+
+#: plugins/hot-corner/plugin.c:198 settings/general.c:320
+msgid "ms"
+msgstr "ms"
+
+#: plugins/hot-corner/plugin.c:202 settings/general.c:92
+#: settings/general.c:324
+msgid "Immediately"
+msgstr "Imediat"
+
+#. Add widget to choose activation corner
+#: plugins/hot-corner/plugin.c:325
+msgid "Activation corner:"
+msgstr "Colț de activare:"
+
+#. Add widget to choose activation radius
+#: plugins/hot-corner/plugin.c:361
+msgid "Radius of activation corner:"
+msgstr "Raza colțului de activare:"
+
+#. Add widget to choose activation duration
+#: plugins/hot-corner/plugin.c:379
+msgid "Timeout to activate:"
+msgstr "Timpul de așteptare pentru activare:"
+
+#. Add widget to limit checks to primary monitor only or to all monitors
+#: plugins/hot-corner/plugin.c:401
+msgid "Primary monitor only"
+msgstr "Doar monitorul principal"
+
+#: plugins/hot-corner/plugin.c:457
+msgid "Hot corner"
+msgstr "Colț sensibil"
+
+#: plugins/hot-corner/plugin.c:458
+msgid ""
+"Activates xfdashboard when pointer is moved to a configured corner of "
+"monitor"
+msgstr ""
+"Activează xfdashboard atunci când cursorul mausului este mutat într-un colț "
+"configurat al monitorului"
+
+#: plugins/middle-click-window-close/plugin.c:71
+msgid "Middle-click window close"
+msgstr "Apăsarea butonului din mijloc al mausului închide fereastra"
+
+#: plugins/middle-click-window-close/plugin.c:72
+msgid "Closes windows in windows view by middle-click"
+msgstr ""
+"Închide ferestrele din vizualizarea ferestrelor prin apăsarea butonului din "
+"mijloc al mausului"
+
+#: plugins/recently-used-search-provider/plugin.c:75
+msgid "Recently used search provider"
+msgstr "Furnizor de căutare folosit recent"
+
+#: plugins/recently-used-search-provider/plugin.c:76
+msgid "A search provider using recently used files as source"
+msgstr ""
+"Un furnizor de căutare care utilizează ca sursă fișierele utilizate recent"
+
+#: plugins/recently-used-search-provider/recently-used-search-provider.c:246
+msgid "Recently used"
+msgstr "Recent utilizate"
+
+#: plugins/recently-used-search-provider/recently-used-search-provider.c:475
+#, c-format
+msgid "Launching application for '%s' failed: %s"
+msgstr "Lansarea aplicației pentru „%s” a eșuat: %s"
+
+#: plugins/recently-used-search-provider/recently-used-search-provider.c:497
+#: plugins/recently-used-search-provider/recently-used-search-provider.c:518
+#, c-format
+msgid "Launching application for file '%s' failed: %s"
+msgstr "Lansarea aplicației pentru fișierul „%s” a eșuat: %s"
+
+#: settings/general.c:84
+msgid "Do nothing"
+msgstr "Nu face nimic"
+
+#: settings/general.c:85
+msgid "Windows view"
+msgstr "Vizualizare ferestre"
+
+#: settings/general.c:86
+msgid "Applications view"
+msgstr "Vizualizare aplicații"
+
+#: settings/general.c:93
+msgid "High"
+msgstr "Înaltă"
+
+#: settings/general.c:94
+msgid "Normal"
+msgstr "Normale"
+
+#: settings/general.c:95
+msgid "Low"
+msgstr "Joasă"
+
+#: settings/general.c:269
+msgid "seconds"
+msgstr "secunde"
+
+#: settings/main.c:46
+msgid "Settings manager socket"
+msgstr "Soclul gestionarului de opțiuni"
+
+#: settings/main.c:46
+msgid "SOCKET ID"
+msgstr "ID SOCLU"
+
+#: settings/main.c:47
+msgid "Version information"
+msgstr "Detalii de versiune"
+
+#. Initialize GTK+
+#: settings/main.c:68
+msgid "."
+msgstr "."
+
+#: settings/main.c:72
+#, c-format
+msgid ""
+"%s: %s\n"
+"Try %s --help to see a full list of available command line options.\n"
+msgstr ""
+"%s: %s\n"
+"Încercați «%s --help» pentru a vedea întreaga listă de opțiuni din linia de comandă.\n"
+
+#: settings/plugins.c:222
+#, c-format
+msgid "Configure plugin: %s"
+msgstr "Configurare modul: %s"
+
+#. Create error message to store in list
+#: settings/plugins.c:793
+#, c-format
+msgid ""
+"<b>Plugin could not be loaded.</b>\n"
+"\n"
+"%s"
+msgstr ""
+"<b>Modulul nu a putut fi încărcat.</b>\n"
+"\n"
+"%s"
+
+#: settings/plugins.c:1005
+msgid "Name"
+msgstr "Nume"
+
+#: settings/themes.c:731
+msgid "Theme"
+msgstr "Temă"
+
+#: xfdashboard/application.c:478
+msgid "Fork to background"
+msgstr "Se bifurcă în fundal"
+
+#: xfdashboard/application.c:479
+msgid "Quit running instance"
+msgstr "Închide instanța care rulează"
+
+#: xfdashboard/application.c:480
+msgid "Restart running instance"
+msgstr "Repornește instanța care rulează"
+
+#: xfdashboard/application.c:481
+msgid ""
+"Toggles visibility if running instance was started in daemon mode otherwise "
+"it quits running non-daemon instance"
+msgstr ""
+"Activează/dezactivează vizibilitatea dacă instanța care rulează a fost "
+"pornită în modul demon, altfel oprește instanța non-demon care rulează"
+
+#: xfdashboard/application.c:482
+msgid "The ID of view to switch to on startup or resume"
+msgstr "ID-ul de vizualizare la care să se treacă la pornire sau reluare"
+
+#: xfdashboard/application.c:483
+msgid "Show version"
+msgstr "Afișează versiunea"
+
+#: xfdashboard/application.c:503
+#, c-format
+msgid "A Gnome Shell like dashboard for Xfce4 - version %s"
+msgstr "Un tablou de bord asemănător Gnome Shell pentru Xfce4 - versiunea %s"
+
+#. Show error
+#: xfdashboard/application.c:521
+#, c-format
+msgid "%s\n"
+msgstr "%s\n"
