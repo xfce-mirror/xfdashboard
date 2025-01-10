@@ -4,12 +4,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Davidmp <medipas@gmail.com>, 2020
 # Carles Muñoz Gorriz <carlesmu@internautas.org>, 2020
 # Nick Schermer <nick@xfce.org>, 2024
 # Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>, 2024
 # Oscar Perez <oscarpc@gmail.com>, 2024
 # Xfce Bot <transifex@xfce.org>, 2024
+# Davidmp <medipas@gmail.com>, 2025
 # 
 #, fuzzy
 msgid ""
@@ -18,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.xfce.org/\n"
 "POT-Creation-Date: 2024-06-23 12:51+0200\n"
 "PO-Revision-Date: 2020-10-07 10:59+0000\n"
-"Last-Translator: Xfce Bot <transifex@xfce.org>, 2024\n"
+"Last-Translator: Davidmp <medipas@gmail.com>, 2025\n"
 "Language-Team: Catalan (https://app.transifex.com/xfce/teams/16840/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -197,6 +197,9 @@ msgid ""
 "\n"
 "When not enabled it will select the last known active window of the running application instance. If application is not running, a new instance will be started."
 msgstr ""
+"Quan està activat i es fa clic en una icona del llançament ràpid, sempre s'iniciarà una instància nova de l'aplicació.\n"
+"\n"
+"Quan no estigui habilitat, se seleccionarà l'última finestra activa coneguda de la instància de l'aplicació en execució. Si l'aplicació no s'executa, se n'iniciarà una instància nova."
 
 #: data/data/preferences.ui:425
 msgid "Enable animations"
@@ -508,6 +511,8 @@ msgid ""
 "Pins windows on secondary windows or unpins windows on primary windows "
 "automatically"
 msgstr ""
+"Fixa les finestres a les finestres secundàries o desenganxa les finestres a "
+"les finestres primàries automàticament"
 
 #. Set up view
 #: plugins/clock-view/clock-view.c:307 plugins/clock-view/plugin.c:311
@@ -637,7 +642,7 @@ msgstr "Proveïdor de cerques utilitzat recentment"
 
 #: plugins/recently-used-search-provider/plugin.c:76
 msgid "A search provider using recently used files as source"
-msgstr ""
+msgstr "Un proveïdor de cerca que usa fitxers recents com a font"
 
 #: plugins/recently-used-search-provider/recently-used-search-provider.c:246
 msgid "Recently used"
@@ -646,13 +651,13 @@ msgstr "Utilitzat recentment"
 #: plugins/recently-used-search-provider/recently-used-search-provider.c:475
 #, c-format
 msgid "Launching application for '%s' failed: %s"
-msgstr ""
+msgstr "No s'ha pogut iniciar l'aplicació per a %s: %s"
 
 #: plugins/recently-used-search-provider/recently-used-search-provider.c:497
 #: plugins/recently-used-search-provider/recently-used-search-provider.c:518
 #, c-format
 msgid "Launching application for file '%s' failed: %s"
-msgstr ""
+msgstr "No s'ha pogut iniciar l'aplicació per al fitxer %s: %s"
 
 #: settings/general.c:84
 msgid "Do nothing"
@@ -735,7 +740,7 @@ msgstr "Tema"
 
 #: xfdashboard/application.c:478
 msgid "Fork to background"
-msgstr ""
+msgstr "Bifurcació al fons"
 
 #: xfdashboard/application.c:479
 msgid "Quit running instance"
@@ -750,10 +755,13 @@ msgid ""
 "Toggles visibility if running instance was started in daemon mode otherwise "
 "it quits running non-daemon instance"
 msgstr ""
+"Activa o desactiva la visibilitat si la instància en execució s'ha iniciat "
+"en mode dimoni; en cas contrari, es deixa d'executar una instància que no és"
+" dimoni."
 
 #: xfdashboard/application.c:482
 msgid "The ID of view to switch to on startup or resume"
-msgstr ""
+msgstr "L'identificador de la vista al qual es canvia en iniciar o reprendre"
 
 #: xfdashboard/application.c:483
 msgid "Show version"
@@ -762,7 +770,7 @@ msgstr "Mostra la versió"
 #: xfdashboard/application.c:503
 #, c-format
 msgid "A Gnome Shell like dashboard for Xfce4 - version %s"
-msgstr ""
+msgstr "Un tauler de control semblant al Gnome Shell per a Xfce4 - versió %s"
 
 #. Show error
 #: xfdashboard/application.c:521
