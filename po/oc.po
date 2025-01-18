@@ -145,7 +145,7 @@ msgstr "Temporizacion minimala de notificacion :"
 
 #: data/data/preferences.ui:332
 msgid "Enable workaround for minimized windows"
-msgstr ""
+msgstr "Activar la solucion per las fenèstras minimizadas"
 
 #: data/data/preferences.ui:336
 msgid ""
@@ -153,6 +153,9 @@ msgid ""
 "\n"
 "<b>NOTE:</b> Be aware that this is a <u>workaround</u> and your minimized windows could stay unminimized, change workspace etc."
 msgstr ""
+"Quand es activat una solucion s’ensajarà per las fenèstras minimizadas per obténer d’imatges immobiles d’aquestas fenèstras en las restaurant d’un biais cort e en las minimizant tornamai.\n"
+"\n"
+"<b>NÒTA : </b>ajatz a l’esperit qu’es una <u>solucion de contornament</u> e que vòstras fenèstras minimizadas podián pas demorar desminimizadas, cambiar d’espaci de trabalh etc."
 
 #: data/data/preferences.ui:357 data/data/preferences.ui:372
 msgid ""
@@ -160,6 +163,9 @@ msgid ""
 "\n"
 "<b>NOTE:</b> Only change this value from 'immediate' to other value if your graphics card, driver or system is too slow to create the window contents immediately. You have to try each value to find the one fitting your system."
 msgstr ""
+"Aquesta valor definís la velocitat amb la quala cal crear lo contengut de las fenèstras. La valor « immediate » ditz xfdashboard de crear lo contengut de la fenèstra al moment ont es demandat, totas las autras valors serà definidas dins una fila puèi tractada.\n"
+"\n"
+"<b>NÒTA : </b>cambiatz solament aquesta valor « immediate » a una autra valor se vòstra carta grafica, pilòt o sistèma es tròp lent per crear lo contengut de las fenèstras immediatament. Devètz ensajar cada valor per trapar la valor que està plan per vòstra sistèma."
 
 #: data/data/preferences.ui:360
 msgid "Priority of window content creation"
@@ -188,6 +194,9 @@ msgid ""
 "\n"
 "When not enabled it will select the last known active window of the running application instance. If application is not running, a new instance will be started."
 msgstr ""
+"Quand es activat e qu’una icòna dins lo quicklaunch es clicada aviarà totjorn una instància nòva de l’aplicacion.\n"
+"\n"
+"Quand es pas activat seleccionarà la darrièra fenèstra activa de l’instància d’aplicacion en execucion. Se l’aplicacion es pas en execucion, una instància nòva serà aviada."
 
 #: data/data/preferences.ui:425
 msgid "Enable animations"
@@ -566,10 +575,12 @@ msgstr "Provesidor de recèrca Gnome-Shell"
 #: plugins/gnome-shell-search-provider/plugin.c:465
 msgid "Uses Gnome-Shell search providers as source for searches"
 msgstr ""
+"Utilizar los provesidors de recèrca de Gnome-Shell coma font per las "
+"recèrcas"
 
 #: plugins/hot-corner/plugin.c:194
 msgid "s"
-msgstr ""
+msgstr "s"
 
 #: plugins/hot-corner/plugin.c:198 settings/general.c:320
 msgid "ms"
@@ -593,7 +604,7 @@ msgstr "Rai del caire d’activacion :"
 #. Add widget to choose activation duration
 #: plugins/hot-corner/plugin.c:379
 msgid "Timeout to activate:"
-msgstr ""
+msgstr "Relambi per activar :"
 
 #. Add widget to limit checks to primary monitor only or to all monitors
 #: plugins/hot-corner/plugin.c:401
@@ -609,6 +620,8 @@ msgid ""
 "Activates xfdashboard when pointer is moved to a configured corner of "
 "monitor"
 msgstr ""
+"Activa xfdashboard quand lo ponchador es desplaçat dins un caire configurat "
+"del monitor"
 
 #: plugins/middle-click-window-close/plugin.c:71
 msgid "Middle-click window close"
@@ -684,7 +697,7 @@ msgstr "Informacions sus la version"
 #. Initialize GTK+
 #: settings/main.c:68
 msgid "."
-msgstr ""
+msgstr "."
 
 #: settings/main.c:72
 #, c-format
@@ -737,10 +750,12 @@ msgid ""
 "Toggles visibility if running instance was started in daemon mode otherwise "
 "it quits running non-daemon instance"
 msgstr ""
+"Bascula la visibilitat se una instància es en execucion es estada començada "
+"en mode demòni autrament quita de s’executar en instància non demòni"
 
 #: xfdashboard/application.c:482
 msgid "The ID of view to switch to on startup or resume"
-msgstr ""
+msgstr "Se l’ID de la vista ont bascular a l’aviada o la represa"
 
 #: xfdashboard/application.c:483
 msgid "Show version"
@@ -749,7 +764,7 @@ msgstr "Afichar la version"
 #: xfdashboard/application.c:503
 #, c-format
 msgid "A Gnome Shell like dashboard for Xfce4 - version %s"
-msgstr ""
+msgstr "Un tablèu de bòrd semblable a Gnome Shell per Xfce - version %s"
 
 #. Show error
 #: xfdashboard/application.c:521
