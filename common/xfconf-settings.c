@@ -36,6 +36,7 @@
 
 #include <common/xfconf-settings.h>
 
+#include <libxfce4ui/libxfce4ui.h>
 #include <xfconf/xfconf.h>
 
 #include <libxfdashboard/debug.h>
@@ -74,6 +75,16 @@ G_DEFINE_TYPE_WITH_PRIVATE(XfdashboardXfconfSettings,
 
 #define ENABLED_PLUGINS_XFCONF_PROP			"enabled-plugins" -> [] (Type: G_TYPE_STRV - G_TYPE_BOXED)
 
+#if LIBXFCE4UI_CHECK_VERSION(4, 21, 0)
+#define FAVOURITES_XFCONF_PROP				"favourites" -> [ "xfce-web-browser.desktop", "xfce-mail-reader.desktop", "xfce-file-manager.desktop", "xfce-terminal-emulator.desktop" ]  (Type: G_TYPE_STRV - G_TYPE_BOXED)
+static const gchar*	_xfdashboard_xfconf_settings_default_favourites[]=	{
+																	"xfce-web-browser.desktop",
+																	"xfce-mail-reader.desktop",
+																	"xfce-file-manager.desktop",
+																	"xfce-terminal-emulator.desktop",
+																	NULL
+																};
+#else
 #define FAVOURITES_XFCONF_PROP				"favourites" -> [ "exo-web-browser.desktop", "exo-mail-reader.desktop", "exo-file-manager.desktop", "exo-terminal-emulator.desktop" ]  (Type: G_TYPE_STRV - G_TYPE_BOXED)
 static const gchar*	_xfdashboard_xfconf_settings_default_favourites[]=	{
 																	"exo-web-browser.desktop",
@@ -82,6 +93,7 @@ static const gchar*	_xfdashboard_xfconf_settings_default_favourites[]=	{
 																	"exo-terminal-emulator.desktop",
 																	NULL
 																};
+#endif
 
 #define LAUNCH_NEW_INSTANCE_XFCONF_PROP		"always-launch-new-instance" -> TRUE (G_TYPE_BOOLEAN)
 
@@ -1022,4 +1034,3 @@ static void xfdashboard_xfconf_settings_init(XfdashboardXfconfSettings *self)
 
 
 /* IMPLEMENTATION: Public API */
-
