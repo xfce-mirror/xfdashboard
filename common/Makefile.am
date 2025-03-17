@@ -16,6 +16,7 @@ libxfconf_settings_la_SOURCES = \
 
 libxfconf_settings_la_CFLAGS = \
 	$(CLUTTER_CFLAGS) \
+	$(LIBXFCE4UI_CFLAGS) \
 	$(LIBXFCONF_CFLAGS) \
 	$(XFDASHBOARD_DEBUG_CFLAGS) \
 	$(PLATFORM_CFLAGS)
@@ -30,6 +31,7 @@ libxfconf_settings_la_LDFLAGS = \
 
 libxfconf_settings_la_LIBADD = \
 	$(CLUTTER_LIBS) \
+	$(LIBXFCE4UI_LIBS) \
 	$(LIBXFCONF_LIBS)
 
 CLEANFILES = \

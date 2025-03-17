@@ -33,6 +33,7 @@
 #include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
+#include <libxfce4ui/libxfce4ui.h>
 #include <libxfce4util/libxfce4util.h>
 
 
@@ -926,13 +927,17 @@ static gboolean _xfdashboard_desktop_app_info_launch_appinfo_internal(Xfdashboar
 		return(FALSE);
 	}
 
-	/* If a terminal is required, prepend "exo-open" command.
+	/* If a terminal is required, prepend "xfce-open" command.
 	 * NOTE: The space at end of command is important to separate
 	 *       the command we prepend from command-line of application.
 	 */
 	if(garcon_menu_item_requires_terminal(priv->item))
 	{
+#if LIBXFCE4UI_CHECK_VERSION(4, 21, 0)
+		g_string_prepend(expanded, "xfce-open --launch TerminalEmulator ");
+#else
 		g_string_prepend(expanded, "exo-open --launch TerminalEmulator ");
+#endif
 	}
 
 	/* Get command-line arguments as string list */
