@@ -81,11 +81,9 @@ struct _XfdashboardWindowTrackerX11Private
 
 	gboolean								supportsMultipleMonitors;
 	GdkScreen								*gdkScreen;
-#if GTK_CHECK_VERSION(3, 22, 0)
 	GdkDisplay								*gdkDisplay;
 	gboolean								needScreenSizeUpdate;
 	gint									screenWidth, screenHeight;
-#endif
 };
 
 G_DEFINE_TYPE_WITH_CODE(XfdashboardWindowTrackerX11,
@@ -1020,11 +1018,7 @@ static void _xfdashboard_window_tracker_x11_on_monitors_changed(XfdashboardWindo
 	currentMonitorCount=g_list_length(priv->monitors);
 
 	/* Get new monitor state */
-#if GTK_CHECK_VERSION(3, 22, 0)
 	newMonitorCount=gdk_display_get_n_monitors(gdk_screen_get_display(screen));
-#else
-	newMonitorCount=gdk_screen_get_n_monitors(screen);
-#endif
 	if(newMonitorCount!=currentMonitorCount)
 	{
 		XFDASHBOARD_DEBUG(self, WINDOWS,
@@ -1068,12 +1062,10 @@ static void _xfdashboard_window_tracker_x11_on_monitors_changed(XfdashboardWindo
 		}
 	}
 
-#if GTK_CHECK_VERSION(3, 22, 0)
 	/* Set flag to recalculate screen size which must have changed as monitors
 	 * were added or removed.
 	 */
 	priv->needScreenSizeUpdate=TRUE;
-#endif
 }
 #endif
 
@@ -1089,9 +1081,7 @@ static void _xfdashboard_window_tracker_x11_on_screen_size_changed(XfdashboardWi
 	priv=self->priv;
 
 	/* Get new total size of screen */
-#if GTK_CHECK_VERSION(3, 22, 0)
 	priv->needScreenSizeUpdate=TRUE;
-#endif
 	xfdashboard_window_tracker_get_screen_size(XFDASHBOARD_WINDOW_TRACKER(self), &w, &h);
 
 	/* Emit signal to tell that screen size has changed */
@@ -1411,21 +1401,18 @@ static void _xfdashboard_window_tracker_x11_window_tracker_get_screen_size(Xfdas
 	XfdashboardWindowTrackerX11				*self;
 	XfdashboardWindowTrackerX11Private		*priv;
 	gint									width, height;
-#if GTK_CHECK_VERSION(3, 22, 0)
 	gint									i;
 	gint									numberMonitors;
 	GdkMonitor								*monitor;
 	GdkRectangle							monitorRect;
 	gint									left, top, right, bottom;
 	gboolean								forceUpdate;
-#endif
 
 	g_return_if_fail(XFDASHBOARD_IS_WINDOW_TRACKER_X11(inWindowTracker));
 
 	self=XFDASHBOARD_WINDOW_TRACKER_X11(inWindowTracker);
 	priv=self->priv;
 
-#if GTK_CHECK_VERSION(3, 22, 0)
 	/* Only recalculate screen size if flag is set */
 	if(priv->needScreenSizeUpdate)
 	{
@@ -1478,11 +1465,6 @@ static void _xfdashboard_window_tracker_x11_window_tracker_get_screen_size(Xfdas
 	/* Get width and height of screen */
 	width=priv->screenWidth;
 	height=priv->screenHeight;
-#else
-	/* Get width and height of screen */
-	width=gdk_screen_get_width(priv->gdkScreen);
-	height=gdk_screen_get_height(priv->gdkScreen);
-#endif
 
 	/* Store result */
 	if(outWidth) *outWidth=width;
@@ -1726,13 +1708,11 @@ static void _xfdashboard_window_tracker_x11_dispose(GObject *inObject)
 		priv->gdkScreen=NULL;
 	}
 
-#if GTK_CHECK_VERSION(3, 22, 0)
 	if(priv->gdkDisplay)
 	{
 		g_signal_handlers_disconnect_by_data(priv->gdkDisplay, self);
 		priv->gdkDisplay=NULL;
 	}
-#endif
 
 	if(priv->screen)
 	{
@@ -1839,15 +1819,11 @@ void xfdashboard_window_tracker_x11_init(XfdashboardWindowTrackerX11 *self)
 	priv->workspaces=NULL;
 	priv->monitors=NULL;
 	priv->screen=wnck_screen_get_default();
-#if GTK_CHECK_VERSION(3, 22, 0)
 	priv->gdkDisplay=gdk_display_get_default();
 	priv->gdkScreen=gdk_display_get_default_screen(priv->gdkDisplay);
 	priv->needScreenSizeUpdate=TRUE;
 	priv->screenWidth=0;
 	priv->screenHeight=0;
-#else
-	priv->gdkScreen=gdk_screen_get_default();
-#endif
 	priv->activeWindow=NULL;
 	priv->activeWorkspace=NULL;
 	priv->primaryMonitor=NULL;
@@ -1922,11 +1898,7 @@ void xfdashboard_window_tracker_x11_init(XfdashboardWindowTrackerX11 *self)
 								G_CONNECT_AFTER | G_CONNECT_SWAPPED);
 
 		/* Get monitors */
-#if GTK_CHECK_VERSION(3, 22, 0)
 		numberMonitors=gdk_display_get_n_monitors(priv->gdkDisplay);
-#else
-		numberMonitors=gdk_screen_get_n_monitors(priv->gdkScreen);
-#endif
 		for(i=0; i<numberMonitors; i++)
 		{
 			/* Create monitor object */

@@ -81,11 +81,7 @@ static void _xfdashboard_window_tracker_monitor_x11_update_primary(XfdashboardWi
 {
 	XfdashboardWindowTrackerMonitorX11Private	*priv;
 	gboolean									isPrimary;
-#if GTK_CHECK_VERSION(3, 22, 0)
 	GdkMonitor									*primaryMonitor;
-#else
-	gint										primaryMonitor;
-#endif
 
 	g_return_if_fail(XFDASHBOARD_IS_WINDOW_TRACKER_MONITOR(self));
 	g_return_if_fail(self->priv->monitorIndex>=0);
@@ -93,14 +89,8 @@ static void _xfdashboard_window_tracker_monitor_x11_update_primary(XfdashboardWi
 	priv=self->priv;
 
 	/* Get primary flag */
-#if GTK_CHECK_VERSION(3, 22, 0)
 	primaryMonitor=gdk_display_get_monitor(gdk_screen_get_display(priv->screen), priv->monitorIndex);
 	isPrimary=gdk_monitor_is_primary(primaryMonitor);
-#else
-	primaryMonitor=gdk_screen_get_primary_monitor(priv->screen);
-	if(primaryMonitor==priv->monitorIndex) isPrimary=TRUE;
-		else isPrimary=FALSE;
-#endif
 
 	/* Set value if changed */
 	if(priv->isPrimary!=isPrimary)
@@ -128,10 +118,8 @@ static void _xfdashboard_window_tracker_monitor_x11_update_geometry(XfdashboardW
 	XfdashboardWindowTrackerMonitorX11Private	*priv;
 	GdkRectangle								geometry;
 	gint										numberMonitors;
-#if GTK_CHECK_VERSION(3, 22, 0)
 	GdkDisplay									*display;
 	GdkMonitor									*monitor;
-#endif
 
 	g_return_if_fail(XFDASHBOARD_IS_WINDOW_TRACKER_MONITOR_X11(self));
 	g_return_if_fail(self->priv->monitorIndex>=0);
@@ -139,23 +127,15 @@ static void _xfdashboard_window_tracker_monitor_x11_update_geometry(XfdashboardW
 	priv=self->priv;
 
 	/* Get number of monitors */
-#if GTK_CHECK_VERSION(3, 22, 0)
 	display=gdk_screen_get_display(priv->screen);
 	numberMonitors=gdk_display_get_n_monitors(display);
-#else
-	numberMonitors=gdk_screen_get_n_monitors(priv->screen);
-#endif
 
 	/* Check if monitor is valid */
 	if(priv->monitorIndex>=numberMonitors) return;
 
 	/* Get monitor geometry */
-#if GTK_CHECK_VERSION(3, 22, 0)
 	monitor=gdk_display_get_monitor(display, priv->monitorIndex);
 	gdk_monitor_get_geometry(monitor, &geometry);
-#else
-	gdk_screen_get_monitor_geometry(priv->screen, priv->monitorIndex, &geometry);
-#endif
 
 	/* Set value if changed */
 	if(geometry.x!=priv->geometry.x ||
@@ -206,11 +186,7 @@ static void _xfdashboard_window_tracker_monitor_x11_set_index(XfdashboardWindowT
 	priv=self->priv;
 
 	/* Get number of monitors */
-#if GTK_CHECK_VERSION(3, 22, 0)
 	numberMonitors=gdk_display_get_n_monitors(gdk_screen_get_display(priv->screen));
-#else
-	numberMonitors=gdk_screen_get_n_monitors(priv->screen);
-#endif
 	g_return_if_fail(inIndex<numberMonitors);
 
 	/* Freeze notification */

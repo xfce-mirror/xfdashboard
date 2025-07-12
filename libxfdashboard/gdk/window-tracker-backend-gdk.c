@@ -206,11 +206,7 @@ static void _xfdashboard_window_tracker_backend_gdk_on_stage_screen_size_changed
 	 */
 	if(!XineramaIsActive(gdk_x11_display_get_xdisplay(display)))
 	{
-#if GTK_CHECK_VERSION(3, 22, 0)
 		GdkMonitor			*primaryMonitor;
-#else
-		gint				primaryMonitor;
-#endif
 		GdkRectangle		geometry;
 
 		/* Get position and size of primary monitor and try to move and resize
@@ -218,13 +214,8 @@ static void _xfdashboard_window_tracker_backend_gdk_on_stage_screen_size_changed
 		 * resize the stage to the size of current monitor this window is
 		 * fullscreened to. Tested with xfwm4.
 		 */
-#if GTK_CHECK_VERSION(3, 22, 0)
 		primaryMonitor=gdk_display_get_primary_monitor(gdk_screen_get_display(screen));
 		gdk_monitor_get_geometry(primaryMonitor, &geometry);
-#else
-		primaryMonitor=gdk_screen_get_primary_monitor(screen);
-		gdk_screen_get_monitor_geometry(screen, primaryMonitor, &geometry);
-#endif
 		wnck_window_set_geometry(stageWindow,
 									WNCK_WINDOW_GRAVITY_STATIC,
 									WNCK_WINDOW_CHANGE_X | WNCK_WINDOW_CHANGE_Y | WNCK_WINDOW_CHANGE_WIDTH | WNCK_WINDOW_CHANGE_HEIGHT,
@@ -535,9 +526,7 @@ static void _xfdashboard_window_tracker_backend_gdk_window_tracker_backend_show_
 	gdk_window_set_skip_pager_hint(stageGdkWindow, TRUE);
 	gdk_window_set_keep_above(stageGdkWindow, TRUE);
 	gdk_window_stick(stageGdkWindow);
-#if GTK_CHECK_VERSION(3, 8, 0)
 	gdk_window_set_fullscreen_mode(stageGdkWindow, GDK_FULLSCREEN_ON_ALL_MONITORS);
-#endif
 	gdk_window_fullscreen(stageGdkWindow);
 
 	/* Get wnck window and screen of window */
