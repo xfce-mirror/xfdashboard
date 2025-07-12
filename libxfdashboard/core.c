@@ -979,9 +979,6 @@ gboolean xfdashboard_core_initialize(XfdashboardCore *self, GError **outError)
 {
 	XfdashboardCorePrivate			*priv;
 	GError							*error;
-#if !GARCON_CHECK_VERSION(0,3,0)
-	const gchar						*desktop;
-#endif
 
 	g_return_val_if_fail(XFDASHBOARD_IS_CORE(self), FALSE);
 	g_return_val_if_fail(outError==NULL || *outError==NULL, FALSE);
@@ -1066,24 +1063,7 @@ gboolean xfdashboard_core_initialize(XfdashboardCore *self, GError **outError)
 #endif
 
 	/* Initialize garcon for current desktop environment */
-#if !GARCON_CHECK_VERSION(0,3,0)
-	desktop=g_getenv("XDG_CURRENT_DESKTOP");
-	if(G_LIKELY(desktop==NULL))
-	{
-		/* If we could not determine current desktop environment
-		 * assume Xfce as this application is developed for this DE.
-		 */
-		desktop="XFCE";
-	}
-		/* If desktop environment was found but has no name
-		 * set NULL to get all menu items shown.
-		 */
-		else if(*desktop==0) desktop=NULL;
-
-	garcon_set_environment(desktop);
-#else
 	garcon_set_environment_xdg(GARCON_ENVIRONMENT_XFCE);
-#endif
 
 	/* Check for settings */
 	if(!priv->settings)
