@@ -45,7 +45,6 @@
 #include <libxfdashboard/stage-interface.h>
 #include <libxfdashboard/window-tracker.h>
 #include <libxfdashboard/core.h>
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
 

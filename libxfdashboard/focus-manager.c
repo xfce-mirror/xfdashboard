@@ -34,7 +34,6 @@
 #include <libxfdashboard/stylable.h>
 #include <libxfdashboard/bindings-pool.h>
 #include <libxfdashboard/core.h>
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
 

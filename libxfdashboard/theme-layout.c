@@ -264,7 +264,6 @@
 
 #include <libxfdashboard/enums.h>
 #include <libxfdashboard/utils.h>
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
 

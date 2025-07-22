@@ -727,7 +727,6 @@ static ClutterActor* _xfdashboard_gnome_shell_search_provider_create_result_acto
 			 * then try to decode "gicon" if available and at last try
 			 * raw bytes from "icon-data".
 			 */
-#if GLIB_CHECK_VERSION(2, 38, 0)
 			if(!icon && g_variant_lookup(metaData, "icon", "v", &iconVariant))
 			{
 				/* Try deserializing icon from variant extracted from meta data */
@@ -745,7 +744,6 @@ static ClutterActor* _xfdashboard_gnome_shell_search_provider_create_result_acto
 				/* Release data extracted for icon */
 				g_variant_unref(iconVariant);
 			}
-#endif
 
 			if(!icon && g_variant_lookup(metaData, "gicon", "s", &iconString))
 			{

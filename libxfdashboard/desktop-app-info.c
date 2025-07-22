@@ -30,7 +30,6 @@
 
 #include <libxfdashboard/desktop-app-info.h>
 #include <libxfdashboard/application-database.h>
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
 #include <libxfce4ui/libxfce4ui.h>

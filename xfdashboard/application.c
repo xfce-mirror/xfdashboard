@@ -33,7 +33,6 @@
 
 #include <common/xfconf-settings.h>
 #include <libxfdashboard/core.h>
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
 

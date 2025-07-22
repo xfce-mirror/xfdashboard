@@ -37,7 +37,6 @@
 
 #include <libxfdashboard/actor.h>
 #include <libxfdashboard/animation.h>
-#include <libxfdashboard/compat.h>
 
 
 /* Define this class in GObject system */

@@ -42,7 +42,6 @@
 #include <libxfdashboard/image-content.h>
 #include <libxfdashboard/stylable.h>
 #include <libxfdashboard/core.h>
-#include <libxfdashboard/compat.h>
 
 
 /* Define this class in GObject system */

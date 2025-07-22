@@ -197,7 +197,6 @@
 
 #include <libxfdashboard/stylable.h>
 #include <libxfdashboard/css-selector.h>
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
 

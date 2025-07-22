@@ -54,7 +54,6 @@
 #include <libxfdashboard/popup-menu-item-separator.h>
 #include <libxfdashboard/settings.h>
 #include <libxfdashboard/utils.h>
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
 

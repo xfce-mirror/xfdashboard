@@ -49,7 +49,6 @@
 #include <libxfdashboard/popup-menu-item-button.h>
 #include <libxfdashboard/popup-menu-item-separator.h>
 #include <libxfdashboard/application-tracker.h>
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
 

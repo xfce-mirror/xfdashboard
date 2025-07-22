@@ -32,7 +32,6 @@
 #include <math.h>
 
 #include <libxfdashboard/click-action.h>
-#include <libxfdashboard/compat.h>
 
 
 /* Define this class in GObject system */

@@ -45,7 +45,6 @@
 #include <libxfdashboard/enums.h>
 #include <libxfdashboard/stage-interface.h>
 #include <libxfdashboard/live-workspace.h>
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
 

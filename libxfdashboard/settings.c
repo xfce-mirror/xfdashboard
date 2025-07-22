@@ -42,7 +42,6 @@
 #include <libxfdashboard/utils.h>
 #include <libxfdashboard/marshal.h>
 #include <libxfdashboard/enums.h>
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
 

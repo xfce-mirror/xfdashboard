@@ -33,7 +33,6 @@
 #include <clutter/clutter.h>
 #include <math.h>
 
-#include <libxfdashboard/compat.h>
 
 
 /* Define this class in GObject system */

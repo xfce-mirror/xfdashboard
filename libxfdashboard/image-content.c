@@ -33,7 +33,6 @@
 
 #include <libxfdashboard/core.h>
 #include <libxfdashboard/stylable.h>
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
 

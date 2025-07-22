@@ -65,7 +65,6 @@
 #include <libxfdashboard/transition-group.h>
 #include <libxfdashboard/core.h>
 #include <libxfdashboard/theme.h>
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
 

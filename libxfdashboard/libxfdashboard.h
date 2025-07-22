@@ -42,7 +42,6 @@
 #include <libxfdashboard/button.h>
 #include <libxfdashboard/click-action.h>
 #include <libxfdashboard/collapse-box.h>
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/core.h>
 #include <libxfdashboard/css-selector.h>
 #include <libxfdashboard/debug.h>

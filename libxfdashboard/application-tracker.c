@@ -34,7 +34,6 @@
 #include <libxfdashboard/application-database.h>
 #include <libxfdashboard/window-tracker.h>
 #include <libxfdashboard/marshal.h>
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
 

@@ -53,7 +53,6 @@
 #include <libxfdashboard/x11/window-tracker-workspace-x11.h>
 #include <libxfdashboard/marshal.h>
 #include <libxfdashboard/core.h>
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
 

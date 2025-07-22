@@ -39,7 +39,6 @@
 #include <libxfdashboard/x11/window-tracker-x11.h>
 #include <libxfdashboard/x11/window-tracker-window-x11.h>
 #include <libxfdashboard/marshal.h>
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
 

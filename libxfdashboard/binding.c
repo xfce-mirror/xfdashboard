@@ -30,7 +30,6 @@
 
 #include <libxfdashboard/binding.h>
 #include <libxfdashboard/enums.h>
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
 

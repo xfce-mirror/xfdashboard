@@ -42,7 +42,6 @@ libxfdashboard_la_headers = \
 	button.h \
 	click-action.h \
 	collapse-box.h \
-	compat.h \
 	core.h \
 	css-selector.h \
 	debug.h \

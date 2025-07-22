@@ -32,7 +32,6 @@
 
 #include <libxfdashboard/core.h>
 #include <libxfdashboard/application-database.h>
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
 

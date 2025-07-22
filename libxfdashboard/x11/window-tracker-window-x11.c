@@ -58,7 +58,6 @@
 #include <libxfdashboard/core.h>
 #include <libxfdashboard/desktop-app-info.h>
 #include <libxfdashboard/marshal.h>
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
 

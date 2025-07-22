@@ -33,7 +33,6 @@
 
 #include <libxfdashboard/actor.h>
 #include <libxfdashboard/stage.h>
-#include <libxfdashboard/compat.h>
 
 
 /* Define this class in GObject system */

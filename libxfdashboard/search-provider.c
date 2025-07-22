@@ -31,7 +31,6 @@
 
 #include <libxfdashboard/actor.h>
 #include <libxfdashboard/text-box.h>
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
 

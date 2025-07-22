@@ -53,7 +53,6 @@
 #include <libxfdashboard/window-tracker.h>
 #include <libxfdashboard/settings.h>
 #include <libxfdashboard/enums.h>
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
 

@@ -35,7 +35,6 @@
 #include <gdk/gdkx.h>
 
 #include <libxfdashboard/window-tracker-monitor.h>
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
 
