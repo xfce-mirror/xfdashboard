@@ -13,7 +13,7 @@ dnl **************************************
 dnl *** Minimum package version needed ***
 dnl **************************************
 m4_define([wnck_minimum_version], [3.0])
-m4_define([clutter_minimum_version], [1.12.0])
+m4_define([clutter_minimum_version], [1.24.0])
 m4_define([glib_minimum_version], [2.66])
 m4_define([gio_minimum_version], [2.66])
 m4_define([garcon_minimum_version], [4.16.0])

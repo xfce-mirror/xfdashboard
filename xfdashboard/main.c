@@ -192,9 +192,7 @@ int main(int argc, char **argv)
 {
 	XfdashboardApplication		*app=NULL;
 	gint						status;
-#if CLUTTER_CHECK_VERSION(1, 16, 0)
 	const gchar					*backend;
-#endif
 	GError						*error=NULL;
 
 	/* Set up localization */
@@ -218,7 +216,6 @@ int main(int argc, char **argv)
 		return(1);
 	}
 
-#if CLUTTER_CHECK_VERSION(1, 16, 0)
 	/* Enforce X11 backend in Clutter if no specific backend was requested via
 	 * the XFDASHBOARD_BACKEND environment variable. If this environment variable
 	 * is set, enforce this backend.
@@ -237,7 +234,6 @@ int main(int argc, char **argv)
 			clutter_set_windowing_backend("x11");
 			g_debug("Enforcing X11 backend");
 		}
-#endif
 
 #ifdef CLUTTER_WINDOWING_X11
 	/* Tell clutter to try to initialize an RGBA visual if the X11 backend is

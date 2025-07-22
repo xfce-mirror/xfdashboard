@@ -118,7 +118,6 @@ void xfdashboard_window_tracker_backend_default_init(XfdashboardWindowTrackerBac
  */
 void xfdashboard_window_tracker_backend_set_backend(const gchar *inBackend)
 {
-#if CLUTTER_CHECK_VERSION(1, 16, 0)
 	XfdashboardWindowTrackerBackendMap	*iter;
 	static gboolean						wasSet=FALSE;
 
@@ -164,7 +163,6 @@ void xfdashboard_window_tracker_backend_set_backend(const gchar *inBackend)
 
 	/* If we get here the requested backend is unknown */
 	g_warning("Unknown backend '%s' - using default backend", inBackend);
-#endif
 }
 
 /**

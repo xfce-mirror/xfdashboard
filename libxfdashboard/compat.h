@@ -28,16 +28,7 @@
 #error "Only <libxfdashboard/libxfdashboard.h> can be included directly."
 #endif
 
-#include <clutter/clutter.h>
-
 G_BEGIN_DECLS
-
-#if !CLUTTER_CHECK_VERSION(1, 23, 4)
-#define clutter_actor_is_visible(actor)		CLUTTER_ACTOR_IS_VISIBLE( (actor) )
-#define clutter_actor_is_mapped(actor)		CLUTTER_ACTOR_IS_MAPPED( (actor) )
-#define clutter_actor_is_realized(actor)	CLUTTER_ACTOR_IS_REALIZED( (actor) )
-#define clutter_actor_get_reactive(actor)	CLUTTER_ACTOR_IS_REACTIVE( (actor) )
-#endif
 
 #if !GLIB_CHECK_VERSION(2, 44, 0)
 inline static gboolean g_strv_contains(const gchar * const *inStringList, const gchar *inString)

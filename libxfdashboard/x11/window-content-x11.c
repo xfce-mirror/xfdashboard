@@ -459,17 +459,14 @@ static void _xfdashboard_window_content_x11_on_workaround_state_changed(Xfdashbo
 					{
 						CoglTexture			*copyTexture;
 						gint				copyTextureSize;
-#if COGL_VERSION_CHECK(1, 18, 0)
 						ClutterBackend		*backend;
 						CoglContext			*context;
 						CoglError			*error;
-#endif
 
 						/* Get texture data to copy */
 						copyTextureSize=cogl_texture_get_data(priv->texture, textureFormat, 0, textureData);
 						if(copyTextureSize)
 						{
-#if COGL_VERSION_CHECK(1, 18, 0)
 							error=NULL;
 
 							backend=clutter_get_default_backend();
@@ -502,21 +499,6 @@ static void _xfdashboard_window_content_x11_on_workaround_state_changed(Xfdashbo
 									error=NULL;
 								}
 							}
-#else
-							copyTexture=cogl_texture_new_from_data(textureWidth,
-																	textureHeight,
-																	COGL_TEXTURE_NONE,
-																	textureFormat,
-																	textureFormat,
-																	0,
-																	textureData);
-							if(!copyTexture)
-							{
-								/* Show warning */
-								g_warning("Could not create copy of texture of mininized window '%s'",
-											xfdashboard_window_tracker_window_get_name(XFDASHBOARD_WINDOW_TRACKER_WINDOW(priv->window)));
-							}
-#endif
 
 							if(copyTexture)
 							{
@@ -1425,11 +1407,9 @@ static void _xfdashboard_window_content_x11_set_window(XfdashboardWindowContentX
 	Display									*display;
 	GdkPixbuf								*windowIcon;
 	XWindowAttributes						windowAttrs;
-#if COGL_VERSION_CHECK(1, 18, 0)
 	ClutterBackend							*backend;
 	CoglContext								*context;
 	CoglError								*error;
-#endif
 
 	g_return_if_fail(XFDASHBOARD_IS_WINDOW_CONTENT_X11(self));
 	g_return_if_fail(inWindow!=NULL && XFDASHBOARD_IS_WINDOW_TRACKER_WINDOW_X11(inWindow));
@@ -1464,7 +1444,6 @@ static void _xfdashboard_window_content_x11_set_window(XfdashboardWindowContentX
 	 * a live updated texture for window in the next steps
 	 */
 	windowIcon=xfdashboard_window_tracker_window_get_icon(XFDASHBOARD_WINDOW_TRACKER_WINDOW(priv->window));
-#if COGL_VERSION_CHECK(1, 18, 0)
 	error=NULL;
 
 	backend=clutter_get_default_backend();
@@ -1497,15 +1476,6 @@ static void _xfdashboard_window_content_x11_set_window(XfdashboardWindowContentX
 			error=NULL;
 		}
 	}
-#else
-	priv->texture=cogl_texture_new_from_data(gdk_pixbuf_get_width(windowIcon),
-												gdk_pixbuf_get_height(windowIcon),
-												COGL_TEXTURE_NONE,
-												gdk_pixbuf_get_has_alpha(windowIcon) ? COGL_PIXEL_FORMAT_RGBA_8888 : COGL_PIXEL_FORMAT_RGB_888,
-												COGL_PIXEL_FORMAT_ANY,
-												gdk_pixbuf_get_rowstride(windowIcon),
-												gdk_pixbuf_get_pixels(windowIcon));
-#endif
 
 	priv->isFallback=TRUE;
 
