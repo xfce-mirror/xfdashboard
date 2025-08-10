@@ -38,6 +38,7 @@ CLEANFILES = \
 	$(noinst_DATA)
 
 EXTRA_DIST = \
+	meson.build \
 	$(noinst_DATA)
 
 DISTCLEANFILES = \

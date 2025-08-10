@@ -34,6 +34,7 @@ AC_REVISION([xdt_version_build])
 COPYRIGHT_YEAR=copyright_year()
 AC_DEFINE_UNQUOTED([COPYRIGHT_YEAR], ["$COPYRIGHT_YEAR"], [Copyright year])
 AC_SUBST([COPYRIGHT_YEAR])
+AC_DEFINE([VERSION_FULL], [PACKAGE_VERSION], [Alias for VERSION and PACKAGE_VERSION for meson compatibility])
 
 dnl ***************************
 dnl *** Initialize automake ***

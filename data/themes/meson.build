@@ -1,0 +1,7 @@
+subdir('xfdashboard')
+subdir('xfdashboard-auber')
+subdir('xfdashboard-blue')
+subdir('xfdashboard-dark')
+subdir('xfdashboard-mint')
+subdir('xfdashboard-moranga')
+subdir('xfdashboard-wine')
