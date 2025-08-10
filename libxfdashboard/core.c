@@ -35,6 +35,9 @@
 #ifdef HAVE_CONFIG_H
 #include "config.h"
 #endif
+#ifdef HAVE_XFCE_REVISION_H
+#include "xfce-revision.h"
+#endif
 
 #include <libxfdashboard/core.h>
 
@@ -1244,7 +1247,7 @@ gboolean xfdashboard_core_initialize(XfdashboardCore *self, GError **outError)
 	g_signal_emit(self, XfdashboardCoreSignals[SIGNAL_INITIALIZED], 0);
 
 #ifdef DEBUG
-	xfdashboard_notify(NULL, NULL, _("Welcome to %s (%s)!"), PACKAGE_NAME, PACKAGE_VERSION);
+	xfdashboard_notify(NULL, NULL, _("Welcome to %s (%s)!"), PACKAGE_NAME, VERSION_FULL);
 #else
 	xfdashboard_notify(NULL, NULL, _("Welcome to %s!"), PACKAGE_NAME);
 #endif

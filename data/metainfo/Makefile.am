@@ -7,6 +7,7 @@ org.xfce.xfdashboard.metainfo.xml: org.xfce.xfdashboard.metainfo.xml.in
 
 EXTRA_DIST = \
         $(metainfo_DATA) \
+        meson.build \
         org.xfce.xfdashboard.metainfo.xml.in
 
 DISTCLEANFILES = \
