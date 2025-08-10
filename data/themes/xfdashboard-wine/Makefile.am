@@ -26,6 +26,7 @@ CLEANFILES = \
 	$(theme_in_files:.theme.desktop.in=.theme)
 
 EXTRA_DIST = \
+	meson.build \
 	$(theme_in_files:.theme.desktop.in=.theme.desktop.in.in) \
 	$(theme_DATA)
 

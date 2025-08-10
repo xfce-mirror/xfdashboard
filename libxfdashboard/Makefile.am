@@ -342,4 +342,5 @@ EXTRA_DIST = \
 	enums.h.template \
 	enums.c.template \
 	marshal.list \
+	meson.build \
 	version.h.in

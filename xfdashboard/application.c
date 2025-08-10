@@ -24,6 +24,9 @@
 #ifdef HAVE_CONFIG_H
 #include "config.h"
 #endif
+#ifdef HAVE_XFCE_REVISION_H
+#include "xfce-revision.h"
+#endif
 
 #include "application.h"
 
@@ -499,7 +502,7 @@ static gint _xfdashboard_application_handle_command_line_arguments(XfdashboardAp
 	/* Setup command-line options */
 	context=g_option_context_new("");
 	gchar buf[1024];
-	g_snprintf(buf, sizeof(buf), _("A Gnome Shell like dashboard for Xfce4 - version %s"), PACKAGE_VERSION);
+	g_snprintf(buf, sizeof(buf), _("A Gnome Shell like dashboard for Xfce4 - version %s"), VERSION_FULL);
 	g_option_context_set_summary(context, buf);
 	g_option_context_set_translation_domain(context, GETTEXT_PACKAGE);
 	g_option_context_add_group(context, gtk_get_option_group(TRUE));
