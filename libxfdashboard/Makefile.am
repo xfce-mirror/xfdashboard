@@ -282,7 +282,8 @@ libxfdashboard_la_includedir = \
 
 libxfdashboard_la_include_HEADERS = \
 	$(libxfdashboard_la_headers) \
-	libxfdashboard.h
+	libxfdashboard.h \
+	version.h
 
 if MAINTAINER_MODE
 
