@@ -7,6 +7,7 @@ dnl
 dnl ***************************
 dnl *** Version information ***
 dnl ***************************
+m4_define([copyright_year], [2025])
 XDT_VERSION_INIT([1.1.0], [git])
 
 dnl **************************************
@@ -26,10 +27,13 @@ m4_define([libxfce4ui_minimum_version],[4.16.0])
 dnl ***************************
 dnl *** Initialize autoconf ***
 dnl ***************************
-AC_COPYRIGHT([Copyright (c) 2012-2022 Stephan Haller <nomad@froevel.de>])
+AC_COPYRIGHT([Copyright (c) 2012-copyright_year() Stephan Haller <nomad@froevel.de>])
 AC_INIT([xfdashboard], [xdt_version], [https://gitlab.xfce.org/apps/xfdashboard], [xfdashboard])
 AC_PREREQ([2.69])
 AC_REVISION([xdt_version_build])
+COPYRIGHT_YEAR=copyright_year()
+AC_DEFINE_UNQUOTED([COPYRIGHT_YEAR], ["$COPYRIGHT_YEAR"], [Copyright year])
+AC_SUBST([COPYRIGHT_YEAR])
 
 dnl ***************************
 dnl *** Initialize automake ***
