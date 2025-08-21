@@ -120,7 +120,6 @@ static GParamSpec* XfdashboardWindowTrackerWindowX11Properties[PROP_LAST]={ 0, }
 static GAppInfo*  _xfdashboard_window_tracker_window_x11_window_tracker_window_resolve_name_to_appinfo(XfdashboardWindowTrackerWindowX11 *self,
 																										const gchar *inName)
 {
-	XfdashboardWindowTrackerWindowX11Private	*priv;
 	GAppInfo									*appInfo;
 	gchar										*iterName;
 	gchar										*iterNameLowerCase;
@@ -131,7 +130,6 @@ static GAppInfo*  _xfdashboard_window_tracker_window_x11_window_tracker_window_r
 	g_return_val_if_fail(inName && *inName, NULL);
 	g_return_val_if_fail(self->priv->window, NULL);
 
-	priv=self->priv;
 	appInfo=NULL;
 
 	/* Get list of applications */
@@ -192,7 +190,7 @@ G_GNUC_BEGIN_IGNORE_DEPRECATIONS
 				XFDASHBOARD_DEBUG(self, APPLICATIONS,
 									"Found possible application '%s' for window '%s' using pattern '%s'",
 									g_app_info_get_id(globAppInfo),
-									wnck_window_get_name(priv->window),
+									wnck_window_get_name(self->priv->window),
 									globName);
 			}
 G_GNUC_END_IGNORE_DEPRECATIONS
@@ -203,7 +201,7 @@ G_GNUC_END_IGNORE_DEPRECATIONS
 				XFDASHBOARD_DEBUG(self, APPLICATIONS,
 									"Found possible application '%s' for window '%s' using pattern '%s'",
 									g_app_info_get_id(globAppInfo),
-									wnck_window_get_name(priv->window),
+									wnck_window_get_name(self->priv->window),
 									globName);
 			}
 #endif
@@ -219,7 +217,7 @@ G_GNUC_END_IGNORE_DEPRECATIONS
 			XFDASHBOARD_DEBUG(self, APPLICATIONS,
 								"Found exactly one application named '%s' for window '%s' using pattern '%s'",
 								g_app_info_get_id(appInfo),
-								wnck_window_get_name(priv->window),
+								wnck_window_get_name(self->priv->window),
 								globName);
 		}
 
