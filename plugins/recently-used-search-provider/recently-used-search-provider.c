@@ -22,10 +22,6 @@
  * 
  */
 
-#ifdef HAVE_CONFIG_H
-#include "config.h"
-#endif
-
 #include "recently-used-search-provider.h"
 
 #include <glib/gi18n-lib.h>

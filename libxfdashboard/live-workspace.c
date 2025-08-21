@@ -22,10 +22,6 @@
  * 
  */
 
-#ifdef HAVE_CONFIG_H
-#include "config.h"
-#endif
-
 #include <libxfdashboard/live-workspace.h>
 
 #include <glib/gi18n-lib.h>

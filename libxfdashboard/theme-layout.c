@@ -252,10 +252,6 @@
  *     favourites in quicklaunch.
  */
 
-#ifdef HAVE_CONFIG_H
-#include "config.h"
-#endif
-
 #include <libxfdashboard/theme-layout.h>
 
 #include <glib/gi18n-lib.h>

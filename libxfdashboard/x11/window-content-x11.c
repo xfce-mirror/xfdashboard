@@ -21,10 +21,6 @@
  * 
  */
 
-#ifdef HAVE_CONFIG_H
-#include "config.h"
-#endif
-
 #define COGL_ENABLE_EXPERIMENTAL_API
 #define CLUTTER_ENABLE_EXPERIMENTAL_API
 

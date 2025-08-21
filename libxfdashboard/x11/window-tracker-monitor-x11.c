@@ -24,10 +24,6 @@
  * 
  */
 
-#ifdef HAVE_CONFIG_H
-#include "config.h"
-#endif
-
 #include <libxfdashboard/x11/window-tracker-monitor-x11.h>
 
 #include <glib/gi18n-lib.h>

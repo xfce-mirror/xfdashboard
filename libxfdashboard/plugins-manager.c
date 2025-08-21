@@ -36,10 +36,6 @@
  * - (install prefix)/lib/xfdashboard/plugins
  */
 
-#ifdef HAVE_CONFIG_H
-#include "config.h"
-#endif
-
 #include <libxfdashboard/plugins-manager.h>
 
 #include <glib/gi18n-lib.h>

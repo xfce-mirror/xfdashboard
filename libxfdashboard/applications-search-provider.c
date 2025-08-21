@@ -24,10 +24,6 @@
 
 #undef ENABLE_STATISTICS_FILE
 
-#ifdef HAVE_CONFIG_H
-#include "config.h"
-#endif
-
 #include <libxfdashboard/applications-search-provider.h>
 
 #include <glib/gi18n-lib.h>

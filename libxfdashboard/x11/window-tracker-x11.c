@@ -27,10 +27,6 @@
  * 
  */
 
-#ifdef HAVE_CONFIG_H
-#include "config.h"
-#endif
-
 #include <libxfdashboard/x11/window-tracker-x11.h>
 
 #define WNCK_I_KNOW_THIS_IS_UNSTABLE

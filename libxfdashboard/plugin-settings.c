@@ -30,10 +30,6 @@
  * at plugins to manage configurable settings.
  */
 
-#ifdef HAVE_CONFIG_H
-#include "config.h"
-#endif
-
 #include <libxfdashboard/plugin-settings.h>
 
 #include <glib/gi18n-lib.h>

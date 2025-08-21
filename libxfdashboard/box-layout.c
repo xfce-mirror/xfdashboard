@@ -36,10 +36,6 @@
  * #XfdashboardBoxLayout layout manager to the #ClutterBoxLayout layout manager.
  */
 
-#ifdef HAVE_CONFIG_H
-#include "config.h"
-#endif
-
 #include <libxfdashboard/box-layout.h>
 
 #include <glib/gi18n-lib.h>

@@ -30,10 +30,6 @@
  * library and stores them at xfconf permanently.
  */
 
-#ifdef HAVE_CONFIG_H
-#include "config.h"
-#endif
-
 #include <common/xfconf-settings.h>
 
 #include <libxfce4ui/libxfce4ui.h>

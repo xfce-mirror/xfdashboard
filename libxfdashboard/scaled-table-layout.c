@@ -25,10 +25,6 @@
  * 
  */
 
-#ifdef HAVE_CONFIG_H
-#include "config.h"
-#endif
-
 #include <libxfdashboard/scaled-table-layout.h>
 
 #include <glib/gi18n-lib.h>

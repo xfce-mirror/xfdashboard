@@ -45,10 +45,6 @@
  * to boolean FALSE (enabled and set to TRUE by default).
  */
 
-#ifdef HAVE_CONFIG_H
-#include "config.h"
-#endif
-
 #include <libxfdashboard/transition-group.h>
 
 #include <glib/gi18n-lib.h>

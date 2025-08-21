@@ -21,10 +21,6 @@
  * 
  */
 
-#ifdef HAVE_CONFIG_H
-#include <config.h>
-#endif
-
 #include <libxfdashboard/libxfdashboard.h>
 #include <libxfce4util/libxfce4util.h>
 
