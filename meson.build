@@ -47,6 +47,8 @@ xcomposite = dependency('xcomposite', version: dependency_versions['xcomposite']
 xdamage = dependency('xdamage', version: dependency_versions['xdamage'], required: get_option('xdamage'))
 xinerama = dependency('xinerama', version: dependency_versions['xinerama'], required: get_option('xinerama'))
 
+libm = cc.find_library('m', required: true)
+
 feature_cflags = []
 
 if clutter_gdk.found()
