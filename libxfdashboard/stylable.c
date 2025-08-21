@@ -33,7 +33,6 @@
 #include <libxfdashboard/core.h>
 #include <libxfdashboard/marshal.h>
 #include <libxfdashboard/utils.h>
-#include <libxfdashboard/compat.h>
 
 
 /* Define this interface in GObject system */

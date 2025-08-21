@@ -30,7 +30,6 @@
 #include <glib/gi18n-lib.h>
 
 #include <libxfdashboard/x11/window-content-x11.h>
-#include <libxfdashboard/compat.h>
 
 
 /* Define this class in GObject system */

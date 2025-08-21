@@ -2,6 +2,7 @@ CLEANFILES = \
 	$(plugin_DATA)
 
 EXTRA_DIST = \
+        meson.build \
         Makefile.am.example \
         example-search-provider.c \
         example-search-provider.h \

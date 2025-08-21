@@ -33,7 +33,6 @@
 #include <libxfdashboard/search-provider.h>
 #include <libxfdashboard/utils.h>
 #include <libxfdashboard/marshal.h>
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
 

@@ -41,7 +41,6 @@
 #include <libxfdashboard/click-action.h>
 #include <libxfdashboard/drag-action.h>
 #include <libxfdashboard/marshal.h>
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
 

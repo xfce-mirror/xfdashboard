@@ -42,7 +42,6 @@ libxfdashboard_la_headers = \
 	button.h \
 	click-action.h \
 	collapse-box.h \
-	compat.h \
 	core.h \
 	css-selector.h \
 	debug.h \
@@ -283,7 +282,8 @@ libxfdashboard_la_includedir = \
 
 libxfdashboard_la_include_HEADERS = \
 	$(libxfdashboard_la_headers) \
-	libxfdashboard.h
+	libxfdashboard.h \
+	version.h
 
 if MAINTAINER_MODE
 
@@ -342,4 +342,5 @@ EXTRA_DIST = \
 	enums.h.template \
 	enums.c.template \
 	marshal.list \
+	meson.build \
 	version.h.in

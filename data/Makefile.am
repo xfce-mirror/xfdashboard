@@ -36,6 +36,7 @@ org.xfce.xfdashboard-settings.desktop.in:org.xfce.xfdashboard-settings.desktop.i
 	$(AM_V_GEN)$(MSGFMT) --desktop --template $< -d $(top_srcdir)/po -o $@
 
 EXTRA_DIST = \
+	meson.build \
 	$(desktop_in_files:.desktop.in=.desktop.in.in) \
 	$(autostart_in_files:.desktop.in=.desktop.in.in) \
 	$(settings_in_files:.desktop.in=.desktop.in.in)

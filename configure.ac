@@ -7,29 +7,34 @@ dnl
 dnl ***************************
 dnl *** Version information ***
 dnl ***************************
+m4_define([copyright_year], [2025])
 XDT_VERSION_INIT([1.1.0], [git])
 
 dnl **************************************
 dnl *** Minimum package version needed ***
 dnl **************************************
 m4_define([wnck_minimum_version], [3.0])
-m4_define([clutter_minimum_version], [1.12.0])
+m4_define([clutter_minimum_version], [1.24.0])
 m4_define([glib_minimum_version], [2.66])
 m4_define([gio_minimum_version], [2.66])
-m4_define([garcon_minimum_version], [0.2.0])
-m4_define([xfconf_minimum_version], [4.14.0])
+m4_define([garcon_minimum_version], [4.16.0])
+m4_define([xfconf_minimum_version], [4.16.0])
 m4_define([xcomposite_minimum_version], [0.2])
-m4_define([gtk_minimum_version], [3.2])
-m4_define([libxfce4util_minimum_version],[4.10.0])
-m4_define([libxfce4ui_minimum_version],[4.10.0])
+m4_define([gtk_minimum_version], [3.22.0])
+m4_define([libxfce4util_minimum_version],[4.16.0])
+m4_define([libxfce4ui_minimum_version],[4.16.0])
 
 dnl ***************************
 dnl *** Initialize autoconf ***
 dnl ***************************
-AC_COPYRIGHT([Copyright (c) 2012-2022 Stephan Haller <nomad@froevel.de>])
+AC_COPYRIGHT([Copyright (c) 2012-copyright_year() Stephan Haller <nomad@froevel.de>])
 AC_INIT([xfdashboard], [xdt_version], [https://gitlab.xfce.org/apps/xfdashboard], [xfdashboard])
 AC_PREREQ([2.69])
 AC_REVISION([xdt_version_build])
+COPYRIGHT_YEAR=copyright_year()
+AC_DEFINE_UNQUOTED([COPYRIGHT_YEAR], ["$COPYRIGHT_YEAR"], [Copyright year])
+AC_SUBST([COPYRIGHT_YEAR])
+AC_DEFINE([VERSION_FULL], [PACKAGE_VERSION], [Alias for VERSION and PACKAGE_VERSION for meson compatibility])
 
 dnl ***************************
 dnl *** Initialize automake ***

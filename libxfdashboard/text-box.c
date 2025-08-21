@@ -37,7 +37,6 @@
 #include <libxfdashboard/focusable.h>
 #include <libxfdashboard/focus-manager.h>
 #include <libxfdashboard/core.h>
-#include <libxfdashboard/compat.h>
 
 
 /* Define this class in GObject system */

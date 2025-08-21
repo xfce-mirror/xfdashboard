@@ -40,7 +40,6 @@
 #include <libxfdashboard/enums.h>
 #include <libxfdashboard/stylable.h>
 #include <libxfdashboard/core.h>
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
 
@@ -264,13 +263,7 @@ static void _xfdashboard_live_workspace_on_window_on_drag_end(ClutterDragAction 
 	dragHandle=clutter_drag_action_get_drag_handle(inAction);
 	if(dragHandle)
 	{
-#if CLUTTER_CHECK_VERSION(1, 14, 0)
-		/* Only unset drag handle if not running Clutter in version
-		 * 1.12. This prevents a critical warning message in 1.12.
-		 * Later versions of Clutter are fixed already.
-		 */
 		clutter_drag_action_set_drag_handle(inAction, NULL);
-#endif
 		clutter_actor_destroy(dragHandle);
 	}
 

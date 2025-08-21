@@ -33,15 +33,10 @@
 
 #include <libxfdashboard/core.h>
 #include <libxfdashboard/stylable.h>
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
 
-#if GTK_CHECK_VERSION(3, 14 ,0)
 #undef USE_GTK_BUILTIN_ICONS
-#else
-#define USE_GTK_BUILTIN_ICONS 1
-#endif
 
 
 /* Local definitions */

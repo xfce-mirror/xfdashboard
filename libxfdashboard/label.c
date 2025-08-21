@@ -33,7 +33,6 @@
 
 #include <libxfdashboard/enums.h>
 #include <libxfdashboard/image-content.h>
-#include <libxfdashboard/compat.h>
 
 
 /* Forward declarations */

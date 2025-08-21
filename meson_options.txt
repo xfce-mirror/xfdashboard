@@ -1,0 +1,41 @@
+option(
+  'clutter-gdk',
+  type: 'feature',
+  value: 'auto',
+  description: 'Build clutter GDK backend',
+)
+
+option(
+  'xcomposite',
+  type: 'feature',
+  value: 'auto',
+  description: 'Build with X11 extension XComposite',
+)
+
+option(
+  'xdamage',
+  type: 'feature',
+  value: 'auto',
+  description: 'Build with X11 extension XDamage',
+)
+
+option(
+  'xinerama',
+  type: 'feature',
+  value: 'auto',
+  description: 'Build with X11 extension Xinerama',
+)
+
+option(
+  'gnome-shell-search-provider-path',
+  type: 'string',
+  value: '',
+  description: 'Path to GNOME shell search provider (default: $datadir/gnome-shell/search-providers)',
+)
+
+option(
+  'example-search-provider',
+  type: 'boolean',
+  value: false,
+  description: 'Build example search provider plugin (development purpose only)',
+)

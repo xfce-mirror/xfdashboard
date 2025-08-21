@@ -35,6 +35,9 @@
 #ifdef HAVE_CONFIG_H
 #include "config.h"
 #endif
+#ifdef HAVE_XFCE_REVISION_H
+#include "xfce-revision.h"
+#endif
 
 #include <libxfdashboard/core.h>
 
@@ -53,7 +56,6 @@
 #include <libxfdashboard/utils.h>
 #include <libxfdashboard/theme.h>
 #include <libxfdashboard/marshal.h>
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
 
@@ -979,9 +981,6 @@ gboolean xfdashboard_core_initialize(XfdashboardCore *self, GError **outError)
 {
 	XfdashboardCorePrivate			*priv;
 	GError							*error;
-#if !GARCON_CHECK_VERSION(0,3,0)
-	const gchar						*desktop;
-#endif
 
 	g_return_val_if_fail(XFDASHBOARD_IS_CORE(self), FALSE);
 	g_return_val_if_fail(outError==NULL || *outError==NULL, FALSE);
@@ -1066,24 +1065,7 @@ gboolean xfdashboard_core_initialize(XfdashboardCore *self, GError **outError)
 #endif
 
 	/* Initialize garcon for current desktop environment */
-#if !GARCON_CHECK_VERSION(0,3,0)
-	desktop=g_getenv("XDG_CURRENT_DESKTOP");
-	if(G_LIKELY(desktop==NULL))
-	{
-		/* If we could not determine current desktop environment
-		 * assume Xfce as this application is developed for this DE.
-		 */
-		desktop="XFCE";
-	}
-		/* If desktop environment was found but has no name
-		 * set NULL to get all menu items shown.
-		 */
-		else if(*desktop==0) desktop=NULL;
-
-	garcon_set_environment(desktop);
-#else
 	garcon_set_environment_xdg(GARCON_ENVIRONMENT_XFCE);
-#endif
 
 	/* Check for settings */
 	if(!priv->settings)
@@ -1265,7 +1247,7 @@ gboolean xfdashboard_core_initialize(XfdashboardCore *self, GError **outError)
 	g_signal_emit(self, XfdashboardCoreSignals[SIGNAL_INITIALIZED], 0);
 
 #ifdef DEBUG
-	xfdashboard_notify(NULL, NULL, _("Welcome to %s (%s)!"), PACKAGE_NAME, PACKAGE_VERSION);
+	xfdashboard_notify(NULL, NULL, _("Welcome to %s (%s)!"), PACKAGE_NAME, VERSION_FULL);
 #else
 	xfdashboard_notify(NULL, NULL, _("Welcome to %s!"), PACKAGE_NAME);
 #endif

@@ -29,7 +29,6 @@
 
 #include <glib/gi18n-lib.h>
 
-#include <libxfdashboard/compat.h>
 
 
 /* Define this class in GObject system */

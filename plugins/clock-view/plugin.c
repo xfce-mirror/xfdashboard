@@ -64,11 +64,7 @@ static void _plugin_on_settings_color_change(GObject *inObject,
 	widgetColor.alpha=settingsColor->alpha/255.0f;
 
 	/* Set converted color at color button */
-#if GTK_CHECK_VERSION(3, 4, 0)
 	gtk_color_chooser_set_rgba(GTK_COLOR_CHOOSER(button), &widgetColor);
-#else
-	gtk_color_button_set_rgba(button, &widgetColor);
-#endif
 }
 
 /* A new color was chosen at color button */
@@ -86,11 +82,7 @@ static void _plugin_on_color_button_color_chosen(GtkColorButton *inButton,
 	property=(const gchar*)inUserData;
 
 	/* Get color from color button */
-#if GTK_CHECK_VERSION(3, 4, 0)
 	gtk_color_chooser_get_rgba(GTK_COLOR_CHOOSER(inButton), &widgetColor);
-#else
-	gtk_color_button_get_rgba(inButton, &widgetColor);
-#endif
 
 	/* Convert color for settings */
 	settingsColor.red=MIN(255, (gint)(widgetColor.red*255.0f));
@@ -152,11 +144,7 @@ static void _plugin_configure_setup_color_button(GtkColorButton *inButton,
 	widgetColor.alpha=settingsColor->alpha/255.0f;
 
 	/* Set converted color at color button */
-#if GTK_CHECK_VERSION(3, 4, 0)
 	gtk_color_chooser_set_rgba(GTK_COLOR_CHOOSER(inButton), &widgetColor);
-#else
-	gtk_color_button_set_rgba(inButton, &widgetColor);
-#endif
 
 	/* Connect signal to store color of new one was chosen at color button.
 	 * We connect to "destroy" signal of widget to release the signal handler
@@ -205,11 +193,7 @@ static GObject* plugin_configure(XfdashboardPlugin *self, gpointer inUserData)
 	gtk_grid_attach(GTK_GRID(layout), widgetLabel, 0, 0, 1, 1);
 
 	widgetValue=gtk_color_button_new();
-#if GTK_CHECK_VERSION(3, 4, 0)
 	gtk_color_chooser_set_use_alpha(GTK_COLOR_CHOOSER(widgetValue), TRUE);
-#else
-	gtk_color_button_set_use_alpha(GTK_COLOR_BUTTON(widgetValue), TRUE);
-#endif
 	gtk_color_button_set_title(GTK_COLOR_BUTTON(widgetValue), _("Choose color for hour hand"));
 	gtk_grid_attach_next_to(GTK_GRID(layout), widgetValue, widgetLabel, GTK_POS_RIGHT, 1, 1);
 	_plugin_configure_setup_color_button(GTK_COLOR_BUTTON(widgetValue), settings, "hour-color");
@@ -220,11 +204,7 @@ static GObject* plugin_configure(XfdashboardPlugin *self, gpointer inUserData)
 	gtk_grid_attach(GTK_GRID(layout), widgetLabel, 0, 1, 1, 1);
 
 	widgetValue=gtk_color_button_new();
-#if GTK_CHECK_VERSION(3, 4, 0)
 	gtk_color_chooser_set_use_alpha(GTK_COLOR_CHOOSER(widgetValue), TRUE);
-#else
-	gtk_color_button_set_use_alpha(GTK_COLOR_BUTTON(widgetValue), TRUE);
-#endif
 	gtk_color_button_set_title(GTK_COLOR_BUTTON(widgetValue), _("Choose color for minute hand"));
 	_plugin_configure_setup_color_button(GTK_COLOR_BUTTON(widgetValue), settings, "minute-color");
 	gtk_grid_attach_next_to(GTK_GRID(layout), widgetValue, widgetLabel, GTK_POS_RIGHT, 1, 1);
@@ -235,11 +215,7 @@ static GObject* plugin_configure(XfdashboardPlugin *self, gpointer inUserData)
 	gtk_grid_attach(GTK_GRID(layout), widgetLabel, 0, 2, 1, 1);
 
 	widgetValue=gtk_color_button_new();
-#if GTK_CHECK_VERSION(3, 4, 0)
 	gtk_color_chooser_set_use_alpha(GTK_COLOR_CHOOSER(widgetValue), TRUE);
-#else
-	gtk_color_button_set_use_alpha(GTK_COLOR_BUTTON(widgetValue), TRUE);
-#endif
 	gtk_color_button_set_title(GTK_COLOR_BUTTON(widgetValue), _("Choose color for second hand"));
 	_plugin_configure_setup_color_button(GTK_COLOR_BUTTON(widgetValue), settings, "second-color");
 	gtk_grid_attach_next_to(GTK_GRID(layout), widgetValue, widgetLabel, GTK_POS_RIGHT, 1, 1);
@@ -250,11 +226,7 @@ static GObject* plugin_configure(XfdashboardPlugin *self, gpointer inUserData)
 	gtk_grid_attach(GTK_GRID(layout), widgetLabel, 0, 3, 1, 1);
 
 	widgetValue=gtk_color_button_new();
-#if GTK_CHECK_VERSION(3, 4, 0)
 	gtk_color_chooser_set_use_alpha(GTK_COLOR_CHOOSER(widgetValue), TRUE);
-#else
-	gtk_color_button_set_use_alpha(GTK_COLOR_BUTTON(widgetValue), TRUE);
-#endif
 	gtk_color_button_set_title(GTK_COLOR_BUTTON(widgetValue), _("Choose color for background of second hand"));
 	_plugin_configure_setup_color_button(GTK_COLOR_BUTTON(widgetValue), settings, "background-color");
 	gtk_grid_attach_next_to(GTK_GRID(layout), widgetValue, widgetLabel, GTK_POS_RIGHT, 1, 1);

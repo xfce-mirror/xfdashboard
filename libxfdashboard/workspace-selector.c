@@ -42,7 +42,6 @@
 #include <libxfdashboard/stylable.h>
 #include <libxfdashboard/focusable.h>
 #include <libxfdashboard/stage-interface.h>
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
 

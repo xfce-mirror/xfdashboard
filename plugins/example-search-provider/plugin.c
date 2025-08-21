@@ -43,7 +43,7 @@ static void plugin_enable(XfdashboardPlugin *self, gpointer inUserData)
 	XfdashboardSearchManager		*searchManager;
 
 	/* Register search provider */
-	searchManager=xfdashboard_search_manager_get_default();
+	searchManager=xfdashboard_core_get_search_manager(NULL);
 
 	xfdashboard_search_manager_register(searchManager, PLUGIN_ID, XFDASHBOARD_TYPE_EXAMPLE_SEARCH_PROVIDER);
 
@@ -56,7 +56,7 @@ static void plugin_disable(XfdashboardPlugin *self, gpointer inUserData)
 	XfdashboardSearchManager		*searchManager;
 
 	/* Register search provider */
-	searchManager=xfdashboard_search_manager_get_default();
+	searchManager=xfdashboard_core_get_search_manager(NULL);
 
 	xfdashboard_search_manager_unregister(searchManager, PLUGIN_ID);
 

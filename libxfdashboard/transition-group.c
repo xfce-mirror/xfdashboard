@@ -53,7 +53,6 @@
 
 #include <glib/gi18n-lib.h>
 
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
 

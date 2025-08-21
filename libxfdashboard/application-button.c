@@ -41,7 +41,6 @@
 #include <libxfdashboard/popup-menu-item-button.h>
 #include <libxfdashboard/popup-menu-item-separator.h>
 #include <libxfdashboard/desktop-app-info.h>
-#include <libxfdashboard/compat.h>
 
 
 /* Define this class in GObject system */

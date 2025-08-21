@@ -34,7 +34,6 @@
 #include <libxfdashboard/focusable.h>
 #include <libxfdashboard/animation.h>
 #include <libxfdashboard/utils.h>
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 #include <math.h>
 

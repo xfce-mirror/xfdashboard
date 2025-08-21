@@ -47,6 +47,7 @@ CLEANFILES = \
 	$(plugin_DATA)
 
 EXTRA_DIST = \
+	meson.build \
 	$(plugin_DATA)
 
 DISTCLEANFILES = \

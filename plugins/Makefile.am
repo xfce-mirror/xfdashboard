@@ -6,3 +6,7 @@ SUBDIRS = \
 	hot-corner \
 	middle-click-window-close \
 	recently-used-search-provider
+
+EXTRA_DIST = \
+	meson.build \
+	$(NULL)

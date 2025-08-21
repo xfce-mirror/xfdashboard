@@ -31,7 +31,6 @@
 
 #include <libxfdashboard/popup-menu-item.h>
 #include <libxfdashboard/click-action.h>
-#include <libxfdashboard/compat.h>
 
 
 /* Define this class in GObject system */

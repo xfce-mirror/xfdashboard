@@ -6,3 +6,7 @@ SUBDIRS = \
 	xfdashboard-mint \
 	xfdashboard-moranga \
 	xfdashboard-wine
+
+EXTRA_DIST = \
+	meson.build \
+	$(NULL)

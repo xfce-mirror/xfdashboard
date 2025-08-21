@@ -47,3 +47,7 @@ xfdashboard_settings_LDFLAGS = \
 	-export-dynamic \
 	-no-undefined \
 	$(PLATFORM_LDFLAGS)
+
+EXTRA_DIST = \
+	meson.build \
+	$(NULL)

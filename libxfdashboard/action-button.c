@@ -59,7 +59,6 @@
 #include <libxfdashboard/focusable.h>
 #include <libxfdashboard/core.h>
 #include <libxfdashboard/focus-manager.h>
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
 

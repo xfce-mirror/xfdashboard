@@ -29,7 +29,6 @@
 #endif
 
 #include <glib.h>
-#include "compat.h"
 
 G_BEGIN_DECLS
 

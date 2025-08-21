@@ -1,4 +1,5 @@
 EXTRA_DIST = \
+	meson.build \
 	$(Data_DATA)
 
 Datadir = $(datadir)/xfdashboard

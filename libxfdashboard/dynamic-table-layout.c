@@ -35,7 +35,6 @@
 #include <math.h>
 
 #include <libxfdashboard/stylable.h>
-#include <libxfdashboard/compat.h>
 
 
 /* Define this class in GObject system */

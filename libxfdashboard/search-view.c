@@ -59,7 +59,6 @@
 #include <libxfdashboard/enums.h>
 #include <libxfdashboard/core.h>
 #include <libxfdashboard/settings.h>
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
 

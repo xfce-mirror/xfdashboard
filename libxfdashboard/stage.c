@@ -53,7 +53,6 @@
 #include <libxfdashboard/window-content.h>
 #include <libxfdashboard/stage-interface.h>
 #include <libxfdashboard/settings.h>
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
 

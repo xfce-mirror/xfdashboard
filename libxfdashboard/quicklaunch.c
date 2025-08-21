@@ -54,7 +54,6 @@
 #include <libxfdashboard/popup-menu-item-separator.h>
 #include <libxfdashboard/settings.h>
 #include <libxfdashboard/utils.h>
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
 
@@ -773,13 +772,7 @@ static void _xfdashboard_quicklaunch_on_favourite_drag_end(ClutterDragAction *in
 	dragHandle=clutter_drag_action_get_drag_handle(inAction);
 	if(dragHandle)
 	{
-#if CLUTTER_CHECK_VERSION(1, 14, 0)
-		/* Only unset drag handle if not running Clutter in version
-		 * 1.12. This prevents a critical warning message in 1.12.
-		 * Later versions of Clutter are fixed already.
-		 */
 		clutter_drag_action_set_drag_handle(inAction, NULL);
-#endif
 		xfdashboard_actor_destroy(dragHandle);
 	}
 

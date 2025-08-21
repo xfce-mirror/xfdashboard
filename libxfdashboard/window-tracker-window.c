@@ -33,7 +33,6 @@
 #include <libxfdashboard/core.h>
 #include <libxfdashboard/enums.h>
 #include <libxfdashboard/marshal.h>
-#include <libxfdashboard/compat.h>
 
 
 /* Define this class in GObject system */

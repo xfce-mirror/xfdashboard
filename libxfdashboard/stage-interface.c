@@ -33,7 +33,6 @@
 #include <libxfdashboard/enums.h>
 #include <libxfdashboard/stage.h>
 #include <libxfdashboard/stylable.h>
-#include <libxfdashboard/compat.h>
 #include <libxfdashboard/debug.h>
 
 

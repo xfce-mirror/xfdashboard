@@ -37,7 +37,6 @@
 #include <libxfdashboard/viewpad.h>
 #include <libxfdashboard/core.h>
 #include <libxfdashboard/enums.h>
-#include <libxfdashboard/compat.h>
 
 
 /* Define this class in GObject system */
