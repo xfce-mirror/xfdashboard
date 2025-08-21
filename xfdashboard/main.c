@@ -31,6 +31,12 @@
 #include <libxfce4util/libxfce4util.h>
 #include <libxfdashboard/core.h>
 #include <libxfdashboard/window-tracker-backend.h>
+#ifdef GDK_WINDOWING_X11
+#include <gdk/gdkx.h>
+#define WINDOWING_IS_X11() GDK_IS_X11_DISPLAY(gdk_display_get_default())
+#else
+#define WINDOWING_IS_X11() FALSE
+#endif
 
 #include "application.h"
 
@@ -238,6 +244,12 @@ int main(int argc, char **argv)
 	if(!clutter_init(&argc, &argv))
 	{
 		g_error("Initializing clutter failed!");
+		return(1);
+	}
+
+	if (!WINDOWING_IS_X11())
+	{
+		g_warning("Unsupported windowing environment, exiting");
 		return(1);
 	}
 
