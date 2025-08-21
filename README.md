@@ -36,19 +36,24 @@ See [NEWS](https://gitlab.xfce.org/apps/xfdashboard/-/blob/master/NEWS) for deta
 From source code repository: 
 
     % cd xfdashboard
-    % ./autogen.sh
-    % make
-    % make install
+    % meson setup build
+    % meson compile -C build
+    % meson install -C build
 
 From release tarball:
 
     % tar xf xfdashboard-<version>.tar.bz2
     % cd xfdashboard-<version>
-    % ./configure
-    % make
-    % make install
+    % meson setup build
+    % meson compile -C build
+    % meson install -C build
+
+### Uninstallation
+
+From source code repository and release tarball:
+
+    % ninja uninstall -C build
 
 ### Reporting Bugs
 
 Visit the [reporting bugs](https://docs.xfce.org/apps/xfdashboard/bugs) page to view currently open bug reports and instructions on reporting new bugs or submitting bugfixes.
-
