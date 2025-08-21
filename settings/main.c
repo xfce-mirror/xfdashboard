@@ -28,6 +28,12 @@
 #include <gtk/gtkx.h>
 #include <libxfce4util/libxfce4util.h>
 #include <xfconf/xfconf.h>
+#ifdef GDK_WINDOWING_X11
+#include <gdk/gdkx.h>
+#define WINDOWING_IS_X11() GDK_IS_X11_DISPLAY(gdk_display_get_default())
+#else
+#define WINDOWING_IS_X11() FALSE
+#endif
 
 #include "settings.h"
 
@@ -72,6 +78,12 @@ int main(int argc, char **argv)
 			if(error) g_error_free(error);
 		}
 
+		return(1);
+	}
+
+	if (!WINDOWING_IS_X11())
+	{
+		g_warning("Unsupported windowing environment, exiting");
 		return(1);
 	}
 
