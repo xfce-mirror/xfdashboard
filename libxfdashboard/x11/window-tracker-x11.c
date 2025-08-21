@@ -1812,6 +1812,9 @@ void xfdashboard_window_tracker_x11_init(XfdashboardWindowTrackerX11 *self)
 
 	XFDASHBOARD_DEBUG(self, WINDOWS, "Initializing X11 window tracker");
 
+	/* The very first call to libwnck should be setting the client type */
+	wnck_set_client_type(WNCK_CLIENT_TYPE_PAGER);
+
 	/* Set default values */
 	priv->windows=NULL;
 	priv->windowsStacked=NULL;
@@ -1827,9 +1830,6 @@ void xfdashboard_window_tracker_x11_init(XfdashboardWindowTrackerX11 *self)
 	priv->activeWorkspace=NULL;
 	priv->primaryMonitor=NULL;
 	priv->supportsMultipleMonitors=FALSE;
-
-	/* The very first call to libwnck should be setting the client type */
-	wnck_set_client_type(WNCK_CLIENT_TYPE_PAGER);
 
 	/* Connect signals to screen */
 	g_signal_connect_swapped(priv->screen,
