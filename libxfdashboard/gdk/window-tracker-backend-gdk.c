@@ -22,10 +22,6 @@
  * 
  */
 
-#ifdef HAVE_CONFIG_H
-#include "config.h"
-#endif
-
 #include <libxfdashboard/gdk/window-tracker-backend-gdk.h>
 
 #include <glib/gi18n-lib.h>

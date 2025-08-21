@@ -37,10 +37,6 @@
  * xfdashboard_view_selector_new_for_viewpad() for short.
  */
 
-#ifdef HAVE_CONFIG_H
-#include "config.h"
-#endif
-
 #include <libxfdashboard/view-selector.h>
 
 #include <glib/gi18n-lib.h>

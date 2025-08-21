@@ -44,10 +44,6 @@
  * xfdashboard_toggle_button_get_auto_toggle().
  */
 
-#ifdef HAVE_CONFIG_H
-#include "config.h"
-#endif
-
 #include <libxfdashboard/toggle-button.h>
 
 #include <glib/gi18n-lib.h>

@@ -32,10 +32,6 @@
  * horizontal line to separate the groups of pop-up menu items.
  */
 
-#ifdef HAVE_CONFIG_H
-#include "config.h"
-#endif
-
 #include <libxfdashboard/popup-menu-item-separator.h>
 
 #include <glib/gi18n-lib.h>

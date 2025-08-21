@@ -42,10 +42,6 @@
  * </para></note>
  */
 
-#ifdef HAVE_CONFIG_H
-#include "config.h"
-#endif
-
 #include <libxfdashboard/search-view.h>
 
 #include <glib/gi18n-lib.h>

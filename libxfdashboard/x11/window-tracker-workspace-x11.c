@@ -35,10 +35,6 @@
  * This is the X11 backend of #XfdashboardWindowTrackerWorkspace
  */
 
-#ifdef HAVE_CONFIG_H
-#include "config.h"
-#endif
-
 #include <libxfdashboard/x11/window-tracker-workspace-x11.h>
 
 #define WNCK_I_KNOW_THIS_IS_UNSTABLE

@@ -53,10 +53,6 @@
  * before unreferencing the object instance.
  */
 
-#ifdef HAVE_CONFIG_H
-#include "config.h"
-#endif
-
 #include <libxfdashboard/animation.h>
 
 #include <glib/gi18n-lib.h>

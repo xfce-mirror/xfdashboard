@@ -21,10 +21,6 @@
  * 
  */
 
-#ifdef HAVE_CONFIG_H
-#include "config.h"
-#endif
-
 #include "clock-view.h"
 
 #include <libxfdashboard/libxfdashboard.h>
