@@ -28,6 +28,7 @@ executable(
     libxfconf_settings_dep,
     libxfdashboard_dep,
     xfconf,
+    libm,
   ],
   install: true,
   install_dir: get_option('prefix') / get_option('bindir'),

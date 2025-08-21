@@ -240,6 +240,7 @@ libxfdashboard_deps = [
   xcomposite,
   xdamage,
   xinerama,
+  libm,
 ]
 
 libxfdashboard = library(
