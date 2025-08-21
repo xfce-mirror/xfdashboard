@@ -1,10 +1,10 @@
 project(
   'xfdashboard',
   'c',
-  version: '1.1.0-dev',
-  license: 'GPL-2.0-or-later',
-  meson_version: '>= 0.54.0',
-  default_options: ['c_std=gnu11', 'buildtype=debugoptimized', 'warning_level=2']
+version : '1.1.0',
+  license : 'GPL-2.0-or-later',
+  meson_version : '>= 0.54.0',
+  default_options : ['c_std=gnu11', 'buildtype=debugoptimized', 'warning_level=2']
 )
 
 project_namespace = 'apps'
