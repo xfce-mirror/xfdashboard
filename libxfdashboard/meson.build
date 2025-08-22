@@ -220,8 +220,8 @@ install_headers(
   subdir: 'xfdashboard' / 'libxfdashboard',
 )
 
-libxfdashboard_version = '0'
-libxfdashboard_so_version = '@0@.10100.0'.format(libxfdashboard_version)
+libxfdashboard_so_version = '0'
+libxfdashboard_version = '@0@.10100.0'.format(libxfdashboard_so_version)
 
 libxfdashboard_deps = [
   clutter,
