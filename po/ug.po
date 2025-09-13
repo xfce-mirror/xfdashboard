@@ -1,0 +1,775 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Xfce
+# This file is distributed under the same license as the xfce-apps.xfdashboard package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Nick Schermer <nick@xfce.org>, 2024
+# Xfce Bot <transifex@xfce.org>, 2024
+# Gheyret Kenji <gheyret@yahoo.com>, 2024
+# Abduqadir Abliz <sahranbay@gmail.com>, 2025
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce-apps.xfdashboard\n"
+"Report-Msgid-Bugs-To: https://gitlab.xfce.org/\n"
+"POT-Creation-Date: 2024-06-23 12:51+0200\n"
+"PO-Revision-Date: 2020-10-07 10:59+0000\n"
+"Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>, 2025\n"
+"Language-Team: Uyghur (https://app.transifex.com/xfce/teams/16840/ug/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ug\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/org.xfce.xfdashboard.desktop.in.in:4
+#: data/org.xfce.xfdashboard.desktop.in.in:6
+#: data/org.xfce.xfdashboard-autostart.desktop.in.in:4
+msgid "Xfdashboard"
+msgstr "Xfdashboard"
+
+#: data/org.xfce.xfdashboard.desktop.in.in:5
+#: data/metainfo/org.xfce.xfdashboard.metainfo.xml.in:7
+msgid "Maybe a Gnome shell like dashboard for Xfce"
+msgstr "بەلكىم Xfce غا ماس كېلىدىغان باشقۇرۇش تاختىسىغا ئوخشاش Gnome shell"
+
+#: data/org.xfce.xfdashboard-autostart.desktop.in.in:5
+msgid "Start xfdashboard as daemon in background"
+msgstr "xfdashboard نى نازارەتچى سۈپىتىدە ئارقا سۇپىدا قوزغىتىدۇ"
+
+#: data/org.xfce.xfdashboard-settings.desktop.in.in:5
+#: data/org.xfce.xfdashboard-settings.desktop.in.in:7
+msgid "Xfdashboard settings"
+msgstr "xfdashboard تەڭشەك"
+
+#: data/org.xfce.xfdashboard-settings.desktop.in.in:6
+msgid "Configure xfdashboard"
+msgstr "xfdashboard سەپلىمىسى"
+
+#: data/metainfo/org.xfce.xfdashboard.metainfo.xml.in:6
+#: data/themes/xfdashboard/xfdashboard.theme.desktop.in.in:3
+msgid "xfdashboard"
+msgstr "xfdashboard"
+
+#: data/metainfo/org.xfce.xfdashboard.metainfo.xml.in:10
+msgid ""
+"Xfdashboard provides a GNOME shell dashboard like interface for use with "
+"Xfce desktop."
+msgstr ""
+"Xfce ئۈستەلئۈستى مۇھىتىدا ئىشلىتىلىدىغان xfdashboard باشقۇرۇش تاختىسىغا "
+"ئوخشاش GNOME shell  ئارايۈزى تەمىنلەيدۇ."
+
+#: data/metainfo/org.xfce.xfdashboard.metainfo.xml.in:13
+msgid ""
+"It can be configured to run to any keyboard shortcut and when executed "
+"provides an overview of applications currently open enabling the user to "
+"switch between different applications. The search feature works like Xfce's "
+"app finder which makes it convenient to search for and start applications."
+msgstr ""
+"ھەر قانداق ھەرپتاختا تېزلەتمىسى ئىجرا قىلىشنى سەپلىگىلى بولىدۇ ھەمدە نۆۋەتتە"
+" ئىجرا قىلىنىۋاتقان پىروگراممىنىڭ قىسقىچە خۇلاسىسىنى كۆرسىتىدۇ، ئىشلەتكۈچى "
+"ئوخشاش بولمىغان پىروگرامما ئارىسىدا ئالماشتۇرالايدۇ. ئىزدەش ئىقتىدارىنىڭ "
+"رولى Xfce دىكى ئەپ ئىزدىگۈچكە ئوخشاش بولۇپ، ئۇ پىروگرامما ئىزدەش ۋە "
+"قوزغىتىشنى ئاسانلاشتۇرىدۇ."
+
+#: data/metainfo/org.xfce.xfdashboard.metainfo.xml.in:26
+msgid "Browsing applications"
+msgstr "پىروگراممىغا كۆز يۈگۈرتىدۇ"
+
+#: data/metainfo/org.xfce.xfdashboard.metainfo.xml.in:30
+msgid "Searching applications"
+msgstr "پىروگرامما ئىزدەش"
+
+#: data/data/preferences.ui:88
+msgid "<span size=\"large\"><b>Xfdashboard settings</b></span>"
+msgstr "<span size=\"large\"><b>Xfdashboard تەڭشەك</b></span>"
+
+#: data/data/preferences.ui:103
+msgid "Configure plugin"
+msgstr "قىستۇرمىنى سەپلە"
+
+#: data/data/preferences.ui:177
+msgid ""
+"<span size=\"large\"><b>Xfdashboard settings</b></span>\n"
+"Configure xfdashboard"
+msgstr ""
+"<span size=\"large\"><b>Xfdashboard تەڭشەك</b></span>\n"
+"xfdashboard نى سەپلەيدۇ"
+
+#: data/data/preferences.ui:216
+msgid "<b>General settings:</b>"
+msgstr "<b>ئادەتتىكى تەڭشەك:</b>"
+
+#: data/data/preferences.ui:228
+msgid "Reset search view when resumed"
+msgstr "داۋاملاشتۇرغاندا ئىزدەش كۆرۈنۈشىنى ئەسلىگە قايتۇرىدۇ"
+
+#: data/data/preferences.ui:232
+msgid ""
+"If enabled the search view will be resetted when xfdashboard is resumed. That means the active view is switched back to last view active before last search was started and search box will be emptied.\n"
+"\n"
+"<b>NOTE:</b> This setting only takes effect if xfdashboard is running in daemon mode. "
+msgstr ""
+"ئەگەر قوزغىتىلسا، xfdashboard نى ئىجرا قىلىشنى داۋاملاشتۇرغاندا  ئىزدەش كۆرۈنۈشىنى ئەسلىگە قايتۇرىدۇ. ئاكتىپ كۆرۈنۈش ئالدىنقى قېتىم ئىزدەشنى باشلاشتىن ئىلگىرىكى ئاخىرقى ئاكتىپ كۆزنەككە قايتىدىغانلىقىدىن دېرەك بېرىدۇ، ئىزدەش قۇتىسى تازىلىنىدۇ.\n"
+"\n"
+"<b>ئەسكەرتىش:</b> بۇ تەڭشەك پەقەت xfdashboard نازارەتچى ھالىتىدە ئىجرا قىلىنغاندا كۈچكە ئىگە بولىدۇ. "
+
+#: data/data/preferences.ui:253 data/data/preferences.ui:270
+msgid ""
+"When xfdashboard resumes the selected view will be activated.\n"
+"\n"
+"<b>NOTE:</b> This setting only takes effect if xfdashboard is running in daemon mode."
+msgstr ""
+"xfdashboard نى ئىجرا قىلىشنى داۋاملاشتۇرغاندا تاللانغان كۆرۈنۈشنى ئەسلىگە قايتۇرىدۇ.\n"
+"\n"
+" <b>ئەسكەرتىش:</b> بۇ تەڭشەك پەقەت xfdashboard نازارەتچى ھالىتىدە ئىجرا قىلىنغاندا كۈچكە ئىگە بولىدۇ."
+
+#: data/data/preferences.ui:258
+msgid "Switch to view when resumed:"
+msgstr "داۋاملاشتۇرغاندا كۆرۈنۈشكە ئالماشتۇرىدۇ:"
+
+#: data/data/preferences.ui:295 data/data/preferences.ui:312
+msgid ""
+"Sets the minimum time a notification is being shown.\n"
+"\n"
+"The duration is calculated by the length of the text to show in notification. This setting allows you to specify how long the notification must be shown at least."
+msgstr ""
+"ئۇقتۇرۇشنى كۆرسىتىدىغان ئەڭ قىسقا ۋاقىت تەڭشىلىدۇ.\n"
+"\n"
+"داۋاملىشىش ۋاقتى كۆرسىتىدىغان ئۇقتۇرۇش تېكىستىنىڭ ئۇزۇنلۇقىغا ئاساسەن ھېسابلىنىدۇ. بۇ تەڭشەك ئۇقتۇرۇشنى كەم دېگەندە قانچىلىك ۋاقىت كۆرسىتىدىغانلىقىنى تەڭشىشىڭىزگە يول قويىدۇ."
+
+#: data/data/preferences.ui:300
+msgid "Minimum notification timeout:"
+msgstr "ئەڭ قىسقا ئۇقتۇرۇش مۆھلىتى:"
+
+#: data/data/preferences.ui:332
+msgid "Enable workaround for minimized windows"
+msgstr "كىچىكلىتىلگەن كۆزنەكتە ھەل قىلىش لايىھەسىنى قوزغىتىدۇ"
+
+#: data/data/preferences.ui:336
+msgid ""
+"When enabled a workaround for minimized windows will be tried to get still images of these windows by restoring them shortly and minimizing them again.\n"
+"\n"
+"<b>NOTE:</b> Be aware that this is a <u>workaround</u> and your minimized windows could stay unminimized, change workspace etc."
+msgstr ""
+"قوزغىتىلغاندا، كىچىكلىتىلگەن كۆزنەك قىسقا مۇددەت ئەسلىگە كەلتۈرۈلۈپ بۇ كۆزنەكلەرنى يەنە قايتىدىن كىچىكلىتىپ ئۇلارنىڭ تىنچ سۈرىتىگە ئېرىشىشنى سىنايدۇ.\n"
+"\n"
+"<b>ئەسكەرتىش:</b>شۇنى بىلىش كېرەككى بۇ پەقەت </b>ۋاقىتلىق ھەل قىلىش لايىھەسى</u> ئۇنىڭ ئۈستىگە كىچىكلىتىلگەن كۆزنەكنىڭ كىچىكلىتىلمىگەن ھالەتنى ساقلاش ھەمدە خىزمەت بوشلۇقىنىڭ ئۆزگىرىشى قاتارلىق ئېھتىمالى بار."
+
+#: data/data/preferences.ui:357 data/data/preferences.ui:372
+msgid ""
+"This value defines how fast the window content should be created. While the value 'immediate' tells xfdashboard to create the window content at the time it is requested, all other values will set up a queue and value defines how fast the queue will be processed.\n"
+"\n"
+"<b>NOTE:</b> Only change this value from 'immediate' to other value if your graphics card, driver or system is too slow to create the window contents immediately. You have to try each value to find the one fitting your system."
+msgstr ""
+"بۇ قىممەت كۆزنەك مەزمۇنىنى قانچىلىك ۋاقىتتا قۇرىدىغانلىقى بەلگىلەيدۇ. گەرچە «دەرھال» قىممىتى xfdashboard  غا دەرھال كۆزنەك مەزمۇنى قۇرۇشنى ئىلتىماس قىلغان بولسىمۇ ئەمما باشقا بارلىق قىممەتتىن بىر ئۆچرەت قۇرۇلىدۇ، بەلگىلەنگەن قىممەت تۇرۇشلۇق ئۆچرەت بىر تەرەپ قىلىش سۈرئىتىگە تەسىر كۆرسىتىدۇ.\n"
+"\n"
+"<b>ئەسكەرتىش:</b> كۆرسىتىش كارتىسى، قوزغاتقۇ ياكى سىستېما بەك ئاستا بولۇش سەۋەبىدىن دەرھال كۆزنەك مەزمۇنى قۇرالمىغاندا، مەزكۇر قىممەتنى «دەرھال» دىن باشقا قىممەتكە ئۆزگەرتىدۇ. ھەر بىر قىممەتنى سىناپ بېقىپ ئاندىن سىستېمىڭىزغا ماس كېلىدىغان قىممەتنى تاپالايسىز."
+
+#: data/data/preferences.ui:360
+msgid "Priority of window content creation"
+msgstr "كۆزنەك مەزمۇنى قۇرۇشنىڭ ئالدىنلىقى"
+
+#: data/data/preferences.ui:391
+msgid "Show child windows in main windows"
+msgstr "ئاساسىي كۆزنەكتىكى بالا كۆزنەكنى كۆرسىتىدۇ"
+
+#: data/data/preferences.ui:395
+msgid ""
+"When enabled all live window previews will also show their child windows. "
+"Disabling this option will increase performance on slower machines."
+msgstr ""
+"قوزغىتىلغاندا بارلىق شۇئان كۆزنەكنىڭ ئالدىن كۆزىتىشىمۇ بالا كۆزنەكتە "
+"كۆرۈنىدۇ. بۇ تاللانما چەكلەنسە سۈرئىتى ئاستىراق كومپيۇتېردا ئۈنۈمنى "
+"ئۈستۈرىدۇ."
+
+#: data/data/preferences.ui:407
+msgid "Always start a new instance for application"
+msgstr "پىروگراممىغا ھەمىشە يېڭى ئەمەلىي مىسال قوزغىتىدۇ"
+
+#: data/data/preferences.ui:411
+msgid ""
+"When enabled and an icon in quicklaunch is clicked it will always start a new instance of the application.\n"
+"\n"
+"When not enabled it will select the last known active window of the running application instance. If application is not running, a new instance will be started."
+msgstr ""
+"قوزغىتىلغاندا تېز قوزغىتىشتىكى سىنبەلگە چېكىلگەندە ھەمىشە مەزكۇر پىروگراممىنىڭ يېڭى ئەمەلىي مىسالىنى قوزغىتىدۇ.\n"
+"\n"
+"قوزغىتىلمىغاندا ئىجرا قىلىنىۋاتقان پىروگرامما ئەمەلىي مىسالىنىڭ ئەڭ ئاخىرقى بىلىنگەن ئاكتىپ كۆزنىكىنى تاللايدۇ. ئەگەر پىروگرامما ئىجرا قىلىنمىغان بولسا ئۇنداقتا يېڭى بىر ئەمەلىي مىسال قوزغىتىلىدۇ."
+
+#: data/data/preferences.ui:425
+msgid "Enable animations"
+msgstr "جانلاندۇرۇمنى قوزغات"
+
+#: data/data/preferences.ui:429
+msgid "If enabled theme-defined animations will be shown."
+msgstr "ئەگەر قوزغىتىلسا ئۆرنەكتە بەلگىلەنگەن جانلاندۇرۇمنى كۆرسىتىدۇ."
+
+#: data/data/preferences.ui:444
+msgid "<b>Applications view:</b>"
+msgstr "<b>پىروگرامما كۆرۈنۈشى:</b>"
+
+#: data/data/preferences.ui:456
+msgid "Show menu for all installed applications"
+msgstr "ئورنىتىلغان بارلىق پىروگراممىنىڭ تىزىملىكىنى كۆرسىتىدۇ"
+
+#: data/data/preferences.ui:460
+msgid ""
+"When enabled an \"all applications\" menu containing all installed "
+"applications will be shown at applications view"
+msgstr ""
+"قوزغىتىلغاندا پىروگرامما كۆرۈنۈشىدە ئورنىتىلغان بارلىق پىروگراممىنىڭ «بارلىق"
+" پىروگرامما» تىزىملىكىنى كۆرسىتىدۇ"
+
+#: data/data/preferences.ui:475
+msgid "<b>Windows view:</b>"
+msgstr "<b>كۆزنەك كۆرۈنۈشى:</b>"
+
+#: data/data/preferences.ui:487
+msgid "Mouse wheel changes workspace"
+msgstr "چاشقىنەك غالتىكى خىزمەت بوشلۇقىنى ئۆزگەرتىدۇ"
+
+#: data/data/preferences.ui:491
+msgid ""
+"When enabled any scroll event, like mouse-wheel up and down, at the windows "
+"view will change the active workspace. This behaviour is the same as in "
+"workspace selector."
+msgstr ""
+"قوزغىتىلغاندا كۆزنەك كۆرۈنۈشىدىكى چاشقىنەك غالتىكىنىڭ ئۈستى ئاستىغا "
+"دومىلىتىشقا ئوخشاش مەشغۇلاتى ئاكتىپ خىزمەت بوشلۇقىنى ئۆزگەرتىدۇ. بۇ مەشغۇلات"
+" خىزمەت بوشلۇقى تاللىغۇچتىكى قىلمىش بىلەن ئوخشاش."
+
+#: data/data/preferences.ui:507
+msgid "<b>Search view:</b>"
+msgstr "<b>ئىزدەش كۆرۈنۈشى:</b>"
+
+#: data/data/preferences.ui:525 data/data/preferences.ui:538
+msgid ""
+"Sets the interval the search should be delayed by after the first character "
+"was entered."
+msgstr ""
+"تۇنجى ھەرپنى كىرگۈزگەندىن كېيىن ئىزدەشنى كېچىكتۈرىدىغان ۋاقىت ئارىلىقى "
+"تەڭشىلىدۇ."
+
+#: data/data/preferences.ui:526
+msgid "Delay initial search interval:"
+msgstr "دەسلەپكى ئىزدەشنى كېچىكتۈرۈش ئارىلىقى:"
+
+#: data/data/preferences.ui:563
+msgid "General"
+msgstr "ئادەتتىكى"
+
+#: data/data/preferences.ui:617 data/data/preferences.ui:844
+msgid "<b>Name:</b>"
+msgstr "<b>ئاتى:</b>"
+
+#: data/data/preferences.ui:641 data/data/preferences.ui:793
+msgid "<b>Author:</b>"
+msgstr "<b>يازغۇچى:</b>"
+
+#: data/data/preferences.ui:668 data/data/preferences.ui:819
+msgid "<b>Version:</b>"
+msgstr "<b>نەشرى:</b>"
+
+#: data/data/preferences.ui:694 data/data/preferences.ui:870
+msgid "<b>Description:</b>"
+msgstr "<b>چۈشەندۈرۈش:</b>"
+
+#: data/data/preferences.ui:740
+msgid "Themes"
+msgstr "ئۆرنەك"
+
+#: data/data/preferences.ui:857
+msgid "<b>License:</b>"
+msgstr "<b>ئىجازەتنامە:</b>"
+
+#: data/data/preferences.ui:942
+msgid "Plugins"
+msgstr "قىستۇرما"
+
+#: data/themes/xfdashboard/xfdashboard.theme.desktop.in.in:4
+msgid "Default theme for xfdashboard"
+msgstr "xfdashboard نىڭ كۆڭۈلدىكى ئۆرنىكى"
+
+#: data/themes/xfdashboard-auber/xfdashboard.theme.desktop.in.in:3
+msgid "xfdashboard-auber"
+msgstr "xfdashboard-auber"
+
+#: data/themes/xfdashboard-auber/xfdashboard.theme.desktop.in.in:4
+msgid "Aubergine theme for xfdashboard"
+msgstr "xfdashboard نىڭ Aubergine ئۆرنىكى"
+
+#: data/themes/xfdashboard-blue/xfdashboard.theme.desktop.in.in:3
+msgid "xfdashboard-blue"
+msgstr "xfdashboard-blue"
+
+#: data/themes/xfdashboard-blue/xfdashboard.theme.desktop.in.in:4
+msgid "Blue theme for xfdashboard"
+msgstr "xfdashboard نىڭ كۆك ئۆرنىكى"
+
+#: data/themes/xfdashboard-dark/xfdashboard.theme.desktop.in.in:3
+msgid "xfdashboard-dark"
+msgstr "xfdashboard-dark"
+
+#: data/themes/xfdashboard-dark/xfdashboard.theme.desktop.in.in:4
+msgid "Dark theme for xfdashboard"
+msgstr "xfdashboard نىڭ قاراڭغۇ ئۆرنىكى"
+
+#: data/themes/xfdashboard-mint/xfdashboard.theme.desktop.in.in:3
+msgid "xfdashboard-mint"
+msgstr "xfdashboard-mint"
+
+#: data/themes/xfdashboard-mint/xfdashboard.theme.desktop.in.in:4
+msgid "Fresh-green flavored theme for xfdashboard"
+msgstr "xfdashboard نىڭ ئوچۇق يېشىل ئۆرنىكى"
+
+#: data/themes/xfdashboard-moranga/xfdashboard.theme.desktop.in.in:3
+msgid "xfdashboard-moranga"
+msgstr "xfdashboard-moranga"
+
+#: data/themes/xfdashboard-moranga/xfdashboard.theme.desktop.in.in:4
+msgid "Moranga theme for xfdashboard"
+msgstr "xfdashboard نىڭ Moranga ئۆرنىكى"
+
+#: data/themes/xfdashboard-wine/xfdashboard.theme.desktop.in.in:3
+msgid "xfdashboard-wine"
+msgstr "xfdashboard-wine"
+
+#: data/themes/xfdashboard-wine/xfdashboard.theme.desktop.in.in:4
+msgid "Red wine theme for xfdashboard"
+msgstr "xfdashboard نىڭ wine ئۆرنىكى"
+
+#: libxfdashboard/application-button.c:267
+#, c-format
+msgid "Could not execute action '%s' for application '%s': %s"
+msgstr "«%2$s» پىروگراممىنىڭ «%1$s» مەشغۇلاتىنى ئىجرا قىلالمايدۇ:  %3$s"
+
+#: libxfdashboard/application-button.c:270 settings/main.c:74
+#: settings/plugins.c:794
+msgid "Unknown error"
+msgstr "نامەلۇم خاتالىق"
+
+#: libxfdashboard/application-button.c:287
+#, c-format
+msgid "Executed action '%s' for application '%s'"
+msgstr "«%2$s» پىروگراممىنىڭ «%1$s» مەشغۇلاتىنى ئىجرا قىلدى"
+
+#: libxfdashboard/application-button.c:748
+#: libxfdashboard/application-button.c:766
+#: libxfdashboard/applications-search-provider.c:765
+#: libxfdashboard/applications-view.c:332 libxfdashboard/quicklaunch.c:334
+#: libxfdashboard/quicklaunch.c:382 libxfdashboard/quicklaunch.c:440
+#: plugins/recently-used-search-provider/recently-used-search-provider.c:581
+#, c-format
+msgid "Launching application '%s' failed: %s"
+msgstr "«%s» پىروگراممىنى ئىجرا قىلالمىدى: %s"
+
+#: libxfdashboard/application-button.c:750 libxfdashboard/quicklaunch.c:336
+#: plugins/recently-used-search-provider/recently-used-search-provider.c:499
+#: plugins/recently-used-search-provider/recently-used-search-provider.c:520
+msgid "No information available for application"
+msgstr "پىروگراممىغا ئائىت ئۇچۇر يوق"
+
+#: libxfdashboard/application-button.c:768
+#: libxfdashboard/applications-search-provider.c:767
+#: libxfdashboard/applications-view.c:334 libxfdashboard/core.c:373
+#: libxfdashboard/quicklaunch.c:442
+#: plugins/recently-used-search-provider/recently-used-search-provider.c:480
+#: plugins/recently-used-search-provider/recently-used-search-provider.c:583
+#: xfdashboard/application.c:522
+msgid "unknown error"
+msgstr "نامەلۇم خاتالىق"
+
+#: libxfdashboard/application-button.c:779
+#: libxfdashboard/applications-search-provider.c:778
+#: libxfdashboard/applications-view.c:345 libxfdashboard/quicklaunch.c:453
+#: plugins/recently-used-search-provider/recently-used-search-provider.c:595
+#, c-format
+msgid "Application '%s' launched"
+msgstr "«%s» پىروگرامما قوزغىتىلدى"
+
+#: libxfdashboard/applications-search-provider.c:849
+#: libxfdashboard/applications-view.c:415 libxfdashboard/quicklaunch.c:664
+msgid "Launch"
+msgstr "قوزغات"
+
+#. Set up view
+#. Add "applications" button
+#: libxfdashboard/applications-search-provider.c:1191
+#: libxfdashboard/applications-view.c:1589 libxfdashboard/quicklaunch.c:3225
+msgid "Applications"
+msgstr "پىروگرامما"
+
+#: libxfdashboard/applications-view.c:552
+#: libxfdashboard/applications-view.c:553
+#: libxfdashboard/applications-view.c:664
+#: libxfdashboard/applications-view.c:665
+msgid "Back"
+msgstr "قايت"
+
+#: libxfdashboard/applications-view.c:552
+#: libxfdashboard/applications-view.c:664
+msgid "Go back to previous menu"
+msgstr "ئالدىنقى تىزىملىككە قايت"
+
+#: libxfdashboard/applications-view.c:692
+#: libxfdashboard/applications-view.c:693
+msgid "All applications"
+msgstr "بارلىق پىروگرامما"
+
+#: libxfdashboard/applications-view.c:692
+msgid "List of all installed applications"
+msgstr "ئورنىتىلغان بارلىق پىروگراممىنىڭ تىزىمى"
+
+#: libxfdashboard/core.c:371
+#, c-format
+msgid "Could not load theme '%s': %s"
+msgstr "«%s» ئۆرنەكنى يۈكلىيەلمەيدۇ:  %s"
+
+#: libxfdashboard/core.c:1268
+#, c-format
+msgid "Welcome to %s (%s)!"
+msgstr "%s (%s) غا خۇش كەپسىز!"
+
+#: libxfdashboard/core.c:1270
+#, c-format
+msgid "Welcome to %s!"
+msgstr " %s غا خۇش كەپسىز!"
+
+#: libxfdashboard/quicklaunch.c:384
+msgid "No windows to activate for application"
+msgstr "پىروگراممىنىڭ ئاكتىپلايدىغان كۆزنىكى يوق"
+
+#: libxfdashboard/quicklaunch.c:507 libxfdashboard/quicklaunch.c:1243
+#: libxfdashboard/quicklaunch.c:2053
+#, c-format
+msgid "Favourite '%s' removed"
+msgstr "يىغقۇچ «%s» دىن چىقىرىۋېتىلدى"
+
+#: libxfdashboard/quicklaunch.c:606 libxfdashboard/quicklaunch.c:925
+#: libxfdashboard/quicklaunch.c:1986
+#, c-format
+msgid "Favourite '%s' added"
+msgstr "يىغقۇچ «%s» قا قوشۇلدى"
+
+#: libxfdashboard/quicklaunch.c:687
+msgid "Remove from favourites"
+msgstr "يىغقۇچتىن چىقىرىۋەت"
+
+#: libxfdashboard/quicklaunch.c:701
+msgid "Add to favourites"
+msgstr "يىغقۇچقا قوش"
+
+#. Next add trash button to box but initially hidden and register as drop
+#. target
+#: libxfdashboard/quicklaunch.c:3232
+msgid "Remove"
+msgstr "چىقىرىۋەت"
+
+#: libxfdashboard/search-result-container.c:664
+#: libxfdashboard/search-result-container.c:1734
+#, c-format
+msgid "Show %d more results..."
+msgstr "يەنە %d نەتىجە كۆرسىتىدۇ…"
+
+#. Get text to set at "all"-label
+#: libxfdashboard/search-result-container.c:686
+#, c-format
+msgid "Show all %d results..."
+msgstr "%d نەتىجىنىڭ ھەممىسىنى كۆرسىتىدۇ…"
+
+#: libxfdashboard/search-view.c:979
+#, c-format
+msgid "No results found for '%s'"
+msgstr "«%s» نىڭ نەتىجىسىنى تاپالمىدى"
+
+#. Set up view (Note: Search view is disabled by default!)
+#: libxfdashboard/search-view.c:1719
+msgid "Search"
+msgstr "ئىزدە"
+
+#: libxfdashboard/stage.c:1111
+msgid "Just type to search..."
+msgstr "ئىزدەيدىغىنى كىرگۈزۈلىدۇ…"
+
+#. Set up view
+#: libxfdashboard/windows-view.c:2310
+msgid "Windows"
+msgstr "كۆزنەك"
+
+#: plugins/autopin-windows/plugin.c:71
+msgid "Auto-pin windows"
+msgstr "كۆزنەكنى ئۆزلۈكىدىن مىخلا"
+
+#: plugins/autopin-windows/plugin.c:72
+msgid ""
+"Pins windows on secondary windows or unpins windows on primary windows "
+"automatically"
+msgstr ""
+"كۆزنەكنى ئىككىنچى كۆزنەككە مىخلايدۇ ياكى ئاساسىي كۆزنەكتىكى بارلىق مىخلانغان"
+" كۆزنەكنى ئۆزلۈكىدىن قومۇرۇۋېتىدۇ"
+
+#. Set up view
+#: plugins/clock-view/clock-view.c:307 plugins/clock-view/plugin.c:311
+msgid "Clock"
+msgstr "سائەت"
+
+#. Add widget to choose hour color
+#: plugins/clock-view/plugin.c:203
+msgid "Hour color:"
+msgstr "سائەت رەڭگى:"
+
+#: plugins/clock-view/plugin.c:213
+msgid "Choose color for hour hand"
+msgstr "سائەت تىلىنىڭ رەڭگى تاللىنىدۇ"
+
+#. Add widget to choose minute color
+#: plugins/clock-view/plugin.c:218
+msgid "Minute color:"
+msgstr "مىنۇت رەڭگى:"
+
+#: plugins/clock-view/plugin.c:228
+msgid "Choose color for minute hand"
+msgstr "مىنۇت تىلىنىڭ رەڭگى تاللىنىدۇ"
+
+#. Add widget to choose second color
+#: plugins/clock-view/plugin.c:233
+msgid "Second color:"
+msgstr "سېكۇنت رەڭگى:"
+
+#: plugins/clock-view/plugin.c:243
+msgid "Choose color for second hand"
+msgstr "سېكۇنت تىلىنىڭ رەڭگى تاللىنىدۇ"
+
+#. Add widget to choose minute color
+#: plugins/clock-view/plugin.c:248
+msgid "Background color:"
+msgstr "تەگلىك  رەڭگى:"
+
+#: plugins/clock-view/plugin.c:258
+msgid "Choose color for background of second hand"
+msgstr "سېكۇنت تىلىنىڭ  تەگلىك رەڭگى تاللىنىدۇ"
+
+#: plugins/clock-view/plugin.c:312
+msgid "Adds a new view showing a clock"
+msgstr "سائەت كۆرۈنىدىغان يېڭى بىر كۆرۈنۈش قوشىدۇ"
+
+#: plugins/example-search-provider/example-search-provider.c:67
+msgid "Example search"
+msgstr "مىسال ئىزدەش"
+
+#: plugins/example-search-provider/plugin.c:75
+msgid "Example search provider"
+msgstr "مىسال ئىزدەش تەمىنلىگۈچى"
+
+#: plugins/example-search-provider/plugin.c:76
+msgid "This is just a useless example search provider plugin"
+msgstr "بۇ پەقەت پايدىسىز مىسال ئىزدەش تەمىنلىگۈچى قىستۇرما"
+
+#: plugins/gnome-shell-search-provider/plugin.c:464
+msgid "Gnome-Shell search provider"
+msgstr "Gnome-Shell ئىزدەش تەمىنلىگۈچى"
+
+#: plugins/gnome-shell-search-provider/plugin.c:465
+msgid "Uses Gnome-Shell search providers as source for searches"
+msgstr "Gnome-Shell ئىزدەش تەمىنلىگۈچى پىروگراممىسىنى ئىزدەش مەنبەسى قىلىدۇ"
+
+#: plugins/hot-corner/plugin.c:194
+msgid "s"
+msgstr "s"
+
+#: plugins/hot-corner/plugin.c:198 settings/general.c:320
+msgid "ms"
+msgstr "ms"
+
+#: plugins/hot-corner/plugin.c:202 settings/general.c:92
+#: settings/general.c:324
+msgid "Immediately"
+msgstr "دەرھال"
+
+#. Add widget to choose activation corner
+#: plugins/hot-corner/plugin.c:325
+msgid "Activation corner:"
+msgstr "ئاكتىپلاش بۇلۇڭى:"
+
+#. Add widget to choose activation radius
+#: plugins/hot-corner/plugin.c:361
+msgid "Radius of activation corner:"
+msgstr "ئاكتىپلاش بۇلۇڭىنىڭ رادىيوسى:"
+
+#. Add widget to choose activation duration
+#: plugins/hot-corner/plugin.c:379
+msgid "Timeout to activate:"
+msgstr "ئاكتىپلاش مۆھلىتى:"
+
+#. Add widget to limit checks to primary monitor only or to all monitors
+#: plugins/hot-corner/plugin.c:401
+msgid "Primary monitor only"
+msgstr "ئاساسىي كۆزەتكۈچلا"
+
+#: plugins/hot-corner/plugin.c:457
+msgid "Hot corner"
+msgstr "قىزىق بۇلۇڭ"
+
+#: plugins/hot-corner/plugin.c:458
+msgid ""
+"Activates xfdashboard when pointer is moved to a configured corner of "
+"monitor"
+msgstr ""
+"نىشانلىغۇچ كۆزەتكۈچنىڭ سەپلىنىدىغان كۆزنىكىنىڭ بۇلۇڭىغا يۆتكەلگەندە "
+"xfdashboard نى ئاكتىپلايدۇ"
+
+#: plugins/middle-click-window-close/plugin.c:71
+msgid "Middle-click window close"
+msgstr "چاشقىنەك ئوتتۇرا توپچە چېكىلسە كۆزنەك ياپىدۇ"
+
+#: plugins/middle-click-window-close/plugin.c:72
+msgid "Closes windows in windows view by middle-click"
+msgstr "كۆزنەك كۆرۈنۈشىدە چاشقىنەك ئوتتۇرا توپچە چېكىلسە كۆزنەكنى ياپىدۇ"
+
+#: plugins/recently-used-search-provider/plugin.c:75
+msgid "Recently used search provider"
+msgstr "يېقىندا ئىشلەتكەن ئىزدەش تەمىنلىگۈچى"
+
+#: plugins/recently-used-search-provider/plugin.c:76
+msgid "A search provider using recently used files as source"
+msgstr ""
+"ئىزدەش تەمىنلىگۈچى يېقىندا ئىشلەتكەن ھۆججەتنى مەنبە سۈپىتىدە ئىشلىتىدۇ"
+
+#: plugins/recently-used-search-provider/recently-used-search-provider.c:246
+msgid "Recently used"
+msgstr "يېقىندا ئىشلىتىلگەنلىرى"
+
+#: plugins/recently-used-search-provider/recently-used-search-provider.c:475
+#, c-format
+msgid "Launching application for '%s' failed: %s"
+msgstr "«%s» ئۈچۈن پىروگراممىنى قوزغىتالمىدى:  %s"
+
+#: plugins/recently-used-search-provider/recently-used-search-provider.c:497
+#: plugins/recently-used-search-provider/recently-used-search-provider.c:518
+#, c-format
+msgid "Launching application for file '%s' failed: %s"
+msgstr "«%s» ھۆججەت ئۈچۈن پىروگراممىنى قوزغىتالمىدى:  %s"
+
+#: settings/general.c:84
+msgid "Do nothing"
+msgstr "ھېچقانداق قىلما"
+
+#: settings/general.c:85
+msgid "Windows view"
+msgstr "كۆزنەك كۆرۈنۈشى"
+
+#: settings/general.c:86
+msgid "Applications view"
+msgstr "پىروگرامما كۆرۈنۈشى"
+
+#: settings/general.c:93
+msgid "High"
+msgstr "يۇقىرى"
+
+#: settings/general.c:94
+msgid "Normal"
+msgstr "ئادەتتىكى"
+
+#: settings/general.c:95
+msgid "Low"
+msgstr "تۆۋەن"
+
+#: settings/general.c:269
+msgid "seconds"
+msgstr "سېكۇنت"
+
+#: settings/main.c:46
+msgid "Settings manager socket"
+msgstr "باشقۇرغۇچى ئوقۇر تەڭشىكى"
+
+#: settings/main.c:46
+msgid "SOCKET ID"
+msgstr "ئوقۇر كىملىكى"
+
+#: settings/main.c:47
+msgid "Version information"
+msgstr "نەشر ئۇچۇرى"
+
+#. Initialize GTK+
+#: settings/main.c:68
+msgid "."
+msgstr "."
+
+#: settings/main.c:72
+#, c-format
+msgid ""
+"%s: %s\n"
+"Try %s --help to see a full list of available command line options.\n"
+msgstr ""
+"%s: %s\n"
+"بۇيرۇق قۇرىدا ئىشلەتكىلى بولىدىغان بارلىق تاللانمىلارنى كۆرۈش ئۈچۈن %s --help نى كىرگۈزسە بولىدۇ.\n"
+
+#: settings/plugins.c:222
+#, c-format
+msgid "Configure plugin: %s"
+msgstr "سەپلىمە قىستۇرما: %s"
+
+#. Create error message to store in list
+#: settings/plugins.c:793
+#, c-format
+msgid ""
+"<b>Plugin could not be loaded.</b>\n"
+"\n"
+"%s"
+msgstr ""
+"<b>قىستۇرمىنى يۈكلىيەلمىگەن.</b>\n"
+"\n"
+"%s"
+
+#: settings/plugins.c:1005
+msgid "Name"
+msgstr "ئاتى"
+
+#: settings/themes.c:731
+msgid "Theme"
+msgstr "ئۆرنەك"
+
+#: xfdashboard/application.c:478
+msgid "Fork to background"
+msgstr "ئارقا سۇپىغا چاتاقلا"
+
+#: xfdashboard/application.c:479
+msgid "Quit running instance"
+msgstr "ئىجرا قىلىنىۋاتقان ئەمەلىي مىسالدىن چېكىن"
+
+#: xfdashboard/application.c:480
+msgid "Restart running instance"
+msgstr "ئىجرا قىلىنىۋاتقان ئەمەلىي مىسالنى قايتا قوزغات"
+
+#: xfdashboard/application.c:481
+msgid ""
+"Toggles visibility if running instance was started in daemon mode otherwise "
+"it quits running non-daemon instance"
+msgstr ""
+"ئەگەر ئىجرا قىلىنىۋاتقان ئەمەلىي مىسال نازارەتچى ھالىتىدە قوزغىتىلغان بولسا "
+"كۆرۈنۈشچانلىقنى ئالماشتۇرىدۇ ئۇنداق بولمىسا ئىجرا قىلىنىۋاتقان ئەمەلىي مىسال"
+" غەيرى نازارەتچى پىروگراممىسىدىن چېكىنىدۇ"
+
+#: xfdashboard/application.c:482
+msgid "The ID of view to switch to on startup or resume"
+msgstr ""
+"قوزغىتىش ياكى ئىجرا قىلىشنى داۋاملاشتۇرۇشقا ئالماشتۇرىدىغان كۆزنەكنىڭ "
+"كىملىكى"
+
+#: xfdashboard/application.c:483
+msgid "Show version"
+msgstr "نەشرىنى كۆرسەت"
+
+#: xfdashboard/application.c:503
+#, c-format
+msgid "A Gnome Shell like dashboard for Xfce4 - version %s"
+msgstr "Xfce4 نىڭ Gnome Shell گە ئوخشايدىغان باشقۇرۇش تاختىسى - نەشرى %s"
+
+#. Show error
+#: xfdashboard/application.c:521
+#, c-format
+msgid "%s\n"
+msgstr "%s\n"
