@@ -41,7 +41,7 @@ msgstr "Aviar xfdashboard coma demòni en rèireplan"
 #: data/org.xfce.xfdashboard-settings.desktop.in.in:5
 #: data/org.xfce.xfdashboard-settings.desktop.in.in:7
 msgid "Xfdashboard settings"
-msgstr "Paramètres Xfdashboard "
+msgstr "Paramètres Xfdashboard"
 
 #: data/org.xfce.xfdashboard-settings.desktop.in.in:6
 msgid "Configure xfdashboard"
@@ -113,7 +113,7 @@ msgid ""
 msgstr ""
 "Se activat la vista de recèrca serà reïnicializada quand lo tablèu de bòrd xfdashboard es représ. Aquò vòl dire que la vista activa es tornada a la darrièra vista activa abans que la darrièra recèrca siá aviada e la bóstia de recèrca serà voidada.\n"
 "\n"
-"<b>NÒTA :</b> aqueste paramètre pren pas qu'efièch se lo tablèu de bòrd xfdashboard es en execucion en mòde demòni."
+"<b>NÒTA :</b> aqueste paramètre pren pas qu'efièit se lo tablèu de bòrd xfdashboard es en execucion en mòde demòni. "
 
 #: data/data/preferences.ui:253 data/data/preferences.ui:270
 msgid ""
