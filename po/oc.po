@@ -123,7 +123,7 @@ msgid ""
 msgstr ""
 "Quand lo tablèu de bòrd xfdashboard reprendrà la vista seleccionada serà activada.\n"
 "\n"
-"<b>NÒTA :</b>Aqueste paramètre pren pas qu'efièch se xfdashboard s’executa en mòde demòni."
+"<b>NÒTA :</b>Aqueste paramètre pren pas qu'efièit se xfdashboard s’executa en mòde demòni."
 
 #: data/data/preferences.ui:258
 msgid "Switch to view when resumed:"
