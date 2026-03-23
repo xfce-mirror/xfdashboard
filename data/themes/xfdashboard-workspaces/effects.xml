@@ -1,0 +1,10 @@
+<effects>
+	<object id="black-white" class="ClutterDesaturateEffect">
+		<property name="factor">1.0</property>
+	</object>
+
+	<object id="window-urgency" class="XfdashboardEmblemEffect">
+		<property name="icon-name">emblem-important</property>
+		<property name="icon-size">32</property>
+	</object>
+</effects>

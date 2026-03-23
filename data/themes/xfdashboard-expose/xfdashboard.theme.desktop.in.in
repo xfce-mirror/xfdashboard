@@ -1,0 +1,10 @@
+[Xfdashboard Theme]
+Name=xfdashboard-expose
+Comment=An expose-style view for xfdashboard. \nIncludes fade-in animation and grid style search view.
+Style=xfdashboard-secondary.css
+Layout=xfdashboard.xml;xfdashboard-secondary.xml
+Effects=effects.xml
+Animations=animations.xml
+Author=lacios
+Version=@PACKAGE_VERSION@
+Screenshot=screenshot-xfdashboard.png

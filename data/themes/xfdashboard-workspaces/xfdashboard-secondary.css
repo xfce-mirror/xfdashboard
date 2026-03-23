@@ -1,0 +1,164 @@
+@import(xfdashboard.css)
+
+@constants
+{
+    background-base-color: @rgb(87, 146, 226); 
+    background: @alpha(@background-base-color, 0.38);
+    overlay-background: @alpha(@background-base-color, 1.0);
+    overlay-outline: #4681d1ff;
+}
+
+/* Stage */
+XfdashboardStageInterface
+{
+    background-color: #000000dd;
+}
+
+#notification, #tooltip
+{
+	background-fill-color: #1a1a1a;
+	outline-color: #1a1a1a;
+}
+
+XfdashboardSearchView XfdashboardSearchResultContainer .title
+{
+	outline-color: #555555;
+}
+
+XfdashboardQuicklaunch #applications-button
+{
+    background-fill-color: #202020;
+    icon-name: "view-list-symbolic";
+}
+
+XfdashboardQuicklaunch #applications-button:toggled
+{
+    icon-name: "view-paged-symbolic";
+}
+
+/* Live Windows & Workspaces */
+XfdashboardLiveWindow
+{
+    background-fill-color: transparent;
+    outline-color: #555555;
+}
+
+XfdashboardWindowsView XfdashboardLiveWindow:selected,
+XfdashboardWindowsView XfdashboardLiveWindow:hover
+{
+    outline-color: #cccccc;
+}
+
+.drag-actor-XfdashboardLiveWindow:drag-handle
+{
+    background-fill-color: #ffffffa0;
+    outline-color: #ffffff;
+}
+
+XfdashboardLiveWindow .window-number
+{
+    color: white;
+}
+
+XfdashboardLiveWorkspace
+{
+    outline-color: #1a1a1aff;
+}
+
+XfdashboardLiveWorkspace:active
+{
+    outline-color: #ffffffff;
+}
+
+/* Scrollbars */
+XfdashboardScrollbar
+{
+    slider-color: #66666660;
+}
+
+XfdashboardScrollbar:hover
+{
+    slider-color: #ffffff;
+}
+
+XfdashboardScrollbar:pressed
+{
+    slider-color: #ffffffa0;
+}
+
+/* Text & Buttons */
+XfdashboardTextBox
+{
+    text-color: #ffffffff;
+    hint-text-color: #c0c0c0ff;
+}
+
+XfdashboardButton
+{
+    color: #ffffffff;
+}
+
+/* Search Box */
+#searchbox
+{
+    background-fill-color: #efefef;
+    text-color: #111111;
+    hint-text-color: #111111;
+}
+
+#searchbox.focus
+{
+    background-fill-color: #efefef;
+    color: #111111;
+}
+
+/* View Selectors */
+#view-selector XfdashboardToggleButton:toggled
+{
+    background-fill-color: #ffffff;
+}
+
+/* Search Results & Application Grid */
+XfdashboardSearchView XfdashboardSearchResultContainer XfdashboardButton.result-item:hover,
+XfdashboardApplicationsView XfdashboardButton:hover
+{
+    background-fill-color: #333333;
+}
+
+XfdashboardSearchView XfdashboardSearchResultContainer XfdashboardButton:selected,
+XfdashboardApplicationsView XfdashboardButton:selected
+{
+    background-fill-color: #333333;
+}
+
+/* Popup Menus */
+.popup-menu
+{
+    background-fill-color: #404040;
+    outline-color: #404040;
+    color: #ffffffff;
+}
+
+.popup-menu-title
+{
+    outline-color: #404040;
+	color: #ffffffff;
+}
+
+.popup-menu-item:selected,
+.popup-menu-item:hover,
+.popup-menu-item
+{
+    background-fill-color: #282828;
+	color: #ffffffff;
+}
+
+.popup-menu.popup-menu-source-XfdashboardQuicklaunch XfdashboardLabel.popup-menu-item
+{
+    color: #ffffffff;
+}
+
+/* Icons Overrides */
+XfdashboardWindowsView { view-icon: "view-paged-symbolic"; }
+XfdashboardApplicationsView { view-icon: "view-list-symbolic"; }
+XfdashboardSearchView { view-icon: "folder-saved-search-symbolic"; }
